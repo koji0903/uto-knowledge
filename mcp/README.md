@@ -1,0 +1,49 @@
+---
+id: mcp_readme
+type: setup
+tags: [mcp, ai]
+created: {{date}}
+---
+
+# MCP Setup
+
+## 目的
+
+Claude、Gemini、ChatGPT から同じ Obsidian / Firestore / Google Drive 環境を参照できるようにする。
+
+## 基本方針
+
+- ローカル Vault を一次情報として扱う
+- 秘密情報は `.env` または各 AI クライアントの安全な設定領域に置く
+- GitHub には設定テンプレートだけを置く
+- MCP サーバーは読み取りから開始する
+- 書き込み権限は運用ルールが固まってから追加する
+
+## 設定ファイル
+
+| file | 用途 |
+| --- | --- |
+| mcp.servers.example.json | MCP サーバー設定の雛形 |
+
+## 初期接続
+
+最初は filesystem MCP だけを有効にし、Obsidian Vault を読み取り対象にする。
+
+```text
+uto-knowledge-filesystem
+```
+
+Firestore と Google Drive は placeholder として定義し、利用する MCP サーバー実装を決めてから有効化する。
+
+## 推奨順序
+
+1. filesystem MCP で Vault を読む
+2. Firestore MCP を読み取り専用で接続する
+3. Google Drive MCP を読み取り専用で接続する
+4. 書き込み操作はログ設計と権限設計後に追加する
+
+## 注意
+
+- サービスアカウント JSON を Git に含めない
+- `.env` を Git に含めない
+- AI からの書き込みは、最初は `00_Inbox` または `04_DataLink/logs` に限定する

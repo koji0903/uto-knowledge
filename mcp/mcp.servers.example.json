@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "uto-knowledge-filesystem": {
+      "description": "Read and search the local Obsidian vault.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${OBSIDIAN_VAULT_PATH}"
+      ],
+      "env": {}
+    },
+    "uto-knowledge-firestore": {
+      "description": "Firestore access placeholder. Enable after selecting an MCP Firestore server implementation.",
+      "enabled": false,
+      "env": {
+        "GOOGLE_CLOUD_PROJECT": "${GOOGLE_CLOUD_PROJECT}",
+        "FIRESTORE_DATABASE_ID": "${FIRESTORE_DATABASE_ID}",
+        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS}"
+      }
+    },
+    "uto-knowledge-drive": {
+      "description": "Google Drive access placeholder. Enable after selecting an MCP Google Drive server implementation.",
+      "enabled": false,
+      "env": {
+        "GOOGLE_DRIVE_ROOT_FOLDER_ID": "${GOOGLE_DRIVE_ROOT_FOLDER_ID}"
+      }
+    }
+  }
+}

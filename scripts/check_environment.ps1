@@ -3,6 +3,9 @@ Set-Location (Split-Path -Parent $PSScriptRoot)
 Write-Output "checking vault..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_vault.ps1"
 
+Write-Output "checking mcp config..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\validate_mcp_config.ps1"
+
 Write-Output "checking git..."
 git rev-parse --is-inside-work-tree | Out-Null
 git status --short --branch
@@ -25,6 +28,12 @@ if (Get-Command gh -ErrorAction SilentlyContinue) {
   Write-Output "gh: found"
 } else {
   Write-Output "gh: not found"
+}
+
+if (Get-Command npx -ErrorAction SilentlyContinue) {
+  Write-Output "npx: found"
+} else {
+  Write-Output "npx: not found"
 }
 
 Write-Output "environment check completed"

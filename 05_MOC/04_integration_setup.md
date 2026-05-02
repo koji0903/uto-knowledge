@@ -70,6 +70,8 @@ logs
 
 MCP は AI から共通環境へアクセスするための接続層として扱う。
 
+設定雛形は `mcp/mcp.servers.example.json` に定義する。
+
 初期段階では以下を読み取り対象にする。
 
 - Obsidian Vault

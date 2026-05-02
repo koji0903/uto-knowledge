@@ -6,6 +6,9 @@ cd "$(dirname "$0")/.."
 echo "checking vault..."
 bash scripts/validate_vault.sh
 
+echo "checking mcp config..."
+bash scripts/validate_mcp_config.sh
+
 echo "checking git..."
 git rev-parse --is-inside-work-tree >/dev/null
 git status --short --branch
@@ -28,6 +31,12 @@ if command -v gh >/dev/null 2>&1; then
   echo "gh: found"
 else
   echo "gh: not found"
+fi
+
+if command -v npx >/dev/null 2>&1; then
+  echo "npx: found"
+else
+  echo "npx: not found"
 fi
 
 echo "environment check completed"
