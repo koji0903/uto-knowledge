@@ -55,6 +55,8 @@ Windows PowerShell:
 powershell -ExecutionPolicy Bypass -File .\scripts\datalink_to_firestore_apply.ps1 --apply
 ```
 
+ラッパースクリプトは `.env` が存在する場合、実行時に読み込む。
+
 ## 認証
 
 `--apply` では以下のいずれかを使う。
@@ -72,3 +74,11 @@ gcloud auth print-access-token
 ## 注意
 
 このスクリプトは Firestore REST API の `PATCH` を使う。既存 document がある場合は同じ document path に更新されるため、最初は sample データのみで確認する。
+
+## 確認
+
+sample データを書き込んだ後は、以下で読み戻し確認する。
+
+```bash
+bash scripts/verify_firestore_samples.sh
+```

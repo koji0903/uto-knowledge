@@ -47,6 +47,7 @@ $requiredFiles = @(
   "05_MOC/10_sample_data.md",
   "05_MOC/11_firestore_dry_run.md",
   "05_MOC/12_firestore_apply.md",
+  "05_MOC/13_gcloud_firestore_project.md",
   "06_Templates/template_base.md",
   "06_Templates/template_project.md",
   "06_Templates/template_daily.md",
@@ -63,7 +64,10 @@ $requiredFiles = @(
   "scripts/datalink_to_firestore_dry_run.ps1",
   "scripts/datalink_to_firestore_apply.mjs",
   "scripts/datalink_to_firestore_apply.sh",
-  "scripts/datalink_to_firestore_apply.ps1"
+  "scripts/datalink_to_firestore_apply.ps1",
+  "scripts/verify_firestore_samples.mjs",
+  "scripts/verify_firestore_samples.sh",
+  "scripts/verify_firestore_samples.ps1"
 )
 
 foreach ($file in $requiredFiles) {
