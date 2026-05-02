@@ -34,6 +34,7 @@ required_files=(
   "05_MOC/01_datalink_frontmatter.md"
   "05_MOC/02_firestore_design.md"
   "05_MOC/03_drive_design.md"
+  "05_MOC/04_integration_setup.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
