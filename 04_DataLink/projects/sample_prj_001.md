@@ -3,11 +3,11 @@ id: prj_001
 type: project
 firestore_collection: projects
 firestore_doc_id: prj_001
-drive_folder_id: 
-drive_url: 
+drive_folder_id: 1DgsDPQNP8oM8Sg1ULfPfPjv27fP_QNsf
+drive_url: https://drive.google.com/drive/folders/1DgsDPQNP8oM8Sg1ULfPfPjv27fP_QNsf
 tags: [sample]
 created: 2026-05-03
-updated: 
+updated: 2026-05-03
 status: active
 ---
 

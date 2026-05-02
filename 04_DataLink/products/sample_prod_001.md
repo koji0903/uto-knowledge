@@ -3,11 +3,11 @@ id: prod_001
 type: product
 firestore_collection: products
 firestore_doc_id: prod_001
-drive_folder_id: 
-drive_url: 
+drive_folder_id: 1JRI_gJb7Ko5gML4KVzspgP8aALOObEwg
+drive_url: https://drive.google.com/drive/folders/1JRI_gJb7Ko5gML4KVzspgP8aALOObEwg
 tags: [sample]
 created: 2026-05-03
-updated: 
+updated: 2026-05-03
 status: active
 ---
 

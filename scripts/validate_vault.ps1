@@ -74,7 +74,10 @@ $requiredFiles = @(
   "scripts/create_drive_structure.ps1",
   "scripts/verify_drive_structure.mjs",
   "scripts/verify_drive_structure.sh",
-  "scripts/verify_drive_structure.ps1"
+  "scripts/verify_drive_structure.ps1",
+  "scripts/verify_firestore_drive_links.mjs",
+  "scripts/verify_firestore_drive_links.sh",
+  "scripts/verify_firestore_drive_links.ps1"
 )
 
 foreach ($file in $requiredFiles) {

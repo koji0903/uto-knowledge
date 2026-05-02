@@ -26,3 +26,22 @@ DataLink、Firestore、Google Drive、MCP の連携を実データ投入前に�
 - 本番データと混在させない
 - Firestore に投入する場合も sample として識別できるようにする
 - 不要になったら Git 履歴を残したまま archive へ移動する
+
+## Drive 対応
+
+| type | id | Drive folder |
+| --- | --- | --- |
+| producer | prodcr_001 | producers |
+| product | prod_001 | products |
+| project | prj_001 | projects |
+| log | log_20260503_001 | logs |
+
+## Firestore 反映
+
+2026-05-03 に sample DataLink の Drive URL を Firestore に再 apply した。
+
+確認:
+
+```bash
+bash scripts/verify_firestore_drive_links.sh
+```

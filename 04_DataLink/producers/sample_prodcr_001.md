@@ -3,11 +3,11 @@ id: prodcr_001
 type: producer
 firestore_collection: producers
 firestore_doc_id: prodcr_001
-drive_folder_id: 
-drive_url: 
+drive_folder_id: 1rVL-YyzUc5h3DCyvUZ-UWveJQu_ki1Z7
+drive_url: https://drive.google.com/drive/folders/1rVL-YyzUc5h3DCyvUZ-UWveJQu_ki1Z7
 tags: [sample]
 created: 2026-05-03
-updated: 
+updated: 2026-05-03
 status: active
 ---
 
