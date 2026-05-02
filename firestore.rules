@@ -1,0 +1,10 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Safe default: client access is denied until an app-specific policy is defined.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
