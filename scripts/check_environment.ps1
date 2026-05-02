@@ -6,6 +6,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\validate_vault.ps1"
 Write-Output "checking mcp config..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_mcp_config.ps1"
 
+Write-Output "checking datalink samples..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_samples.ps1"
+
 Write-Output "checking git..."
 git rev-parse --is-inside-work-tree | Out-Null
 git status --short --branch

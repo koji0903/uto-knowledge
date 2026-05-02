@@ -47,6 +47,7 @@ required_files=(
   "05_MOC/07_mcp_setup.md"
   "05_MOC/08_ai_write_policy.md"
   "05_MOC/09_sync_log_design.md"
+  "05_MOC/10_sample_data.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
@@ -56,6 +57,8 @@ required_files=(
   "06_Templates/template_datalink_project.md"
   "06_Templates/template_datalink_log.md"
   "06_Templates/template_ai_sync_log.md"
+  "scripts/validate_datalink_samples.sh"
+  "scripts/validate_datalink_samples.ps1"
 )
 
 for file in "${required_files[@]}"; do
