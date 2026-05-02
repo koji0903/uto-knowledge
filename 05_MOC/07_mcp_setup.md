@@ -40,6 +40,8 @@ mcp/mcp.servers.example.json
 - AI が生成した内容は Markdown と Git 履歴に残す
 - Firestore は構造化インデックスとして扱う
 - Google Drive はファイル実体の保存先として扱う
+- 書き込みルールは `05_MOC/08_ai_write_policy.md` に従う
+- 同期ログは `04_DataLink/logs` に保存する
 
 ## AI 別の考え方
 
@@ -53,5 +55,5 @@ mcp/mcp.servers.example.json
 
 - Firestore MCP サーバーの実装
 - Google Drive MCP サーバーの実装
-- 書き込みを許可するフォルダ
-- AI が作成したログの保存先
+- 書き込み権限の段階的な解放
+- 自動同期の dry-run 仕様
