@@ -12,6 +12,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_samples.ps
 Write-Output "checking firestore dry-run..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\datalink_to_firestore_dry_run.ps1" --out "tmp/datalink.firestore.json"
 
+Write-Output "checking firestore apply dry-run..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\datalink_to_firestore_apply.ps1" --dry-run | Out-Null
+
 Write-Output "checking git..."
 git rev-parse --is-inside-work-tree | Out-Null
 git status --short --branch

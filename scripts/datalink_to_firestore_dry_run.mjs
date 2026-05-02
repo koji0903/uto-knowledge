@@ -69,57 +69,66 @@ function listMarkdownFiles(dir) {
     .sort();
 }
 
-const documents = [];
+export function buildFirestoreDryRun() {
+  const documents = [];
 
-for (const [collection, expectedType] of collectionDirs) {
-  const dir = path.join(dataLinkRoot, collection);
+  for (const [collection, expectedType] of collectionDirs) {
+    const dir = path.join(dataLinkRoot, collection);
 
-  for (const file of listMarkdownFiles(dir)) {
-    const markdown = fs.readFileSync(file, "utf8");
-    const frontmatter = parseFrontmatter(markdown, file);
-    const relativePath = path.relative(vaultRoot, file).replaceAll(path.sep, "/");
-    const id = frontmatter.firestore_doc_id || frontmatter.id;
+    for (const file of listMarkdownFiles(dir)) {
+      const markdown = fs.readFileSync(file, "utf8");
+      const frontmatter = parseFrontmatter(markdown, file);
+      const relativePath = path.relative(vaultRoot, file).replaceAll(path.sep, "/");
+      const id = frontmatter.firestore_doc_id || frontmatter.id;
 
-    if (!id) {
-      throw new Error(`missing id/firestore_doc_id: ${relativePath}`);
+      if (!id) {
+        throw new Error(`missing id/firestore_doc_id: ${relativePath}`);
+      }
+
+      if (frontmatter.type !== expectedType) {
+        throw new Error(`invalid type in ${relativePath}: expected ${expectedType}, got ${frontmatter.type}`);
+      }
+
+      if (frontmatter.firestore_collection !== collection) {
+        throw new Error(`invalid firestore_collection in ${relativePath}: expected ${collection}, got ${frontmatter.firestore_collection}`);
+      }
+
+      documents.push({
+        collection,
+        docId: id,
+        path: `${collection}/${id}`,
+        source: relativePath,
+        data: {
+          ...frontmatter,
+          id,
+          obsidian_path: relativePath,
+        },
+      });
     }
+  }
 
-    if (frontmatter.type !== expectedType) {
-      throw new Error(`invalid type in ${relativePath}: expected ${expectedType}, got ${frontmatter.type}`);
-    }
+  return {
+    mode: "dry-run",
+    generated_at: new Date().toISOString(),
+    document_count: documents.length,
+    documents,
+  };
+}
 
-    if (frontmatter.firestore_collection !== collection) {
-      throw new Error(`invalid firestore_collection in ${relativePath}: expected ${collection}, got ${frontmatter.firestore_collection}`);
-    }
+function main() {
+  const result = buildFirestoreDryRun();
+  const json = `${JSON.stringify(result, null, 2)}\n`;
 
-    documents.push({
-      collection,
-      docId: id,
-      path: `${collection}/${id}`,
-      source: relativePath,
-      data: {
-        ...frontmatter,
-        id,
-        obsidian_path: relativePath,
-      },
-    });
+  if (outPath) {
+    const resolvedOut = path.resolve(vaultRoot, outPath);
+    fs.mkdirSync(path.dirname(resolvedOut), { recursive: true });
+    fs.writeFileSync(resolvedOut, json, "utf8");
+    console.log(`wrote dry-run output: ${path.relative(vaultRoot, resolvedOut)}`);
+  } else {
+    process.stdout.write(json);
   }
 }
 
-const result = {
-  mode: "dry-run",
-  generated_at: new Date().toISOString(),
-  document_count: documents.length,
-  documents,
-};
-
-const json = `${JSON.stringify(result, null, 2)}\n`;
-
-if (outPath) {
-  const resolvedOut = path.resolve(vaultRoot, outPath);
-  fs.mkdirSync(path.dirname(resolvedOut), { recursive: true });
-  fs.writeFileSync(resolvedOut, json, "utf8");
-  console.log(`wrote dry-run output: ${path.relative(vaultRoot, resolvedOut)}`);
-} else {
-  process.stdout.write(json);
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main();
 }

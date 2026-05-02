@@ -15,6 +15,9 @@ bash scripts/validate_datalink_samples.sh
 echo "checking firestore dry-run..."
 bash scripts/datalink_to_firestore_dry_run.sh --out tmp/datalink.firestore.json
 
+echo "checking firestore apply dry-run..."
+bash scripts/datalink_to_firestore_apply.sh --dry-run >/dev/null
+
 echo "checking git..."
 git rev-parse --is-inside-work-tree >/dev/null
 git status --short --branch
