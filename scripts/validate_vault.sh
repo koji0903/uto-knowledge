@@ -38,6 +38,10 @@ required_files=(
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
   "06_Templates/template_log.md"
+  "06_Templates/template_datalink_producer.md"
+  "06_Templates/template_datalink_product.md"
+  "06_Templates/template_datalink_project.md"
+  "06_Templates/template_datalink_log.md"
 )
 
 for file in "${required_files[@]}"; do
