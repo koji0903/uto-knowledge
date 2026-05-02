@@ -49,6 +49,8 @@ Firestore は `04_DataLink` と対応させる。
 
 Drive にはファイル実体を置き、Obsidian と Firestore には参照 URL または folder id を記録する。
 
+フォルダ構造は `drive.structure.json` に定義する。
+
 推奨ルート:
 
 ```text
