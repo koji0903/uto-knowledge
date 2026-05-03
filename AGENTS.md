@@ -104,10 +104,17 @@ tmp/mcp.filesystem.json
 - Apply は必ず dry-run 後に行う
 - 本番投入前に `05_MOC/25_production_data_gate.md` を確認する
 - DataLink ノート作成は `scripts/scaffold_datalink_note.sh` を優先する
+- 外部連携や GitHub push 後は `scripts/create_sync_log.sh` で同期ログを残す
 
 ```bash
 bash scripts/datalink_to_firestore_apply.sh --dry-run
 bash scripts/datalink_to_firestore_apply.sh --apply
+```
+
+## 同期ログ
+
+```bash
+bash scripts/create_sync_log.sh --event git_push --target-system github --target-id main --summary "GitHub に変更を push"
 ```
 
 ## Google Drive

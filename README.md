@@ -91,6 +91,12 @@ AI コンテキスト生成:
 bash scripts/generate_ai_context.sh
 ```
 
+同期ログ作成:
+
+```bash
+bash scripts/create_sync_log.sh --event git_push --target-system github --target-id main --summary "GitHub に変更を push"
+```
+
 本番 DataLink 投入前の確認:
 
 ```text

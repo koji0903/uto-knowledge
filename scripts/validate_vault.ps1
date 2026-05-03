@@ -69,6 +69,7 @@ $requiredFiles = @(
   "05_MOC/25_production_data_gate.md",
   "05_MOC/26_datalink_scaffold.md",
   "05_MOC/27_ai_context_handoff.md",
+  "05_MOC/28_sync_log_creation.md",
   "06_Templates/template_base.md",
   "06_Templates/template_project.md",
   "06_Templates/template_daily.md",
@@ -128,7 +129,10 @@ $requiredFiles = @(
   "scripts/scaffold_datalink_note.ps1",
   "scripts/generate_ai_context.mjs",
   "scripts/generate_ai_context.sh",
-  "scripts/generate_ai_context.ps1"
+  "scripts/generate_ai_context.ps1",
+  "scripts/create_sync_log.mjs",
+  "scripts/create_sync_log.sh",
+  "scripts/create_sync_log.ps1"
 )
 
 foreach ($file in $requiredFiles) {
