@@ -39,6 +39,10 @@ required_files=(
   "firestore.indexes.json"
   "mcp/README.md"
   "mcp/mcp.servers.example.json"
+  "mcp/clients/claude_desktop.example.json"
+  "mcp/clients/generic_mcp_client.example.json"
+  "mcp/clients/chatgpt_codex_notes.md"
+  "mcp/clients/gemini_notes.md"
   "05_MOC/00_system_overview.md"
   "05_MOC/01_datalink_frontmatter.md"
   "05_MOC/02_firestore_design.md"
@@ -55,6 +59,7 @@ required_files=(
   "05_MOC/13_gcloud_firestore_project.md"
   "05_MOC/14_drive_structure_apply.md"
   "05_MOC/15_operational_entrypoint.md"
+  "05_MOC/16_mcp_client_setup.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
@@ -86,6 +91,9 @@ required_files=(
   "scripts/verify_firestore_drive_links.ps1"
   "scripts/verify_all.sh"
   "scripts/verify_all.ps1"
+  "scripts/render_mcp_filesystem_config.mjs"
+  "scripts/render_mcp_filesystem_config.sh"
+  "scripts/render_mcp_filesystem_config.ps1"
 )
 
 for file in "${required_files[@]}"; do

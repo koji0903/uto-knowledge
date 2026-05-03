@@ -47,6 +47,12 @@ bash scripts/check_environment.sh
 bash scripts/verify_all.sh
 ```
 
+MCP filesystem 設定生成:
+
+```bash
+bash scripts/render_mcp_filesystem_config.sh
+```
+
 Firestore dry-run:
 
 ```bash

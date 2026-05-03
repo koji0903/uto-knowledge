@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "uto-knowledge-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/absolute/path/to/uto-knowledge"
+      ],
+      "env": {}
+    }
+  }
+}

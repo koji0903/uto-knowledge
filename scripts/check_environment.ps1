@@ -18,6 +18,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\datalink_to_firestore_apply.
 Write-Output "checking drive structure dry-run..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\create_drive_structure.ps1" --dry-run | Out-Null
 
+Write-Output "checking mcp filesystem render..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\render_mcp_filesystem_config.ps1" | Out-Null
+
 Write-Output "checking git..."
 git rev-parse --is-inside-work-tree | Out-Null
 git status --short --branch

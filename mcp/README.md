@@ -24,6 +24,8 @@ Claude、Gemini、ChatGPT から同じ Obsidian / Firestore / Google Drive 環�
 | file | 用途 |
 | --- | --- |
 | mcp.servers.example.json | MCP サーバー設定の雛形 |
+| clients/claude_desktop.example.json | Claude Desktop 向け雛形 |
+| clients/generic_mcp_client.example.json | 汎用 MCP client 向け雛形 |
 
 ## 初期接続
 
@@ -34,6 +36,14 @@ uto-knowledge-filesystem
 ```
 
 Firestore と Google Drive は placeholder として定義し、利用する MCP サーバー実装を決めてから有効化する。
+
+## 設定生成
+
+```bash
+bash scripts/render_mcp_filesystem_config.sh
+```
+
+生成された `tmp/mcp.filesystem.json` を利用する MCP client の設定へ反映する。
 
 ## 推奨順序
 

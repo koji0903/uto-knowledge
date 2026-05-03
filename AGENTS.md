@@ -44,6 +44,18 @@ bash scripts/check_environment.sh
 bash scripts/verify_all.sh
 ```
 
+## MCP 設定生成
+
+```bash
+bash scripts/render_mcp_filesystem_config.sh
+```
+
+生成先:
+
+```text
+tmp/mcp.filesystem.json
+```
+
 ## Firestore
 
 - Project: `uto-os`
