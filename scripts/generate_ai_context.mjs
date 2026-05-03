@@ -77,10 +77,11 @@ ${status}
 
 1. README.md
 2. AGENTS.md
-3. 05_MOC/00_system_overview.md
-4. 05_MOC/08_ai_write_policy.md
-5. 05_MOC/01_datalink_frontmatter.md
-6. 05_MOC/25_production_data_gate.md
+3. 05_MOC/32_command_catalog.md
+4. 05_MOC/00_system_overview.md
+5. 05_MOC/08_ai_write_policy.md
+6. 05_MOC/01_datalink_frontmatter.md
+7. 05_MOC/25_production_data_gate.md
 
 ## Operating Rules
 
@@ -91,10 +92,11 @@ ${extractSection(agents, "## 禁止事項")}
 ## Key Commands
 
 \`\`\`bash
-bash scripts/check_environment.sh
+bash scripts/start_work.sh
+bash scripts/end_work.sh
+bash scripts/maintenance_check.sh local
 bash scripts/validate_datalink_frontmatter.sh
 bash scripts/security_check.sh
-bash scripts/maintenance_check.sh local
 bash scripts/verify_all.sh
 \`\`\`
 

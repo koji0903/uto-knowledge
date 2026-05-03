@@ -35,17 +35,18 @@ Windows:
 ```
 
 **毎日の開始時:**
+
 ```bash
-git pull origin main
-bash scripts/verify-multienv-setup.sh
+bash scripts/start_work.sh
 ```
 
 **毎日の終了時:**
+
 ```bash
-git add .
-git commit -m "変更内容"
-git push origin main
+bash scripts/end_work.sh
 ```
+
+変更がある場合は、`end_work` の結果を確認してから必要なファイルだけを commit / push する。
 
 ## マルチエージェント（複数 AI）活用
 
@@ -145,9 +146,7 @@ bash scripts/security_check.sh
 ## 変更前チェック
 
 ```bash
-git status --short --branch --ignored
-bash scripts/check_environment.sh
-bash scripts/generate_ai_context.sh
+bash scripts/start_work.sh
 ```
 
 ## 新しい環境での初期化
@@ -165,8 +164,10 @@ bash scripts/verify_all.sh
 ## メンテナンスチェック
 
 ```bash
+bash scripts/start_work.sh
 bash scripts/maintenance_check.sh local
 bash scripts/maintenance_check.sh full
+bash scripts/end_work.sh
 ```
 
 ## AI 引き継ぎコンテキスト
@@ -205,7 +206,7 @@ tmp/mcp.filesystem.json
 
 - Project: `uto-os`
 - Database: `(default)`
-- Collections: `producers`, `products`, `projects`, `logs`
+- Collections: `decisions`, `producers`, `products`, `projects`, `logs`
 - Apply は必ず dry-run 後に行う
 - 本番投入前に `05_MOC/25_production_data_gate.md` を確認する
 - DataLink ノート作成は `scripts/scaffold_datalink_note.sh` を優先する
@@ -255,11 +256,11 @@ bash scripts/generate_health_dashboard.sh
 
 ### 検証項目
 
-- ✅ Firestore↔Markdown の同期状態
-- ✅ frontmatter の整合性
-- ✅ リンク・参照の有効性
-- ✅ セキュリティチェック（秘密情報が含まれていないか）
-- ✅ 統計・メトリクス
+- Firestore / Markdown の同期状態
+- frontmatter の整合性
+- リンク・参照の有効性
+- セキュリティチェック（秘密情報が含まれていないか）
+- 統計・メトリクス
 
 詳細は `05_MOC/30_health_check_system.md` を参照。
 
