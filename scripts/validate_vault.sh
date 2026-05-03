@@ -60,6 +60,7 @@ required_files=(
   "05_MOC/14_drive_structure_apply.md"
   "05_MOC/15_operational_entrypoint.md"
   "05_MOC/16_mcp_client_setup.md"
+  "05_MOC/17_restore_runbook.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
@@ -94,6 +95,8 @@ required_files=(
   "scripts/render_mcp_filesystem_config.mjs"
   "scripts/render_mcp_filesystem_config.sh"
   "scripts/render_mcp_filesystem_config.ps1"
+  "scripts/bootstrap_local_env.sh"
+  "scripts/bootstrap_local_env.ps1"
 )
 
 for file in "${required_files[@]}"; do

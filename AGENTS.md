@@ -38,6 +38,12 @@ git status --short --branch --ignored
 bash scripts/check_environment.sh
 ```
 
+## 新しい環境での初期化
+
+```bash
+bash scripts/bootstrap_local_env.sh
+```
+
 ## 外部連携チェック
 
 ```bash

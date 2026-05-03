@@ -41,6 +41,12 @@ Obsidian を中心に、GitHub、Firestore、Google Drive、MCP を併用する�
 bash scripts/check_environment.sh
 ```
 
+ローカル環境 bootstrap:
+
+```bash
+bash scripts/bootstrap_local_env.sh
+```
+
 外部連携まで含む検証:
 
 ```bash
@@ -74,3 +80,5 @@ bash scripts/datalink_to_firestore_apply.sh --apply
 - Firestore / Drive 変更時は `04_DataLink/logs` にログを残す
 
 詳細は `05_MOC/08_ai_write_policy.md` を参照する。
+
+復元手順は `05_MOC/17_restore_runbook.md` を参照する。
