@@ -12,6 +12,9 @@ bash scripts/verify_firestore_samples.sh
 echo "verifying Firestore Drive links..."
 bash scripts/verify_firestore_drive_links.sh
 
+echo "checking Firestore drift..."
+bash scripts/check_firestore_drift.sh
+
 echo "verifying Google Drive structure..."
 bash scripts/verify_drive_structure.sh
 

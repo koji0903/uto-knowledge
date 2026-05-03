@@ -61,6 +61,12 @@ bash scripts/bootstrap_local_env.sh
 bash scripts/verify_all.sh
 ```
 
+Firestore drift check:
+
+```bash
+bash scripts/check_firestore_drift.sh
+```
+
 GitHub Actions では外部接続なしの構造検証を実行する。
 
 MCP filesystem 設定生成:

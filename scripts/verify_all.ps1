@@ -9,6 +9,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\verify_firestore_samples.ps1
 Write-Output "verifying Firestore Drive links..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\verify_firestore_drive_links.ps1"
 
+Write-Output "checking Firestore drift..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\check_firestore_drift.ps1"
+
 Write-Output "verifying Google Drive structure..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\verify_drive_structure.ps1"
 
