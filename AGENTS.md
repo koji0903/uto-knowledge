@@ -193,6 +193,41 @@ bash scripts/create_sync_log.sh --event git_push --target-system github --target
 - Folder IDs は `.env` に保存する
 - Drive 変更時は `04_DataLink/logs` に記録する
 
+## Health Check System
+
+システムの品質・整合性を継続的に監視します。
+
+### 自動実行
+
+毎日 01:00 UTC に自動実行（GitHub Actions）:
+
+```text
+.github/workflows/daily_health_check.yml
+```
+
+生成ファイル:
+
+```text
+tmp/health_dashboard.md     — 健全性ダッシュボード
+tmp/drift_report.json       — 詳細な差分レポート
+```
+
+### 手動実行
+
+```bash
+bash scripts/generate_health_dashboard.sh
+```
+
+### 検証項目
+
+- ✅ Firestore↔Markdown の同期状態
+- ✅ frontmatter の整合性
+- ✅ リンク・参照の有効性
+- ✅ セキュリティチェック（秘密情報が含まれていないか）
+- ✅ 統計・メトリクス
+
+詳細は `05_MOC/30_health_check_system.md` を参照。
+
 ## Git
 
 - 小さくコミットする

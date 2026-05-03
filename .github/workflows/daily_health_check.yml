@@ -1,0 +1,78 @@
+name: Daily Health Check
+
+on:
+  schedule:
+    # 毎日 01:00 UTC (JST 10:00) に実行
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install glob js-yaml tsx
+
+      - name: Run Health Dashboard Generator
+        run: bash scripts/generate_health_dashboard.sh
+
+      - name: Upload dashboard artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-dashboard
+          path: |
+            tmp/health_dashboard.md
+            tmp/drift_report.json
+          retention-days: 30
+
+      - name: Commit and push changes
+        if: success()
+        run: |
+          git config user.name "Health Check Bot"
+          git config user.email "bot@uto-knowledge.local"
+
+          # ダッシュボードが変更されていればコミット
+          if git diff --quiet tmp/health_dashboard.md; then
+            echo "No changes in health dashboard"
+          else
+            git add tmp/health_dashboard.md
+            git commit -m "chore: update health dashboard"
+          fi
+
+          # レポートがあればコミット
+          if [ -f "tmp/drift_report.json" ]; then
+            git add tmp/drift_report.json
+            git commit -m "chore: update drift report" || true
+          fi
+
+          git push origin main || echo "Nothing to push"
+
+      - name: Comment on issues if critical
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const driftReport = JSON.parse(fs.readFileSync('tmp/drift_report.json', 'utf8'));
+
+            if (driftReport.summary.critical > 0) {
+              github.rest.issues.createComment({
+                issue_number: 1,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `⚠️ Health check で ${driftReport.summary.critical} 件の Critical issue が検出されました。\n\n詳細は [Health Dashboard](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/main/tmp/health_dashboard.md) を参照してください。`
+              });
+            }
