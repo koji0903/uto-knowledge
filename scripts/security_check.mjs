@@ -34,6 +34,7 @@ const forbiddenContentPatterns = [
 const allowedSecretExampleFiles = new Set([
   ".env.example",
   ".firebaserc.example",
+  "scripts/security_check.mjs",
 ]);
 
 const findings = [];
