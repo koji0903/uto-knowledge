@@ -45,6 +45,12 @@ Obsidian を中心に、GitHub、Firestore、Google Drive、MCP を併用する�
 bash scripts/check_environment.sh
 ```
 
+作業開始:
+
+```bash
+bash scripts/start_work.sh
+```
+
 DataLink frontmatter 検証:
 
 ```bash

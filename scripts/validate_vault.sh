@@ -80,6 +80,7 @@ required_files=(
   "05_MOC/30_health_check_system.md"
   "05_MOC/31_multi_environment_sync.md"
   "05_MOC/32_command_catalog.md"
+  "05_MOC/33_start_work.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
@@ -143,6 +144,8 @@ required_files=(
   "scripts/create_sync_log.mjs"
   "scripts/create_sync_log.sh"
   "scripts/create_sync_log.ps1"
+  "scripts/start_work.sh"
+  "scripts/start_work.ps1"
 )
 
 for file in "${required_files[@]}"; do

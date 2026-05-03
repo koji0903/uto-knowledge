@@ -17,6 +17,7 @@ created: 2026-05-04
 | --- | --- | --- |
 | ローカル初期化 | `bash scripts/bootstrap_local_env.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap_local_env.ps1` |
 | 環境セットアップ | `bash scripts/setup-environment.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\setup-environment.ps1` |
+| 作業開始 | `bash scripts/start_work.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\start_work.ps1` |
 | マルチ環境検証 | `bash scripts/verify-multienv-setup.sh` | `bash scripts/verify-multienv-setup.sh` |
 | AI コンテキスト生成 | `bash scripts/generate_ai_context.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\generate_ai_context.ps1` |
 
