@@ -12,6 +12,7 @@ $requiredDirs = @(
   "04_DataLink/products",
   "04_DataLink/projects",
   "04_DataLink/logs",
+  "04_DataLink/decisions",
   "05_MOC",
   "06_Templates",
   "99_Archive"

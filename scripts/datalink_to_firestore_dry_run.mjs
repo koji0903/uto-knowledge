@@ -11,6 +11,7 @@ const outIndex = args.indexOf("--out");
 const outPath = outIndex >= 0 ? args[outIndex + 1] : "";
 
 const collectionDirs = [
+  ["decisions", "decision"],
   ["producers", "producer"],
   ["products", "product"],
   ["projects", "project"],
@@ -65,6 +66,7 @@ function listMarkdownFiles(dir) {
 
   return fs.readdirSync(dir, { withFileTypes: true })
     .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .filter((entry) => entry.name !== "index.md")
     .map((entry) => path.join(dir, entry.name))
     .sort();
 }

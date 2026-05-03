@@ -7,6 +7,7 @@ const vaultRoot = path.resolve(scriptDir, "..");
 const dataLinkRoot = path.join(vaultRoot, "04_DataLink");
 
 const folderRules = {
+  decisions: { type: "decision", idPrefix: "dec_" },
   producers: { type: "producer", idPrefix: "prodcr_" },
   products: { type: "product", idPrefix: "prod_" },
   projects: { type: "project", idPrefix: "prj_" },
@@ -76,6 +77,10 @@ for (const file of files) {
   const relativePath = path.relative(vaultRoot, file).replaceAll(path.sep, "/");
   const [, collection] = relativePath.split("/");
   const rule = folderRules[collection];
+
+  if (relativePath === "04_DataLink/decisions/index.md") {
+    continue;
+  }
 
   if (!rule) {
     throw new Error(`unknown DataLink collection folder: ${relativePath}`);

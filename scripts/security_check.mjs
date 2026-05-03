@@ -13,7 +13,7 @@ const trackedFiles = execFileSync("git", ["ls-files"], {
 
 const forbiddenPathPatterns = [
   /^\.env$/,
-  /^\.env\.(?!example$)/,
+  /^\.env\.local$/,
   /^\.firebaserc$/,
   /^\.obsidian\/workspace\.json$/,
   /^\.obsidian\/graph\.json$/,
@@ -33,6 +33,9 @@ const forbiddenContentPatterns = [
 
 const allowedSecretExampleFiles = new Set([
   ".env.example",
+  ".env.local.example",
+  ".env.mac",
+  ".env.windows",
   ".firebaserc.example",
   "scripts/security_check.mjs",
 ]);
