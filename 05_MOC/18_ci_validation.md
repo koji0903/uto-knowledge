@@ -17,6 +17,17 @@ GitHub 上でも Vault の構造と設定ファイルの破損に気づけるよ
 .github/workflows/validate.yml
 ```
 
+## Runtime
+
+GitHub Actions の JavaScript action runtime は Node.js 24 へ移行する。
+
+```yaml
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+```
+
+workflow 内で実行する Node.js は `actions/setup-node` により Node.js 22 を使う。
+
 ## 実行タイミング
 
 - `main` への push
