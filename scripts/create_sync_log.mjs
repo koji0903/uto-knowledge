@@ -57,12 +57,26 @@ function compactDate(date) {
   return date.replaceAll("-", "");
 }
 
+function parseFrontmatterId(markdown) {
+  if (!markdown.startsWith("---\n")) return "";
+
+  const end = markdown.indexOf("\n---", 4);
+  if (end < 0) return "";
+
+  const block = markdown.slice(4, end).trim();
+  const line = block.split("\n").find((item) => item.startsWith("id:"));
+  return line ? line.slice("id:".length).trim() : "";
+}
+
 function nextLogId(date) {
   const logsDir = path.join(vaultRoot, "04_DataLink/logs");
   const prefix = `log_${compactDate(date)}_`;
   const max = fs.readdirSync(logsDir, { withFileTypes: true })
-    .filter((entry) => entry.isFile() && entry.name.startsWith(prefix) && entry.name.endsWith(".md"))
-    .map((entry) => Number(entry.name.slice(prefix.length, -3)))
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+    .map((entry) => fs.readFileSync(path.join(logsDir, entry.name), "utf8"))
+    .map((markdown) => parseFrontmatterId(markdown))
+    .filter((id) => id.startsWith(prefix))
+    .map((id) => Number(id.slice(prefix.length)))
     .filter((value) => Number.isInteger(value))
     .reduce((current, value) => Math.max(current, value), 0);
 

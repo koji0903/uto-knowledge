@@ -70,6 +70,7 @@ function requireField(frontmatter, field, file) {
 }
 
 const files = listMarkdownFiles(dataLinkRoot);
+const seenFirestorePaths = new Map();
 
 for (const file of files) {
   const relativePath = path.relative(vaultRoot, file).replaceAll(path.sep, "/");
@@ -105,6 +106,13 @@ for (const file of files) {
   if (!Array.isArray(frontmatter.tags)) {
     throw new Error(`tags must be an array in ${relativePath}`);
   }
+
+  const firestorePath = `${frontmatter.firestore_collection}/${frontmatter.firestore_doc_id}`;
+  const previousPath = seenFirestorePaths.get(firestorePath);
+  if (previousPath) {
+    throw new Error(`duplicate firestore document path ${firestorePath}: ${previousPath} and ${relativePath}`);
+  }
+  seenFirestorePaths.set(firestorePath, relativePath);
 }
 
 console.log(`datalink frontmatter validation passed: ${files.length} files`);
