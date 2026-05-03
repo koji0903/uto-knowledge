@@ -64,6 +64,7 @@ $requiredFiles = @(
   "05_MOC/20_firestore_drift_check.md",
   "05_MOC/21_status_report.md",
   "05_MOC/22_maintenance_runbook.md",
+  "05_MOC/23_security_check.md",
   "06_Templates/template_base.md",
   "06_Templates/template_project.md",
   "06_Templates/template_daily.md",
@@ -110,7 +111,10 @@ $requiredFiles = @(
   "scripts/generate_status_report.sh",
   "scripts/generate_status_report.ps1",
   "scripts/maintenance_check.sh",
-  "scripts/maintenance_check.ps1"
+  "scripts/maintenance_check.ps1",
+  "scripts/security_check.mjs",
+  "scripts/security_check.sh",
+  "scripts/security_check.ps1"
 )
 
 foreach ($file in $requiredFiles) {

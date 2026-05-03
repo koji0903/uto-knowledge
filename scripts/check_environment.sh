@@ -6,6 +6,9 @@ cd "$(dirname "$0")/.."
 echo "checking vault..."
 bash scripts/validate_vault.sh
 
+echo "checking security..."
+bash scripts/security_check.sh
+
 echo "checking mcp config..."
 bash scripts/validate_mcp_config.sh
 

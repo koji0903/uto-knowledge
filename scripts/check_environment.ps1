@@ -3,6 +3,9 @@ Set-Location (Split-Path -Parent $PSScriptRoot)
 Write-Output "checking vault..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_vault.ps1"
 
+Write-Output "checking security..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\security_check.ps1"
+
 Write-Output "checking mcp config..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_mcp_config.ps1"
 

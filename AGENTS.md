@@ -31,6 +31,12 @@
 - `.obsidian/workspace.json` を共有対象にしない
 - Firestore / Drive を確認なしで削除しない
 
+変更前後に security check を実行する。
+
+```bash
+bash scripts/security_check.sh
+```
+
 ## 変更前チェック
 
 ```bash

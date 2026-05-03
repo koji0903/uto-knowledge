@@ -67,6 +67,7 @@ required_files=(
   "05_MOC/20_firestore_drift_check.md"
   "05_MOC/21_status_report.md"
   "05_MOC/22_maintenance_runbook.md"
+  "05_MOC/23_security_check.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
@@ -114,6 +115,9 @@ required_files=(
   "scripts/generate_status_report.ps1"
   "scripts/maintenance_check.sh"
   "scripts/maintenance_check.ps1"
+  "scripts/security_check.mjs"
+  "scripts/security_check.sh"
+  "scripts/security_check.ps1"
 )
 
 for file in "${required_files[@]}"; do

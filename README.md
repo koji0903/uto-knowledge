@@ -49,6 +49,12 @@ DataLink frontmatter 検証:
 bash scripts/validate_datalink_frontmatter.sh
 ```
 
+Security check:
+
+```bash
+bash scripts/security_check.sh
+```
+
 ローカル環境 bootstrap:
 
 ```bash
