@@ -85,6 +85,12 @@ Changelog 生成:
 bash scripts/generate_changelog.sh
 ```
 
+AI コンテキスト生成:
+
+```bash
+bash scripts/generate_ai_context.sh
+```
+
 本番 DataLink 投入前の確認:
 
 ```text

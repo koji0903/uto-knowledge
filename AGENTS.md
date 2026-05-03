@@ -42,6 +42,7 @@ bash scripts/security_check.sh
 ```bash
 git status --short --branch --ignored
 bash scripts/check_environment.sh
+bash scripts/generate_ai_context.sh
 ```
 
 ## 新しい環境での初期化
@@ -61,6 +62,18 @@ bash scripts/verify_all.sh
 ```bash
 bash scripts/maintenance_check.sh local
 bash scripts/maintenance_check.sh full
+```
+
+## AI 引き継ぎコンテキスト
+
+```bash
+bash scripts/generate_ai_context.sh
+```
+
+生成先:
+
+```text
+tmp/ai_context.md
 ```
 
 ## CI
