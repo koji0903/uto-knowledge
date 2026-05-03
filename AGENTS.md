@@ -50,6 +50,14 @@ bash scripts/bootstrap_local_env.sh
 bash scripts/verify_all.sh
 ```
 
+## CI
+
+GitHub Actions は外部接続なしの dry-run 検証のみを行う。
+
+```text
+.github/workflows/validate.yml
+```
+
 ## MCP 設定生成
 
 ```bash

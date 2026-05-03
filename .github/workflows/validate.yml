@@ -1,0 +1,46 @@
+name: Validate Vault
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate local structure
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate vault
+        run: bash scripts/validate_vault.sh
+
+      - name: Validate MCP config
+        run: bash scripts/validate_mcp_config.sh
+
+      - name: Validate DataLink samples
+        run: bash scripts/validate_datalink_samples.sh
+
+      - name: Firestore dry-run export
+        run: bash scripts/datalink_to_firestore_dry_run.sh --out tmp/datalink.firestore.json
+
+      - name: Firestore apply dry-run
+        run: bash scripts/datalink_to_firestore_apply.sh --dry-run
+
+      - name: Drive structure dry-run
+        run: bash scripts/create_drive_structure.sh --dry-run
+
+      - name: Render MCP filesystem config
+        run: bash scripts/render_mcp_filesystem_config.sh

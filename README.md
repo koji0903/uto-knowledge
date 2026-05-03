@@ -1,5 +1,7 @@
 # uto-knowledge
 
+[![Validate Vault](https://github.com/koji0903/uto-knowledge/actions/workflows/validate.yml/badge.svg)](https://github.com/koji0903/uto-knowledge/actions/workflows/validate.yml)
+
 Obsidian を中心に、GitHub、Firestore、Google Drive、MCP を併用するナレッジ管理環境。
 
 ## 目的
@@ -52,6 +54,8 @@ bash scripts/bootstrap_local_env.sh
 ```bash
 bash scripts/verify_all.sh
 ```
+
+GitHub Actions では外部接続なしの構造検証を実行する。
 
 MCP filesystem 設定生成:
 

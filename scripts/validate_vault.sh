@@ -29,6 +29,7 @@ done
 
 required_files=(
   ".gitignore"
+  ".github/workflows/validate.yml"
   "README.md"
   "AGENTS.md"
   ".env.example"
@@ -61,6 +62,7 @@ required_files=(
   "05_MOC/15_operational_entrypoint.md"
   "05_MOC/16_mcp_client_setup.md"
   "05_MOC/17_restore_runbook.md"
+  "05_MOC/18_ci_validation.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
