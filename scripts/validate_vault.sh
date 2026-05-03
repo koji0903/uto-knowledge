@@ -18,6 +18,7 @@ required_dirs=(
   "04_DataLink/decisions"
   "05_MOC"
   "06_Templates"
+  "docs"
   "99_Archive"
 )
 
@@ -35,6 +36,7 @@ required_files=(
   "AGENTS.md"
   ".env.example"
   ".firebaserc.example"
+  "docs/WINDOWS_SETUP_TEST.md"
   "drive.structure.json"
   "firebase.json"
   "firestore.rules"
