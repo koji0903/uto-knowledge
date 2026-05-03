@@ -89,6 +89,7 @@ tmp/mcp.filesystem.json
 - Database: `(default)`
 - Collections: `producers`, `products`, `projects`, `logs`
 - Apply は必ず dry-run 後に行う
+- 本番投入前に `05_MOC/25_production_data_gate.md` を確認する
 
 ```bash
 bash scripts/datalink_to_firestore_apply.sh --dry-run

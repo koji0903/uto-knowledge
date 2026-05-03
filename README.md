@@ -85,6 +85,13 @@ Changelog 生成:
 bash scripts/generate_changelog.sh
 ```
 
+本番 DataLink 投入前の確認:
+
+```text
+05_MOC/25_production_data_gate.md
+06_Templates/template_production_checklist.md
+```
+
 メンテナンス確認:
 
 ```bash
