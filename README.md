@@ -73,6 +73,13 @@ bash scripts/check_firestore_drift.sh
 bash scripts/generate_status_report.sh
 ```
 
+メンテナンス確認:
+
+```bash
+bash scripts/maintenance_check.sh local
+bash scripts/maintenance_check.sh full
+```
+
 GitHub Actions では外部接続なしの構造検証を実行する。
 
 MCP filesystem 設定生成:
@@ -104,3 +111,5 @@ bash scripts/datalink_to_firestore_apply.sh --apply
 詳細は `05_MOC/08_ai_write_policy.md` を参照する。
 
 復元手順は `05_MOC/17_restore_runbook.md` を参照する。
+
+日常メンテナンスは `05_MOC/22_maintenance_runbook.md` を参照する。

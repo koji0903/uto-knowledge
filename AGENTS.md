@@ -50,6 +50,13 @@ bash scripts/bootstrap_local_env.sh
 bash scripts/verify_all.sh
 ```
 
+## メンテナンスチェック
+
+```bash
+bash scripts/maintenance_check.sh local
+bash scripts/maintenance_check.sh full
+```
+
 ## CI
 
 GitHub Actions は外部接続なしの dry-run 検証のみを行う。
