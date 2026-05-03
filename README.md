@@ -13,6 +13,8 @@ Obsidian を中心に、GitHub、Firestore、Google Drive、MCP を併用する�
 
 ## 構成
 
+実パスは英数字のまま維持し、Obsidian 上の表示・説明は日本語名を併用する。対応表は `05_MOC/35_japanese_naming_map.md` を参照する。
+
 | path | role |
 | --- | --- |
 | 00_Inbox | 未整理メモ、AI 下書き |

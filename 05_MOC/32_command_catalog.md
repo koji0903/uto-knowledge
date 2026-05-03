@@ -62,6 +62,13 @@ created: 2026-05-04
 | `tmp/ai_context.md` | `bash scripts/generate_ai_context.sh` |
 | `tmp/mcp.filesystem.json` | `bash scripts/render_mcp_filesystem_config.sh` |
 
+## 命名
+
+| 目的 | 参照先 |
+| --- | --- |
+| 日本語運用名対応表 | `05_MOC/35_japanese_naming_map.md` |
+| 主要フォルダの日本語説明 | 各フォルダの `index.md` |
+
 ## Firestore 書き込み
 
 | 目的 | コマンド |

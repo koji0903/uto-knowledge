@@ -72,13 +72,16 @@ function requireField(frontmatter, field, file) {
 
 const files = listMarkdownFiles(dataLinkRoot);
 const seenFirestorePaths = new Map();
+let validatedCount = 0;
+let skippedIndexCount = 0;
 
 for (const file of files) {
   const relativePath = path.relative(vaultRoot, file).replaceAll(path.sep, "/");
   const [, collection] = relativePath.split("/");
   const rule = folderRules[collection];
 
-  if (relativePath === "04_DataLink/decisions/index.md") {
+  if (relativePath.startsWith("04_DataLink/") && relativePath.endsWith("/index.md")) {
+    skippedIndexCount += 1;
     continue;
   }
 
@@ -118,6 +121,7 @@ for (const file of files) {
     throw new Error(`duplicate firestore document path ${firestorePath}: ${previousPath} and ${relativePath}`);
   }
   seenFirestorePaths.set(firestorePath, relativePath);
+  validatedCount += 1;
 }
 
-console.log(`datalink frontmatter validation passed: ${files.length} files`);
+console.log(`datalink frontmatter validation passed: ${validatedCount} files, skipped ${skippedIndexCount} index files`);

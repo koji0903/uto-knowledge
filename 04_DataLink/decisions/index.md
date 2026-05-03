@@ -14,6 +14,8 @@ uto-knowledge で行われた重要な意思決定の記録。
 | 項目 | 内容 |
 |------|------|
 | **保存先** | `04_DataLink/decisions/` |
+| **日本語運用名** | 意思決定 |
+| **Firestore collection** | `decisions` |
 | **ファイル名規則** | `decision_YYYYMMDD_NNN.md` |
 | **frontmatter** | 標準化（status, approved_by など） |
 | **テンプレート** | `06_Templates/template_decision_log.md` |
@@ -109,11 +111,11 @@ uto-knowledge で行われた重要な意思決定の記録。
 
 **主な特徴:**
 
-✅ **複数 AI の見方を記録** — Claude/Gemini/ChatGPT の分析を比較  
-✅ **判断根拠を可視化** — なぜこの判断をしたのか  
-✅ **User 承認フロー** — 重要な決定は User が最終判断  
-✅ **実装後の振返り** — 判定の精度を検証  
-✅ **過去からの学習** — 類似決定時に参照可能
+- 複数 AI の見方を記録: Claude / Gemini / ChatGPT の分析を比較
+- 判断根拠を可視化: なぜこの判断をしたのか
+- User 承認フロー: 重要な決定は User が最終判断
+- 実装後の振返り: 判定の精度を検証
+- 過去からの学習: 類似決定時に参照可能
 
 ---
 
@@ -136,6 +138,10 @@ A: 新しい決定ログを作成して、前の決定と関連付けてくだ�
 
 A: **それが学習機会です**。振返りセクションに記録して、次回の改善に活かしてください。
 
+## 注意
+
+この `index.md` は索引用であり、Firestore dry-run からは除外される。
+
 ---
 
-**Last Updated:** 2026-05-03
+**Last Updated:** 2026-05-04
