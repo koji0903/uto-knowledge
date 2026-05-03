@@ -38,7 +38,44 @@
 2. 最適な AI（リード AI）を決定
 3. 必要に応じてサポート AI を指定
 4. 複合タスクの場合は流れを計画
-5. 実施後に 04_DataLink/logs に記録
+5. 重要な決定は 04_DataLink/decisions に記録
+6. 実施後に 04_DataLink/logs に記録
+```
+
+## 意思決定ログ（Decision Log）
+
+重要な判断プロセスを記録・追跡するシステム。
+
+### 決定ログの記録対象
+
+- 複数の選択肢から1つを選ぶ重要な判断
+- AI 間で意見が割れた場合
+- システム全体に影響する設計変更
+- リスク対応の判定
+
+詳細は以下を参照：
+
+- `05_MOC/29_decision_log_system.md` — 決定ログシステム仕様
+- `06_Templates/template_decision_log.md` — 決定ログテンプレート
+- `04_DataLink/decisions/index.md` — 決定ログインデックス
+
+### 決定ログの作成フロー
+
+```
+1. 複数の案を AI に検討させる
+   ├─ Claude: 深い分析
+   ├─ Gemini: 外部情報・トレンド
+   └─ ChatGPT: 実装可能性
+
+2. 各 AI の見方を比較分析
+
+3. User が最終判定・承認
+   → 06_Templates/template_decision_log.md を使用
+
+4. 04_DataLink/decisions/ に保存
+
+5. 実装後に振返りコメント追加
+   → AI の判定精度を検証
 ```
 
 ---
