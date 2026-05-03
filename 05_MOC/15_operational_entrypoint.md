@@ -19,13 +19,15 @@ created: 2026-05-03
 | AGENTS.md | AI エージェント向け運用ガイド |
 | scripts/verify_all.sh | Mac / Linux 向け総合検証 |
 | scripts/verify_all.ps1 | Windows PowerShell 向け総合検証 |
+| 05_MOC/32_command_catalog.md | 運用コマンド一覧 |
 
 ## 推奨開始手順
 
 1. `README.md` を読む
 2. `AGENTS.md` を読む
-3. `bash scripts/check_environment.sh` を実行する
-4. 外部連携が必要なら `bash scripts/verify_all.sh` を実行する
+3. `05_MOC/32_command_catalog.md` で必要なコマンドを確認する
+4. `bash scripts/check_environment.sh` を実行する
+5. 外部連携が必要なら `bash scripts/verify_all.sh` を実行する
 
 ## 運用ステータス
 

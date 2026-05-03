@@ -37,6 +37,8 @@ Obsidian を中心に、GitHub、Firestore、Google Drive、MCP を併用する�
 
 ## 基本コマンド
 
+コマンド一覧は `05_MOC/32_command_catalog.md` に集約する。
+
 ローカル検証:
 
 ```bash
