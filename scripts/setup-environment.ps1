@@ -53,8 +53,8 @@ if ($PS_VERSION -ge 5) {
 Write-Blue "3️⃣  Git Configuration"
 
 # Configure core.safecrlf
-& git config --local core.safecrlf warn
-Write-Green "✅ core.safecrlf set to warn"
+& git config --local core.safecrlf false
+Write-Green "✅ core.safecrlf disabled (for LF line endings)"
 
 # Configure git to use CRLF for .ps1, LF for others
 & git config --local core.autocrlf false
@@ -96,7 +96,7 @@ if (-not (Test-Path $ENV_LOCAL_PATH)) {
 Write-Blue "6️⃣  Loading Environment"
 
 $ENV_FILE_PATH = Join-Path $PROJECT_ROOT ".env"
-if (Test-Path $ENV_FILE_Path) {
+if (Test-Path $ENV_FILE_PATH) {
   $envFile = Get-Content $ENV_FILE_Path | Select-String -Pattern "^[^#].*=" | ForEach-Object {
     $parts = $_ -split "=", 2
     if ($parts.Count -eq 2) {
