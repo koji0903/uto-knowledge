@@ -29,6 +29,8 @@ done
 
 required_files=(
   ".gitignore"
+  "README.md"
+  "AGENTS.md"
   ".env.example"
   ".firebaserc.example"
   "drive.structure.json"
@@ -52,6 +54,7 @@ required_files=(
   "05_MOC/12_firestore_apply.md"
   "05_MOC/13_gcloud_firestore_project.md"
   "05_MOC/14_drive_structure_apply.md"
+  "05_MOC/15_operational_entrypoint.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
@@ -81,6 +84,8 @@ required_files=(
   "scripts/verify_firestore_drive_links.mjs"
   "scripts/verify_firestore_drive_links.sh"
   "scripts/verify_firestore_drive_links.ps1"
+  "scripts/verify_all.sh"
+  "scripts/verify_all.ps1"
 )
 
 for file in "${required_files[@]}"; do
