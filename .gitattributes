@@ -1,0 +1,48 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Source code files - always LF
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+.env text eol=lf
+.env.* text eol=lf
+.firebaserc text eol=lf
+.gitignore text eol=lf
+.editorconfig text eol=lf
+
+# PowerShell scripts - CRLF (Windows standard)
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# Obsidian vault files
+.obsidian/** text eol=lf
+
+# Do not export these files
+.env export-ignore
+.env.* export-ignore
+.firebaserc export-ignore
+.DS_Store export-ignore
+Thumbs.db export-ignore
+serviceAccount*.json export-ignore
+firebase-adminsdk*.json export-ignore
+tmp/ export-ignore
+.git export-ignore

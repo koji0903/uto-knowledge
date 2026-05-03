@@ -5,12 +5,47 @@
 ## 最初に読む
 
 1. `README.md`
-2. `05_MOC/00_system_overview.md`
-3. **`mcp/ai_profiles/README.md`** ← NEW: AI 毎の役割定義
-4. **`mcp/ai_profiles/task_router.md`** ← NEW: タスク振り分けロジック
-5. `05_MOC/08_ai_write_policy.md`
-6. `05_MOC/09_sync_log_design.md`
-7. `05_MOC/01_datalink_frontmatter.md`
+2. **`SETUP_GUIDE.md`** ← NEW: 環境セットアップ（初回のみ）
+3. `05_MOC/00_system_overview.md`
+4. **`mcp/ai_profiles/README.md`** ← AI 毎の役割定義
+5. **`mcp/ai_profiles/task_router.md`** ← タスク振り分けロジック
+6. `05_MOC/08_ai_write_policy.md`
+7. `05_MOC/09_sync_log_design.md`
+8. `05_MOC/01_datalink_frontmatter.md`
+
+## マルチ環境対応（Mac・Windows）
+
+複数のマシンから同時に uto-knowledge を利用する際のガイド：
+
+- `SETUP_GUIDE.md` — セットアップ手順（Mac・Windows）
+- `05_MOC/31_multi_environment_sync.md` — 同期・競合対応
+
+### クイックスタート
+
+**初回セットアップ:**
+
+Mac/Linux:
+```bash
+bash scripts/setup-environment.sh
+```
+
+Windows:
+```powershell
+.\scripts\setup-environment.ps1
+```
+
+**毎日の開始時:**
+```bash
+git pull origin main
+bash scripts/verify-multienv-setup.sh
+```
+
+**毎日の終了時:**
+```bash
+git add .
+git commit -m "変更内容"
+git push origin main
+```
 
 ## マルチエージェント（複数 AI）活用
 
