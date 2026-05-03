@@ -39,6 +39,10 @@ function exists(file) {
   return fs.existsSync(path.join(vaultRoot, file)) ? "yes" : "no";
 }
 
+function countDryRunDocuments(collection) {
+  return dryRun.documents.filter((document) => document.collection === collection).length;
+}
+
 const dryRun = buildFirestoreDryRun();
 const branch = run("git", ["branch", "--show-current"]) || "unknown";
 const latestCommit = run("git", ["log", "--oneline", "-1"]) || "unknown";
@@ -70,12 +74,13 @@ ${gitStatus}
 
 ## DataLink
 
-| collection | markdown_count |
-| --- | --- |
-| producers | ${countMarkdownFiles("04_DataLink/producers")} |
-| products | ${countMarkdownFiles("04_DataLink/products")} |
-| projects | ${countMarkdownFiles("04_DataLink/projects")} |
-| logs | ${countMarkdownFiles("04_DataLink/logs")} |
+| collection | markdown_count | firestore_dry_run_count |
+| --- | --- | --- |
+| decisions | ${countMarkdownFiles("04_DataLink/decisions")} | ${countDryRunDocuments("decisions")} |
+| producers | ${countMarkdownFiles("04_DataLink/producers")} | ${countDryRunDocuments("producers")} |
+| products | ${countMarkdownFiles("04_DataLink/products")} | ${countDryRunDocuments("products")} |
+| projects | ${countMarkdownFiles("04_DataLink/projects")} | ${countDryRunDocuments("projects")} |
+| logs | ${countMarkdownFiles("04_DataLink/logs")} | ${countDryRunDocuments("logs")} |
 
 ## Firestore Dry-run
 
@@ -86,7 +91,8 @@ ${gitStatus}
 ## Verification Commands
 
 \`\`\`bash
-bash scripts/check_environment.sh
+bash scripts/start_work.sh
+bash scripts/end_work.sh
 bash scripts/verify_all.sh
 bash scripts/check_firestore_drift.sh
 \`\`\`

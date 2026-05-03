@@ -53,6 +53,15 @@ created: 2026-05-04
 | Changelog 生成 | `bash scripts/generate_changelog.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\generate_changelog.ps1` |
 | MCP filesystem 設定生成 | `bash scripts/render_mcp_filesystem_config.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\render_mcp_filesystem_config.ps1` |
 
+## レポート
+
+| 出力 | 生成コマンド |
+| --- | --- |
+| `tmp/status_report.md` | `bash scripts/generate_status_report.sh` |
+| `tmp/changelog.md` | `bash scripts/generate_changelog.sh` |
+| `tmp/ai_context.md` | `bash scripts/generate_ai_context.sh` |
+| `tmp/mcp.filesystem.json` | `bash scripts/render_mcp_filesystem_config.sh` |
+
 ## Firestore 書き込み
 
 | 目的 | コマンド |

@@ -50,3 +50,22 @@ tmp/status_report.md
 - DataLink collection ごとの Markdown 件数
 - Firestore dry-run document 件数
 - 主要検証コマンド
+
+## DataLink 集計
+
+| collection | note |
+| --- | --- |
+| decisions | `index.md` は Markdown 件数に含まれるが Firestore dry-run からは除外する |
+| producers | Firestore 1:1 document |
+| products | Firestore 1:1 document |
+| projects | Firestore 1:1 document |
+| logs | Firestore 1:1 document |
+
+## 主要検証コマンド
+
+```bash
+bash scripts/start_work.sh
+bash scripts/end_work.sh
+bash scripts/verify_all.sh
+bash scripts/check_firestore_drift.sh
+```
