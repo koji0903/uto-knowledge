@@ -6,9 +6,42 @@
 
 1. `README.md`
 2. `05_MOC/00_system_overview.md`
-3. `05_MOC/08_ai_write_policy.md`
-4. `05_MOC/09_sync_log_design.md`
-5. `05_MOC/01_datalink_frontmatter.md`
+3. **`mcp/ai_profiles/README.md`** ← NEW: AI 毎の役割定義
+4. **`mcp/ai_profiles/task_router.md`** ← NEW: タスク振り分けロジック
+5. `05_MOC/08_ai_write_policy.md`
+6. `05_MOC/09_sync_log_design.md`
+7. `05_MOC/01_datalink_frontmatter.md`
+
+## マルチエージェント（複数 AI）活用
+
+複数の AI（Claude、Gemini、ChatGPT）を効率的に使い分けるためのガイド。
+
+### AI 毎の役割
+
+| AI | 強み | 推奨タスク |
+|-----|------|---------|
+| **Claude** | 深い分析、複雑な推論 | 意思決定支援、設計検討、矛盾検出 |
+| **Gemini** | 検索、最新情報、マルチモーダル | 情報収集、外部データ連携、Google Workspace |
+| **ChatGPT** | コード、実装、ドキュメント生成 | プログラミング、スクリプト、ドキュメント |
+
+詳細は以下を参照：
+
+- `mcp/ai_profiles/claude_profile.md` — Claude 詳細プロフィール
+- `mcp/ai_profiles/gemini_profile.md` — Gemini 詳細プロフィール
+- `mcp/ai_profiles/chatgpt_profile.md` — ChatGPT 詳細プロフィール
+- `mcp/ai_profiles/task_router.md` — タスク判定フロー
+
+### タスク振り分け方法
+
+```
+1. mcp/ai_profiles/task_router.md で判定フローを確認
+2. 最適な AI（リード AI）を決定
+3. 必要に応じてサポート AI を指定
+4. 複合タスクの場合は流れを計画
+5. 実施後に 04_DataLink/logs に記録
+```
+
+---
 
 ## 書き込みルール
 
