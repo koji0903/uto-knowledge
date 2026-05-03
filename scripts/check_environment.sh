@@ -27,6 +27,9 @@ bash scripts/create_drive_structure.sh --dry-run >/dev/null
 echo "checking mcp filesystem render..."
 bash scripts/render_mcp_filesystem_config.sh >/dev/null
 
+echo "generating status report..."
+bash scripts/generate_status_report.sh >/dev/null
+
 echo "checking git..."
 git rev-parse --is-inside-work-tree >/dev/null
 git status --short --branch

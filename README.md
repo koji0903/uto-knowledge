@@ -67,6 +67,12 @@ Firestore drift check:
 bash scripts/check_firestore_drift.sh
 ```
 
+状態レポート生成:
+
+```bash
+bash scripts/generate_status_report.sh
+```
+
 GitHub Actions では外部接続なしの構造検証を実行する。
 
 MCP filesystem 設定生成:

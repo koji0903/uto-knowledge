@@ -24,6 +24,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\create_drive_structure.ps1" 
 Write-Output "checking mcp filesystem render..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\render_mcp_filesystem_config.ps1" | Out-Null
 
+Write-Output "generating status report..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\generate_status_report.ps1" | Out-Null
+
 Write-Output "checking git..."
 git rev-parse --is-inside-work-tree | Out-Null
 git status --short --branch

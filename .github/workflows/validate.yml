@@ -47,3 +47,6 @@ jobs:
 
       - name: Render MCP filesystem config
         run: bash scripts/render_mcp_filesystem_config.sh
+
+      - name: Generate status report
+        run: bash scripts/generate_status_report.sh
