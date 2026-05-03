@@ -60,6 +60,7 @@ $requiredFiles = @(
   "05_MOC/16_mcp_client_setup.md",
   "05_MOC/17_restore_runbook.md",
   "05_MOC/18_ci_validation.md",
+  "05_MOC/19_datalink_validation.md",
   "06_Templates/template_base.md",
   "06_Templates/template_project.md",
   "06_Templates/template_daily.md",
@@ -95,7 +96,10 @@ $requiredFiles = @(
   "scripts/render_mcp_filesystem_config.sh",
   "scripts/render_mcp_filesystem_config.ps1",
   "scripts/bootstrap_local_env.sh",
-  "scripts/bootstrap_local_env.ps1"
+  "scripts/bootstrap_local_env.ps1",
+  "scripts/validate_datalink_frontmatter.mjs",
+  "scripts/validate_datalink_frontmatter.sh",
+  "scripts/validate_datalink_frontmatter.ps1"
 )
 
 foreach ($file in $requiredFiles) {

@@ -12,6 +12,9 @@ bash scripts/validate_mcp_config.sh
 echo "checking datalink samples..."
 bash scripts/validate_datalink_samples.sh
 
+echo "checking datalink frontmatter..."
+bash scripts/validate_datalink_frontmatter.sh
+
 echo "checking firestore dry-run..."
 bash scripts/datalink_to_firestore_dry_run.sh --out tmp/datalink.firestore.json
 

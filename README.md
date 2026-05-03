@@ -43,6 +43,12 @@ Obsidian を中心に、GitHub、Firestore、Google Drive、MCP を併用する�
 bash scripts/check_environment.sh
 ```
 
+DataLink frontmatter 検証:
+
+```bash
+bash scripts/validate_datalink_frontmatter.sh
+```
+
 ローカル環境 bootstrap:
 
 ```bash

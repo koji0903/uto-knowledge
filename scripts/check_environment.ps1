@@ -9,6 +9,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\validate_mcp_config.ps1"
 Write-Output "checking datalink samples..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_samples.ps1"
 
+Write-Output "checking datalink frontmatter..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_frontmatter.ps1"
+
 Write-Output "checking firestore dry-run..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\datalink_to_firestore_dry_run.ps1" --out "tmp/datalink.firestore.json"
 
