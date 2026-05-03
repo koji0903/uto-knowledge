@@ -90,6 +90,7 @@ tmp/mcp.filesystem.json
 - Collections: `producers`, `products`, `projects`, `logs`
 - Apply は必ず dry-run 後に行う
 - 本番投入前に `05_MOC/25_production_data_gate.md` を確認する
+- DataLink ノート作成は `scripts/scaffold_datalink_note.sh` を優先する
 
 ```bash
 bash scripts/datalink_to_firestore_apply.sh --dry-run

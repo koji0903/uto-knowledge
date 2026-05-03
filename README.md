@@ -92,6 +92,12 @@ bash scripts/generate_changelog.sh
 06_Templates/template_production_checklist.md
 ```
 
+DataLink ノート作成:
+
+```bash
+bash scripts/scaffold_datalink_note.sh --type project --id prj_002 --title "新規プロジェクト"
+```
+
 メンテナンス確認:
 
 ```bash

@@ -70,6 +70,7 @@ required_files=(
   "05_MOC/23_security_check.md"
   "05_MOC/24_changelog.md"
   "05_MOC/25_production_data_gate.md"
+  "05_MOC/26_datalink_scaffold.md"
   "06_Templates/template_base.md"
   "06_Templates/template_project.md"
   "06_Templates/template_daily.md"
@@ -124,6 +125,9 @@ required_files=(
   "scripts/generate_changelog.mjs"
   "scripts/generate_changelog.sh"
   "scripts/generate_changelog.ps1"
+  "scripts/scaffold_datalink_note.mjs"
+  "scripts/scaffold_datalink_note.sh"
+  "scripts/scaffold_datalink_note.ps1"
 )
 
 for file in "${required_files[@]}"; do
