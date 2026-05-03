@@ -19,6 +19,8 @@ created: 2026-05-03
 | AGENTS.md | AI エージェント向け運用ガイド |
 | scripts/start_work.sh | Mac / Linux 向け作業開始チェック |
 | scripts/start_work.ps1 | Windows PowerShell 向け作業開始チェック |
+| scripts/end_work.sh | Mac / Linux 向け作業終了チェック |
+| scripts/end_work.ps1 | Windows PowerShell 向け作業終了チェック |
 | scripts/verify_all.sh | Mac / Linux 向け総合検証 |
 | scripts/verify_all.ps1 | Windows PowerShell 向け総合検証 |
 | 05_MOC/32_command_catalog.md | 運用コマンド一覧 |

@@ -51,6 +51,12 @@ bash scripts/check_environment.sh
 bash scripts/start_work.sh
 ```
 
+作業終了:
+
+```bash
+bash scripts/end_work.sh
+```
+
 DataLink frontmatter 検証:
 
 ```bash
