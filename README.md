@@ -79,6 +79,12 @@ bash scripts/check_firestore_drift.sh
 bash scripts/generate_status_report.sh
 ```
 
+Changelog 生成:
+
+```bash
+bash scripts/generate_changelog.sh
+```
+
 メンテナンス確認:
 
 ```bash

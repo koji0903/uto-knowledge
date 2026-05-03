@@ -19,5 +19,6 @@ case "$mode" in
 esac
 
 bash scripts/generate_status_report.sh >/dev/null
+bash scripts/generate_changelog.sh >/dev/null
 
 echo "maintenance check completed: $mode"

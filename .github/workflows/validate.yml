@@ -53,3 +53,6 @@ jobs:
 
       - name: Generate status report
         run: bash scripts/generate_status_report.sh
+
+      - name: Generate changelog
+        run: bash scripts/generate_changelog.sh

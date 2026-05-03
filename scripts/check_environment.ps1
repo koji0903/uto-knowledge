@@ -30,6 +30,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\render_mcp_filesystem_config
 Write-Output "generating status report..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\generate_status_report.ps1" | Out-Null
 
+Write-Output "generating changelog..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\generate_changelog.ps1" | Out-Null
+
 Write-Output "checking git..."
 git rev-parse --is-inside-work-tree | Out-Null
 git status --short --branch

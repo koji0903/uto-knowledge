@@ -65,6 +65,7 @@ $requiredFiles = @(
   "05_MOC/21_status_report.md",
   "05_MOC/22_maintenance_runbook.md",
   "05_MOC/23_security_check.md",
+  "05_MOC/24_changelog.md",
   "06_Templates/template_base.md",
   "06_Templates/template_project.md",
   "06_Templates/template_daily.md",
@@ -114,7 +115,10 @@ $requiredFiles = @(
   "scripts/maintenance_check.ps1",
   "scripts/security_check.mjs",
   "scripts/security_check.sh",
-  "scripts/security_check.ps1"
+  "scripts/security_check.ps1",
+  "scripts/generate_changelog.mjs",
+  "scripts/generate_changelog.sh",
+  "scripts/generate_changelog.ps1"
 )
 
 foreach ($file in $requiredFiles) {

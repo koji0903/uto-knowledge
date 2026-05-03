@@ -33,6 +33,9 @@ bash scripts/render_mcp_filesystem_config.sh >/dev/null
 echo "generating status report..."
 bash scripts/generate_status_report.sh >/dev/null
 
+echo "generating changelog..."
+bash scripts/generate_changelog.sh >/dev/null
+
 echo "checking git..."
 git rev-parse --is-inside-work-tree >/dev/null
 git status --short --branch
