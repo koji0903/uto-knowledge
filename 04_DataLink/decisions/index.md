@@ -18,7 +18,8 @@ uto-knowledge で行われた重要な意思決定の記録。
 | **Firestore collection** | `decisions` |
 | **ファイル名規則** | `decision_YYYYMMDD_NNN.md` |
 | **frontmatter** | 標準化（status, approved_by など） |
-| **テンプレート** | `06_Templates/template_decision_log.md` |
+| **テンプレート** | `06_Templates/template_datalink_decision.md` |
+| **作成コマンド** | `bash scripts/scaffold_datalink_note.sh --type decision --id dec_YYYYMMDD_NNN --title "決定名"` |
 
 ## 全決定一覧
 
@@ -97,11 +98,24 @@ uto-knowledge で行われた重要な意思決定の記録。
 
 ## 新しい決定を作成する際
 
-1. `06_Templates/template_decision_log.md` をコピー
-2. ファイル名を `decision_YYYYMMDD_NNN.md` に変更
-3. frontmatter を更新
-4. 内容を記入
-5. このインデックスに追加
+### Mac / Linux
+
+```bash
+bash scripts/scaffold_datalink_note.sh --type decision --id dec_20260504_001 --title "新しい判断"
+```
+
+### Windows PowerShell
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\scaffold_datalink_note.ps1 --type decision --id dec_20260504_001 --title "新しい判断"
+```
+
+### 作成後
+
+1. frontmatter の `status`、`approved_by`、`approved_date` を必要に応じて更新
+2. 背景、候補案、判断理由、リスクを記入
+3. Firestore 反映前に dry-run と drift check を行う
+4. このインデックスに要約を追加
 
 ---
 

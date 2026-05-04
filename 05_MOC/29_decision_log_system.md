@@ -9,6 +9,15 @@ created: 2026-05-03
 
 重要な意思決定を記録・追跡・学習するシステム。
 
+## 運用入口
+
+Obsidian 上では `04_DataLink/decisions/index.md` を入口にする。
+新しい意思決定ログは、テンプレートを手でコピーせず、DataLink scaffold コマンドで作成する。
+
+```bash
+bash scripts/scaffold_datalink_note.sh --type decision --id dec_20260504_001 --title "新しい判断"
+```
+
 ## 目的
 
 - **決定の根拠を残す** — なぜこの判断をしたのか
@@ -48,8 +57,8 @@ created: 2026-05-03
 ```
 04_DataLink/decisions/
 ├── index.md                    — 全決定のインデックス
-├── decision_001.md             — 決定ログ（月日+通番）
-├── decision_002.md
+├── decision_20260503_001.md    — 決定ログ（月日+通番）
+├── decision_20260504_001.md
 └── ...
 ```
 

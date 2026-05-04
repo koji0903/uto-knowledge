@@ -13,5 +13,6 @@ created: 2026-05-04
 
 - `00_system_overview.md`
 - `15_operational_entrypoint.md`
+- `29_decision_log_system.md`
 - `32_command_catalog.md`
 - `35_japanese_naming_map.md`
