@@ -7,52 +7,127 @@
       "title": "ホーム"
     },
     {
-      "type": "folder",
+      "type": "group",
       "ctime": 1777852800000,
-      "path": "00_Inbox",
-      "title": "受信箱"
+      "title": "主要フォルダ",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "00_Inbox/index.md",
+          "title": "受信箱"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "01_Daily/index.md",
+          "title": "日次ログ"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "02_Project/index.md",
+          "title": "プロジェクト"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "03_Knowledge/index.md",
+          "title": "知識"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "04_DataLink/index.md",
+          "title": "データ連携"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "05_MOC/index.md",
+          "title": "構造マップ"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "06_Templates/index.md",
+          "title": "テンプレート"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "99_Archive/index.md",
+          "title": "アーカイブ"
+        }
+      ]
     },
     {
-      "type": "folder",
+      "type": "group",
       "ctime": 1777852800000,
-      "path": "01_Daily",
-      "title": "日次ログ"
+      "title": "データ連携",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "04_DataLink/decisions/index.md",
+          "title": "意思決定"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "04_DataLink/producers/index.md",
+          "title": "生産者"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "04_DataLink/products/index.md",
+          "title": "商品"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "04_DataLink/projects/index.md",
+          "title": "プロジェクト"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "04_DataLink/logs/index.md",
+          "title": "同期ログ"
+        }
+      ]
     },
     {
-      "type": "folder",
+      "type": "group",
       "ctime": 1777852800000,
-      "path": "02_Project",
-      "title": "プロジェクト"
-    },
-    {
-      "type": "folder",
-      "ctime": 1777852800000,
-      "path": "03_Knowledge",
-      "title": "知識"
-    },
-    {
-      "type": "folder",
-      "ctime": 1777852800000,
-      "path": "04_DataLink",
-      "title": "データ連携"
-    },
-    {
-      "type": "folder",
-      "ctime": 1777852800000,
-      "path": "05_MOC",
-      "title": "構造マップ"
-    },
-    {
-      "type": "folder",
-      "ctime": 1777852800000,
-      "path": "06_Templates",
-      "title": "テンプレート"
-    },
-    {
-      "type": "folder",
-      "ctime": 1777852800000,
-      "path": "99_Archive",
-      "title": "アーカイブ"
+      "title": "運用",
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "05_MOC/32_command_catalog.md",
+          "title": "コマンドカタログ"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "05_MOC/35_japanese_naming_map.md",
+          "title": "日本語運用名対応表"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "05_MOC/33_start_work.md",
+          "title": "作業開始"
+        },
+        {
+          "type": "file",
+          "ctime": 1777852800000,
+          "path": "05_MOC/34_end_work.md",
+          "title": "作業終了"
+        }
+      ]
     }
   ]
 }
