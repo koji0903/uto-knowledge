@@ -110,6 +110,7 @@ required_files=(
   "06_Templates/template_datalink_product.md"
   "06_Templates/template_datalink_project.md"
   "06_Templates/template_datalink_log.md"
+  "06_Templates/template_datalink_decision.md"
   "06_Templates/template_ai_sync_log.md"
   "06_Templates/template_production_checklist.md"
   "06_Templates/index.md"

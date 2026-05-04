@@ -13,3 +13,4 @@ Obsidian ノート、DataLink ノート、同期ログ、意思決定ログの�
 
 - テンプレート名はスクリプトから参照されるため変更しない
 - 本文や見出しは日本語化してよい
+- DataLink の意思決定ログ生成には `template_datalink_decision.md` を使う

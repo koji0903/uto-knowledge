@@ -17,6 +17,15 @@ const title = getArg("--title") || id;
 const date = getArg("--date") || new Date().toISOString().slice(0, 10);
 
 const config = {
+  decision: {
+    collection: "decisions",
+    folder: "04_DataLink/decisions",
+    template: "06_Templates/template_datalink_decision.md",
+    idPrefix: "dec_",
+    fileName(id) {
+      return `${id.replace(/^dec_/, "decision_")}.md`;
+    },
+  },
   producer: {
     collection: "producers",
     folder: "04_DataLink/producers",
@@ -49,7 +58,7 @@ function usage() {
     "  node scripts/scaffold_datalink_note.mjs --type project --id prj_002 --title \"Project Name\"",
     "",
     "Types:",
-    "  producer, product, project, log",
+    "  decision, producer, product, project, log",
   ].join("\n");
 }
 
@@ -66,7 +75,7 @@ if (!id.startsWith(selected.idPrefix)) {
 }
 
 const templatePath = path.join(vaultRoot, selected.template);
-const fileName = `${id}.md`;
+const fileName = selected.fileName ? selected.fileName(id) : `${id}.md`;
 const outputPath = path.join(vaultRoot, selected.folder, fileName);
 
 if (fs.existsSync(outputPath)) {
@@ -83,13 +92,18 @@ content = content
   .replace(/^firestore_collection: .*/m, `firestore_collection: ${selected.collection}`);
 
 const titleReplacements = {
+  decision: "# 決定: 決定内容",
   producer: "# 生産者名",
   product: "# 商品名",
   project: "# プロジェクト名",
   log: "# 活動ログ",
 };
 
-content = content.replace(titleReplacements[type], `# ${title}`);
+if (type === "decision") {
+  content = content.replace(titleReplacements[type], `# 決定: ${title}`);
+} else {
+  content = content.replace(titleReplacements[type], `# ${title}`);
+}
 
 fs.mkdirSync(path.dirname(outputPath), { recursive: true });
 fs.writeFileSync(outputPath, content, "utf8");

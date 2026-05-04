@@ -35,6 +35,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\scaffold_datalink_note.ps1 --
 
 | type | id prefix | output folder |
 | --- | --- | --- |
+| decision | dec_ | 04_DataLink/decisions |
 | producer | prodcr_ | 04_DataLink/producers |
 | product | prod_ | 04_DataLink/products |
 | project | prj_ | 04_DataLink/projects |

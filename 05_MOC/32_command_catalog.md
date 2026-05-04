@@ -48,6 +48,7 @@ created: 2026-05-04
 | 目的 | Mac / Linux | Windows PowerShell |
 | --- | --- | --- |
 | DataLink ノート作成 | `bash scripts/scaffold_datalink_note.sh --type project --id prj_002 --title "新規プロジェクト"` | `powershell -ExecutionPolicy Bypass -File .\scripts\scaffold_datalink_note.ps1 --type project --id prj_002 --title "新規プロジェクト"` |
+| 意思決定ログ作成 | `bash scripts/scaffold_datalink_note.sh --type decision --id dec_20260504_001 --title "新しい判断"` | `powershell -ExecutionPolicy Bypass -File .\scripts\scaffold_datalink_note.ps1 --type decision --id dec_20260504_001 --title "新しい判断"` |
 | 同期ログ作成 | `bash scripts/create_sync_log.sh --event git_push --target-system github --target-id main --summary "GitHub に変更を push"` | `powershell -ExecutionPolicy Bypass -File .\scripts\create_sync_log.ps1 --event git_push --target-system github --target-id main --summary "GitHub に変更を push"` |
 | 状態レポート生成 | `bash scripts/generate_status_report.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\generate_status_report.ps1` |
 | Changelog 生成 | `bash scripts/generate_changelog.sh` | `powershell -ExecutionPolicy Bypass -File .\scripts\generate_changelog.ps1` |
