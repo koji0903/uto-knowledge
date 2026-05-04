@@ -32,8 +32,10 @@ done
 required_files=(
   ".gitignore"
   ".github/workflows/validate.yml"
+  ".obsidian/bookmarks.json"
   "README.md"
   "AGENTS.md"
+  "ホーム.md"
   "00_Inbox/index.md"
   "01_Daily/index.md"
   "02_Project/index.md"

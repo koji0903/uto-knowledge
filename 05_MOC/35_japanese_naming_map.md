@@ -59,3 +59,14 @@ created: 2026-05-04
 - `firestore_collection` と `firestore_doc_id` は英数字のまま維持する
 - スクリプト名は英数字のまま維持する
 - 日本語表示を増やす場合は、まず `index.md` または Markdown 本文へ追加する
+
+## Obsidian 上の見え方
+
+ファイルツリーは実フォルダ名を表示するため、英数字のまま見える。
+日本語表示は以下を入口にする。
+
+| 入口 | 用途 |
+| --- | --- |
+| `ホーム.md` | Vault 全体の日本語ホーム |
+| `.obsidian/bookmarks.json` | 左サイドバー Bookmarks の日本語表示 |
+| 各フォルダの `index.md` | フォルダごとの日本語説明 |
