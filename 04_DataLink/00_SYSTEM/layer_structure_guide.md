@@ -140,6 +140,8 @@ tags: [宇土OS, layer-structure, architecture, integration]
 
 **生活に直結する政策群**
 
+[[L6_policy_layer|詳細を見る]]
+
 ### L6の主要政策
 
 #### 🍼 子育て・教育政策
@@ -239,7 +241,8 @@ L7（ビジョン）
 | L3補論 | [[rmo_os_specification]] | RMO OS 完全仕様書 |
 | L4 | [[L4_finance_layer]] | 財源戦略 |
 | L5 | [[L5_infrastructure_layer]] | インフラ最適化 |
-| L6・L7 | [[vision_uto_os]] | 政策・ビジョン統合 |
+| L6 | [[L6_policy_layer]] | 政策パッケージ |
+| L7 | [[vision_uto_os]] | 2040年ビジョン |
 
 ## 🏢 統合OS層（市政機能別）
 

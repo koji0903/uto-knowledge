@@ -29,14 +29,15 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 
 | 内容 | ファイル |
 |------|---------|
-| **全体構造図** | [[layer_structure_guide\|🟥 8層構造統合ガイド]] |
-| **宇土市の現実** | [[L0_premise_layer\|L0 前提レイヤ]] |
-| **市の資産データ** | [[L1_fact_layer\|L1 事実レイヤ]] |
-| **構造的課題** | [[L2_issue_layer\|L2 課題レイヤ]] |
-| **財源戦略** | [[L4_finance_layer\|L4 財源レイヤ]] |
-| **地域商社実装** | [[utomachi_100_store_specification\|ウトマチ百貨店 仕様書]] |
-| **移住・定住** | [[relocation_os_specification\|移住・定住OS 仕様書]] |
-| **議会情報** | [[01_ASSEMBLY/\|宇土市議会・議員情報]] |
+| **全体構造図** | [[layer_structure_guide|8層構造統合ガイド]] |
+| **宇土市の現実** | [[L0_premise_layer|L0 前提レイヤ]] |
+| **市の資産データ** | [[L1_fact_layer|L1 事実レイヤ]] |
+| **構造的課題** | [[L2_issue_layer|L2 課題レイヤ]] |
+| **財源戦略** | [[L4_finance_layer|L4 財源レイヤ]] |
+| **政策設計** | [[L6_policy_layer|L6 政策レイヤ]] |
+| **地域商社実装** | [[utomachi_100_store_specification|ウトマチ百貨店 仕様書]] |
+| **移住・定住** | [[relocation_os_specification|移住・定住OS 仕様書]] |
+| **議会情報** | [[04_DataLink/01_ASSEMBLY/index|宇土市議会・議員情報]] |
 
 ---
 

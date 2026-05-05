@@ -45,7 +45,7 @@ const gitLog = run("git", ["log", "--oneline", `--max-count=${limit}`])
   .filter(Boolean);
 
 const logDir = path.join(vaultRoot, "04_DataLink/logs");
-const operationLogs = fs.readdirSync(logDir, { withFileTypes: true })
+const operationLogs = fs.existsSync(logDir) ? fs.readdirSync(logDir, { withFileTypes: true })
   .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
   .map((entry) => {
     const file = `04_DataLink/logs/${entry.name}`;
@@ -58,7 +58,7 @@ const operationLogs = fs.readdirSync(logDir, { withFileTypes: true })
       created: frontmatter.created || "",
     };
   })
-  .sort((a, b) => `${b.created}:${b.id}`.localeCompare(`${a.created}:${a.id}`));
+  .sort((a, b) => `${b.created}:${b.id}`.localeCompare(`${a.created}:${a.id}`)) : [];
 
 const report = `# uto-knowledge Changelog
 

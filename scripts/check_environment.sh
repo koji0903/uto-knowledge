@@ -18,6 +18,9 @@ bash scripts/validate_datalink_samples.sh
 echo "checking datalink frontmatter..."
 bash scripts/validate_datalink_frontmatter.sh
 
+echo "checking obsidian links..."
+bash scripts/validate_obsidian_links.sh
+
 echo "checking firestore dry-run..."
 bash scripts/datalink_to_firestore_dry_run.sh --out tmp/datalink.firestore.json
 

@@ -5,6 +5,18 @@
   },
   "folders": [
     {
+      "name": "00_SYSTEM",
+      "env": "GOOGLE_DRIVE_SYSTEM_FOLDER_ID",
+      "firestoreCollection": "",
+      "obsidianFolder": "04_DataLink/00_SYSTEM"
+    },
+    {
+      "name": "01_ASSEMBLY",
+      "env": "GOOGLE_DRIVE_ASSEMBLY_FOLDER_ID",
+      "firestoreCollection": "",
+      "obsidianFolder": "04_DataLink/01_ASSEMBLY"
+    },
+    {
       "name": "producers",
       "env": "GOOGLE_DRIVE_PRODUCERS_FOLDER_ID",
       "firestoreCollection": "producers",

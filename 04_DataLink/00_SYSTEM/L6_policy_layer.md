@@ -1,0 +1,91 @@
+---
+id: layer_L6_policy_20260506
+type: system_layer
+title: 宇土OS L6 政策レイヤ
+layer: 6
+created: 2026-05-06
+status: active
+tags: [宇土OS, policy-layer, public-policy, implementation]
+---
+
+# L6 政策レイヤ（Policy Layer）
+
+## レイヤの役割
+
+L6は、L0からL5までで整理した制約、事実、課題、組織、財源、インフラを、市民生活に届く政策へ変換する層。
+
+政策を単独の施策として並べるのではなく、下位レイヤの根拠と上位のビジョンを接続する。
+
+```
+L0-L2: 現実と課題
+L3: 実行組織
+L4: 財源
+L5: インフラ
+  ↓
+L6: 政策パッケージ
+  ↓
+L7: 選ばれるまち
+```
+
+## 基本方針
+
+- 課題起点で政策を設計する
+- 政策ごとに財源、実行組織、評価指標を持つ
+- 子育て、教育、産業、移住を分断せず連動させる
+- 施設統廃合や財政制約を前提に、サービス品質を高める
+
+## 主要政策パッケージ
+
+| 政策領域 | 対応OS | 主な接続先 |
+| --- | --- | --- |
+| 子育て | [[childcare_os_specification]] | [[vision_uto_os]], [[L5_infrastructure_layer]] |
+| 教育 | [[education_os_specification]] | [[L5_infrastructure_layer]], [[rmo_os_specification]] |
+| 産業 | [[industry_os_specification]] | [[L4_finance_layer]], [[utomachi_100_store_specification]] |
+| 移住・定住 | [[relocation_os_specification]] | [[L2_issue_layer]], [[industry_os_specification]] |
+| 地域運営 | [[rmo_os_specification]] | [[L3_organization_pfu]], [[industry_rmo_connectivity]] |
+
+## 政策設計テンプレート
+
+政策を追加するときは、最低限以下を記録する。
+
+| 項目 | 内容 |
+| --- | --- |
+| 対応課題 | どのL2課題を解くか |
+| 実行主体 | どのPFUまたは担当組織が動くか |
+| 財源 | L4のどの財源を使うか |
+| インフラ | L5のどの施設・仕組みを使うか |
+| KPI | 何をもって成果とするか |
+| 関連OS | どの機能OSと連動するか |
+
+## 優先順位
+
+### 1. 財政制約に直結する政策
+
+- 公共施設再編
+- 学校統廃合と跡地活用
+- 自主財源化につながる産業政策
+
+### 2. 人口減少を緩和する政策
+
+- 子育て支援の品質向上
+- 教育環境の再設計
+- 空き家と仕事を組み合わせた移住支援
+
+### 3. 市民参加を高める政策
+
+- RMOを通じた地域運営
+- PFUによる課題別参加
+- 議会・行政・市民が同じ構造で議論する仕組み
+
+## 関連ドキュメント
+
+- [[layer_structure_guide]] - 8層構造の入口
+- [[L2_issue_layer]] - 政策が解く課題
+- [[L3_organization_pfu]] - 政策を実行する組織
+- [[L4_finance_layer]] - 政策を支える財源
+- [[L5_infrastructure_layer]] - 政策を実装する施設・基盤
+- [[vision_uto_os]] - 政策の到達点
+
+---
+
+**最終更新:** 2026-05-06

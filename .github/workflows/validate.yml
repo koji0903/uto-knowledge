@@ -42,6 +42,9 @@ jobs:
       - name: Validate DataLink frontmatter
         run: bash scripts/validate_datalink_frontmatter.sh
 
+      - name: Validate Obsidian links
+        run: bash scripts/validate_obsidian_links.sh
+
       - name: Firestore dry-run export
         run: bash scripts/datalink_to_firestore_dry_run.sh --out tmp/datalink.firestore.json
 

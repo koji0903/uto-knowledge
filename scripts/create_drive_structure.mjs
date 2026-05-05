@@ -39,6 +39,37 @@ function getAccessToken() {
   }
 }
 
+async function findFolder(token, name, parentId = "") {
+  const query = [
+    "mimeType = 'application/vnd.google-apps.folder'",
+    "trashed = false",
+    `name = '${name.replaceAll("'", "\\'")}'`,
+  ];
+
+  if (parentId) {
+    query.push(`'${parentId}' in parents`);
+  }
+
+  const url = new URL("https://www.googleapis.com/drive/v3/files");
+  url.searchParams.set("q", query.join(" and "));
+  url.searchParams.set("fields", "files(id,name)");
+  url.searchParams.set("pageSize", "1");
+
+  const response = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+
+  if (!response.ok) {
+    const responseBody = await response.text();
+    throw new Error(`failed to search Drive folder ${name}: ${response.status} ${responseBody}`);
+  }
+
+  const result = await response.json();
+  return result.files?.[0] || null;
+}
+
 async function createFolder(token, name, parentId = "") {
   const body = {
     name,
@@ -66,6 +97,25 @@ async function createFolder(token, name, parentId = "") {
   return response.json();
 }
 
+async function ensureFolder(token, name, parentId = "", envName = "") {
+  const envId = envName ? process.env[envName] || "" : "";
+
+  if (envId) {
+    console.log(`using folder from ${envName}: ${name} (${envId})`);
+    return { id: envId, name };
+  }
+
+  const existing = await findFolder(token, name, parentId);
+  if (existing) {
+    console.log(`found folder: ${name} (${existing.id})`);
+    return existing;
+  }
+
+  const created = await createFolder(token, name, parentId);
+  console.log(`created folder: ${name} (${created.id})`);
+  return created;
+}
+
 async function main() {
   if (args.includes("--help")) {
     console.log(usage());
@@ -89,15 +139,13 @@ async function main() {
   }
 
   const token = getAccessToken();
-  const root = await createFolder(token, structure.root.name);
-  console.log(`created root folder: ${structure.root.name} (${root.id})`);
+  const root = await ensureFolder(token, structure.root.name, "", structure.root.env);
 
   for (const folder of structure.folders) {
-    const created = await createFolder(token, folder.name, root.id);
-    console.log(`created child folder: ${folder.name} (${created.id})`);
+    await ensureFolder(token, folder.name, root.id, folder.env);
   }
 
-  console.log("drive structure creation completed");
+  console.log("drive structure update completed");
   console.log("Update .env with the folder IDs printed above.");
 }
 
