@@ -41,6 +41,17 @@ tags: [chatgpt, business, group-C]
 
 ---
 
+
+---
+
+## 🔗 関連ファイル
+
+- [[know_26_1IMCU|chatgpt_import_20250817_business_020]] (相似度: 60%)
+- [[know_26_3TI9I|chatgpt_import_20230502_business_033]] (相似度: 60%)
+- [[know_26_46JK3|chatgpt_import_20250901_business_015]] (相似度: 60%)
+- [[know_26_5PETX|chatgpt_import_20251112_business_006]] (相似度: 60%)
+- [[know_26_8GC9S|chatgpt_import_20251029_business_007]] (相似度: 60%)
+
 ```json
 {
   "title": "マーケティング戦略アドバイス",
