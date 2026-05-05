@@ -1,169 +1,43 @@
-# uto-knowledge
+# 宇土OS ナレッジベース
 
-[![Validate Vault](https://github.com/koji0903/uto-knowledge/actions/workflows/validate.yml/badge.svg)](https://github.com/koji0903/uto-knowledge/actions/workflows/validate.yml)
+Obsidian + GitHub + Firestore による統合知識管理環境
 
-Obsidian を中心に、GitHub、Firestore、Google Drive、MCP を併用するナレッジ管理環境。
+## 📌 コンセプト
 
-## 目的
+**宇土市の課題を「8層構造＋機能OS」で体系化・実装するためのナレッジベース**
 
-- Obsidian を思考 OS として使う
-- Firestore を構造化データ OS として使う
-- Google Drive をファイル実体の保存先として使う
-- MCP 経由で Claude / Gemini / ChatGPT から共通参照できる状態にする
+- 層構造：L0（前提）→ L1（事実）→ L2（課題）→ L3（組織）→ L4（財源）→ L5（インフラ）→ L6（政策）→ L7（ビジョン）
+- 機能OS：RMO OS、子育てOS、教育OS、産業OS、移住・定住OS、ウトマチ百貨店
 
-## 構成
+## 📁 構成
 
-実パスは英数字のまま維持し、Obsidian 上の表示・説明は日本語名を併用する。対応表は `05_MOC/35_japanese_naming_map.md` を参照する。
-Obsidian では `ホーム.md` と Bookmarks の日本語名を入口にする。
+```
+04_DataLink/
+├── 00_SYSTEM/         - 宇土OS体系（層構造 + 6つの機能OS）
+└── 01_ASSEMBLY/       - 議会・議員情報
 
-| path | role |
-| --- | --- |
-| 00_Inbox | 未整理メモ、AI 下書き |
-| 01_Daily | 日次ログ |
-| 02_Project | 実行中プロジェクト |
-| 03_Knowledge | 横断知識 |
-| 04_DataLink | Firestore 対応ノート |
-| 05_MOC | 全体設計、運用ルール |
-| 06_Templates | Obsidian テンプレート |
-| 99_Archive | 過去資産 |
-| mcp | MCP 設定雛形 |
-| scripts | 検証、自動化スクリプト |
-
-## 外部連携
-
-| system | status |
-| --- | --- |
-| GitHub | connected |
-| Firestore | connected to `uto-os` |
-| Google Drive | `uto-knowledge-assets` created |
-| MCP | scaffolded |
-
-## 基本コマンド
-
-コマンド一覧は `05_MOC/32_command_catalog.md` に集約する。
-
-ローカル検証:
-
-```bash
-bash scripts/check_environment.sh
+その他
+├── ホーム.md          - Obsidian ホームページ
+└── README.md          - このファイル
 ```
 
-作業開始:
+## 🚀 はじめに
 
-```bash
-bash scripts/start_work.sh
-```
+**[[ホーム.md|ホーム]] → [[layer_structure_guide|宇土OS 8層構造]]** でナビゲーション開始
 
-作業終了:
+## 📊 核心ドキュメント
 
-```bash
-bash scripts/end_work.sh
-```
+| 内容 | ファイル |
+|------|---------|
+| **全体構造図** | [[layer_structure_guide\|🟥 8層構造統合ガイド]] |
+| **宇土市の現実** | [[L0_premise_layer\|L0 前提レイヤ]] |
+| **市の資産データ** | [[L1_fact_layer\|L1 事実レイヤ]] |
+| **構造的課題** | [[L2_issue_layer\|L2 課題レイヤ]] |
+| **財源戦略** | [[L4_finance_layer\|L4 財源レイヤ]] |
+| **地域商社実装** | [[utomachi_100_store_specification\|ウトマチ百貨店 仕様書]] |
+| **移住・定住** | [[relocation_os_specification\|移住・定住OS 仕様書]] |
+| **議会情報** | [[01_ASSEMBLY/\|宇土市議会・議員情報]] |
 
-DataLink frontmatter 検証:
+---
 
-```bash
-bash scripts/validate_datalink_frontmatter.sh
-```
-
-Security check:
-
-```bash
-bash scripts/security_check.sh
-```
-
-ローカル環境 bootstrap:
-
-```bash
-bash scripts/bootstrap_local_env.sh
-```
-
-外部連携まで含む検証:
-
-```bash
-bash scripts/verify_all.sh
-```
-
-Firestore drift check:
-
-```bash
-bash scripts/check_firestore_drift.sh
-```
-
-状態レポート生成:
-
-```bash
-bash scripts/generate_status_report.sh
-```
-
-Changelog 生成:
-
-```bash
-bash scripts/generate_changelog.sh
-```
-
-AI コンテキスト生成:
-
-```bash
-bash scripts/generate_ai_context.sh
-```
-
-同期ログ作成:
-
-```bash
-bash scripts/create_sync_log.sh --event git_push --target-system github --target-id main --summary "GitHub に変更を push"
-```
-
-本番 DataLink 投入前の確認:
-
-```text
-05_MOC/25_production_data_gate.md
-06_Templates/template_production_checklist.md
-```
-
-DataLink ノート作成:
-
-```bash
-bash scripts/scaffold_datalink_note.sh --type project --id prj_002 --title "新規プロジェクト"
-```
-
-メンテナンス確認:
-
-```bash
-bash scripts/maintenance_check.sh local
-bash scripts/maintenance_check.sh full
-```
-
-GitHub Actions では外部接続なしの構造検証を実行する。
-
-MCP filesystem 設定生成:
-
-```bash
-bash scripts/render_mcp_filesystem_config.sh
-```
-
-Firestore dry-run:
-
-```bash
-bash scripts/datalink_to_firestore_apply.sh --dry-run
-```
-
-Firestore apply:
-
-```bash
-bash scripts/datalink_to_firestore_apply.sh --apply
-```
-
-## 重要ルール
-
-- `.env` は Git 管理しない
-- `.firebaserc` は Git 管理しない
-- サービスアカウント JSON は Git 管理しない
-- AI の書き込みは `00_Inbox`、`01_Daily`、`04_DataLink/logs` から始める
-- Firestore / Drive 変更時は `04_DataLink/logs` にログを残す
-
-詳細は `05_MOC/08_ai_write_policy.md` を参照する。
-
-復元手順は `05_MOC/17_restore_runbook.md` を参照する。
-
-日常メンテナンスは `05_MOC/22_maintenance_runbook.md` を参照する。
+**最終更新:** 2026-05-06
