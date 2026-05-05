@@ -44,6 +44,18 @@ L7: 選ばれるまち
 | 移住・定住 | [[relocation_os_specification]] | [[L2_issue_layer]], [[industry_os_specification]] |
 | 地域運営 | [[rmo_os_specification]] | [[L3_organization_pfu]], [[industry_rmo_connectivity]] |
 
+## 議会・議員活動との接続
+
+政策レイヤは、議員活動、一般質問、委員会質疑、議会決定によって検証・更新される。
+
+| 議会活動 | 接続先 | 役割 |
+| --- | --- | --- |
+| 活動ログ | [[04_DataLink/01_ASSEMBLY/activities/index]] | 現場の課題、相談、視察を政策課題へ変換する |
+| 一般質問・質疑 | [[04_DataLink/01_ASSEMBLY/questions/index]] | 行政答弁を政策改善の材料にする |
+| 議会決定 | [[04_DataLink/01_ASSEMBLY/decisions/index]] | 条例、予算、決議を政策実装として記録する |
+| 宇土OS対応表 | [[04_DataLink/01_ASSEMBLY/policy_links/index]] | 議員活動とL0-L7、機能OSの関係を一覧化する |
+| 根拠資料 | [[04_DataLink/01_ASSEMBLY/evidence/index]] | 議事録、行政資料、公開情報を出典として管理する |
+
 ## 政策設計テンプレート
 
 政策を追加するときは、最低限以下を記録する。

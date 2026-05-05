@@ -23,6 +23,9 @@ tags: [議会, 議員, index]
 ## 関連リンク
 
 - [[../index|宇土市議会・議員情報]]
+- [[../activities/index|議員活動ログ]]
+- [[../questions/index|一般質問・質疑]]
+- [[../policy_links/index|宇土OS対応表]]
 - [[../committees/index|委員会情報]]
 - [[../sessions/index|本会議記録]]
 - [[../decisions/index|議会決定]]

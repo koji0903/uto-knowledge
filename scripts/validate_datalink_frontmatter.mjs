@@ -16,6 +16,7 @@ const folderRules = {
 
 const ignoredFolders = new Set([
   "00_SYSTEM",
+  "01_ASSEMBLY",
 ]);
 
 function parseValue(raw) {
