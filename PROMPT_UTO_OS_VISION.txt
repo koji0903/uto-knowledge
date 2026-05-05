@@ -1,0 +1,98 @@
+【宇土OS ビジョン書 生成プロンプト】
+
+以下の形式で「宇土OS」の統一的なビジョン・思想を出力してください。
+
+## 出力形式
+
+markdown ファイル形式で、以下の frontmatter + コンテンツを出力：
+
+---
+id: vision_uto_os_20260506
+type: system_vision
+title: 宇土OS プラットフォーム思想
+created: 2026-05-06
+status: active
+tags: [宇土OS, vision, system-design, platform]
+---
+
+# 宇土OS - 自治体デジタルプラットフォーム思想
+
+## 1. ビジョン（Vision）
+
+[宇土OS の根本的な目的・理想像を、3-5段落で説明]
+
+## 2. コア思想（Core Philosophy）
+
+- **原則1**: [具体的な原則と理由]
+- **原則2**: [具体的な原則と理由]
+- **原則3**: [具体的な原則と理由]
+
+## 3. システムアーキテクチャ（Architecture）
+
+### レイヤー構成
+
+```
+┌─────────────────────────────────────┐
+│ 00_System (System Layer)            │ ← ビジョン・戦略
+├─────────────────────────────────────┤
+│ 04_DataLink (Data/Integration Layer)│ ← Projects, Decisions, Logs
+├─────────────────────────────────────┤
+│ 03_Knowledge (Knowledge Base)       │ ← Business, Tech, General
+├─────────────────────────────────────┤
+│ 01_Inbox (Staging Area)             │ ← ChatGPT Imports等
+└─────────────────────────────────────┘
+```
+
+各レイヤーの役割：
+- **00_System**: ビジョン、戦略、意思決定
+- **04_DataLink**: 行政・議会プロジェクト、重要決定、実行ログ
+- **03_Knowledge**: ナレッジベース（ビジネス、技術、学習）
+- **01_Inbox**: 外部データの取り込み・分類ステージング
+
+## 4. 実装例（実際の運用）
+
+### Admin/Regional グループ（04_DataLink/projects）
+[宇土市議会議員活動、DX推進、市政課題の管理方法]
+
+### Business グループ（03_Knowledge/business）
+[マーケティング、地域活性化、事業戦略の知識]
+
+### Tech グループ（03_Knowledge/tech）
+[プログラミング、データ分析、システム構築の知識]
+
+## 5. 統合戦略（Integration Strategy）
+
+### ChatGPT データの役割
+[1,171件のChatGPT会話データが、宇土OSの各レイヤーにどう貢献するか]
+
+### 複数AI活用
+[ChatGPT, Claude, その他AIの役割分担と統合方法]
+
+### 外部システム連携
+[Google Drive, Firestore, Obsidian との関係性]
+
+## 6. 実行ロードマップ（Roadmap）
+
+- **フェーズ1（現在）**: 知識の統合と体系化
+- **フェーズ2**: 意思決定支援システムの構築
+- **フェーズ3**: 市民参加プラットフォーム化
+- **フェーズ4**: 自治体間連携プラットフォーム化
+
+## 7. 関連ドキュメント・ファイル
+
+- 04_DataLink/projects/index.md - 行政・議会プロジェクト一覧
+- 03_Knowledge/business/index.md - ビジネスナレッジ一覧
+- 03_Knowledge/tech/index.md - 技術ナレッジ一覧
+- CHATGPT_INTEGRATION_DASHBOARD.md - ChatGPT統合統計
+
+---
+
+## 留意点
+
+- Markdown 形式で出力してください
+- frontmatter は上記の形式を厳密に守ってください
+- 具体例は、宇土市の実際の課題・実績を含めてください
+- 次のステップ（実行方法）も明記してください
+
+出力後、このコンテンツは uto-knowledge の以下に配置されます：
+**04_DataLink/00_SYSTEM/vision_uto_os.md**
