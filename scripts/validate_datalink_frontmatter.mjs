@@ -10,9 +10,13 @@ const folderRules = {
   decisions: { type: "decision", idPrefix: "dec_" },
   producers: { type: "producer", idPrefix: "prodcr_" },
   products: { type: "product", idPrefix: "prod_" },
-  projects: { type: "project", idPrefix: "prj_" },
+  projects: { type: "project", idPrefix: ["prj_", "project_"] },
   logs: { type: "log", idPrefix: "log_" },
 };
+
+const ignoredFolders = new Set([
+  "00_SYSTEM",
+]);
 
 function parseValue(raw) {
   const value = raw.trim();
@@ -74,6 +78,7 @@ const files = listMarkdownFiles(dataLinkRoot);
 const seenFirestorePaths = new Map();
 let validatedCount = 0;
 let skippedIndexCount = 0;
+let skippedIgnoredCount = 0;
 
 for (const file of files) {
   const relativePath = path.relative(vaultRoot, file).replaceAll(path.sep, "/");
@@ -82,6 +87,11 @@ for (const file of files) {
 
   if (relativePath.startsWith("04_DataLink/") && relativePath.endsWith("/index.md")) {
     skippedIndexCount += 1;
+    continue;
+  }
+
+  if (ignoredFolders.has(collection)) {
+    skippedIgnoredCount += 1;
     continue;
   }
 
@@ -107,8 +117,9 @@ for (const file of files) {
     throw new Error(`id/firestore_doc_id mismatch in ${relativePath}: ${frontmatter.id} != ${frontmatter.firestore_doc_id}`);
   }
 
-  if (!String(frontmatter.id).startsWith(rule.idPrefix)) {
-    throw new Error(`invalid id prefix in ${relativePath}: expected ${rule.idPrefix}`);
+  const idPrefixes = Array.isArray(rule.idPrefix) ? rule.idPrefix : [rule.idPrefix];
+  if (!idPrefixes.some((prefix) => String(frontmatter.id).startsWith(prefix))) {
+    throw new Error(`invalid id prefix in ${relativePath}: expected ${idPrefixes.join(" or ")}`);
   }
 
   if (!Array.isArray(frontmatter.tags)) {
@@ -124,4 +135,4 @@ for (const file of files) {
   validatedCount += 1;
 }
 
-console.log(`datalink frontmatter validation passed: ${validatedCount} files, skipped ${skippedIndexCount} index files`);
+console.log(`datalink frontmatter validation passed: ${validatedCount} files, skipped ${skippedIndexCount} index files, skipped ${skippedIgnoredCount} ignored files`);

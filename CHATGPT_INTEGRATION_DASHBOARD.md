@@ -173,24 +173,41 @@ source_group: A  # → B に変更など
 
 ## 🎯 宇土OS ビジョン統合（2026-05-06）
 
-**[[04_DataLink/00_SYSTEM/vision_uto_os|宇土OS ビジョン書]]** が統合されました。
+**[[04_DataLink/00_SYSTEM/vision_uto_os|宇土OS ビジョン書]]** が完全統合されました。
 
 ### ビジョン内容
 - 統一的なプラットフォーム思想を文書化
-- 4つのレイヤーアーキテクチャを定義：
-  - 00_System（ビジョン・戦略）
-  - 04_DataLink（実行・意思決定）
-  - 03_Knowledge（知識ベース）
-  - 01_Inbox（ステージング）
-- 1,171件の ChatGPT データの位置づけを明記
+- **8層構造アーキテクチャを定義：**
+  - L0（前提）：人口・財政・地理の現実
+  - L1（事実）：資産・データの棚卸し
+  - L2（課題）：構造的課題の抽出
+  - L3（組織）：PFU（課題解決ユニット）
+  - L4（財源）：多元的資金戦略
+  - L5（インフラ）：施設最適化
+  - L6（政策）：生活政策の実装
+  - L7（ビジョン）：2040年の宇土市像
+  
+- 1,171件の ChatGPT データの8層別配置を明記
 - 実行ロードマップ（4フェーズ）を提示
 
+### 8層別ドキュメント
+- [[04_DataLink/00_SYSTEM/layer_structure_guide|8層構造統合ガイド]]
+- [[04_DataLink/00_SYSTEM/L0_premise_layer|L0 前提レイヤ]]
+- [[04_DataLink/00_SYSTEM/L1_fact_layer|L1 事実レイヤ]]
+- [[04_DataLink/00_SYSTEM/L2_issue_layer|L2 課題レイヤ]]
+- [[04_DataLink/00_SYSTEM/L3_organization_pfu|L3 組織レイヤ（PFU）]]
+- [[04_DataLink/00_SYSTEM/L4_finance_layer|L4 財源レイヤ]]
+- [[04_DataLink/00_SYSTEM/L5_infrastructure_layer|L5 インフラレイヤ]]
+- [[04_DataLink/00_SYSTEM/resources|参考資料・Notionリンク集]]
+
 ### 次ステップ
-- DataLink + Knowledge ファイルの再分類
-- 議会・財政データの構造化
+- DataLink + Knowledge ファイルの8層別再分類
+- 議会・財政データの L1～L2 への構造化
+- PFU 組織の編成と立ち上げ準備
 - フェーズ2：意思決定支援システム構築
 
 ---
 
 **最終更新:** 2026-05-06  
-**ステータス:** ✅ Vision Integrated & Phase 1 Complete
+**ステータス:** ✅ Vision + Layer Structure Complete  
+**フェーズ進捗:** Phase 1 (100%) → Phase 2 準備中

@@ -1,6 +1,8 @@
 ---
 id: log_20260505_chatgpt_migration
 type: log
+firestore_collection: logs
+firestore_doc_id: log_20260505_chatgpt_migration
 created: 2026-05-05
 status: completed
 tags: [chatgpt, migration, integration, phase3]
