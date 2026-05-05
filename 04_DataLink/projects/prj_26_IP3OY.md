@@ -43,6 +43,17 @@ tags: [imported_from_chatgpt, group-B]
 
 ---
 
+
+---
+
+## 🔗 関連ファイル
+
+- [[prj_26_FIYIG|chatgpt_import_20250618_regional_038]] (相似度: 80%)
+- [[prj_26_Z2WC9|chatgpt_import_20250618_regional_037]] (相似度: 80%)
+- [[prj_26_0XKXE|chatgpt_import_20250820_regional_024]] (相似度: 60%)
+- [[prj_26_1PBG6|chatgpt_import_20251128_regional_003]] (相似度: 60%)
+- [[prj_26_290O5|chatgpt_import_20251011_regional_011]] (相似度: 60%)
+
 ```json
 {
   "title": "農業AI活用提案",

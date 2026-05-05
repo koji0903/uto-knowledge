@@ -43,6 +43,17 @@ tags: [imported_from_chatgpt, group-A]
 
 ---
 
+
+---
+
+## 🔗 関連ファイル
+
+- [[prj_26_DNG9U|chatgpt_import_20231115_admin_097]] (相似度: 80%)
+- [[prj_26_J1TZ9|chatgpt_import_20231115_admin_096]] (相似度: 80%)
+- [[prj_26_0C9R4|chatgpt_import_20241003_admin_083]] (相似度: 60%)
+- [[prj_26_0HT1B|chatgpt_import_20250905_admin_019]] (相似度: 60%)
+- [[prj_26_0NGMX|chatgpt_import_20250204_admin_058]] (相似度: 60%)
+
 ```json
 {
   "title": "市町村別事業者数：上位5地域",

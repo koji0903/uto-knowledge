@@ -43,6 +43,17 @@ tags: [imported_from_chatgpt, group-B]
 
 ---
 
+
+---
+
+## 🔗 関連ファイル
+
+- [[prj_26_0XKXE|chatgpt_import_20250820_regional_024]] (相似度: 60%)
+- [[prj_26_1PBG6|chatgpt_import_20251128_regional_003]] (相似度: 60%)
+- [[prj_26_290O5|chatgpt_import_20251011_regional_011]] (相似度: 60%)
+- [[prj_26_30NLY|chatgpt_import_20240304_regional_065]] (相似度: 60%)
+- [[prj_26_3AAGE|chatgpt_import_20250509_regional_048]] (相似度: 60%)
+
 ```json
 {
   "title": "ラジオのトークテーマ提案",

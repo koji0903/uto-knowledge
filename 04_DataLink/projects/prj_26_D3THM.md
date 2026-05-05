@@ -43,6 +43,17 @@ tags: [imported_from_chatgpt, group-B]
 
 ---
 
+
+---
+
+## 🔗 関連ファイル
+
+- [[prj_26_GYF7K|chatgpt_import_20251127_admin_004]] (相似度: 80%)
+- [[prj_26_0XKXE|chatgpt_import_20250820_regional_024]] (相似度: 60%)
+- [[prj_26_1PBG6|chatgpt_import_20251128_regional_003]] (相似度: 60%)
+- [[prj_26_290O5|chatgpt_import_20251011_regional_011]] (相似度: 60%)
+- [[prj_26_2OWRR|chatgpt_import_20230703_regional_069]] (相似度: 60%)
+
 ```json
 {
   "title": "【経済建設委員会】宇土マリーナ物産館",

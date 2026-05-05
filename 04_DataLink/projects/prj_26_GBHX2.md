@@ -43,6 +43,17 @@ tags: [imported_from_chatgpt, group-A]
 
 ---
 
+
+---
+
+## 🔗 関連ファイル
+
+- [[prj_26_EOTO4|chatgpt_import_20250213_admin_052]] (相似度: 80%)
+- [[prj_26_I73QV|chatgpt_import_20250213_admin_050]] (相似度: 80%)
+- [[prj_26_0C9R4|chatgpt_import_20241003_admin_083]] (相似度: 60%)
+- [[prj_26_0HT1B|chatgpt_import_20250905_admin_019]] (相似度: 60%)
+- [[prj_26_0NGMX|chatgpt_import_20250204_admin_058]] (相似度: 60%)
+
 ```json
 {
   "title": "議会改革検討内容",

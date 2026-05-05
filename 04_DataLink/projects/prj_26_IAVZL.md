@@ -43,6 +43,17 @@ tags: [imported_from_chatgpt, group-B]
 
 ---
 
+
+---
+
+## 🔗 関連ファイル
+
+- [[prj_26_H9PUZ|chatgpt_import_20250831_regional_022]] (相似度: 80%)
+- [[prj_26_LMBEK|chatgpt_import_20250831_regional_020]] (相似度: 80%)
+- [[prj_26_0XKXE|chatgpt_import_20250820_regional_024]] (相似度: 60%)
+- [[prj_26_1PBG6|chatgpt_import_20251128_regional_003]] (相似度: 60%)
+- [[prj_26_290O5|chatgpt_import_20251011_regional_011]] (相似度: 60%)
+
 ```json
 {
   "title": "弁当のままや広報提案書",
