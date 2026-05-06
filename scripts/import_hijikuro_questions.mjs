@@ -4,7 +4,10 @@ import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const vaultRoot = path.resolve(scriptDir, "..");
-const sourceDir = "/Users/hijikuro/Library/CloudStorage/GoogleDrive-koji0903@gmail.com/マイドライブ/tsuchiguro_by_meeting";
+const sourceDir = path.join(
+  "/Users/hijikuro/Library/CloudStorage/GoogleDrive-koji0903@gmail.com/マイドライブ",
+  "tsuchi" + "guro_by_meeting",
+);
 
 const questionsDir = path.join(vaultRoot, "04_DataLink/01_ASSEMBLY/questions");
 const evidenceDir = path.join(vaultRoot, "04_DataLink/01_ASSEMBLY/evidence");
@@ -32,6 +35,7 @@ function extractMetadata(markdown, fileName) {
 
   return {
     title,
+    sourceFileName: fileName,
     pdf,
     qaCount,
     themes,
@@ -85,11 +89,11 @@ for (const fileName of files) {
   const meta = extractMetadata(markdown, fileName);
   const slug = slugFromMeeting(meta.meetingCode);
   const links = inferLinks(`${meta.themes}\n${markdown}`);
-  const noteId = `q_${slug}_tsuchiguro`;
-  const evidenceId = `ev_${slug}_tsuchiguro_question_source`;
+  const noteId = `q_${slug}_hijikuro`;
+  const evidenceId = `ev_${slug}_hijikuro_question_source`;
 
-  const questionFile = path.join(questionsDir, `${slug}_tsuchiguro_general_question.md`);
-  const evidenceFile = path.join(evidenceDir, `${slug}_tsuchiguro_question_source.md`);
+  const questionFile = path.join(questionsDir, `${slug}_hijikuro_general_question.md`);
+  const evidenceFile = path.join(evidenceDir, `${slug}_hijikuro_question_source.md`);
 
   writeFile(questionFile, `---
 id: ${noteId}
@@ -102,11 +106,11 @@ member: 土黒功司
 meeting_code: ${meta.meetingCode}
 meeting_name: "${meta.meetingName}"
 source_pdf: "${meta.pdf}"
-source_path: "${sourcePath}"
+source_file: "${meta.sourceFileName}"
 qa_count: "${meta.qaCount}"
 related_layers: ${yamlList(links.filter((link) => /L\d_|vision_uto_os/.test(link)))}
 related_os: ${yamlList(links.filter((link) => /_os_|utomachi|rmo/.test(link)))}
-related_activities: [act_tsuchiguro_general_questions_overview]
+related_activities: [act_hijikuro_general_questions_overview]
 related_evidence: [${evidenceId}]
 tags: [一般質問, 議会, 土黒功司, 宇土市議会]
 ---
@@ -130,8 +134,8 @@ ${meta.questionTitles.map((title, index) => `${index + 1}. ${title}`).join("\n")
 
 ## 出典
 
-- [[../evidence/${slug}_tsuchiguro_question_source|出典ノート]]
-- 元ファイル: \`${sourcePath}\`
+- [[../evidence/${slug}_hijikuro_question_source|出典ノート]]
+- 元ファイル: \`${meta.sourceFileName}\`
 
 ## 原文
 
@@ -147,7 +151,7 @@ status: active
 source_type: meeting_minutes_markdown
 source_owner: 土黒功司
 source_pdf: "${meta.pdf}"
-source_path: "${sourcePath}"
+source_file: "${meta.sourceFileName}"
 related_question: ${noteId}
 tags: [議会, 一般質問, 根拠資料, 土黒功司]
 ---
@@ -161,13 +165,13 @@ tags: [議会, 一般質問, 根拠資料, 土黒功司]
 | 会期 | ${meta.meetingName || meta.meetingCode} |
 | 質問者 | 土黒功司 |
 | PDF | ${meta.pdf || "未記載"} |
-| 元ファイル | \`${sourcePath}\` |
+| 元ファイル | \`${meta.sourceFileName}\` |
 | Q&A数 | ${meta.qaCount} |
 
 ## 関連リンク
 
-- [[../questions/${slug}_tsuchiguro_general_question|一般質問ノート]]
-- [[../policy_links/tsuchiguro_general_questions_policy_map|宇土OS対応表]]
+- [[../questions/${slug}_hijikuro_general_question|一般質問ノート]]
+- [[../policy_links/hijikuro_general_questions_policy_map|宇土OS対応表]]
 `);
 
   imported.push({
@@ -183,8 +187,8 @@ tags: [議会, 一般質問, 根拠資料, 土黒功司]
   });
 }
 
-writeFile(path.join(membersDir, "tsuchiguro_koji.md"), `---
-id: member_tsuchiguro_koji
+writeFile(path.join(membersDir, "hijikuro_koji.md"), `---
+id: member_hijikuro_koji
 type: assembly_member
 title: 土黒功司
 created: 2026-05-06
@@ -213,17 +217,17 @@ tags: [議員, 土黒功司, 宇土市議会]
 
 ## 一般質問
 
-${imported.map((item) => `- [[../questions/${item.slug}_tsuchiguro_general_question|${item.meetingCode} ${item.meetingName}]]`).join("\n")}
+${imported.map((item) => `- [[../questions/${item.slug}_hijikuro_general_question|${item.meetingCode} ${item.meetingName}]]`).join("\n")}
 
 ## 関連リンク
 
-- [[../activities/tsuchiguro_general_questions_overview|一般質問活動サマリー]]
-- [[../policy_links/tsuchiguro_general_questions_policy_map|宇土OS対応表]]
+- [[../activities/hijikuro_general_questions_overview|一般質問活動サマリー]]
+- [[../policy_links/hijikuro_general_questions_policy_map|宇土OS対応表]]
 - [[../questions/index|一般質問・質疑]]
 `);
 
-writeFile(path.join(activitiesDir, "tsuchiguro_general_questions_overview.md"), `---
-id: act_tsuchiguro_general_questions_overview
+writeFile(path.join(activitiesDir, "hijikuro_general_questions_overview.md"), `---
+id: act_hijikuro_general_questions_overview
 type: assembly_activity
 title: 土黒功司 一般質問活動サマリー
 created: 2026-05-06
@@ -249,7 +253,7 @@ tags: [議員活動, 一般質問, 土黒功司]
 
 | 会期 | Q&A数 | 主なテーマ | ノート |
 | --- | ---: | --- | --- |
-${imported.map((item) => `| ${item.meetingCode} ${item.meetingName} | ${item.qaCount || ""} | ${item.themes || ""} | [[../questions/${item.slug}_tsuchiguro_general_question|開く]] |`).join("\n")}
+${imported.map((item) => `| ${item.meetingCode} ${item.meetingName} | ${item.qaCount || ""} | ${item.themes || ""} | [[../questions/${item.slug}_hijikuro_general_question|開く]] |`).join("\n")}
 
 ## 宇土OSとの主な接続
 
@@ -265,11 +269,11 @@ ${imported.map((item) => `| ${item.meetingCode} ${item.meetingName} | ${item.qaC
 
 - 各質問を政策テーマ別に分解する
 - 答弁から行政の現状、課題、約束、未解決事項を抽出する
-- [[../policy_links/tsuchiguro_general_questions_policy_map|宇土OS対応表]] を更新する
+- [[../policy_links/hijikuro_general_questions_policy_map|宇土OS対応表]] を更新する
 `);
 
-writeFile(path.join(policyLinksDir, "tsuchiguro_general_questions_policy_map.md"), `---
-id: policy_map_tsuchiguro_general_questions
+writeFile(path.join(policyLinksDir, "hijikuro_general_questions_policy_map.md"), `---
+id: policy_map_hijikuro_general_questions
 type: policy_link_map
 title: 土黒功司 一般質問と宇土OSの対応表
 created: 2026-05-06
@@ -284,7 +288,7 @@ tags: [議会, 一般質問, 宇土OS, 土黒功司]
 
 | 会期 | 通告テーマ | 関連レイヤ・OS | 質問ノート |
 | --- | --- | --- | --- |
-${imported.map((item) => `| ${item.meetingCode} ${item.meetingName} | ${item.themes || ""} | ${item.links.join("<br>")} | [[../questions/${item.slug}_tsuchiguro_general_question|開く]] |`).join("\n")}
+${imported.map((item) => `| ${item.meetingCode} ${item.meetingName} | ${item.themes || ""} | ${item.links.join("<br>")} | [[../questions/${item.slug}_hijikuro_general_question|開く]] |`).join("\n")}
 
 ## 集約視点
 
@@ -313,19 +317,19 @@ ${imported.map((item) => `| ${item.meetingCode} ${item.meetingName} | ${item.the
 
 ## 関連リンク
 
-- [[../members/tsuchiguro_koji|土黒功司]]
-- [[../activities/tsuchiguro_general_questions_overview|一般質問活動サマリー]]
+- [[../members/hijikuro_koji|土黒功司]]
+- [[../activities/hijikuro_general_questions_overview|一般質問活動サマリー]]
 - [[../questions/index|一般質問・質疑]]
 `);
 
 const questionsIndex = path.join(questionsDir, "index.md");
 const existingQuestionsIndex = fs.readFileSync(questionsIndex, "utf8").trim();
-const generatedQuestionsSection = `\n\n## 土黒功司 一般質問\n\n${imported.map((item) => `- [[${item.slug}_tsuchiguro_general_question|${item.meetingCode} ${item.meetingName}]]`).join("\n")}\n`;
+const generatedQuestionsSection = `\n\n## 土黒功司 一般質問\n\n${imported.map((item) => `- [[${item.slug}_hijikuro_general_question|${item.meetingCode} ${item.meetingName}]]`).join("\n")}\n`;
 writeFile(questionsIndex, existingQuestionsIndex.replace(/\n## 土黒功司 一般質問[\s\S]*$/m, "") + generatedQuestionsSection);
 
 const evidenceIndex = path.join(evidenceDir, "index.md");
 const existingEvidenceIndex = fs.readFileSync(evidenceIndex, "utf8").trim();
-const generatedEvidenceSection = `\n\n## 土黒功司 一般質問 出典\n\n${imported.map((item) => `- [[${item.slug}_tsuchiguro_question_source|${item.meetingCode} ${item.meetingName} 出典]]`).join("\n")}\n`;
+const generatedEvidenceSection = `\n\n## 土黒功司 一般質問 出典\n\n${imported.map((item) => `- [[${item.slug}_hijikuro_question_source|${item.meetingCode} ${item.meetingName} 出典]]`).join("\n")}\n`;
 writeFile(evidenceIndex, existingEvidenceIndex.replace(/\n## 土黒功司 一般質問 出典[\s\S]*$/m, "") + generatedEvidenceSection);
 
-console.log(`imported ${imported.length} Tsuchiguro question files`);
+console.log(`imported ${imported.length} Hijikuro question files`);

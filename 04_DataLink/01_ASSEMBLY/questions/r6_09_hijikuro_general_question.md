@@ -1,5 +1,5 @@
 ---
-id: q_r6_09_tsuchiguro
+id: q_r6_09_hijikuro
 type: assembly_question
 title: "R6-09_9月定例会(令和6年9月3日招集) 土黒功司議員 一般質問・答弁"
 created: 2026-05-06
@@ -9,12 +9,12 @@ member: 土黒功司
 meeting_code: R6-09
 meeting_name: "9月定例会(令和6年9月3日招集)"
 source_pdf: "R6-09_9月定例会(令和6年9月3日招集).pdf"
-source_path: "/Users/hijikuro/Library/CloudStorage/GoogleDrive-koji0903@gmail.com/マイドライブ/tsuchiguro_by_meeting/R6-09_9月定例会(令和6年9月3日招集)_土黒功司一般質問答弁.md"
+source_file: "R6-09_9月定例会(令和6年9月3日招集)_土黒功司一般質問答弁.md"
 qa_count: "7"
 related_layers: [L6_policy_layer, L5_infrastructure_layer, L2_issue_layer, L3_organization_pfu, L4_finance_layer]
 related_os: [childcare_os_specification, education_os_specification, rmo_os_specification]
-related_activities: [act_tsuchiguro_general_questions_overview]
-related_evidence: [ev_r6_09_tsuchiguro_question_source]
+related_activities: [act_hijikuro_general_questions_overview]
+related_evidence: [ev_r6_09_hijikuro_question_source]
 tags: [一般質問, 議会, 土黒功司, 宇土市議会]
 ---
 
@@ -50,8 +50,8 @@ tags: [一般質問, 議会, 土黒功司, 宇土市議会]
 
 ## 出典
 
-- [[../evidence/r6_09_tsuchiguro_question_source|出典ノート]]
-- 元ファイル: `/Users/hijikuro/Library/CloudStorage/GoogleDrive-koji0903@gmail.com/マイドライブ/tsuchiguro_by_meeting/R6-09_9月定例会(令和6年9月3日招集)_土黒功司一般質問答弁.md`
+- [[../evidence/r6_09_hijikuro_question_source|出典ノート]]
+- 元ファイル: `R6-09_9月定例会(令和6年9月3日招集)_土黒功司一般質問答弁.md`
 
 ## 原文
 
