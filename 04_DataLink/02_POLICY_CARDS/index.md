@@ -24,6 +24,9 @@ tags: [政策実行カード, 宇土OS, index]
 | 産業・地域商社 | [[industry/index]] |
 | 子育て・教育 | [[childcare_education/index]] |
 | 地域運営・インフラ | [[community_infrastructure/index]] |
+| 財政・公共施設 | [[finance_facilities/index]] |
+| 移住・魅力発信 | [[relocation_brand/index]] |
+| 行政DX・AI | [[admin_dx/index]] |
 
 ## 初期カード
 
@@ -43,6 +46,12 @@ tags: [政策実行カード, 宇土OS, index]
 | [[community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]] | draft | [[rmo_os_specification]], [[L3_organization_pfu]] |
 | [[community_infrastructure/pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]] | draft | [[L5_infrastructure_layer]], [[education_os_specification]] |
 | [[community_infrastructure/pc_comm_004_disaster_data_web_operations|災害時のWeb・庁内データ安定運用]] | draft | [[rmo_os_specification]], [[L1_fact_layer]] |
+| [[finance_facilities/pc_finance_001_public_facility_finance_gap|公共施設・財政ギャップの見える化]] | draft | [[L4L5_facility_finance_crisis]], [[L4_finance_layer]] |
+| [[finance_facilities/pc_finance_002_city_hall_utilization_revenue|新庁舎利活用と市民価値の最大化]] | draft | [[L5_infrastructure_layer]], [[industry_os_specification]] |
+| [[relocation_brand/pc_relocation_001_uto_brand_migration_funnel|「九州のどまんなか宇土市」から移住導線へ]] | draft | [[relocation_os_specification]], [[childcare_os_specification]] |
+| [[relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] | draft | [[relocation_os_specification]], [[rmo_os_specification]] |
+| [[admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] | draft | [[education_os_specification]], [[rmo_os_specification]] |
+| [[admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]] | draft | [[L1_fact_layer]], [[L6_policy_layer]] |
 
 ## 関連リンク
 

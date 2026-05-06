@@ -57,11 +57,22 @@ tags: [議会, 一般質問, 宇土OS, 土黒功司]
 - [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]]
 - [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]]
 - [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_004_disaster_data_web_operations|災害時のWeb・庁内データ安定運用]]
+- [[../../02_POLICY_CARDS/finance_facilities/pc_finance_001_public_facility_finance_gap|公共施設・財政ギャップの見える化]]
+- [[../../02_POLICY_CARDS/finance_facilities/pc_finance_002_city_hall_utilization_revenue|新庁舎利活用と市民価値の最大化]]
 
 ### 移住・定住
 
 - [[relocation_os_specification]]
 - [[L2_issue_layer]]
+- [[../../02_POLICY_CARDS/relocation_brand/pc_relocation_001_uto_brand_migration_funnel|「九州のどまんなか宇土市」から移住導線へ]]
+- [[../../02_POLICY_CARDS/relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]]
+
+### 行政DX・AI
+
+- [[L1_fact_layer]]
+- [[L3_organization_pfu]]
+- [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]]
+- [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]]
 
 ## 関連リンク
 
