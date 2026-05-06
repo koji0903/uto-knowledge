@@ -1,0 +1,75 @@
+---
+id: pc_comm_002
+type: policy_card
+title: 自主防災組織ネットワークの強化
+created: 2026-05-07
+status: draft
+owner: 土黒功司
+priority: high
+policy_domain: community_infrastructure
+related_layers: [L3_organization_pfu, L5_infrastructure_layer, L6_policy_layer]
+related_os: [rmo_os_specification]
+related_questions: [q_r4_12_hijikuro, q_r5_12_hijikuro]
+related_evidence: [ev_r4_12_hijikuro_question_source, ev_r5_12_hijikuro_question_source]
+tags: [政策実行カード, RMO, 自主防災組織, 防災リーダー]
+---
+
+# 政策実行カード: 自主防災組織ネットワークの強化
+
+## 目的
+
+自主防災組織、防災リーダー、地域団体をつなぎ、災害時に動ける地域運営ネットワークを整備する。
+
+## 背景
+
+一般質問では、自主防災組織、自助・共助・公助、防災リーダー、避難所運営、地区ごとの連絡協議会が扱われている。
+
+## 根拠
+
+- [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] - 自主防災組織の取組
+- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地域防災、自助・共助・公助、避難所運営
+- [[rmo_os_specification]] - 地域運営組織のデータ化
+- [[L3_organization_pfu]] - PFU設計
+
+## 現状
+
+- 自主防災組織の組織化と防災リーダー育成が進められている
+- 地域ごとの防災活動や避難所運営の必要性が確認されている
+- 災害時は行政だけでなく、地域の共助が重要になる
+
+## 課題
+
+- 組織、リーダー、訓練、備蓄、避難所運営の情報が分散しやすい
+- 年度替わりで役員や担当者が変わると引き継ぎが難しい
+- 平時の活動と災害時の実行体制がつながっていない
+- 地区ごとの成熟度や課題を比較できる指標が不足している
+
+## 実行案
+
+1. 自主防災組織台帳を作る
+2. 防災リーダー、役員、避難所担当、連絡網を構造化する
+3. 訓練、会議、備蓄点検、改善事項をRMO OSに記録する
+4. 地区別の防災成熟度チェックリストを作る
+5. 地区防災計画カードと連動して進捗管理する
+
+## 次アクション
+
+- R5-12とR4-12の答弁から自主防災組織と防災リーダーに関する情報を抽出する
+- 自主防災組織台帳の最小項目を設計する
+- 次回質問で「組織率」「リーダー育成」「引き継ぎ」「地区別課題の把握」を確認する
+
+## KPI
+
+- 自主防災組織の登録件数
+- 防災リーダー登録者数
+- 訓練・会議の記録件数
+- 備蓄点検の実施回数
+- 地区別成熟度チェックの実施地区数
+
+## 関連リンク
+
+- [[index|地域運営・インフラ 政策実行カード]]
+- [[rmo_os_specification]]
+- [[L3_organization_pfu]]
+- [[pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]]
+- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]

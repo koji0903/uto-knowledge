@@ -1,0 +1,75 @@
+---
+id: pc_comm_004
+type: policy_card
+title: 災害時のWeb・庁内データ安定運用
+created: 2026-05-07
+status: draft
+owner: 土黒功司
+priority: high
+policy_domain: community_infrastructure
+related_layers: [L1_fact_layer, L3_organization_pfu, L5_infrastructure_layer]
+related_os: [rmo_os_specification]
+related_questions: [q_r4_12_hijikuro, q_r6_03_hijikuro]
+related_evidence: [ev_r4_12_hijikuro_question_source, ev_r6_03_hijikuro_question_source]
+tags: [政策実行カード, 防災, DX, データ運用, Web]
+---
+
+# 政策実行カード: 災害時のWeb・庁内データ安定運用
+
+## 目的
+
+災害時に市民が必要な情報へ確実にアクセスでき、庁内データと業務が止まらない運用体制を整える。
+
+## 背景
+
+一般質問では、自然災害時のホームページ、庁内データ管理、安定運用、運営体制、地域防災情報の見え方が扱われている。
+
+## 根拠
+
+- [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]] - 災害時のホームページ・庁内データ管理
+- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地域防災、備蓄、防災情報の公開
+- [[rmo_os_specification]] - 地域運営データの一元管理
+- [[L1_fact_layer]] - 事実・データレイヤ
+
+## 現状
+
+- 災害時の情報発信と庁内データ管理が政策課題として扱われている
+- 防災計画や備蓄、防災情報はホームページ公開と結びついている
+- 災害時にはアクセス集中、職員参集、情報更新体制が課題になり得る
+
+## 課題
+
+- 災害時に必要なページやデータの優先順位が明確でない可能性がある
+- ホームページ、庁内データ、避難所情報、備蓄情報、地域組織の情報が分散しやすい
+- 災害時の更新責任者、代替手段、運用訓練が必要
+- RMOや地区防災組織との情報連携がデータ化されていない
+
+## 実行案
+
+1. 災害時に公開すべき情報の優先リストを作る
+2. ホームページ更新、庁内データ、避難所情報の役割分担を整理する
+3. アクセス集中・職員不在・通信障害を想定した代替運用を設計する
+4. 地区防災計画、自主防災組織、備蓄情報をRMO OSと接続する
+5. 災害時Web運用訓練を定期実施する
+
+## 次アクション
+
+- R6-03答弁からWeb・庁内データ運用の現状を抽出する
+- 災害時公開情報チェックリストを作る
+- 次回質問で「更新体制」「バックアップ」「アクセス集中対策」「訓練実施」を確認する
+
+## KPI
+
+- 災害時公開情報チェックリストの整備率
+- 更新担当者・代替担当者の登録数
+- Web運用訓練の実施回数
+- 避難所・備蓄情報の更新頻度
+- 障害時復旧手順の確認回数
+
+## 関連リンク
+
+- [[index|地域運営・インフラ 政策実行カード]]
+- [[rmo_os_specification]]
+- [[pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]]
+- [[pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]]
+- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]

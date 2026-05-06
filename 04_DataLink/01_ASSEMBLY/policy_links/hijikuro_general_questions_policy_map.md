@@ -42,12 +42,21 @@ tags: [議会, 一般質問, 宇土OS, 土黒功司]
 - [[childcare_os_specification]]
 - [[education_os_specification]]
 - [[L6_policy_layer]]
+- [[../../02_POLICY_CARDS/childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]]
+- [[../../02_POLICY_CARDS/childcare_education/pc_childedu_002_child_third_place|子どもサードプレイスの運用設計]]
+- [[../../02_POLICY_CARDS/childcare_education/pc_childedu_003_child_support_visibility|こどもまんなか施策の見える化]]
+- [[../../02_POLICY_CARDS/childcare_education/pc_childedu_004_school_play_learning_environment|子どもの遊び場・学び場の整備]]
+- [[../../02_POLICY_CARDS/childcare_education/pc_childedu_005_child_development_support_facilities|児童発達支援と公共施設の接続]]
 
 ### 地域運営・防災・公共施設
 
 - [[rmo_os_specification]]
 - [[L3_organization_pfu]]
 - [[L5_infrastructure_layer]]
+- [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]]
+- [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]]
+- [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]]
+- [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_004_disaster_data_web_operations|災害時のWeb・庁内データ安定運用]]
 
 ### 移住・定住
 

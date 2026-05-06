@@ -1,0 +1,76 @@
+---
+id: pc_comm_001
+type: policy_card
+title: 地区防災計画の横展開
+created: 2026-05-07
+status: draft
+owner: 土黒功司
+priority: high
+policy_domain: community_infrastructure
+related_layers: [L3_organization_pfu, L5_infrastructure_layer, L6_policy_layer]
+related_os: [rmo_os_specification]
+related_questions: [q_r4_12_hijikuro, q_r5_12_hijikuro, q_r6_06_hijikuro]
+related_evidence: [ev_r4_12_hijikuro_question_source, ev_r5_12_hijikuro_question_source, ev_r6_06_hijikuro_question_source]
+tags: [政策実行カード, RMO, 防災, 地区防災計画]
+---
+
+# 政策実行カード: 地区防災計画の横展開
+
+## 目的
+
+走潟地区で先行した地区防災計画を、宇土市内の各地区へ横展開し、地域主体の防災力を高める。
+
+## 背景
+
+一般質問では、地区防災計画、走潟地区の先行策定、他地区への展開、予算、専門家支援、地域主体の防災活動が扱われている。
+
+## 根拠
+
+- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] - 地区防災計画、走潟地区、他6地区の展開
+- [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] - 自主防災組織の取組
+- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地域防災、自助・共助・公助
+- [[rmo_os_specification]] - 地域運営の構造化
+- [[L3_organization_pfu]] - 組織レイヤ
+
+## 現状
+
+- 市内7地区ごとの策定が目標として扱われている
+- 走潟地区が先行して地区防災計画を策定している
+- 他地区では策定に至っていない地区がある
+- 地区防災協議会への補助や支援のあり方が論点になっている
+
+## 課題
+
+- 先行地区の知見が、他地区で再利用できる形に整理されていない
+- 地域主体で進めるための予算、専門家、事務局支援が必要
+- 地区ごとの災害リスク、避難行動、役割分担をデータ化できていない
+- 計画策定後の訓練、更新、引き継ぎが属人化しやすい
+
+## 実行案
+
+1. 走潟地区モデルをテンプレート化する
+2. 7地区別に災害リスク、組織、避難所、支援者を整理する
+3. 地区防災計画策定PFUを設置する
+4. RMO OSに会議、訓練、役割、備蓄、更新履歴を接続する
+5. 補助制度、専門家派遣、ワークショップの制度案を作る
+
+## 次アクション
+
+- R6-06答弁から走潟地区モデルと他地区展開の条件を抽出する
+- 地区防災計画テンプレートの初版を作る
+- 次回質問で「予算措置」「専門家支援」「策定スケジュール」「更新責任」を確認する
+
+## KPI
+
+- 地区防災計画の策定地区数
+- 防災協議会・PFUの設置数
+- 防災訓練の実施回数
+- ワークショップ参加者数
+- 計画更新履歴の登録件数
+
+## 関連リンク
+
+- [[index|地域運営・インフラ 政策実行カード]]
+- [[rmo_os_specification]]
+- [[L3_organization_pfu]]
+- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]

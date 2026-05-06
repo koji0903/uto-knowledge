@@ -26,6 +26,15 @@ tags: [議会, 宇土OS, policy-link, index]
 | [[../../02_POLICY_CARDS/industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]] | 特産品PR | draft |
 | [[../../02_POLICY_CARDS/industry/pc_industry_004_shopping_street_startup_support|商店街活性化と創業支援]] | 商店街・創業 | draft |
 | [[../../02_POLICY_CARDS/industry/pc_industry_005_cross_department_industry_pfu|産業横断PFUの設計]] | 横断組織 | draft |
+| [[../../02_POLICY_CARDS/childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]] | 教育DX | draft |
+| [[../../02_POLICY_CARDS/childcare_education/pc_childedu_002_child_third_place|子どもサードプレイスの運用設計]] | 子育て・居場所 | draft |
+| [[../../02_POLICY_CARDS/childcare_education/pc_childedu_003_child_support_visibility|こどもまんなか施策の見える化]] | 子育て政策 | draft |
+| [[../../02_POLICY_CARDS/childcare_education/pc_childedu_004_school_play_learning_environment|子どもの遊び場・学び場の整備]] | 学び場・遊び場 | draft |
+| [[../../02_POLICY_CARDS/childcare_education/pc_childedu_005_child_development_support_facilities|児童発達支援と公共施設の接続]] | 児童発達支援 | draft |
+| [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]] | 地域防災 | draft |
+| [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]] | 自主防災 | draft |
+| [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]] | 道路安全 | draft |
+| [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_004_disaster_data_web_operations|災害時のWeb・庁内データ安定運用]] | 防災DX | draft |
 
 ## 紐づけカテゴリ
 

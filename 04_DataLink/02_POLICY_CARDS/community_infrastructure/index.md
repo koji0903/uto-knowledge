@@ -13,7 +13,12 @@ RMO、防災、公共施設、道路安全、地域運営に関する政策実�
 
 ## カード一覧
 
-未登録。
+| カード | 状態 | 主な接続先 |
+| --- | --- | --- |
+| [[pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]] | draft | [[rmo_os_specification]], [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] |
+| [[pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]] | draft | [[rmo_os_specification]], [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] |
+| [[pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]] | draft | [[L5_infrastructure_layer]], [[../../01_ASSEMBLY/questions/r6_09_hijikuro_general_question]] |
+| [[pc_comm_004_disaster_data_web_operations|災害時のWeb・庁内データ安定運用]] | draft | [[rmo_os_specification]], [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]] |
 
 ## 関連リンク
 
