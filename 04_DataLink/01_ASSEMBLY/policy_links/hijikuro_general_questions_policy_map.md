@@ -31,6 +31,11 @@ tags: [議会, 一般質問, 宇土OS, 土黒功司]
 - [[industry_os_specification]]
 - [[utomachi_100_store_specification]]
 - [[L4_finance_layer]]
+- [[../../02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]]
+- [[../../02_POLICY_CARDS/industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]]
+- [[../../02_POLICY_CARDS/industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]]
+- [[../../02_POLICY_CARDS/industry/pc_industry_004_shopping_street_startup_support|商店街活性化と創業支援]]
+- [[../../02_POLICY_CARDS/industry/pc_industry_005_cross_department_industry_pfu|産業横断PFUの設計]]
 
 ### 子育て・教育
 
@@ -54,3 +59,4 @@ tags: [議会, 一般質問, 宇土OS, 土黒功司]
 - [[../members/hijikuro_koji|土黒功司]]
 - [[../activities/hijikuro_general_questions_overview|一般質問活動サマリー]]
 - [[../questions/index|一般質問・質疑]]
+- [[../../02_POLICY_CARDS/index|政策実行カード]]

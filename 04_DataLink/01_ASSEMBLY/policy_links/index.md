@@ -15,7 +15,17 @@ tags: [議会, 宇土OS, policy-link, index]
 
 | 活動・質問 | 種別 | 関連レイヤ | 関連OS | 状態 |
 | --- | --- | --- | --- | --- |
-| 未登録 | - | - | - | draft |
+| [[hijikuro_general_questions_policy_map|土黒功司 一般質問]] | 一般質問 | [[L2_issue_layer]], [[L6_policy_layer]] | [[industry_os_specification]], [[childcare_os_specification]], [[education_os_specification]] | active |
+
+## 政策実行カード
+
+| カード | 領域 | 状態 |
+| --- | --- | --- |
+| [[../../02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]] | 産業・地域商社 | draft |
+| [[../../02_POLICY_CARDS/industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]] | 産業・財源 | draft |
+| [[../../02_POLICY_CARDS/industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]] | 特産品PR | draft |
+| [[../../02_POLICY_CARDS/industry/pc_industry_004_shopping_street_startup_support|商店街活性化と創業支援]] | 商店街・創業 | draft |
+| [[../../02_POLICY_CARDS/industry/pc_industry_005_cross_department_industry_pfu|産業横断PFUの設計]] | 横断組織 | draft |
 
 ## 紐づけカテゴリ
 
@@ -34,4 +44,5 @@ tags: [議会, 宇土OS, policy-link, index]
 - [[../activities/index|議員活動ログ]]
 - [[../questions/index|一般質問・質疑]]
 - [[../decisions/index|議会決定]]
+- [[../../02_POLICY_CARDS/index|政策実行カード]]
 - [[L6_policy_layer]]

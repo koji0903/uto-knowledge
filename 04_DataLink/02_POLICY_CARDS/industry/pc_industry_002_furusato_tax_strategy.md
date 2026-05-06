@@ -1,0 +1,71 @@
+---
+id: pc_industry_002
+type: policy_card
+title: ふるさと納税を地域商社の販路に接続
+created: 2026-05-06
+status: draft
+owner: 土黒功司
+priority: high
+policy_domain: industry
+related_layers: [L4_finance_layer, L6_policy_layer]
+related_os: [industry_os_specification, utomachi_100_store_specification]
+related_questions: [q_r4_12_hijikuro, q_r5_03_hijikuro, q_r6_03_hijikuro]
+related_evidence: [ev_r4_12_hijikuro_question_source, ev_r5_03_hijikuro_question_source, ev_r6_03_hijikuro_question_source]
+tags: [政策実行カード, ふるさと納税, 地域商社, 財源]
+---
+
+# 政策実行カード: ふるさと納税を地域商社の販路に接続
+
+## 目的
+
+ふるさと納税を単なる寄附制度ではなく、地域商社の販売チャネル、商品開発、宇土ブランド発信に接続する。
+
+## 背景
+
+一般質問では、ふるさと納税の制度変更、市への影響、返礼品開発、子育て・地域投資への活用が扱われている。
+
+## 根拠
+
+- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地元産品のふるさと納税出品
+- [[../../01_ASSEMBLY/questions/r5_03_hijikuro_general_question]] - ふるさと納税の活用可能性
+- [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]] - 制度変更に伴う影響と対応
+- [[L4_finance_layer]] - 財源戦略
+- [[utomachi_100_store_specification]] - ふるさと納税統合
+
+## 現状
+
+- 地元産品の出品に関して、まちづくり推進課、農林水産課、商工観光課が連携している
+- 制度変更への対応、新規返礼品開発の必要性がある
+
+## 課題
+
+- 返礼品開発と地域ブランド戦略が分離しやすい
+- ふるさと納税を継続的な販路として育てるKPIが見えにくい
+- 制度変更により返礼品事業者への影響が出る可能性がある
+
+## 実行案
+
+1. 返礼品を地域商社の商品候補として管理する
+2. 返礼品ごとに生産者、粗利、供給量、ストーリーを記録する
+3. ふるさと納税ページを宇土ブランド発信の入口にする
+4. 子育て、教育、防災など寄附用途別の政策ストーリーを作る
+
+## 次アクション
+
+- 返礼品候補の棚卸し表を作る
+- 制度変更で影響を受ける事業者の確認項目を作る
+- ふるさと納税とウトマチ百貨店の接続フローを図式化する
+
+## KPI
+
+- 新規返礼品数
+- 返礼品から通常ECへ転換した商品数
+- 寄附額
+- リピート寄附率
+
+## 関連リンク
+
+- [[industry/index]]
+- [[L4_finance_layer]]
+- [[utomachi_100_store_specification]]
+- [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]]

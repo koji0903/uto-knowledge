@@ -55,6 +55,7 @@ L7: 選ばれるまち
 | 議会決定 | [[04_DataLink/01_ASSEMBLY/decisions/index]] | 条例、予算、決議を政策実装として記録する |
 | 宇土OS対応表 | [[04_DataLink/01_ASSEMBLY/policy_links/index]] | 議員活動とL0-L7、機能OSの関係を一覧化する |
 | 根拠資料 | [[04_DataLink/01_ASSEMBLY/evidence/index]] | 議事録、行政資料、公開情報を出典として管理する |
+| 政策実行カード | [[04_DataLink/02_POLICY_CARDS/index]] | 蓄積した知識を実行単位へ分解する |
 
 ## 政策設計テンプレート
 
