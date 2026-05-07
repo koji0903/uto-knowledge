@@ -19,6 +19,7 @@ created: 2026-05-04
 - `validate_datalink_references.sh`: DataLink実データの政策カード・関連ファイル参照検証
 - `validate_datalink_scaffold.sh`: DataLinkテンプレートとscaffold dry-run検証
 - `validate_drive_structure_config.sh`: Drive構成とローカルDataLinkフォルダの対応検証
+- `validate_policy_card_references.sh`: 政策カードと議会質問・根拠資料の参照検証
 - `scaffold_datalink_note.sh`: DataLinkノート作成
 
 ## 注意

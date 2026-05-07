@@ -45,6 +45,9 @@ jobs:
       - name: Validate DataLink references
         run: bash scripts/validate_datalink_references.sh
 
+      - name: Validate policy card references
+        run: bash scripts/validate_policy_card_references.sh
+
       - name: Validate Obsidian links
         run: bash scripts/validate_obsidian_links.sh
 

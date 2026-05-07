@@ -144,7 +144,10 @@ $requiredFiles = @(
   "scripts/validate_drive_structure_config.ps1",
   "scripts/validate_obsidian_links.mjs",
   "scripts/validate_obsidian_links.sh",
-  "scripts/validate_obsidian_links.ps1"
+  "scripts/validate_obsidian_links.ps1",
+  "scripts/validate_policy_card_references.mjs",
+  "scripts/validate_policy_card_references.sh",
+  "scripts/validate_policy_card_references.ps1"
 )
 
 foreach ($dir in $requiredDirs) {

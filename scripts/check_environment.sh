@@ -24,6 +24,9 @@ bash scripts/validate_datalink_scaffold.sh
 echo "checking datalink references..."
 bash scripts/validate_datalink_references.sh
 
+echo "checking policy card references..."
+bash scripts/validate_policy_card_references.sh
+
 echo "checking obsidian links..."
 bash scripts/validate_obsidian_links.sh
 

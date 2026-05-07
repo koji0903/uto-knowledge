@@ -21,6 +21,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_scaffold.p
 Write-Output "checking datalink references..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_references.ps1"
 
+Write-Output "checking policy card references..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\validate_policy_card_references.ps1"
+
 Write-Output "checking obsidian links..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_obsidian_links.ps1"
 

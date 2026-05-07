@@ -148,6 +148,9 @@ required_files=(
   "scripts/validate_obsidian_links.mjs"
   "scripts/validate_obsidian_links.sh"
   "scripts/validate_obsidian_links.ps1"
+  "scripts/validate_policy_card_references.mjs"
+  "scripts/validate_policy_card_references.sh"
+  "scripts/validate_policy_card_references.ps1"
 )
 
 for dir in "${required_dirs[@]}"; do
