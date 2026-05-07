@@ -16,6 +16,7 @@ created: 2026-05-04
 - `maintenance_check.sh`: ローカル / フルメンテナンス
 - `validate_vault.sh`: Vault 構造検証
 - `validate_datalink_samples.sh`: Firestore dry-run対象のDataLink実データ検証
+- `validate_datalink_references.sh`: DataLink実データの政策カード・関連ファイル参照検証
 - `validate_datalink_scaffold.sh`: DataLinkテンプレートとscaffold dry-run検証
 - `validate_drive_structure_config.sh`: Drive構成とローカルDataLinkフォルダの対応検証
 - `scaffold_datalink_note.sh`: DataLinkノート作成
