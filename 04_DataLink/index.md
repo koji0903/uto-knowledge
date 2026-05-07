@@ -20,7 +20,13 @@ Firestore と対応する構造化ノートを置く場所。
 | フォルダ | 日本語名 | Firestore collection |
 | --- | --- | --- |
 | `decisions` | 意思決定 | `decisions` |
-| `producers` | 生産者 | `producers` |
-| `products` | 商品 | `products` |
-| `projects` | プロジェクト | `projects` |
-| `logs` | 同期ログ | `logs` |
+| [[producers/index|producers]] | 生産者 | `producers` |
+| [[products/index|products]] | 商品・産品 | `products` |
+| [[projects/index|projects]] | プロジェクト | `projects` |
+| [[logs/index|logs]] | ログ | `logs` |
+
+## 地域商社向けDataLink
+
+- [[00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
+- [[02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]]
+- [[02_POLICY_CARDS/policy_execution_board|政策実行ボード]]

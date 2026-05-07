@@ -22,7 +22,7 @@ tags: [政策実行カード, 宇土OS, 実行管理, index]
 
 | 優先 | テーマ | カード | 次に作るもの |
 | --- | --- | --- | --- |
-| 1 | 地域商社・ふるさと納税 | [[industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]] / [[industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]] | 産品・事業者・販路台帳 |
+| 1 | 地域商社・ふるさと納税 | [[industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]] / [[industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]] | [[../00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
 | 2 | 防災・地域運営 | [[community_infrastructure/pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]] / [[community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]] | 地区防災計画テンプレート |
 | 3 | 教育DX | [[childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]] | GIGA活用KPI表 |
 | 4 | 財政・公共施設 | [[finance_facilities/pc_finance_001_public_facility_finance_gap|公共施設・財政ギャップの見える化]] | 公共施設台帳の最小項目 |
@@ -42,7 +42,7 @@ tags: [政策実行カード, 宇土OS, 実行管理, index]
 
 | 実装準備 | 使うカード | 最初の成果物 |
 | --- | --- | --- |
-| 産品・事業者台帳 | [[industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]] | DataLink用の台帳項目 |
+| 産品・事業者台帳 | [[industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]] | [[../00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
 | 地域商社PFU | [[industry/pc_industry_005_cross_department_industry_pfu|産業横断PFUの設計]] | PFU構成案 |
 | 子どもサードプレイス運用 | [[childcare_education/pc_childedu_002_child_third_place|子どもサードプレイスの運用設計]] | 運用主体・支援導線表 |
 | 災害時Web運用 | [[community_infrastructure/pc_comm_004_disaster_data_web_operations|災害時のWeb・庁内データ安定運用]] | 災害時公開情報チェックリスト |

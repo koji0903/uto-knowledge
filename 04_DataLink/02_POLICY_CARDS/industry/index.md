@@ -21,6 +21,10 @@ tags: [政策実行カード, 産業OS, 地域商社, index]
 
 ## 関連リンク
 
+- [[../../00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
+- [[../../producers/index|生産者台帳]]
+- [[../../products/index|商品・産品台帳]]
+- [[../../projects/index|プロジェクト台帳]]
 - [[industry_os]]
 - [[industry_os_specification]]
 - [[utomachi_100_store_specification]]
