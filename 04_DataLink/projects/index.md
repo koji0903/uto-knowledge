@@ -39,6 +39,13 @@ tags: [DataLink, Firestore, プロジェクト, PFU, index]
 - 会議、更新、同期、意思決定は [[../logs/index|ログ台帳]] に残す
 - PFUを作る場合は、参加者と役割を明確にする
 
+## 登録済みプロジェクト
+
+| プロジェクト | 状態 | 関連カード |
+| --- | --- | --- |
+| [[prj_regional_trading_pfu|地域商社準備PFU]] | planning | [[../02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]] |
+| [[prj_furusato_return_gift_boost|ふるさと納税返礼品強化]] | planning | [[../02_POLICY_CARDS/industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]] |
+
 ## 関連リンク
 
 - [[../logs/index|ログ台帳]]
