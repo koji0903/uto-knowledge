@@ -132,6 +132,7 @@ $requiredFiles = @(
   "scripts/validate_datalink_frontmatter.mjs",
   "scripts/validate_datalink_frontmatter.sh",
   "scripts/validate_datalink_frontmatter.ps1",
+  "scripts/validate_datalink_samples.mjs",
   "scripts/validate_datalink_scaffold.mjs",
   "scripts/validate_datalink_scaffold.sh",
   "scripts/validate_datalink_scaffold.ps1",
