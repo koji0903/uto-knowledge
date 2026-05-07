@@ -96,6 +96,7 @@ ${extractSection(agents, "## 禁止事項")}
 
 \`\`\`bash
 bash scripts/start_work.sh
+bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
 bash scripts/end_work.sh
 bash scripts/maintenance_check.sh local
 bash scripts/validate_datalink_frontmatter.sh

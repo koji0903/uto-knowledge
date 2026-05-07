@@ -163,6 +163,7 @@ ${gitStatus}
 | --- | --- |
 | ai_profiles | ${aiProfileCount} |
 | context_generator | ${exists("scripts/generate_ai_context.sh")} |
+| handoff_generator | ${exists("scripts/generate_handoff_prompt.sh")} |
 | operations_validator | ${exists("scripts/validate_ai_operations_docs.sh")} |
 | task_router | ${exists("mcp/ai_profiles/task_router.md")} |
 | handoff_prompt | ${exists("mcp/ai_profiles/handoff_prompt.md")} |
@@ -194,6 +195,7 @@ ${dryRun.documents.map((document) => `| ${document.path} | ${document.source} |`
 \`\`\`bash
 bash scripts/start_work.sh
 bash scripts/generate_ai_context.sh
+bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
 bash scripts/end_work.sh
 bash scripts/verify_all.sh
 bash scripts/check_firestore_drift.sh

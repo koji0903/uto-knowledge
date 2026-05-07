@@ -49,4 +49,7 @@ for (const file of checkedFiles) {
 const contextScript = path.join(vaultRoot, "scripts/generate_ai_context.sh");
 assert(fs.existsSync(contextScript), "missing scripts/generate_ai_context.sh");
 
+const handoffScript = path.join(vaultRoot, "scripts/generate_handoff_prompt.sh");
+assert(fs.existsSync(handoffScript), "missing scripts/generate_handoff_prompt.sh");
+
 console.log(`AI operations docs validation passed: ${checkedFiles.length} files, ${checkedPatternCount} pattern checks`);
