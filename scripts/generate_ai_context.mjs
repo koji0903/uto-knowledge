@@ -26,7 +26,7 @@ function read(file) {
   return fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8").trim() : "";
 }
 
-function extractSection(markdown, heading) {
+function extractSection(markdown, heading, options = {}) {
   const lines = markdown.split(/\r?\n/);
   const start = lines.findIndex((line) => line.trim() === heading);
   if (start < 0) return "";
@@ -38,7 +38,8 @@ function extractSection(markdown, heading) {
     return match && match[1].length <= level;
   });
 
-  return lines.slice(start, end < 0 ? undefined : end).join("\n").trim();
+  const firstLine = options.includeHeading === false ? start + 1 : start;
+  return lines.slice(firstLine, end < 0 ? undefined : end).join("\n").trim();
 }
 
 const branch = run("git", ["branch", "--show-current"]) || "unknown";
@@ -77,15 +78,16 @@ ${status}
 
 1. README.md
 2. AGENTS.md
-3. 05_MOC/32_command_catalog.md
-4. 05_MOC/00_system_overview.md
-5. 05_MOC/08_ai_write_policy.md
-6. 05_MOC/01_datalink_frontmatter.md
-7. 05_MOC/25_production_data_gate.md
+3. 04_DataLink/index.md
+4. 04_DataLink/00_SYSTEM/index.md
+5. 04_DataLink/02_POLICY_CARDS/index.md
+6. 04_DataLink/02_POLICY_CARDS/policy_execution_board.md
+7. 04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md
+8. mcp/ai_profiles/task_router.md
 
 ## Operating Rules
 
-${extractSection(agents, "## 書き込みルール")}
+${extractSection(agents, "## 書き込みルール", { includeHeading: false })}
 
 ${extractSection(agents, "## 禁止事項")}
 
@@ -96,6 +98,8 @@ bash scripts/start_work.sh
 bash scripts/end_work.sh
 bash scripts/maintenance_check.sh local
 bash scripts/validate_datalink_frontmatter.sh
+bash scripts/validate_datalink_references.sh
+bash scripts/validate_policy_card_references.sh
 bash scripts/security_check.sh
 bash scripts/verify_all.sh
 \`\`\`
@@ -109,17 +113,19 @@ bash scripts/datalink_to_firestore_apply.sh --dry-run
 
 ## Firestore
 
-${extractSection(agents, "## Firestore")}
+${extractSection(agents, "## Firestore", { includeHeading: false })}
 
 ## Google Drive
 
-${extractSection(agents, "## Google Drive")}
+${extractSection(agents, "## Google Drive", { includeHeading: false })}
 
 ## README Snapshot
 
-${extractSection(readme, "## 外部連携")}
+${extractSection(readme, "## 📌 コンセプト")}
 
-${extractSection(readme, "## 重要ルール")}
+${extractSection(readme, "## 📊 核心ドキュメント")}
+
+${extractSection(readme, "## ✅ 基本検証")}
 `;
 
 const resolvedOut = path.resolve(vaultRoot, outPath);

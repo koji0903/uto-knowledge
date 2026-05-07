@@ -33,6 +33,8 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 
 **[[ホーム.md|ホーム]] → [[layer_structure_guide|宇土OS 8層構造]]** でナビゲーション開始
 
+複数AIで作業する場合は、最初に [[AGENTS|AI運用ガイド]] を読む。
+
 ## 📊 核心ドキュメント
 
 | 内容 | ファイル |
@@ -49,6 +51,7 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 | **政策実行** | [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]] |
 | **実行管理** | [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
 | **地域商社DataLink** | [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
+| **AI運用** | [[AGENTS|AI運用ガイド]] |
 
 ## ✅ 基本検証
 

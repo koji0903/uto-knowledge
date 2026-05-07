@@ -36,6 +36,7 @@ $requiredFiles = @(
   ".github/workflows/validate.yml",
   ".env.example",
   ".firebaserc.example",
+  "AGENTS.md",
   "README.md",
   "ホーム.md",
   "CHATGPT_INTEGRATION_DASHBOARD.md",
