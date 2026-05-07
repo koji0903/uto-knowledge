@@ -1,0 +1,24 @@
+{
+  "required_documents": [
+    {
+      "path": "decisions/dec_20260507_ai_handoff_operations",
+      "reason": "複数AI運用の意思決定ログ"
+    },
+    {
+      "path": "projects/prj_regional_trading_pfu",
+      "reason": "地域商社準備PFUの初期プロジェクト"
+    },
+    {
+      "path": "projects/prj_furusato_return_gift_boost",
+      "reason": "ふるさと納税返礼品強化の初期プロジェクト"
+    },
+    {
+      "path": "logs/log_20260507_001",
+      "reason": "地域商社DataLink初期整備ログ"
+    },
+    {
+      "path": "logs/log_20260507_002",
+      "reason": "複数AI運用整備ログ"
+    }
+  ]
+}

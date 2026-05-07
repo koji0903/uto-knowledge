@@ -40,6 +40,7 @@ required_files=(
   ".env.example"
   ".firebaserc.example"
   "AGENTS.md"
+  "datalink.required.json"
   "README.md"
   "ホーム.md"
   "CHATGPT_INTEGRATION_DASHBOARD.md"
