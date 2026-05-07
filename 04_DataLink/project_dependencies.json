@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "description": "Project dependency graph for 宇土OS initiatives",
+  "generated": "2026-05-07",
+  "projects": [
+    {
+      "id": "prj_regional_trading_pfu",
+      "name": "地域商社準備PFU",
+      "status": "planning",
+      "duration_months": 24,
+      "critical_path": true
+    },
+    {
+      "id": "prj_furusato_return_gift_boost",
+      "name": "ふるさと納税返礼品強化",
+      "status": "planning",
+      "duration_months": 18
+    },
+    {
+      "id": "prj_relocation_support",
+      "name": "移住支援推進",
+      "status": "planning",
+      "duration_months": 36
+    },
+    {
+      "id": "prj_education_os_implementation",
+      "name": "教育OS構築",
+      "status": "planning",
+      "duration_months": 30
+    },
+    {
+      "id": "prj_childcare_enhancement",
+      "name": "保育機能強化",
+      "status": "planning",
+      "duration_months": 24
+    }
+  ],
+  "dependencies": [
+    {
+      "from": "prj_regional_trading_pfu",
+      "to": "prj_furusato_return_gift_boost",
+      "type": "prerequisite",
+      "lag_months": 6,
+      "reason": "地域商社の産品台帳完成が返礼品強化の前提条件"
+    },
+    {
+      "from": "prj_regional_trading_pfu",
+      "to": "prj_relocation_support",
+      "type": "enabler",
+      "lag_months": 12,
+      "reason": "地域商社による雇用機会拡大が移住誘引となる"
+    },
+    {
+      "from": "prj_regional_trading_pfu",
+      "to": "prj_education_os_implementation",
+      "type": "synergy",
+      "lag_months": 6,
+      "reason": "学校跡地での地域商社テスト販売・実習機会の提供"
+    },
+    {
+      "from": "prj_relocation_support",
+      "to": "prj_education_os_implementation",
+      "type": "synergy",
+      "lag_months": 0,
+      "reason": "移住者研修・キャリア転換プログラムが教育OSの対象"
+    },
+    {
+      "from": "prj_education_os_implementation",
+      "to": "prj_childcare_enhancement",
+      "type": "synergy",
+      "lag_months": 12,
+      "reason": "学校跡地再生と保育施設の統合運営が可能"
+    }
+  ],
+  "critical_path_analysis": {
+    "description": "Critical path for 2032 vision achievement",
+    "path": [
+      "prj_regional_trading_pfu",
+      "prj_furusato_return_gift_boost",
+      "prj_education_os_implementation"
+    ],
+    "total_duration_months": 48,
+    "target_completion": "2030-05",
+    "buffer_months": 24,
+    "bottlenecks": [
+      {
+        "project": "prj_regional_trading_pfu",
+        "task": "生産者・産品台帳初期整備（30社）",
+        "duration_months": 6,
+        "risk": "high",
+        "mitigation": "Q2 に優先順位付けして推進"
+      },
+      {
+        "project": "prj_furusato_return_gift_boost",
+        "task": "ふるさと納税サイト連携（楽天、さとふる）",
+        "duration_months": 4,
+        "risk": "medium",
+        "mitigation": "地域商社の品揃え確保に並行"
+      },
+      {
+        "project": "prj_education_os_implementation",
+        "task": "学校跡地の再生計画作成・協議",
+        "duration_months": 8,
+        "risk": "high",
+        "mitigation": "R4-12 一般質問の答弁を基盤に"
+      }
+    ]
+  },
+  "milestone_timeline": [
+    {
+      "date": "2026-09-30",
+      "milestone": "地域商社基盤構築フェーズ 1 開始",
+      "deliverables": [
+        "生産者候補 30 社の事前申請",
+        "産品分類と返礼品戦略の確定",
+        "ふるさと納税サイト開設準備"
+      ]
+    },
+    {
+      "date": "2027-03-31",
+      "milestone": "初期展開フェーズ開始（生産者 30 社確定）",
+      "deliverables": [
+        "生産者 30 社と正式契約",
+        "ふるさと納税サイト開設・PR 開始",
+        "移住支援パッケージ開発"
+      ]
+    },
+    {
+      "date": "2028-06-30",
+      "milestone": "教育OS実装フェーズ開始",
+      "deliverables": [
+        "学校跡地 1 拠点の再生計画決定",
+        "プログラム開発着手（移住者研修、起業支援）"
+      ]
+    },
+    {
+      "date": "2030-05-31",
+      "milestone": "クリティカルパス達成（計画完了）",
+      "deliverables": [
+        "地域商社実装（生産者 100 社、売上 ¥50M-100M）",
+        "ふるさと納税年間寄附金 ¥1 億円超",
+        "教育OS 3 拠点稼働"
+      ]
+    },
+    {
+      "date": "2032-12-31",
+      "milestone": "ビジョン達成（長期目標）",
+      "deliverables": [
+        "地域商社売上 ¥500M-1000M",
+        "移住実績 150-250 世帯",
+        "教育OS 5 拠点稼働"
+      ]
+    }
+  ],
+  "resource_sharing": [
+    {
+      "resource": "生産者台帳",
+      "owner": "prj_regional_trading_pfu",
+      "shared_with": [
+        "prj_furusato_return_gift_boost",
+        "prj_education_os_implementation"
+      ],
+      "sharing_type": "shared_ownership"
+    },
+    {
+      "resource": "移住者情報基盤",
+      "owner": "prj_relocation_support",
+      "shared_with": [
+        "prj_education_os_implementation",
+        "prj_childcare_enhancement"
+      ],
+      "sharing_type": "dependency"
+    },
+    {
+      "resource": "学校跡地",
+      "owner": "prj_education_os_implementation",
+      "shared_with": [
+        "prj_regional_trading_pfu",
+        "prj_childcare_enhancement"
+      ],
+      "sharing_type": "multi_use"
+    }
+  ]
+}
