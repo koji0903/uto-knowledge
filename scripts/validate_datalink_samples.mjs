@@ -11,6 +11,7 @@ const requiredPaths = [
   "projects/prj_regional_trading_pfu",
   "projects/prj_furusato_return_gift_boost",
   "logs/log_20260507_001",
+  "logs/log_20260507_002",
 ];
 
 function assert(condition, message) {
