@@ -124,8 +124,8 @@ bash scripts/scaffold_datalink_note.sh --type project --id prj_example --title "
 
 最小手順:
 
-1. `bash scripts/generate_ai_context.sh` を実行する
-2. `bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"` で依頼文を生成する
+1. `bash scripts/start_work.sh --ai claude --task "依頼内容"` を実行する
+2. 必要に応じて `bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"` で依頼文だけ再生成する
 3. `tmp/ai_context.md` と対象ファイルを渡す
 4. 書き込み可能範囲と完了条件を明記する
 5. 戻ってきた成果物を `bash scripts/maintenance_check.sh local` で検証する

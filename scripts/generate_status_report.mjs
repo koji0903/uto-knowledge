@@ -194,6 +194,7 @@ ${dryRun.documents.map((document) => `| ${document.path} | ${document.source} |`
 
 \`\`\`bash
 bash scripts/start_work.sh
+bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_ai_context.sh
 bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
 bash scripts/end_work.sh

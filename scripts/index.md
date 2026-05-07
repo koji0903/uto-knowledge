@@ -11,7 +11,7 @@ created: 2026-05-04
 
 ## 入口
 
-- `start_work.sh`: 作業開始チェック
+- `start_work.sh`: 作業開始チェック。`--ai` と `--task` 指定でハンドオフも生成
 - `end_work.sh`: 作業終了チェック
 - `maintenance_check.sh`: ローカル / フルメンテナンス
 - `generate_ai_context.sh`: 複数AIへ渡す共通コンテキスト生成

@@ -94,6 +94,7 @@ Claude、Gemini、ChatGPT / Codex に作業を引き継ぐときの共通テン�
 ## 最小チェック
 
 ```bash
+bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_ai_context.sh
 bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
 bash scripts/validate_ai_operations_docs.sh
