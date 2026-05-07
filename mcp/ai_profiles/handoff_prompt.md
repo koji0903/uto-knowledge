@@ -16,9 +16,13 @@ Claude、Gemini、ChatGPT / Codex に作業を引き継ぐときの共通テン�
 
 ## 前提
 - このVaultは Obsidian を思考OS、FirestoreをデータOS、Google Driveをファイル実体、MCPをAI連携口として使います。
-- 作業前に `AGENTS.md` と `tmp/ai_context.md` を読んでください。
+- 作業前に `AGENTS.md`、`tmp/ai_context.md`、`tmp/ai_conflict_report.md` を読んでください。
 - 既存のフォルダ名、ファイル名、ID、Firestore collection名を安易に変更しないでください。
 - `.env`、秘密鍵、OAuthトークン、サービスアカウントJSONはGitへ追加しないでください。
+
+## AI競合検出
+- `tmp/ai_conflict_report.md` のHIGH競合が1件以上ある場合は、実装やDataLink更新を止めて先に解消してください。
+- LOW競合は作業前提として明示し、必要に応じて共有してください。
 
 ## 今回の依頼
 [依頼内容を書く]
@@ -36,6 +40,7 @@ Claude、Gemini、ChatGPT / Codex に作業を引き継ぐときの共通テン�
 ## 完了条件
 - 関連リンクが壊れていない
 - Firestore対象データは `firestore_collection` と `firestore_doc_id` を持つ
+- AI競合検出でHIGH競合が0件である
 - 必要な検証コマンドが通っている
 - 未確定事項は「未確定」と明記している
 ```
@@ -96,7 +101,8 @@ Claude、Gemini、ChatGPT / Codex に作業を引き継ぐときの共通テン�
 ```bash
 bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_ai_context.sh
-bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
+bash scripts/detect_ai_conflicts.sh --out tmp/ai_conflict_report.md
+bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容" --conflict-report tmp/ai_conflict_report.md
 bash scripts/validate_ai_operations_docs.sh
 bash scripts/maintenance_check.sh local
 ```

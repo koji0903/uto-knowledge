@@ -11,11 +11,11 @@ created: 2026-05-04
 
 ## 入口
 
-- `start_work.sh`: 作業開始チェック。`--ai` と `--task` 指定でハンドオフも生成
+- `start_work.sh`: 作業開始チェック。`--ai` と `--task` 指定で競合レポート付きハンドオフも生成
 - `end_work.sh`: 作業終了チェック
 - `maintenance_check.sh`: ローカル / フルメンテナンス
 - `generate_ai_context.sh`: 複数AIへ渡す共通コンテキスト生成
-- `generate_handoff_prompt.sh`: AI別ハンドオフ依頼文生成
+- `generate_handoff_prompt.sh`: AI別ハンドオフ依頼文生成。`--conflict-report` で競合レポートを添付
 - `detect_ai_conflicts.sh`: AI作業の競合候補検出
 - `validate_vault.sh`: Vault 構造検証
 - `validate_ai_operations_docs.sh`: AI運用ドキュメントの古い参照・入口整合性検証
