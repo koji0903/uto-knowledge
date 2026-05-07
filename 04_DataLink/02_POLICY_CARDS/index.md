@@ -21,6 +21,8 @@ tags: [政策実行カード, 宇土OS, index]
 
 | カテゴリ | 入口 |
 | --- | --- |
+| 実行管理 | [[policy_execution_board]] |
+| 次回質問バックログ | [[next_question_backlog]] |
 | 産業・地域商社 | [[industry/index]] |
 | 子育て・教育 | [[childcare_education/index]] |
 | 地域運営・インフラ | [[community_infrastructure/index]] |
@@ -55,6 +57,8 @@ tags: [政策実行カード, 宇土OS, index]
 
 ## 関連リンク
 
+- [[policy_execution_board]]
+- [[next_question_backlog]]
 - [[L6_policy_layer]]
 - [[../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
 - [[../01_ASSEMBLY/activities/hijikuro_general_questions_overview]]

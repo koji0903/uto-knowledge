@@ -1,0 +1,67 @@
+---
+id: next_question_backlog_20260507
+type: policy_question_backlog
+title: 次回一般質問バックログ
+created: 2026-05-07
+status: active
+tags: [政策実行カード, 一般質問, 議会, 宇土OS]
+---
+
+# 次回一般質問バックログ
+
+政策実行カードから、次回以降の一般質問へ転換できる論点を並べる。
+
+## 使い方
+
+- 質問前に、対象カードの「根拠」「課題」「次アクション」を確認する
+- 答弁後に、該当カードへ新しい事実、約束、未解決課題を追記する
+- 実装に進めるものは [[policy_execution_board|政策実行ボード]] の実装準備へ移す
+
+## 高優先質問候補
+
+| 優先 | 質問テーマ | 確認したいこと | 使うカード |
+| --- | --- | --- | --- |
+| high | GIGAスクール端末更新後の活用設計 | 更新後の活用KPI、学校間格差、GIGAサポーターの役割、家庭持ち帰り運用 | [[childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]] |
+| high | 地区防災計画の横展開 | 走潟地区モデルの横展開、他地区のスケジュール、補助制度、専門家支援 | [[community_infrastructure/pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]] |
+| high | 自主防災組織と防災リーダー | 組織率、リーダー育成、避難所運営、年度替わりの引き継ぎ | [[community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]] |
+| high | 通学路・道路標示の補修優先順位 | 危険箇所台帳、公開状況、補修予算、地域からの通報導線 | [[community_infrastructure/pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]] |
+| high | 公共施設更新費と市民説明 | 施設別更新費、優先順位、複合化・転用、市民説明の方法 | [[finance_facilities/pc_finance_001_public_facility_finance_gap|公共施設・財政ギャップの見える化]] |
+| high | 自治体AI活用ルール | 利用ガイドライン、個人情報保護、職員研修、効果測定 | [[admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] |
+
+## 産業・地域商社
+
+| 質問テーマ | 確認したいこと | 使うカード |
+| --- | --- | --- |
+| 地域商社の実装主体 | 行政、観光物産協会、商工会、農林水産団体、民間人材の役割 | [[industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]] |
+| ふるさと納税と販路接続 | 返礼品開発、EC、商談会、産品台帳、KPI | [[industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]] |
+| 産業横断PFU | 商工観光、農林水産、企画財政、外部人材の横断体制 | [[industry/pc_industry_005_cross_department_industry_pfu|産業横断PFUの設計]] |
+
+## 子育て・教育
+
+| 質問テーマ | 確認したいこと | 使うカード |
+| --- | --- | --- |
+| 子どもサードプレイス | 運営主体、支援メニュー、安全対策、利用データ | [[childcare_education/pc_childedu_002_child_third_place|子どもサードプレイスの運用設計]] |
+| こどもまんなか施策 | 宣言後の実施施策、子どもの声、保護者への届き方 | [[childcare_education/pc_childedu_003_child_support_visibility|こどもまんなか施策の見える化]] |
+| 児童発達支援 | 支援情報、施設配慮、保護者ニーズ、相談導線 | [[childcare_education/pc_childedu_005_child_development_support_facilities|児童発達支援と公共施設の接続]] |
+
+## 移住・魅力発信
+
+| 質問テーマ | 確認したいこと | 使うカード |
+| --- | --- | --- |
+| 魅力発信から移住導線 | 発信KPI、資料請求、移住相談、若手職員提案の継続 | [[relocation_brand/pc_relocation_001_uto_brand_migration_funnel|「九州のどまんなか宇土市」から移住導線へ]] |
+| 空き家活用・お試し居住 | 空き家台帳、お試し居住、地域受入体制、改修財源 | [[relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] |
+
+## 答弁後の更新先
+
+| 追加する情報 | 更新先 |
+| --- | --- |
+| 新しい答弁原文 | [[../01_ASSEMBLY/questions/index|一般質問・質疑]] |
+| 答弁の出典 | [[../01_ASSEMBLY/evidence/index|根拠資料]] |
+| 政策論点の変化 | 対応する政策実行カード |
+| 横断整理 | [[../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]] |
+
+## 関連リンク
+
+- [[policy_execution_board|政策実行ボード]]
+- [[index|政策実行カード]]
+- [[../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]

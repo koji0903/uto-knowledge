@@ -56,6 +56,8 @@ $requiredFiles = @(
   "04_DataLink/01_ASSEMBLY/evidence/index.md",
   "04_DataLink/01_ASSEMBLY/policy_links/index.md",
   "04_DataLink/02_POLICY_CARDS/index.md",
+  "04_DataLink/02_POLICY_CARDS/policy_execution_board.md",
+  "04_DataLink/02_POLICY_CARDS/next_question_backlog.md",
   "04_DataLink/02_POLICY_CARDS/_templates/template_policy_card.md",
   "04_DataLink/02_POLICY_CARDS/industry/index.md",
   "04_DataLink/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company.md",
