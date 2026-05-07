@@ -15,6 +15,8 @@ created: 2026-05-04
 - `end_work.sh`: 作業終了チェック
 - `maintenance_check.sh`: ローカル / フルメンテナンス
 - `validate_vault.sh`: Vault 構造検証
+- `validate_datalink_scaffold.sh`: DataLinkテンプレートとscaffold dry-run検証
+- `scaffold_datalink_note.sh`: DataLinkノート作成
 
 ## 注意
 

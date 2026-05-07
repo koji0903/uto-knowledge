@@ -15,6 +15,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_samples.ps
 Write-Output "checking datalink frontmatter..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_frontmatter.ps1"
 
+Write-Output "checking datalink scaffold..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_scaffold.ps1"
+
 Write-Output "checking obsidian links..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_obsidian_links.ps1"
 

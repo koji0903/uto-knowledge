@@ -18,6 +18,9 @@ bash scripts/validate_datalink_samples.sh
 echo "checking datalink frontmatter..."
 bash scripts/validate_datalink_frontmatter.sh
 
+echo "checking datalink scaffold..."
+bash scripts/validate_datalink_scaffold.sh
+
 echo "checking obsidian links..."
 bash scripts/validate_obsidian_links.sh
 

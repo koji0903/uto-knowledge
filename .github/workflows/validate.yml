@@ -39,6 +39,9 @@ jobs:
       - name: Validate DataLink frontmatter
         run: bash scripts/validate_datalink_frontmatter.sh
 
+      - name: Validate DataLink scaffold
+        run: bash scripts/validate_datalink_scaffold.sh
+
       - name: Validate Obsidian links
         run: bash scripts/validate_obsidian_links.sh
 
