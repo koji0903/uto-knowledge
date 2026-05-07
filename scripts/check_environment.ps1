@@ -30,6 +30,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_references
 Write-Output "checking policy card references..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_policy_card_references.ps1"
 
+Write-Output "generating policy card report..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\generate_policy_card_report.ps1" | Out-Null
+
 Write-Output "checking obsidian links..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_obsidian_links.ps1"
 
@@ -56,7 +59,7 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\generate_changelog.ps1" | Ou
 
 Write-Output "checking git..."
 git rev-parse --is-inside-work-tree | Out-Null
-git status --short --branch
+git -c core.quotePath=false status --short --branch
 
 Write-Output "checking optional CLIs..."
 

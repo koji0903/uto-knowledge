@@ -54,6 +54,9 @@ jobs:
       - name: Validate policy card references
         run: bash scripts/validate_policy_card_references.sh
 
+      - name: Generate policy card report
+        run: bash scripts/generate_policy_card_report.sh
+
       - name: Validate Obsidian links
         run: bash scripts/validate_obsidian_links.sh
 

@@ -33,6 +33,9 @@ bash scripts/validate_datalink_references.sh
 echo "checking policy card references..."
 bash scripts/validate_policy_card_references.sh
 
+echo "generating policy card report..."
+bash scripts/generate_policy_card_report.sh >/dev/null
+
 echo "checking obsidian links..."
 bash scripts/validate_obsidian_links.sh
 
@@ -59,7 +62,7 @@ bash scripts/generate_changelog.sh >/dev/null
 
 echo "checking git..."
 git rev-parse --is-inside-work-tree >/dev/null
-git status --short --branch
+git -c core.quotePath=false status --short --branch
 
 echo "checking optional CLIs..."
 

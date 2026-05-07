@@ -135,6 +135,7 @@ const validationCommands = [
   "bash scripts/validate_datalink_scaffold.sh",
   "bash scripts/validate_datalink_references.sh",
   "bash scripts/validate_policy_card_references.sh",
+  "bash scripts/generate_policy_card_report.sh",
   "bash scripts/validate_obsidian_links.sh",
   "bash scripts/datalink_to_firestore_apply.sh --dry-run",
   "bash scripts/validate_drive_structure_config.sh",
@@ -222,6 +223,7 @@ bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_ai_context.sh
 bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
 bash scripts/detect_ai_conflicts.sh
+bash scripts/generate_policy_card_report.sh
 bash scripts/end_work.sh
 bash scripts/verify_all.sh
 bash scripts/check_firestore_drift.sh

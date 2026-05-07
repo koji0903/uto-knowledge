@@ -50,6 +50,7 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 | **議会情報** | [[04_DataLink/01_ASSEMBLY/index|宇土市議会・議員情報]] |
 | **政策実行** | [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]] |
 | **実行管理** | [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
+| **政策棚卸し** | `tmp/policy_card_report.md` |
 | **地域商社DataLink** | [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
 | **AI運用** | [[AGENTS|AI運用ガイド]] |
 | **運用** | [[運用ダッシュボード|運用ダッシュボード]] |
@@ -67,6 +68,7 @@ bash scripts/maintenance_check.sh local
 - DataLink実データ
 - DataLink参照整合性
 - 政策カードと議会質問・根拠資料の参照整合性
+- 政策カード棚卸しレポート生成
 - Obsidianリンク
 - Firestore dry-run
 - Google Drive構成dry-run

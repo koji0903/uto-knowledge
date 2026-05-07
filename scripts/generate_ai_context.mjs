@@ -44,7 +44,7 @@ function extractSection(markdown, heading, options = {}) {
 
 const branch = run("git", ["branch", "--show-current"]) || "unknown";
 const latestCommit = run("git", ["log", "--oneline", "-1"]) || "unknown";
-const status = run("git", ["status", "--short", "--branch"]) || "unknown";
+const status = run("git", ["-c", "core.quotePath=false", "status", "--short", "--branch"]) || "unknown";
 const remote = run("git", ["remote", "get-url", "origin"]) || "unknown";
 
 const agents = read("AGENTS.md");
@@ -101,6 +101,7 @@ bash scripts/start_work.sh
 bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
 bash scripts/detect_ai_conflicts.sh
+bash scripts/generate_policy_card_report.sh
 bash scripts/end_work.sh
 bash scripts/maintenance_check.sh local
 bash scripts/validate_datalink_frontmatter.sh
