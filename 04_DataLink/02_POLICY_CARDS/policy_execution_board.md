@@ -52,7 +52,7 @@ tags: [政策実行カード, 宇土OS, 実行管理, index]
 
 | 候補 | 理由 | 入口 |
 | --- | --- | --- |
-| 空き家活用・お試し居住 | 移住OSの中核だが議会質問との接続が薄い | [[relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] |
+| 空き家活用・お試し居住 | 魅力発信と地域おこし協力隊の定住実績を、住まい・お試し居住へ接続できる | [[relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] |
 | 行政視察ナレッジ | 宇土市の強みを外部評価から抽出できる | [[admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]] |
 | 児童発達支援 | 子育てOSで制度・施設・相談を統合できる | [[childcare_education/pc_childedu_005_child_development_support_facilities|児童発達支援と公共施設の接続]] |
 

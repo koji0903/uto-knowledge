@@ -9,8 +9,8 @@ priority: medium
 policy_domain: relocation_brand
 related_layers: [L1_fact_layer, L2_issue_layer, L3_organization_pfu, L4_finance_layer]
 related_os: [relocation_os_specification, rmo_os_specification]
-related_questions: []
-related_evidence: []
+related_questions: [q_r4_12_hijikuro, q_r6_06_hijikuro]
+related_evidence: [ev_r4_12_hijikuro_question_source, ev_r6_06_hijikuro_question_source]
 tags: [政策実行カード, 移住定住, 空き家, お試し居住]
 ---
 
@@ -26,6 +26,8 @@ tags: [政策実行カード, 移住定住, 空き家, お試し居住]
 
 ## 根拠
 
+- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地域おこし協力隊、移住・定住促進、退任後の定住
+- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] - 魅力発信から定住・移住先としての選択肢化
 - [[relocation_os_specification]] - 空き家活用、試験住宅、移住者支援
 - [[relocation_os_use_cases]] - お試し居住、仕事マッチング、定住化
 - [[L1_fact_layer]] - 空き家の分布と利用可能性
@@ -36,7 +38,7 @@ tags: [政策実行カード, 移住定住, 空き家, お試し居住]
 
 - 空き家活用は、移住・定住OSの中核機能として整理されている
 - 空き家所有者、移住希望者、地域団体、仕事情報をつなぐ必要がある
-- 議会質問との直接接続は今後追加する余地がある
+- R4-12では地域おこし協力隊の定住、R6-06では魅力発信から移住・定住への接続が扱われている
 
 ## 課題
 
@@ -72,4 +74,6 @@ tags: [政策実行カード, 移住定住, 空き家, お試し居住]
 - [[relocation_os_specification]]
 - [[rmo_os_specification]]
 - [[L3_organization_pfu]]
+- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]]
+- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]]
 - [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]

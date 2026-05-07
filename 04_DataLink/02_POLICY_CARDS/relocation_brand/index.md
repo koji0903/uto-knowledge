@@ -16,7 +16,7 @@ tags: [政策実行カード, 移住定住, 魅力発信, index]
 | カード | 状態 | 主な接続先 |
 | --- | --- | --- |
 | [[pc_relocation_001_uto_brand_migration_funnel|「九州のどまんなか宇土市」から移住導線へ]] | draft | [[relocation_os_specification]], [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] |
-| [[pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] | draft | [[relocation_os_specification]], [[L3_organization_pfu]] |
+| [[pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] | draft | [[relocation_os_specification]], [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]], [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] |
 
 ## 関連リンク
 
