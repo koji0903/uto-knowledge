@@ -7,6 +7,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const vaultRoot = path.resolve(scriptDir, "..");
 
 const requiredPaths = [
+  "decisions/dec_20260507_ai_handoff_operations",
   "projects/prj_regional_trading_pfu",
   "projects/prj_furusato_return_gift_boost",
   "logs/log_20260507_001",
