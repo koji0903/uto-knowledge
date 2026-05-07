@@ -47,14 +47,15 @@ const gitLog = run("git", ["log", "--oneline", `--max-count=${limit}`])
 const logDir = path.join(vaultRoot, "04_DataLink/logs");
 const operationLogs = fs.existsSync(logDir) ? fs.readdirSync(logDir, { withFileTypes: true })
   .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+  .filter((entry) => entry.name !== "index.md")
   .map((entry) => {
     const file = `04_DataLink/logs/${entry.name}`;
     const frontmatter = parseFrontmatter(file);
     return {
       file,
       id: frontmatter.id || "",
-      event: frontmatter.event || "",
-      target: frontmatter.target_system || "",
+      event: frontmatter.event_type || frontmatter.event || "",
+      target: frontmatter.summary || frontmatter.target_system || "",
       created: frontmatter.created || "",
     };
   })

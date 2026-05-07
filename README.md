@@ -14,9 +14,17 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 ```
 04_DataLink/
 ├── 00_SYSTEM/         - 宇土OS体系（層構造 + 6つの機能OS）
-└── 01_ASSEMBLY/       - 議会・議員情報
+├── 01_ASSEMBLY/       - 議会・議員情報
+├── 02_POLICY_CARDS/   - 政策実行カード
+├── decisions/         - 意思決定台帳（Firestore対応）
+├── producers/         - 生産者台帳（Firestore対応）
+├── products/          - 商品・産品台帳（Firestore対応）
+├── projects/          - プロジェクト台帳（Firestore対応）
+└── logs/              - ログ台帳（Firestore対応）
 
 その他
+├── 06_Templates/      - DataLink作成テンプレート
+├── scripts/           - 検証・同期・生成スクリプト
 ├── ホーム.md          - Obsidian ホームページ
 └── README.md          - このファイル
 ```
@@ -38,7 +46,27 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 | **地域商社実装** | [[utomachi_100_store_specification|ウトマチ百貨店 仕様書]] |
 | **移住・定住** | [[relocation_os_specification|移住・定住OS 仕様書]] |
 | **議会情報** | [[04_DataLink/01_ASSEMBLY/index|宇土市議会・議員情報]] |
+| **政策実行** | [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]] |
+| **実行管理** | [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
+| **地域商社DataLink** | [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
+
+## ✅ 基本検証
+
+```bash
+bash scripts/maintenance_check.sh local
+```
+
+主な検証内容:
+
+- Vault必須構造
+- DataLink frontmatter
+- DataLink実データ
+- DataLink参照整合性
+- 政策カードと議会質問・根拠資料の参照整合性
+- Obsidianリンク
+- Firestore dry-run
+- Google Drive構成dry-run
 
 ---
 
-**最終更新:** 2026-05-06
+**最終更新:** 2026-05-07
