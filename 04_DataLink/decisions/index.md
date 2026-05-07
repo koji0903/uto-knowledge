@@ -35,3 +35,7 @@ tags: [DataLink, Firestore, 意思決定, index]
 - [[../projects/index|プロジェクト台帳]]
 - [[../logs/index|ログ台帳]]
 - [[../02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
+
+## 意思決定
+
+- [[decision_20260507_ai_handoff_operations|複数AI運用をハンドオフ生成とCI検証で管理する]]
