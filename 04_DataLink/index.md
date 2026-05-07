@@ -19,7 +19,7 @@ Firestore と対応する構造化ノートを置く場所。
 
 | フォルダ | 日本語名 | Firestore collection |
 | --- | --- | --- |
-| `decisions` | 意思決定 | `decisions` |
+| [[decisions/index|decisions]] | 意思決定 | `decisions` |
 | [[producers/index|producers]] | 生産者 | `producers` |
 | [[products/index|products]] | 商品・産品 | `products` |
 | [[projects/index|projects]] | プロジェクト | `projects` |

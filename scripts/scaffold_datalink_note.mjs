@@ -15,6 +15,7 @@ const type = getArg("--type");
 const id = getArg("--id");
 const title = getArg("--title") || id;
 const date = getArg("--date") || new Date().toISOString().slice(0, 10);
+const dryRun = args.includes("--dry-run");
 
 const config = {
   decision: {
@@ -56,6 +57,7 @@ function usage() {
   return [
     "Usage:",
     "  node scripts/scaffold_datalink_note.mjs --type project --id prj_002 --title \"Project Name\"",
+    "  node scripts/scaffold_datalink_note.mjs --type project --id prj_002 --title \"Project Name\" --dry-run",
     "",
     "Types:",
     "  decision, producer, product, project, log",
@@ -106,6 +108,15 @@ if (type === "decision") {
 }
 
 fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-fs.writeFileSync(outputPath, content, "utf8");
+if (dryRun) {
+  console.log(JSON.stringify({
+    mode: "dry-run",
+    type,
+    id,
+    output: path.relative(vaultRoot, outputPath).replaceAll(path.sep, "/"),
+  }, null, 2));
+  process.exit(0);
+}
 
+fs.writeFileSync(outputPath, content, "utf8");
 console.log(`created ${path.relative(vaultRoot, outputPath)}`);

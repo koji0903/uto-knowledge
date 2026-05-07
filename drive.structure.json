@@ -17,6 +17,12 @@
       "obsidianFolder": "04_DataLink/01_ASSEMBLY"
     },
     {
+      "name": "decisions",
+      "env": "GOOGLE_DRIVE_DECISIONS_FOLDER_ID",
+      "firestoreCollection": "decisions",
+      "obsidianFolder": "04_DataLink/decisions"
+    },
+    {
       "name": "producers",
       "env": "GOOGLE_DRIVE_PRODUCERS_FOLDER_ID",
       "firestoreCollection": "producers",
