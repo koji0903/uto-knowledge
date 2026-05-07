@@ -129,6 +129,7 @@ const validationCommands = [
   "bash scripts/security_check.sh",
   "bash scripts/validate_mcp_config.sh",
   "bash scripts/validate_ai_operations_docs.sh",
+  "bash scripts/detect_ai_conflicts.sh --strict",
   "bash scripts/validate_datalink_samples.sh",
   "bash scripts/validate_datalink_frontmatter.sh",
   "bash scripts/validate_datalink_scaffold.sh",
@@ -220,6 +221,7 @@ bash scripts/start_work.sh
 bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_ai_context.sh
 bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
+bash scripts/detect_ai_conflicts.sh
 bash scripts/end_work.sh
 bash scripts/verify_all.sh
 bash scripts/check_firestore_drift.sh

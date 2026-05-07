@@ -12,6 +12,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\validate_mcp_config.ps1"
 Write-Output "checking AI operations docs..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_ai_operations_docs.ps1"
 
+Write-Output "checking AI conflicts..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\detect_ai_conflicts.ps1" --strict | Out-Null
+
 Write-Output "checking datalink samples..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\validate_datalink_samples.ps1"
 

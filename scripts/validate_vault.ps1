@@ -119,6 +119,7 @@ $requiredFiles = @(
   "mcp/ai_profiles/gemini_profile.md",
   "mcp/ai_profiles/task_router.md",
   "mcp/ai_profiles/handoff_prompt.md",
+  "mcp/ai_profiles/conflict_detector.md",
   "mcp/clients/claude_desktop.example.json",
   "mcp/clients/generic_mcp_client.example.json",
   "mcp/clients/chatgpt_codex_notes.md",
@@ -157,7 +158,10 @@ $requiredFiles = @(
   "scripts/validate_ai_operations_docs.ps1",
   "scripts/generate_handoff_prompt.mjs",
   "scripts/generate_handoff_prompt.sh",
-  "scripts/generate_handoff_prompt.ps1"
+  "scripts/generate_handoff_prompt.ps1",
+  "scripts/detect_ai_conflicts.mjs",
+  "scripts/detect_ai_conflicts.sh",
+  "scripts/detect_ai_conflicts.ps1"
 )
 
 foreach ($dir in $requiredDirs) {

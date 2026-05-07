@@ -36,6 +36,9 @@ jobs:
       - name: Validate AI operations docs
         run: bash scripts/validate_ai_operations_docs.sh
 
+      - name: Detect AI conflicts
+        run: bash scripts/detect_ai_conflicts.sh --strict
+
       - name: Validate DataLink samples
         run: bash scripts/validate_datalink_samples.sh
 

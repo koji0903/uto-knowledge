@@ -21,6 +21,7 @@ Claude、Gemini、ChatGPT、Codexなど複数AIが触れる前提のため、作
 7. [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
 8. [[mcp/ai_profiles/task_router|Task Router]]
 9. [[mcp/ai_profiles/handoff_prompt|AIハンドオフプロンプト]]
+10. [[mcp/ai_profiles/conflict_detector|AI競合検出]]
 
 ## 書き込みルール
 
@@ -90,6 +91,7 @@ bash scripts/validate_datalink_samples.sh
 bash scripts/validate_datalink_references.sh
 bash scripts/validate_policy_card_references.sh
 bash scripts/validate_obsidian_links.sh
+bash scripts/detect_ai_conflicts.sh
 ```
 
 ## DataLink作成

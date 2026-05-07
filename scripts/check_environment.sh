@@ -15,6 +15,9 @@ bash scripts/validate_mcp_config.sh
 echo "checking AI operations docs..."
 bash scripts/validate_ai_operations_docs.sh
 
+echo "checking AI conflicts..."
+bash scripts/detect_ai_conflicts.sh --strict >/dev/null
+
 echo "checking datalink samples..."
 bash scripts/validate_datalink_samples.sh
 

@@ -86,6 +86,7 @@ ${status}
 8. 04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md
 9. mcp/ai_profiles/task_router.md
 10. mcp/ai_profiles/handoff_prompt.md
+11. mcp/ai_profiles/conflict_detector.md
 
 ## Operating Rules
 
@@ -99,6 +100,7 @@ ${extractSection(agents, "## 禁止事項")}
 bash scripts/start_work.sh
 bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
+bash scripts/detect_ai_conflicts.sh
 bash scripts/end_work.sh
 bash scripts/maintenance_check.sh local
 bash scripts/validate_datalink_frontmatter.sh
