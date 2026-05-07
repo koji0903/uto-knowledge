@@ -12,6 +12,9 @@ bash scripts/security_check.sh
 echo "checking mcp config..."
 bash scripts/validate_mcp_config.sh
 
+echo "checking AI operations docs..."
+bash scripts/validate_ai_operations_docs.sh
+
 echo "checking datalink samples..."
 bash scripts/validate_datalink_samples.sh
 

@@ -105,14 +105,14 @@ Google Workspace 連携
 - Google Workspace との連携を担当する
 
 ## アクセス可能な情報
-- Obsidian Vault (04_DataLink, 05_MOC など)
+- Obsidian Vault (README, AGENTS, 04_DataLink など)
 - Firestore データ
 - Google Drive ファイル（直接アクセス可能）
 - Web（Google検索、外部リソース）
 
 ## 制限事項
 - 読み取りは全体可能
-- 書き込みは 00_Inbox / 01_Daily / 04_DataLink/logs のみ
+- 書き込みは AGENTS.md の書き込みルールに従う
 - Firestore 直接更新は不可
 
 ## 推奨作業フロー
@@ -205,11 +205,11 @@ screenshot.png
 ## コンテキスト提供方法
 
 ```bash
-# Gemini 用の最適化されたコンテキストを生成
-bash scripts/generate_context_for_gemini.sh
+# 共通AIコンテキストを生成
+bash scripts/generate_ai_context.sh
 ```
 
-出力ファイル: `tmp/ai_context_gemini.md`
+出力ファイル: `tmp/ai_context.md`
 
 **含まれる情報:**
 - DataLink（最新情報重視）
@@ -327,5 +327,5 @@ Gemini との協業で気付いた点：
 
 - [Google Gemini 公式](https://gemini.google.com)
 - [Google Cloud MCP](https://cloud.google.com/docs/mcp)
-- `05_MOC/27_ai_context_handoff.md` — Gemini 向けコンテキスト設計
+- `AGENTS.md` — 共通AI運用ガイド
 - `task_router.md` — タスク振り分けロジック

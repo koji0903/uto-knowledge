@@ -81,7 +81,7 @@ fi
 # Check 5: Line ending consistency
 echo -e "\n${BLUE}5️⃣  Line Ending Consistency${NC}"
 
-MD_FILES=$(find "$PROJECT_ROOT/05_MOC" -name "*.md" -type f 2>/dev/null | head -5)
+MD_FILES=$(find "$PROJECT_ROOT/04_DataLink" "$PROJECT_ROOT/mcp" -name "*.md" -type f 2>/dev/null | head -5)
 ISSUE_FOUND=0
 
 for file in $MD_FILES; do

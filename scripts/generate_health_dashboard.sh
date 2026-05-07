@@ -286,7 +286,7 @@ bash scripts/generate_health_dashboard.sh
 
 ダッシュボード生成に関する問題：
 
-- 仕様：\`05_MOC/30_health_check_system.md\`
+- 仕様：\`AGENTS.md\` と \`scripts/maintenance_check.sh\`
 - スクリプト：\`scripts/generate_health_dashboard.sh\`
 - 差分検出：\`scripts/firestore_markdown_drift_detection.mjs\`
 

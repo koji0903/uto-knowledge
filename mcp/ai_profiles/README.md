@@ -19,7 +19,8 @@ created: 2026-05-03
 ## クイックスタート
 
 1. **まず読む**
-   - このファイル（今ここ）
+   - `AGENTS.md`
+   - `tmp/ai_context.md`（`bash scripts/start_work.sh` で生成）
    - `task_router.md` で自分のタスクに適した AI を確認
 
 2. **AI プロファイルを確認**
@@ -86,7 +87,7 @@ created: 2026-05-03
 ### 競合・重複を避けるために
 
 - ✅ 大きなタスクは「リード AI」を明記する
-- ✅ `04_DataLink/logs/decisions/` に判断内容を記録する
+- ✅ `04_DataLink/logs/` または `04_DataLink/decisions/` に判断内容を記録する
 - ✅ AI 間で異なる結論に達した場合は、その理由を記す
 - ❌ 同じタスクで複数 AI が独立して動かない
 
@@ -96,40 +97,38 @@ created: 2026-05-03
 
 | AI | 読み取り | 書き込み |
 |----|--------|--------|
-| Claude | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs |
-| Gemini | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs |
-| ChatGPT | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs |
+| Claude | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs, decisions |
+| Gemini | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs, Drive連携メモ |
+| ChatGPT | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs, DataLink scaffold |
 
-**変更が必要な場合** → `05_MOC/08_ai_write_policy.md` を更新してから権限を拡張
+Firestore対象データを作る場合は `AGENTS.md` に従い、`firestore_collection` と `firestore_doc_id` を必ず設定します。
 
 ## コンテキスト提供方法
 
 各 AI に適したコンテキストを用意：
 
 ```bash
-# Claude 向け（深い分析用）
-bash scripts/generate_context_for_claude.sh
+# 共通AIコンテキスト
+bash scripts/generate_ai_context.sh
 
-# Gemini 向け（検索・リアルタイム用）
-bash scripts/generate_context_for_gemini.sh
-
-# ChatGPT 向け（スキル・実装用）
-bash scripts/generate_context_for_chatgpt.sh
+# 作業開始時の一括確認
+bash scripts/start_work.sh
 ```
 
-詳細は `05_MOC/27_ai_context_handoff.md` を参照。
+詳細は `AGENTS.md` と `tmp/ai_context.md` を参照。
 
 ## フィードバック・改善
 
 AI Personas に改善が必要な場合：
 
 1. 該当ファイルの「フィードバック」セクションにコメント
-2. `05_MOC/` に改善提案ドキュメント作成
+2. `00_Inbox` または `04_DataLink/logs` に改善提案メモを作成
 3. User の確認後に更新
 
 ## 関連ドキュメント
 
-- `05_MOC/00_system_overview.md` — 全体構造
-- `05_MOC/08_ai_write_policy.md` — 書き込みルール
-- `05_MOC/27_ai_context_handoff.md` — コンテキスト設計
 - `AGENTS.md` — AI 運用ガイド（全体）
+- `README.md` — Vault の入口
+- `04_DataLink/index.md` — DataLink 全体
+- `04_DataLink/02_POLICY_CARDS/policy_execution_board.md` — 政策実行ボード
+- `04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md` — Firestore連携スキーマ

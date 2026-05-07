@@ -33,6 +33,9 @@ jobs:
       - name: Validate MCP config
         run: bash scripts/validate_mcp_config.sh
 
+      - name: Validate AI operations docs
+        run: bash scripts/validate_ai_operations_docs.sh
+
       - name: Validate DataLink samples
         run: bash scripts/validate_datalink_samples.sh
 

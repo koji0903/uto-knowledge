@@ -152,6 +152,9 @@ required_files=(
   "scripts/validate_policy_card_references.mjs"
   "scripts/validate_policy_card_references.sh"
   "scripts/validate_policy_card_references.ps1"
+  "scripts/validate_ai_operations_docs.mjs"
+  "scripts/validate_ai_operations_docs.sh"
+  "scripts/validate_ai_operations_docs.ps1"
 )
 
 for dir in "${required_dirs[@]}"; do

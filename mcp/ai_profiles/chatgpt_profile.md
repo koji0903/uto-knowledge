@@ -116,14 +116,14 @@ OpenAI による大規模言語モデル。幅広いスキル、実装ガイダ�
 - ドキュメント・資料を生成する
 
 ## アクセス可能な情報
-- Obsidian Vault (04_DataLink, 05_MOC など)
+- Obsidian Vault (README, AGENTS, 04_DataLink など)
 - Firestore データ
 - Google Drive ファイル（リンク経由）
 - GitHub リポジトリ
 
 ## 制限事項
 - 読み取りは全体可能
-- 書き込みは 00_Inbox / 01_Daily / 04_DataLink/logs のみ
+- 書き込みは AGENTS.md の書き込みルールに従う
 - Firestore 直接更新は不可
 - 本番スクリプトは User テスト後に実行
 
@@ -230,11 +230,11 @@ scripts/__tests__/ ディレクトリ
 ## コンテキスト提供方法
 
 ```bash
-# ChatGPT 用の最適化されたコンテキストを生成
-bash scripts/generate_context_for_chatgpt.sh
+# 共通AIコンテキストを生成
+bash scripts/generate_ai_context.sh
 ```
 
-出力ファイル: `tmp/ai_context_chatgpt.md`
+出力ファイル: `tmp/ai_context.md`
 
 **含まれる情報:**
 - スクリプト関連ドキュメント
@@ -356,11 +356,13 @@ Instructions:
 - DataLink 標準に従う
 - Markdown frontmatter 形式を理解
 - Firestore スキーマを参照
-- AI write policy を厳守
+- AGENTS.md の書き込みルールを厳守
 - 実装は scripts/ に生成
 
 Knowledge:
-- 05_MOC/ ドキュメント全体
+- AGENTS.md
+- 04_DataLink/00_SYSTEM/
+- 04_DataLink/02_POLICY_CARDS/
 - スクリプト例
 - Firestore スキーマ
 ```
@@ -380,5 +382,5 @@ ChatGPT との協業で気付いた点：
 
 - [OpenAI 公式ドキュメント](https://platform.openai.com/docs)
 - [ChatGPT プラグインストア](https://chat.openai.com/gpts)
-- `05_MOC/27_ai_context_handoff.md` — ChatGPT 向けコンテキスト設計
+- `AGENTS.md` — 共通AI運用ガイド
 - `task_router.md` — タスク振り分けロジック

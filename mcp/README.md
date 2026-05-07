@@ -17,7 +17,7 @@ Claude、Gemini、ChatGPT から同じ Obsidian / Firestore / Google Drive 環�
 - 秘密情報は `.env` または各 AI クライアントの安全な設定領域に置く
 - GitHub には設定テンプレートだけを置く
 - MCP サーバーは読み取りから開始する
-- 書き込み権限は運用ルールが固まってから追加する
+- 書き込み権限は `AGENTS.md` の運用ルールとDataLink検証を通る範囲に限定する
 
 ## 設定ファイル
 
@@ -50,10 +50,11 @@ bash scripts/render_mcp_filesystem_config.sh
 1. filesystem MCP で Vault を読む
 2. Firestore MCP を読み取り専用で接続する
 3. Google Drive MCP を読み取り専用で接続する
-4. 書き込み操作はログ設計と権限設計後に追加する
+4. 書き込み操作は `AGENTS.md` の書き込みルールに沿って、dry-runと検証後に行う
 
 ## 注意
 
 - サービスアカウント JSON を Git に含めない
 - `.env` を Git に含めない
-- AI からの書き込みは、最初は `00_Inbox` または `04_DataLink/logs` に限定する
+- AI からの通常書き込みは、`00_Inbox`、`01_Daily`、`04_DataLink/logs` を基本にする
+- Firestore対象データを作る場合は、`04_DataLink/decisions`、`producers`、`products`、`projects`、`logs` のいずれかに作り、frontmatter検証を通す

@@ -101,13 +101,13 @@ Anthropic による大規模言語モデル。深い思考、複雑な推論、�
 - 意思決定の根拠を明確にする
 
 ## アクセス可能な情報
-- Obsidian Vault (04_DataLink, 05_MOC など)
+- Obsidian Vault (README, AGENTS, 04_DataLink など)
 - Firestore データ
 - Google Drive ファイルへのリンク
 
 ## 制限事項
 - 読み取りは全体可能
-- 書き込みは 00_Inbox / 01_Daily / 04_DataLink/logs のみ
+- 書き込みは AGENTS.md の書き込みルールに従う
 - Firestore 直接更新は不可（ログ記録後に User が apply）
 
 ## 推奨作業フロー
@@ -175,23 +175,23 @@ Anthropic による大規模言語モデル。深い思考、複雑な推論、�
 5. 運用上のリスク
 
 【成果物】
-- 05_MOC に検討結果を記録
+- 00_Inbox または 04_DataLink/logs に検討結果を記録
 - 複数の実装案を提示
 ```
 
 ## コンテキスト提供方法
 
 ```bash
-# Claude 用の最適化されたコンテキストを生成
-bash scripts/generate_context_for_claude.sh
+# 共通AIコンテキストを生成
+bash scripts/generate_ai_context.sh
 ```
 
-出力ファイル: `tmp/ai_context_claude.md`
+出力ファイル: `tmp/ai_context.md`
 
 **含まれる情報:**
 - 全 DataLink（背景情報重視）
 - 決定ログ（判断の参考）
-- MOC ドキュメント全体
+- AGENTS.md の運用ルール
 - 関連性マップ
 
 ## 使用例
@@ -266,5 +266,5 @@ Claude との協業で気付いた点：
 ## 関連リソース
 
 - [Anthropic 公式ドキュメント](https://docs.anthropic.com)
-- `05_MOC/27_ai_context_handoff.md` — Claude 向けコンテキスト設計
+- `AGENTS.md` — 共通AI運用ガイド
 - `task_router.md` — タスク振り分けロジック

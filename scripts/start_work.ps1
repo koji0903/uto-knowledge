@@ -13,4 +13,4 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\maintenance_check.ps1" local
 
 Write-Output ""
 Write-Output "start work completed"
-Write-Output "next: read tmp/ai_context.md and 05_MOC/32_command_catalog.md"
+Write-Output "next: read tmp/ai_context.md and AGENTS.md"

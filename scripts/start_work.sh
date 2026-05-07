@@ -16,4 +16,4 @@ bash scripts/maintenance_check.sh local
 
 echo
 echo "start work completed"
-echo "next: read tmp/ai_context.md and 05_MOC/32_command_catalog.md"
+echo "next: read tmp/ai_context.md and AGENTS.md"
