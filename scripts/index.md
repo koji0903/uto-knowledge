@@ -14,7 +14,9 @@ created: 2026-05-04
 - `start_work.sh`: 作業開始チェック
 - `end_work.sh`: 作業終了チェック
 - `maintenance_check.sh`: ローカル / フルメンテナンス
+- `generate_ai_context.sh`: 複数AIへ渡す共通コンテキスト生成
 - `validate_vault.sh`: Vault 構造検証
+- `validate_ai_operations_docs.sh`: AI運用ドキュメントの古い参照・入口整合性検証
 - `validate_datalink_samples.sh`: Firestore dry-run対象のDataLink実データ検証
 - `validate_datalink_references.sh`: DataLink実データの政策カード・関連ファイル参照検証
 - `validate_datalink_scaffold.sh`: DataLinkテンプレートとscaffold dry-run検証

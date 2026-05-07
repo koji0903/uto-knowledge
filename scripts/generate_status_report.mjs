@@ -108,10 +108,12 @@ const gitStatus = run("git", ["status", "--short", "--branch"]);
 const policyCardCount = countByFrontmatterType("04_DataLink/02_POLICY_CARDS", "policy_card");
 const questionCount = countByFrontmatterType("04_DataLink/01_ASSEMBLY/questions", "assembly_question");
 const evidenceCount = countByFrontmatterType("04_DataLink/01_ASSEMBLY/evidence", "evidence");
+const aiProfileCount = countMarkdownFiles("mcp/ai_profiles");
 const validationCommands = [
   "bash scripts/validate_vault.sh",
   "bash scripts/security_check.sh",
   "bash scripts/validate_mcp_config.sh",
+  "bash scripts/validate_ai_operations_docs.sh",
   "bash scripts/validate_datalink_samples.sh",
   "bash scripts/validate_datalink_frontmatter.sh",
   "bash scripts/validate_datalink_scaffold.sh",
@@ -155,6 +157,15 @@ ${gitStatus}
 | assembly_questions | ${questionCount} |
 | evidence_notes | ${evidenceCount} |
 
+## AI Operations
+
+| item | value |
+| --- | --- |
+| ai_profiles | ${aiProfileCount} |
+| context_generator | ${exists("scripts/generate_ai_context.sh")} |
+| operations_validator | ${exists("scripts/validate_ai_operations_docs.sh")} |
+| task_router | ${exists("mcp/ai_profiles/task_router.md")} |
+
 ## DataLink
 
 | collection | markdown_count | firestore_dry_run_count |
@@ -181,6 +192,7 @@ ${dryRun.documents.map((document) => `| ${document.path} | ${document.source} |`
 
 \`\`\`bash
 bash scripts/start_work.sh
+bash scripts/generate_ai_context.sh
 bash scripts/end_work.sh
 bash scripts/verify_all.sh
 bash scripts/check_firestore_drift.sh
