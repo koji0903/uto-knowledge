@@ -52,6 +52,7 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 | **実行管理** | [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
 | **地域商社DataLink** | [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
 | **AI運用** | [[AGENTS|AI運用ガイド]] |
+| **運用** | [[運用ダッシュボード|運用ダッシュボード]] |
 
 ## ✅ 基本検証
 
@@ -72,4 +73,4 @@ bash scripts/maintenance_check.sh local
 
 ---
 
-**最終更新:** 2026-05-07
+**最終更新:** 2026-05-08

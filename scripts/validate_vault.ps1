@@ -39,6 +39,7 @@ $requiredFiles = @(
   "AGENTS.md",
   "datalink.required.json",
   "README.md",
+  "運用ダッシュボード.md",
   "ホーム.md",
   "CHATGPT_INTEGRATION_DASHBOARD.md",
   "04_DataLink/index.md",

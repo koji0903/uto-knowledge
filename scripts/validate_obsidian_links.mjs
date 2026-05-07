@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const vaultRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
-const ignoredDirs = new Set([".git", ".obsidian", "tmp", "node_modules"]);
+const ignoredDirs = new Set([".git", ".obsidian", ".claude", "tmp", "node_modules"]);
 
 function listMarkdownFiles(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {

@@ -97,11 +97,26 @@ function exists(file) {
   return fs.existsSync(path.join(vaultRoot, file)) ? "yes" : "no";
 }
 
+function loadRequiredDocuments() {
+  const file = path.join(vaultRoot, "datalink.required.json");
+  if (!fs.existsSync(file)) return [];
+
+  try {
+    const config = JSON.parse(fs.readFileSync(file, "utf8"));
+    return Array.isArray(config.required_documents) ? config.required_documents : [];
+  } catch {
+    return [];
+  }
+}
+
 function countDryRunDocuments(collection) {
   return dryRun.documents.filter((document) => document.collection === collection).length;
 }
 
 const dryRun = buildFirestoreDryRun();
+const requiredDocuments = loadRequiredDocuments();
+const dryRunPaths = new Set(dryRun.documents.map((document) => document.path));
+const requiredPresentCount = requiredDocuments.filter((document) => dryRunPaths.has(document.path)).length;
 const branch = run("git", ["branch", "--show-current"]) || "unknown";
 const latestCommit = run("git", ["log", "--oneline", "-1"]) || "unknown";
 const gitStatus = run("git", ["status", "--short", "--branch"]);
@@ -183,6 +198,14 @@ ${gitStatus}
 | item | value |
 | --- | --- |
 | document_count | ${dryRun.document_count} |
+| required_documents | ${requiredDocuments.length} |
+| required_documents_present | ${requiredPresentCount} |
+
+## Required DataLink Documents
+
+| path | status | reason |
+| --- | --- | --- |
+${requiredDocuments.map((document) => `| ${document.path} | ${dryRunPaths.has(document.path) ? "present" : "missing"} | ${document.reason || ""} |`).join("\n")}
 
 ## Firestore Planned Documents
 

@@ -78,13 +78,14 @@ ${status}
 
 1. README.md
 2. AGENTS.md
-3. 04_DataLink/index.md
-4. 04_DataLink/00_SYSTEM/index.md
-5. 04_DataLink/02_POLICY_CARDS/index.md
-6. 04_DataLink/02_POLICY_CARDS/policy_execution_board.md
-7. 04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md
-8. mcp/ai_profiles/task_router.md
-9. mcp/ai_profiles/handoff_prompt.md
+3. 運用ダッシュボード.md
+4. 04_DataLink/index.md
+5. 04_DataLink/00_SYSTEM/index.md
+6. 04_DataLink/02_POLICY_CARDS/index.md
+7. 04_DataLink/02_POLICY_CARDS/policy_execution_board.md
+8. 04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md
+9. mcp/ai_profiles/task_router.md
+10. mcp/ai_profiles/handoff_prompt.md
 
 ## Operating Rules
 

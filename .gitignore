@@ -7,6 +7,7 @@ Thumbs.db
 .env
 .env.local
 .firebaserc
+.claude/
 tmp/
 *.local.json
 serviceAccount*.json

@@ -13,13 +13,14 @@ Claude、Gemini、ChatGPT、Codexなど複数AIが触れる前提のため、作
 ## 最初に読む
 
 1. [[README|README]]
-2. [[04_DataLink/index|データ連携]]
-3. [[04_DataLink/00_SYSTEM/index|宇土OS システム仕様]]
-4. [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]]
-5. [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
-6. [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
-7. [[mcp/ai_profiles/task_router|Task Router]]
-8. [[mcp/ai_profiles/handoff_prompt|AIハンドオフプロンプト]]
+2. [[運用ダッシュボード|運用ダッシュボード]]
+3. [[04_DataLink/index|データ連携]]
+4. [[04_DataLink/00_SYSTEM/index|宇土OS システム仕様]]
+5. [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]]
+6. [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
+7. [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
+8. [[mcp/ai_profiles/task_router|Task Router]]
+9. [[mcp/ai_profiles/handoff_prompt|AIハンドオフプロンプト]]
 
 ## 書き込みルール
 
