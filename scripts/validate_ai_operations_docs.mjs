@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
@@ -32,6 +33,14 @@ function assert(condition, message) {
   }
 }
 
+function runNode(script, args = []) {
+  execFileSync("node", [script, ...args], {
+    cwd: vaultRoot,
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "pipe"],
+  });
+}
+
 let checkedPatternCount = 0;
 
 for (const file of checkedFiles) {
@@ -52,4 +61,28 @@ assert(fs.existsSync(contextScript), "missing scripts/generate_ai_context.sh");
 const handoffScript = path.join(vaultRoot, "scripts/generate_handoff_prompt.sh");
 assert(fs.existsSync(handoffScript), "missing scripts/generate_handoff_prompt.sh");
 
-console.log(`AI operations docs validation passed: ${checkedFiles.length} files, ${checkedPatternCount} pattern checks`);
+const handoffTargets = ["claude", "gemini", "chatgpt", "codex"];
+let checkedHandoffs = 0;
+
+for (const ai of handoffTargets) {
+  const out = `tmp/validate_handoff_${ai}.md`;
+  runNode("scripts/generate_handoff_prompt.mjs", [
+    "--ai",
+    ai,
+    "--task",
+    `validate ${ai} handoff`,
+    "--out",
+    out,
+  ]);
+
+  const generatedPath = path.join(vaultRoot, out);
+  assert(fs.existsSync(generatedPath), `handoff output was not created: ${out}`);
+  const generated = fs.readFileSync(generatedPath, "utf8");
+  assert(generated.includes(`# AIハンドオフ`), `missing handoff title: ${out}`);
+  assert(generated.includes(`- AI: ${ai}`), `missing AI target: ${out}`);
+  assert(generated.includes("## 完了条件"), `missing completion section: ${out}`);
+  assert(generated.includes("bash scripts/maintenance_check.sh local"), `missing validation command: ${out}`);
+  checkedHandoffs += 1;
+}
+
+console.log(`AI operations docs validation passed: ${checkedFiles.length} files, ${checkedPatternCount} pattern checks, ${checkedHandoffs} handoff generations`);
