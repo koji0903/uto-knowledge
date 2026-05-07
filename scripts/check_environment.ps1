@@ -27,6 +27,9 @@ powershell -ExecutionPolicy Bypass -File ".\scripts\datalink_to_firestore_dry_ru
 Write-Output "checking firestore apply dry-run..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\datalink_to_firestore_apply.ps1" --dry-run | Out-Null
 
+Write-Output "checking drive structure config..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\validate_drive_structure_config.ps1"
+
 Write-Output "checking drive structure dry-run..."
 powershell -ExecutionPolicy Bypass -File ".\scripts\create_drive_structure.ps1" --dry-run | Out-Null
 

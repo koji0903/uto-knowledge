@@ -40,6 +40,7 @@ $requiredFiles = @(
   "ホーム.md",
   "CHATGPT_INTEGRATION_DASHBOARD.md",
   "04_DataLink/index.md",
+  "04_DataLink/00_SYSTEM/index.md",
   "04_DataLink/00_SYSTEM/layer_structure_guide.md",
   "04_DataLink/00_SYSTEM/L0_premise_layer.md",
   "04_DataLink/00_SYSTEM/L1_fact_layer.md",
@@ -134,6 +135,9 @@ $requiredFiles = @(
   "scripts/validate_datalink_scaffold.mjs",
   "scripts/validate_datalink_scaffold.sh",
   "scripts/validate_datalink_scaffold.ps1",
+  "scripts/validate_drive_structure_config.mjs",
+  "scripts/validate_drive_structure_config.sh",
+  "scripts/validate_drive_structure_config.ps1",
   "scripts/validate_obsidian_links.mjs",
   "scripts/validate_obsidian_links.sh",
   "scripts/validate_obsidian_links.ps1"

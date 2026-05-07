@@ -30,6 +30,9 @@ bash scripts/datalink_to_firestore_dry_run.sh --out tmp/datalink.firestore.json
 echo "checking firestore apply dry-run..."
 bash scripts/datalink_to_firestore_apply.sh --dry-run >/dev/null
 
+echo "checking drive structure config..."
+bash scripts/validate_drive_structure_config.sh
+
 echo "checking drive structure dry-run..."
 bash scripts/create_drive_structure.sh --dry-run >/dev/null
 

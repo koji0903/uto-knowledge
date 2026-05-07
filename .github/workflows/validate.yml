@@ -51,6 +51,9 @@ jobs:
       - name: Firestore apply dry-run
         run: bash scripts/datalink_to_firestore_apply.sh --dry-run
 
+      - name: Validate Drive structure config
+        run: bash scripts/validate_drive_structure_config.sh
+
       - name: Drive structure dry-run
         run: bash scripts/create_drive_structure.sh --dry-run
 
