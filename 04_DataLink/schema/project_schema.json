@@ -1,0 +1,90 @@
+{
+  "type": "object",
+  "description": "Schema for project documents",
+  "required": [
+    "id",
+    "type",
+    "firestore_collection",
+    "firestore_doc_id",
+    "name",
+    "created",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^prj_[a-z0-9_]+$",
+      "description": "Unique project identifier"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["project"],
+      "description": "Document type must be 'project'"
+    },
+    "firestore_collection": {
+      "type": "string",
+      "enum": ["projects"],
+      "description": "Target Firestore collection"
+    },
+    "firestore_doc_id": {
+      "type": "string",
+      "description": "Firestore document ID"
+    },
+    "name": {
+      "type": "string",
+      "description": "Project name"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Policy domain (産業, 教育, 移住, 地域商社, 保育, RMO, etc.)"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Project owner name (optional)"
+    },
+    "stakeholders": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Stakeholder organizations/roles (optional)"
+    },
+    "related_policy_cards": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^pc_[a-z0-9_]+$"
+      },
+      "description": "Related policy card IDs (optional)"
+    },
+    "related_collections": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Related Firestore collections (optional)"
+    },
+    "created": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Creation date in YYYY-MM-DD format"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["idea", "planning", "active", "paused", "done"],
+      "description": "Project status"
+    },
+    "next_action": {
+      "type": "string",
+      "description": "Next immediate action (optional)"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Classification tags (optional)"
+    }
+  },
+  "additionalProperties": false
+}
