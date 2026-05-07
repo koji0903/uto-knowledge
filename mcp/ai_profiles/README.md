@@ -22,6 +22,7 @@ created: 2026-05-03
    - `AGENTS.md`
    - `tmp/ai_context.md`（`bash scripts/start_work.sh` で生成）
    - `task_router.md` で自分のタスクに適した AI を確認
+   - `handoff_prompt.md` で依頼文の型を確認
 
 2. **AI プロファイルを確認**
    - `claude_profile.md` （深く、複雑に考える）
@@ -128,6 +129,7 @@ AI Personas に改善が必要な場合：
 ## 関連ドキュメント
 
 - `AGENTS.md` — AI 運用ガイド（全体）
+- `handoff_prompt.md` — AI間の引き継ぎテンプレート
 - `README.md` — Vault の入口
 - `04_DataLink/index.md` — DataLink 全体
 - `04_DataLink/02_POLICY_CARDS/policy_execution_board.md` — 政策実行ボード

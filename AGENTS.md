@@ -19,6 +19,7 @@ Claude、Gemini、ChatGPT、Codexなど複数AIが触れる前提のため、作
 5. [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
 6. [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
 7. [[mcp/ai_profiles/task_router|Task Router]]
+8. [[mcp/ai_profiles/handoff_prompt|AIハンドオフプロンプト]]
 
 ## 書き込みルール
 
@@ -116,3 +117,14 @@ bash scripts/scaffold_datalink_note.sh --type project --id prj_example --title "
 | ChatGPT / Codex | 実装、検証、スクリプト、ドキュメント整備 |
 
 役割の詳細は [[mcp/ai_profiles/task_router|Task Router]] を参照する。
+
+## AIへの引き継ぎ
+
+別AIへ作業を渡す場合は、[[mcp/ai_profiles/handoff_prompt|AIハンドオフプロンプト]] を使う。
+
+最小手順:
+
+1. `bash scripts/generate_ai_context.sh` を実行する
+2. `tmp/ai_context.md` と対象ファイルを渡す
+3. 書き込み可能範囲と完了条件を明記する
+4. 戻ってきた成果物を `bash scripts/maintenance_check.sh local` で検証する

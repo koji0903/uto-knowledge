@@ -11,6 +11,7 @@ const checkedFiles = [
   "mcp/README.md",
   "mcp/ai_profiles/README.md",
   "mcp/ai_profiles/task_router.md",
+  "mcp/ai_profiles/handoff_prompt.md",
   "mcp/ai_profiles/claude_profile.md",
   "mcp/ai_profiles/gemini_profile.md",
   "mcp/ai_profiles/chatgpt_profile.md",

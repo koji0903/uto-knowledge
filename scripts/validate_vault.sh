@@ -119,6 +119,7 @@ required_files=(
   "mcp/ai_profiles/claude_profile.md"
   "mcp/ai_profiles/gemini_profile.md"
   "mcp/ai_profiles/task_router.md"
+  "mcp/ai_profiles/handoff_prompt.md"
   "mcp/clients/claude_desktop.example.json"
   "mcp/clients/generic_mcp_client.example.json"
   "mcp/clients/chatgpt_codex_notes.md"

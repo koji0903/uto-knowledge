@@ -165,6 +165,7 @@ ${gitStatus}
 | context_generator | ${exists("scripts/generate_ai_context.sh")} |
 | operations_validator | ${exists("scripts/validate_ai_operations_docs.sh")} |
 | task_router | ${exists("mcp/ai_profiles/task_router.md")} |
+| handoff_prompt | ${exists("mcp/ai_profiles/handoff_prompt.md")} |
 
 ## DataLink
 

@@ -84,6 +84,7 @@ ${status}
 6. 04_DataLink/02_POLICY_CARDS/policy_execution_board.md
 7. 04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md
 8. mcp/ai_profiles/task_router.md
+9. mcp/ai_profiles/handoff_prompt.md
 
 ## Operating Rules
 
