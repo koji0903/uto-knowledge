@@ -11,6 +11,7 @@ created: 2026-05-04
 
 ## 入口
 
+- `bootstrap_local_env.sh`: 初回ローカル環境の作成、Firebase project設定、検証、運用ブリーフ生成
 - `start_work.sh`: 作業開始チェック。`--ai` と `--task` 指定で競合レポート付きハンドオフも生成
 - `end_work.sh`: 作業終了チェック。検証後に運用ブリーフも更新
 - `maintenance_check.sh`: ローカル / フルメンテナンス

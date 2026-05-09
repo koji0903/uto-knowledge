@@ -125,6 +125,8 @@ $requiredFiles = @(
   "mcp/clients/chatgpt_codex_notes.md",
   "mcp/clients/gemini_notes.md",
   "scripts/index.md",
+  "scripts/bootstrap_local_env.sh",
+  "scripts/bootstrap_local_env.ps1",
   "scripts/create_drive_structure.mjs",
   "scripts/create_drive_structure.sh",
   "scripts/create_drive_structure.ps1",

@@ -24,4 +24,8 @@ else
   echo "gcloud not found; install Google Cloud CLI before external verification"
 fi
 
+echo "checking local environment..."
+bash scripts/maintenance_check.sh local
+
 echo "bootstrap completed"
+echo "next: review tmp/operations_brief.md"

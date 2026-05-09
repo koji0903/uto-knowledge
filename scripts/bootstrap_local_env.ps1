@@ -27,4 +27,8 @@ if (Get-Command gcloud -ErrorAction SilentlyContinue) {
   Write-Output "gcloud not found; install Google Cloud CLI before external verification"
 }
 
+Write-Output "checking local environment..."
+powershell -ExecutionPolicy Bypass -File ".\scripts\maintenance_check.ps1" local
+
 Write-Output "bootstrap completed"
+Write-Output "next: review tmp/operations_brief.md"

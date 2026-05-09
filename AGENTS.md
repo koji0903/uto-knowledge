@@ -76,6 +76,12 @@ bash scripts/create_drive_structure.sh --dry-run
 
 ## 検証コマンド
 
+初回セットアップ:
+
+```bash
+bash scripts/bootstrap_local_env.sh
+```
+
 通常作業後:
 
 ```bash

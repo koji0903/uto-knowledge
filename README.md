@@ -35,6 +35,18 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 
 複数AIで作業する場合は、最初に [[AGENTS|AI運用ガイド]] を読む。
 
+初回セットアップ:
+
+```bash
+bash scripts/bootstrap_local_env.sh
+```
+
+Windows:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap_local_env.ps1
+```
+
 ## 📊 核心ドキュメント
 
 | 内容 | ファイル |
