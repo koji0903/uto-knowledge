@@ -80,3 +80,6 @@ jobs:
 
       - name: Generate changelog
         run: bash scripts/generate_changelog.sh
+
+      - name: Generate operations brief
+        run: bash scripts/generate_operations_brief.sh

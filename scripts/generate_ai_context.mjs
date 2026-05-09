@@ -102,6 +102,7 @@ bash scripts/start_work.sh --ai claude --task "依頼内容"
 bash scripts/generate_handoff_prompt.sh --ai claude --task "依頼内容"
 bash scripts/detect_ai_conflicts.sh
 bash scripts/generate_policy_card_report.sh
+bash scripts/generate_operations_brief.sh
 bash scripts/end_work.sh
 bash scripts/maintenance_check.sh local
 bash scripts/validate_datalink_frontmatter.sh

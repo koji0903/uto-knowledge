@@ -91,6 +91,7 @@ bash scripts/validate_datalink_samples.sh
 bash scripts/validate_datalink_references.sh
 bash scripts/validate_policy_card_references.sh
 bash scripts/generate_policy_card_report.sh
+bash scripts/generate_operations_brief.sh
 bash scripts/validate_obsidian_links.sh
 bash scripts/detect_ai_conflicts.sh
 ```

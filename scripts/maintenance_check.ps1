@@ -17,5 +17,6 @@ switch ($Mode) {
 
 powershell -ExecutionPolicy Bypass -File ".\scripts\generate_status_report.ps1" | Out-Null
 powershell -ExecutionPolicy Bypass -File ".\scripts\generate_changelog.ps1" | Out-Null
+powershell -ExecutionPolicy Bypass -File ".\scripts\generate_operations_brief.ps1" | Out-Null
 
 Write-Output "maintenance check completed: $Mode"
