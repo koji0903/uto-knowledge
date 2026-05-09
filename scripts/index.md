@@ -12,7 +12,7 @@ created: 2026-05-04
 ## 入口
 
 - `start_work.sh`: 作業開始チェック。`--ai` と `--task` 指定で競合レポート付きハンドオフも生成
-- `end_work.sh`: 作業終了チェック
+- `end_work.sh`: 作業終了チェック。検証後に運用ブリーフも更新
 - `maintenance_check.sh`: ローカル / フルメンテナンス
 - `generate_ai_context.sh`: 複数AIへ渡す共通コンテキスト生成
 - `generate_handoff_prompt.sh`: AI別ハンドオフ依頼文生成。`--conflict-report` で競合レポートを添付
