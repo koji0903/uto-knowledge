@@ -68,7 +68,7 @@ bash scripts/maintenance_check.sh local
 - DataLink実データ
 - DataLink参照整合性
 - 政策カードと議会質問・根拠資料の参照整合性
-- 政策カード棚卸しレポート生成
+- 政策カード棚卸しレポート生成、実行キュー確認
 - Obsidianリンク
 - Firestore dry-run
 - Google Drive構成dry-run

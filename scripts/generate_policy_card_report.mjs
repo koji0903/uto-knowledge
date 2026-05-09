@@ -72,6 +72,15 @@ function hasContent(markdown, heading) {
   return body.length > 0;
 }
 
+function sectionItems(markdown, heading) {
+  return sectionBody(markdown, heading)
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith("- "))
+    .map((line) => line.replace(/^- \[[ xX]\]\s*/, "").replace(/^- /, "").trim())
+    .filter(Boolean);
+}
+
 function increment(map, key) {
   const normalized = key || "未設定";
   map.set(normalized, (map.get(normalized) || 0) + 1);
@@ -111,6 +120,8 @@ for (const file of listMarkdownFiles(cardsRoot)) {
     evidence: asArray(frontmatter.related_evidence),
     hasNextAction: hasContent(markdown, "次アクション"),
     hasKpi: hasContent(markdown, "KPI"),
+    nextActions: sectionItems(markdown, "次アクション"),
+    kpis: sectionItems(markdown, "KPI"),
     relativePath,
   };
   cards.push(card);
@@ -159,6 +170,12 @@ const highPriorityRows = highPriority
   .map((card) => `| ${card.id} | ${markdownLink(card.relativePath, card.title)} | ${card.domain} | ${card.hasNextAction ? "yes" : "no"} | ${card.hasKpi ? "yes" : "no"} |`)
   .join("\n");
 
+const executionQueueRows = cards
+  .filter((card) => card.hasNextAction && card.hasKpi && card.questions.length > 0 && card.evidence.length > 0)
+  .slice(0, 12)
+  .map((card, index) => `| ${index + 1} | ${card.id} | ${markdownLink(card.relativePath, card.title)} | ${card.priority} | ${card.domain} | ${card.nextActions[0] || ""} | ${card.kpis[0] || ""} |`)
+  .join("\n");
+
 const allCardRows = cards
   .map((card) => `| ${card.id} | ${markdownLink(card.relativePath, card.title)} | ${card.status} | ${card.priority} | ${card.domain} | ${card.questions.length} | ${card.evidence.length} | ${card.hasNextAction ? "yes" : "no"} | ${card.hasKpi ? "yes" : "no"} |`)
   .join("\n");
@@ -197,6 +214,12 @@ ${countTable("Policy Domain", byDomain)}
 | id | card | domain | next_action | kpi |
 | --- | --- | --- | --- | --- |
 ${highPriorityRows || "| なし | なし | なし | - | - |"}
+
+## Execution Queue
+
+| order | id | card | priority | domain | first_next_action | first_kpi |
+| ---: | --- | --- | --- | --- | --- | --- |
+${executionQueueRows || "| なし | なし | なし | なし | なし | なし | なし |"}
 
 ## Action Gaps
 
