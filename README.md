@@ -59,6 +59,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap_local_env.ps1
 | **政策設計** | [[L6_policy_layer|L6 政策レイヤ]] |
 | **地域商社実装** | [[utomachi_100_store_specification|ウトマチ百貨店 仕様書]] |
 | **移住・定住** | [[relocation_os_specification|移住・定住OS 仕様書]] |
+| **ウトマチプラットフォーム** | [[Utomachi_Platform_Architecture|システムアーキテクチャ]] ⭐ NEW |
 | **議会情報** | [[04_DataLink/01_ASSEMBLY/index|宇土市議会・議員情報]] |
 | **政策実行** | [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]] |
 | **実行管理** | [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |

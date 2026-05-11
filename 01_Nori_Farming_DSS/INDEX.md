@@ -102,7 +102,7 @@
    
    **対象読者:** 全員（プロジェクト概要）、開発チーム（実装詳細）、運用チーム（デプロイ）
    
-   **関連リンク**: [[Phase4_Utomachi_Integration|ウトマチ統合の詳細]] | [[Phase4_ML_Integration|Phase 4 ML統合]]
+   **関連リンク**: [[Phase4_Utomachi_Integration|ウトマチ統合の詳細]] | [[Phase4_ML_Integration|Phase 4 ML統合]] | [[../Utomachi_Platform_Architecture|プラットフォームアーキテクチャ]]
 
 ---
 
