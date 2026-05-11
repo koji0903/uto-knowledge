@@ -1,10 +1,10 @@
 # 海苔養殖意思決定支援システム - ナレッジベースインデックス
 
-**プロジェクト:** Nori Farming Decision Support System  
-**バージョン:** 4.0 (Phase 4 実装完了版)  
+**プロジェクト:** Nori Farming Decision Support System × Utomachi Platform Integration  
+**バージョン:** 4.1 (Phase 4 ML + Utomachi統合版)  
 **更新日:** 2026-05-12  
-**ステータス:** ✅ Phase 4完全実装・本番対応  
-**最新フェーズ:** Phase 4 (機械学習統合 + リアルタイムAPI)
+**ステータス:** ✅ Phase 4完全実装 + Utomachi Platform統合完了  
+**最新フェーズ:** Phase 4 (機械学習統合 + リアルタイムAPI + プラットフォーム統合)
 
 ---
 
@@ -87,6 +87,22 @@
    - 本番対応・実装完了
    
    **対象読者:** 全員（最新状況）、ML エンジニア、運用チーム
+
+---
+
+### 1.11. **Phase4_Utomachi_Integration.md** - Phase 4 ウトマチプラットフォーム統合 ⭐ ⭐ ⭐ NEWEST
+   - Phase 4 ML予測データの Utomachi Platform へ統合
+   - バックエンド: importNoriData.ts & verifyNoriData.ts
+   - フロントエンド: NoriPredictionDashboard コンポーネント
+   - Firestore スキーマ設計 (nori_predictions, nori_environment_data)
+   - 農家向けダッシュボード実装
+   - データインポート完了 (5,456 × 2 ドキュメント)
+   - 11観測地点カバレッジ
+   - 本番対応・完全実装
+   
+   **対象読者:** 全員（プロジェクト概要）、開発チーム（実装詳細）、運用チーム（デプロイ）
+   
+   **関連リンク**: [[Phase4_Utomachi_Integration|ウトマチ統合の詳細]] | [[Phase4_ML_Integration|Phase 4 ML統合]]
 
 ---
 
