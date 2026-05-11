@@ -99,13 +99,22 @@ wind_direction      2,976 rows (100.0%)  ✅ 完全
 中央値:      0.80 mg/m³
 
 日付カバレッジ: 2025-04-13 ～ 2026-05-10 (327日間)
-地点カバレッジ: 6地点（各日付で全地点に同じ値）
-  - kosa (宇土)
+地点カバレッジ: 11地点（Phase 3aで完成）
+  
+  JMA直接観測 (6地点):
+  - uto (宇土)
   - kumamoto (熊本)
   - matsushima (松島)
   - misumi (三角)
   - taimei (岱明)
-  - amita (網田)
+  - kosa (甲佐)
+  
+  距離補間 (5地点):
+  - ohda (網田) ← 熊本県栄養塩データあり
+  - kawachi (河内)
+  - kojima (小島)
+  - matsuo (松尾)
+  - okishin (沖新)
 ```
 
 ---
