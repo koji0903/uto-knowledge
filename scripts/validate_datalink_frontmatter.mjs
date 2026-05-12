@@ -19,6 +19,8 @@ const ignoredFolders = new Set([
   "01_ASSEMBLY",
   "02_POLICY_CARDS",
   "datasets",
+  "models",
+  "reports",
   "ai_decisions",
   "schema",
 ]);
