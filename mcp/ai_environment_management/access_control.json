@@ -1,0 +1,211 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-08T00:00:00Z",
+  "last_updated_by": "Claude Code",
+  "resources": {
+    "utomachi_100_store": {
+      "specification.md": {
+        "type": "SHARED",
+        "access": "read_sync_update",
+        "owner": "Both",
+        "last_editor": "Claude Code",
+        "last_edit_time": "2026-05-08T10:00:00Z",
+        "next_editor_priority": "Codex",
+        "lock_until": null,
+        "revision": 1,
+        "description": "Master specification - both AIs can read, updates require coordination"
+      },
+      "implementation": {
+        "type": "Codex",
+        "access": "codex_exclusive",
+        "owner": "Codex",
+        "description": "Codex handles all implementation - frontend, backend, DB",
+        "subdirectories": [
+          "frontend",
+          "backend",
+          "database",
+          "infrastructure"
+        ]
+      },
+      "technical_specs": {
+        "type": "Codex",
+        "access": "codex_exclusive",
+        "owner": "Codex",
+        "description": "Technical documentation - API specs, DB schemas, architecture",
+        "subdirectories": [
+          "api_documentation",
+          "database_schema",
+          "architecture",
+          "deployment"
+        ]
+      },
+      "development_logs": {
+        "type": "Codex",
+        "access": "codex_exclusive",
+        "owner": "Codex",
+        "description": "Codex development progress, bug fixes, release notes"
+      },
+      "actual_performance_2026.md": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "locked": false,
+        "last_editor": "Claude Code",
+        "last_edit_time": "2026-05-08T14:30:00Z",
+        "next_editor_priority": "Claude Code",
+        "revision": 4,
+        "description": "Monthly performance data - Claude Code records actual results"
+      },
+      "operational_logs": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "Operational logs, insights, improvement proposals"
+      },
+      "ai_analysis": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "AI analysis results, proposals, recommendations"
+      }
+    },
+    "mcp/ai_profiles": {
+      "conflict_detector.md": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "Conflict detection framework - Claude Code maintains"
+      },
+      "handoff_prompt.md": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "AI handoff prompts - Claude Code generates"
+      },
+      "reference_guideline.md": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "AI-to-AI reference rules"
+      },
+      "task_router.md": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "Task routing logic"
+      }
+    },
+    "scripts": {
+      "ai_coordination": {
+        "type": "SHARED",
+        "access": "read_sync_update",
+        "owner": "Claude Code",
+        "description": "AI coordination scripts - Claude Code maintains",
+        "important_files": [
+          "check_concurrent_edits.mjs",
+          "reserve_resource.mjs",
+          "detect_merge_conflicts.mjs",
+          "generate_ai_sync_report.mjs"
+        ]
+      },
+      "analyze_obsidian_knowledge.sh": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "Knowledge structure analysis"
+      },
+      "generate_daily_dashboard.sh": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "Daily dashboard generation"
+      },
+      "extract_kpi_metrics.sh": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "KPI metrics extraction"
+      }
+    },
+    "04_DataLink": {
+      "schema": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "JSON schema definitions for all DataLink collections"
+      },
+      "00_SYSTEM": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "System layer documents - layer structure, policies, OS specs"
+      },
+      "01_ASSEMBLY": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "Assembly-related documents"
+      },
+      "02_POLICY_CARDS": {
+        "type": "Claude Code",
+        "access": "claude_exclusive",
+        "owner": "Claude Code",
+        "description": "Policy cards layer"
+      }
+    }
+  },
+  "concurrent_edit_rules": {
+    "rule_1": {
+      "description": "No concurrent edits on same file",
+      "action": "BLOCK",
+      "check_interval_seconds": 60
+    },
+    "rule_2": {
+      "description": "If AI needs to edit other's file, must reserve first",
+      "action": "WARN",
+      "auto_release_after_hours": 4
+    },
+    "rule_3": {
+      "description": "SHARED resources require both AI awareness",
+      "action": "REQUIRE_NOTIFICATION"
+    }
+  },
+  "conflict_resolution_priority": {
+    "priority_1": {
+      "description": "Codex implementation takes precedence",
+      "applies_to": "technical decisions, architecture changes",
+      "action": "Claude Code adapts ナレッジ to match implementation"
+    },
+    "priority_2": {
+      "description": "Claude Code ナレッジ takes precedence",
+      "applies_to": "strategic decisions, specification changes",
+      "action": "Codex adjusts implementation to match specification"
+    },
+    "priority_3": {
+      "description": "SHARED resources require human judgment",
+      "applies_to": "specification.md, critical business decisions",
+      "action": "ESCALATE to human for final decision"
+    }
+  },
+  "daily_sync": {
+    "enabled": true,
+    "time": "19:00",
+    "timezone": "Asia/Tokyo",
+    "actions": [
+      "check_concurrent_edits",
+      "detect_merge_conflicts",
+      "generate_ai_sync_report",
+      "auto_merge_non_conflicting_changes"
+    ]
+  },
+  "monitoring": {
+    "enabled": true,
+    "check_interval_seconds": 600,
+    "alert_on": [
+      "concurrent_edit_attempt",
+      "merge_conflict_detected",
+      "lock_timeout_exceeded",
+      "unauthorized_file_access"
+    ]
+  }
+}
