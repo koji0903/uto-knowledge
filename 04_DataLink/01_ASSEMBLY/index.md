@@ -22,6 +22,18 @@ tags: [議会, 議員, 宇土市]
 - **[[policy_links/|宇土OS対応表]]** - 議員活動と宇土OSレイヤの紐づけ
 - **[[evidence/|根拠資料]]** - 議事録、資料、公開情報、ヒアリングメモ
 
+## 📝 テンプレート
+
+- [[assembly_question_template|一般質問テンプレート]]
+- [[template_assembly_member|議員情報テンプレート]]
+- [[template_assembly_activity|議員活動ログテンプレート]]
+- [[template_assembly_question|質問記録テンプレート]]
+
+## 🗳️ 既存ドキュメント
+
+- [[hijikuro_koji|土肥浩治（議員プロフィール）]]
+- [[hijikuro_general_questions_overview|土肥浩治・一般質問概要]]
+
 ## 紐づけ方針
 
 議員活動は単なる時系列ログではなく、以下の軸で宇土OSへ接続する。
