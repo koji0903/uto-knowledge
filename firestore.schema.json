@@ -1,0 +1,307 @@
+{
+  "version": "1.0.0",
+  "description": "Firestore schema definition for 宇土OS DataLink collections",
+  "collections": {
+    "decisions": {
+      "type": "decision",
+      "description": "Strategic decisions made during 宇土OS development",
+      "required": ["id", "type", "firestore_collection", "firestore_doc_id", "created", "status"],
+      "fields": {
+        "id": {
+          "type": "string",
+          "pattern": "^dec_[a-z0-9_]+$",
+          "description": "Unique decision identifier"
+        },
+        "type": {
+          "type": "enum",
+          "values": ["decision"],
+          "description": "Document type must be 'decision'"
+        },
+        "firestore_collection": {
+          "type": "enum",
+          "values": ["decisions"],
+          "description": "Target Firestore collection"
+        },
+        "firestore_doc_id": {
+          "type": "string",
+          "description": "Firestore document ID (typically same as id)"
+        },
+        "created": {
+          "type": "date",
+          "format": "YYYY-MM-DD",
+          "description": "Decision creation date"
+        },
+        "status": {
+          "type": "enum",
+          "values": ["idea", "planning", "active", "paused", "done"],
+          "description": "Current decision status"
+        },
+        "tags": {
+          "type": "array",
+          "items": "string",
+          "description": "Classification tags"
+        },
+        "related_files": {
+          "type": "array",
+          "items": "string",
+          "description": "Referenced files in the vault"
+        },
+        "related_collections": {
+          "type": "array",
+          "items": "string",
+          "description": "Related Firestore collections"
+        },
+        "obsidian_path": {
+          "type": "string",
+          "description": "Path to source Markdown in Obsidian"
+        }
+      }
+    },
+    "projects": {
+      "type": "project",
+      "description": "Projects implementing 宇土OS policy",
+      "required": ["id", "type", "firestore_collection", "firestore_doc_id", "name", "created", "status"],
+      "fields": {
+        "id": {
+          "type": "string",
+          "pattern": "^prj_[a-z0-9_]+$",
+          "description": "Unique project identifier"
+        },
+        "type": {
+          "type": "enum",
+          "values": ["project"],
+          "description": "Document type must be 'project'"
+        },
+        "firestore_collection": {
+          "type": "enum",
+          "values": ["projects"],
+          "description": "Target Firestore collection"
+        },
+        "firestore_doc_id": {
+          "type": "string",
+          "description": "Firestore document ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "Project name"
+        },
+        "domain": {
+          "type": "string",
+          "description": "Policy domain (産業, 教育, 移住, 地域商社, etc.)"
+        },
+        "owner": {
+          "type": "string",
+          "description": "Project owner name"
+        },
+        "stakeholders": {
+          "type": "array",
+          "items": "string",
+          "description": "Stakeholder organizations/roles"
+        },
+        "related_policy_cards": {
+          "type": "array",
+          "items": "string",
+          "pattern": "^pc_[a-z0-9_]+$",
+          "description": "Related policy card IDs"
+        },
+        "related_collections": {
+          "type": "array",
+          "items": "string",
+          "description": "Related Firestore collections"
+        },
+        "created": {
+          "type": "date",
+          "format": "YYYY-MM-DD",
+          "description": "Project creation date"
+        },
+        "status": {
+          "type": "enum",
+          "values": ["idea", "planning", "active", "paused", "done"],
+          "description": "Current project status"
+        },
+        "next_action": {
+          "type": "string",
+          "description": "Next immediate action"
+        },
+        "tags": {
+          "type": "array",
+          "items": "string",
+          "description": "Classification tags"
+        },
+        "obsidian_path": {
+          "type": "string",
+          "description": "Path to source Markdown in Obsidian"
+        }
+      }
+    },
+    "producers": {
+      "type": "producer",
+      "description": "Producers and businesses for regional trading company",
+      "required": ["id", "type", "firestore_collection", "firestore_doc_id", "created", "status"],
+      "fields": {
+        "id": {
+          "type": "string",
+          "pattern": "^prodcr_[a-z0-9_]+$",
+          "description": "Unique producer identifier"
+        },
+        "type": {
+          "type": "enum",
+          "values": ["producer"],
+          "description": "Document type must be 'producer'"
+        },
+        "firestore_collection": {
+          "type": "enum",
+          "values": ["producers"],
+          "description": "Target Firestore collection"
+        },
+        "firestore_doc_id": {
+          "type": "string",
+          "description": "Firestore document ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "Producer/business name"
+        },
+        "category": {
+          "type": "string",
+          "description": "Product category (農業, 工業, 工芸, etc.)"
+        },
+        "created": {
+          "type": "date",
+          "format": "YYYY-MM-DD",
+          "description": "Record creation date"
+        },
+        "status": {
+          "type": "enum",
+          "values": ["prospect", "candidate", "confirmed", "inactive"],
+          "description": "Producer status in evaluation pipeline"
+        },
+        "tags": {
+          "type": "array",
+          "items": "string",
+          "description": "Classification tags"
+        },
+        "obsidian_path": {
+          "type": "string",
+          "description": "Path to source Markdown in Obsidian"
+        }
+      }
+    },
+    "products": {
+      "type": "product",
+      "description": "Products and goods from regional producers",
+      "required": ["id", "type", "firestore_collection", "firestore_doc_id", "created", "status"],
+      "fields": {
+        "id": {
+          "type": "string",
+          "pattern": "^prod_[a-z0-9_]+$",
+          "description": "Unique product identifier"
+        },
+        "type": {
+          "type": "enum",
+          "values": ["product"],
+          "description": "Document type must be 'product'"
+        },
+        "firestore_collection": {
+          "type": "enum",
+          "values": ["products"],
+          "description": "Target Firestore collection"
+        },
+        "firestore_doc_id": {
+          "type": "string",
+          "description": "Firestore document ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "Product name"
+        },
+        "producer_id": {
+          "type": "string",
+          "description": "Related producer ID"
+        },
+        "created": {
+          "type": "date",
+          "format": "YYYY-MM-DD",
+          "description": "Record creation date"
+        },
+        "status": {
+          "type": "enum",
+          "values": ["draft", "candidate", "active", "archived"],
+          "description": "Product status"
+        },
+        "tags": {
+          "type": "array",
+          "items": "string",
+          "description": "Classification tags"
+        },
+        "obsidian_path": {
+          "type": "string",
+          "description": "Path to source Markdown in Obsidian"
+        }
+      }
+    },
+    "logs": {
+      "type": "log",
+      "description": "Activity logs and events",
+      "required": ["id", "type", "firestore_collection", "firestore_doc_id", "created", "status"],
+      "fields": {
+        "id": {
+          "type": "string",
+          "pattern": "^log_[0-9]{8}_[0-9]{3}$",
+          "description": "Log entry identifier (YYYYMMDD_XXX)"
+        },
+        "type": {
+          "type": "enum",
+          "values": ["log"],
+          "description": "Document type must be 'log'"
+        },
+        "firestore_collection": {
+          "type": "enum",
+          "values": ["logs"],
+          "description": "Target Firestore collection"
+        },
+        "firestore_doc_id": {
+          "type": "string",
+          "description": "Firestore document ID"
+        },
+        "event_type": {
+          "type": "string",
+          "description": "Type of event (data_update, decision, validation, etc.)"
+        },
+        "summary": {
+          "type": "string",
+          "description": "Brief event summary"
+        },
+        "created": {
+          "type": "date",
+          "format": "YYYY-MM-DD",
+          "description": "Event date"
+        },
+        "status": {
+          "type": "enum",
+          "values": ["active", "archived"],
+          "description": "Log status"
+        },
+        "related_files": {
+          "type": "array",
+          "items": "string",
+          "description": "Related files affected by this event"
+        },
+        "related_policy_cards": {
+          "type": "array",
+          "items": "string",
+          "description": "Related policy cards"
+        },
+        "tags": {
+          "type": "array",
+          "items": "string",
+          "description": "Classification tags"
+        },
+        "obsidian_path": {
+          "type": "string",
+          "description": "Path to source Markdown in Obsidian"
+        }
+      }
+    }
+  }
+}

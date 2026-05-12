@@ -1,0 +1,65 @@
+{
+  "type": "object",
+  "description": "Schema for decision documents",
+  "required": [
+    "id",
+    "type",
+    "firestore_collection",
+    "firestore_doc_id",
+    "created",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^dec_[a-z0-9_]+$",
+      "description": "Unique decision identifier (dec_YYYYMMDD_*)"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["decision"],
+      "description": "Document type must be 'decision'"
+    },
+    "firestore_collection": {
+      "type": "string",
+      "enum": ["decisions"],
+      "description": "Target Firestore collection"
+    },
+    "firestore_doc_id": {
+      "type": "string",
+      "description": "Firestore document ID (typically same as id)"
+    },
+    "created": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Creation date in YYYY-MM-DD format"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["idea", "planning", "active", "paused", "done"],
+      "description": "Decision status"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Classification tags (optional)"
+    },
+    "related_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Related files in the vault (optional)"
+    },
+    "related_collections": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Related Firestore collections (optional)"
+    }
+  },
+  "additionalProperties": false
+}

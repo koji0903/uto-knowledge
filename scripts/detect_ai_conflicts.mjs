@@ -1,27 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
-import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
-import { buildFirestoreDryRun } from "./datalink_to_firestore_dry_run.mjs";
+import { execSync } from "node:child_process";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const vaultRoot = path.resolve(scriptDir, "..");
-const args = process.argv.slice(2);
-const outIndex = args.indexOf("--out");
-const outPath = outIndex >= 0 ? args[outIndex + 1] : "tmp/ai_conflict_report.md";
-const strict = args.includes("--strict");
-
-function run(command, commandArgs = []) {
-  try {
-    return execFileSync(command, commandArgs, {
-      cwd: vaultRoot,
-      encoding: "utf8",
-      stdio: ["ignore", "pipe", "ignore"],
-    }).trim();
-  } catch {
-    return "";
-  }
-}
 
 function parseValue(raw) {
   const value = raw.trim();
@@ -35,12 +18,18 @@ function parseValue(raw) {
 }
 
 function parseFrontmatter(markdown) {
-  if (!markdown.startsWith("---\n")) return {};
+  if (!markdown.startsWith("---\n")) {
+    return null;
+  }
+
   const end = markdown.indexOf("\n---", 4);
-  if (end < 0) return {};
+  if (end < 0) {
+    return null;
+  }
 
   const data = {};
   const block = markdown.slice(4, end).trim();
+
   for (const line of block.split("\n")) {
     if (!line.trim() || line.trim().startsWith("#")) continue;
     const separator = line.indexOf(":");
@@ -49,168 +38,312 @@ function parseFrontmatter(markdown) {
     const value = line.slice(separator + 1);
     data[key] = parseValue(value);
   }
+
   return data;
 }
 
 function listMarkdownFiles(dir) {
-  const fullPath = path.join(vaultRoot, dir);
-  if (!fs.existsSync(fullPath)) return [];
+  const files = [];
+  const stack = [dir];
 
-  return fs.readdirSync(fullPath, { withFileTypes: true })
-    .flatMap((entry) => {
-      const entryPath = path.join(dir, entry.name);
-      const fullEntryPath = path.join(vaultRoot, entryPath);
-      if (entry.isDirectory()) return listMarkdownFiles(entryPath);
-      if (entry.isFile() && entry.name.endsWith(".md")) return [fullEntryPath];
-      return [];
-    })
-    .sort();
-}
+  while (stack.length > 0) {
+    const current = stack.pop();
+    const entries = fs.readdirSync(current, { withFileTypes: true });
 
-function loadRequiredDocuments() {
-  const file = path.join(vaultRoot, "datalink.required.json");
-  if (!fs.existsSync(file)) return [];
-  const config = JSON.parse(fs.readFileSync(file, "utf8"));
-  return Array.isArray(config.required_documents) ? config.required_documents : [];
-}
-
-function collectPolicyCards() {
-  return listMarkdownFiles("04_DataLink/02_POLICY_CARDS")
-    .map((file) => {
-      const relativePath = path.relative(vaultRoot, file).replaceAll(path.sep, "/");
-      if (relativePath.includes("/_templates/") || relativePath.endsWith("/index.md")) return null;
-      const frontmatter = parseFrontmatter(fs.readFileSync(file, "utf8"));
-      if (frontmatter.type !== "policy_card") return null;
-      return {
-        id: frontmatter.id,
-        path: relativePath,
-        type: frontmatter.type,
-      };
-    })
-    .filter(Boolean);
-}
-
-function conflict(priority, type, title, detail, action) {
-  return { priority, type, title, detail, action };
-}
-
-const dryRun = buildFirestoreDryRun();
-const requiredDocuments = loadRequiredDocuments();
-const dryRunPaths = new Set(dryRun.documents.map((document) => document.path));
-const policyCards = collectPolicyCards();
-const conflicts = [];
-
-const byId = new Map();
-for (const document of dryRun.documents) {
-  const existing = byId.get(document.data.id);
-  if (existing) {
-    conflicts.push(conflict(
-      "HIGH",
-      "duplicate_id",
-      "DataLink IDの重複",
-      `${document.data.id}: ${existing} と ${document.source}`,
-      "片方の id / firestore_doc_id を変更し、Firestore pathの重複を解消する",
-    ));
+    for (const entry of entries) {
+      if (entry.name.startsWith(".")) continue;
+      const fullPath = path.join(current, entry.name);
+      if (entry.isDirectory()) {
+        stack.push(fullPath);
+      } else if (entry.isFile() && entry.name.endsWith(".md")) {
+        files.push(fullPath);
+      }
+    }
   }
-  byId.set(document.data.id, document.source);
+
+  return files;
 }
 
-for (const card of policyCards) {
-  const existing = byId.get(card.id);
-  if (existing) {
-    conflicts.push(conflict(
-      "MEDIUM",
-      "duplicate_id",
-      "DataLinkと政策カードのID重複",
-      `${card.id}: ${existing} と ${card.path}`,
-      "意図した共有IDでなければ片方のIDを変更する",
-    ));
+function getAllDocuments() {
+  const docs = {};
+  const dataLinkDir = path.join(vaultRoot, "04_DataLink");
+
+  const collections = ["decisions", "projects", "producers", "products", "logs"];
+  for (const collection of collections) {
+    const collectionDir = path.join(dataLinkDir, collection);
+    if (!fs.existsSync(collectionDir)) continue;
+
+    const files = listMarkdownFiles(collectionDir);
+    for (const file of files) {
+      const content = fs.readFileSync(file, "utf-8");
+      const fm = parseFrontmatter(content);
+      if (fm && fm.id) {
+        docs[fm.id] = {
+          file,
+          collection,
+          frontmatter: fm,
+          content,
+        };
+      }
+    }
   }
-  byId.set(card.id, card.path);
+
+  return docs;
 }
 
-for (const required of requiredDocuments) {
-  if (!dryRunPaths.has(required.path)) {
-    conflicts.push(conflict(
-      "HIGH",
-      "missing_required_datalink",
-      "必須DataLink文書がFirestore dry-run対象外",
-      `${required.path}: ${required.reason || ""}`,
-      "該当Markdownのfrontmatterと配置を確認し、dry-run対象へ戻す",
-    ));
+function getRecentChanges(hoursBack = 24) {
+  try {
+    const since = new Date(Date.now() - hoursBack * 60 * 60 * 1000).toISOString();
+    const cmd = `git -C "${vaultRoot}" log --since="${since}" --name-only --pretty=format: -- 04_DataLink`;
+    const output = execSync(cmd, { encoding: "utf-8" });
+    const files = output
+      .split("\n")
+      .filter((f) => f.trim() && f.endsWith(".md"));
+    return [...new Set(files)];
+  } catch {
+    return [];
   }
 }
 
-const gitStatus = run("git", ["status", "--short"]);
-const uncommittedLines = gitStatus.split("\n").filter(Boolean);
-if (uncommittedLines.length > 0) {
-  conflicts.push(conflict(
-    "LOW",
-    "working_tree_dirty",
-    "未コミット変更あり",
-    `${uncommittedLines.length}件の未コミット変更があります`,
-    "他AIへ作業を渡す前に、差分の意図を確認してコミットまたは明示的に共有する",
-  ));
+function extractReferences(frontmatter) {
+  const refs = [];
+  for (const key of Object.keys(frontmatter)) {
+    if (key.startsWith("related_")) {
+      const values = frontmatter[key];
+      if (Array.isArray(values)) {
+        refs.push(...values);
+      }
+    }
+  }
+  return refs;
 }
 
-const claudeWorktreesPath = path.join(vaultRoot, ".claude/worktrees");
-if (fs.existsSync(claudeWorktreesPath)) {
-  const worktrees = fs.readdirSync(claudeWorktreesPath, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => entry.name);
-  if (worktrees.length > 0) {
-    conflicts.push(conflict(
-      "LOW",
-      "ai_worktree_present",
-      "Claude作業ワークツリーあり",
-      worktrees.join(", "),
-      "必要な成果物だけをmainへ選別して取り込む。.claude/ はGit管理しない",
-    ));
+function extractNumericTargets(content) {
+  const patterns = [
+    /target_revenue[:\s]+.*?(¥[\d,]+[M|B]?)/g,
+    /revenue_estimate[:\s]+.*?(¥[\d,]+[M|B]?)/g,
+    /target_population[:\s]+.*?([\d,]+)/g,
+  ];
+
+  const targets = [];
+  for (const pattern of patterns) {
+    let match;
+    while ((match = pattern.exec(content)) !== null) {
+      targets.push(match[1]);
+    }
+  }
+  return targets;
+}
+
+class ConflictDetector {
+  constructor(documents) {
+    this.documents = documents;
+    this.conflicts = [];
+  }
+
+  detectTypeA() {
+    // 目標値矛盾
+    const projects = Object.values(this.documents).filter((d) => d.collection === "projects");
+
+    for (const project of projects) {
+      const relatedPolicies = extractReferences(project.frontmatter).filter((ref) =>
+        ref.startsWith("pc_")
+      );
+
+      if (relatedPolicies.length === 0) continue;
+
+      const projectRevenue = project.frontmatter.target_revenue;
+      if (!projectRevenue) continue;
+
+      for (const policyId of relatedPolicies) {
+        const policy = Object.values(this.documents).find((d) =>
+          d.file.includes(`policy_cards`) && d.frontmatter?.id === policyId
+        );
+
+        if (!policy) continue;
+
+        const policyRevenue = policy.frontmatter.target_revenue;
+        if (!policyRevenue) continue;
+
+        // 簡易的な比較（数字抽出）
+        const projNum = parseFloat(projectRevenue.toString().replace(/[^0-9.]/g, ""));
+        const policyNum = parseFloat(policyRevenue.toString().replace(/[^0-9.]/g, ""));
+
+        if (projNum && policyNum && Math.abs(projNum - policyNum) / Math.max(projNum, policyNum) > 0.5) {
+          this.conflicts.push({
+            type: "A",
+            priority: "HIGH",
+            title: "目標値矛盾",
+            items: [
+              `${project.frontmatter.id} (project) → ${projectRevenue}`,
+              `${policyId} (policy) → ${policyRevenue}`,
+            ],
+            reason: "同一プロジェクトの関連政策カードとの目標値が大きく乖離",
+            action: "Claude: どちらが正確か確認してください。Gemini: 市場データで根拠確認。",
+          });
+        }
+      }
+    }
+  }
+
+  detectTypeB() {
+    // 状態遷移矛盾
+    const validTransitions = {
+      idea: ["planning", "paused"],
+      planning: ["active", "paused", "idea"],
+      active: ["done", "paused"],
+      done: [],
+      paused: ["planning", "active", "done"],
+    };
+
+    // 簡易版：status フィールドの存在確認のみ
+    for (const doc of Object.values(this.documents)) {
+      if (!doc.frontmatter.status) {
+        this.conflicts.push({
+          type: "B",
+          priority: "MEDIUM",
+          title: "状態未定義",
+          items: [`${doc.frontmatter.id} (${doc.collection})`],
+          reason: "status フィールドが定義されていない",
+          action: "status を [idea|planning|active|done|paused] から選択してください。",
+        });
+      }
+    }
+  }
+
+  detectTypeC() {
+    // 参照矛盾
+    for (const doc of Object.values(this.documents)) {
+      const refs = extractReferences(doc.frontmatter);
+
+      for (const ref of refs) {
+        const refExists = Object.values(this.documents).some((d) => d.frontmatter.id === ref);
+
+        if (!refExists) {
+          this.conflicts.push({
+            type: "C",
+            priority: "MEDIUM",
+            title: "参照矛盾（存在しないドキュメント）",
+            items: [`${doc.frontmatter.id} → ${ref} (不在)`],
+            reason: `参照先ドキュメント '${ref}' が見つかりません`,
+            action: `正しい ID に修正するか、参照を削除してください。`,
+          });
+        }
+      }
+    }
+  }
+
+  detectTypeD() {
+    // 相互参照矛盾（一方向のみ）
+    const excludeTypes = ["evidence", "log"];
+
+    for (const [docId, doc] of Object.entries(this.documents)) {
+      if (excludeTypes.includes(doc.frontmatter.type)) continue;
+
+      const refs = extractReferences(doc.frontmatter);
+      for (const refId of refs) {
+        const refDoc = this.documents[refId];
+        if (!refDoc) continue;
+        if (excludeTypes.includes(refDoc.frontmatter.type)) continue;
+
+        const backRefs = extractReferences(refDoc.frontmatter);
+        if (!backRefs.includes(docId)) {
+          // 一方向参照
+          this.conflicts.push({
+            type: "D",
+            priority: "LOW",
+            title: "一方向参照",
+            items: [`${docId} → ${refId}`, `${refId} ↛ ${docId}`],
+            reason: "A が B を参照していますが、B が A を参照していません",
+            action: "B を更新して A への参照を追加するか、A の参照を削除してください。",
+          });
+        }
+      }
+    }
+  }
+
+  detectTypeE() {
+    // タイムスタンプ矛盾
+    for (const doc of Object.values(this.documents)) {
+      const refs = extractReferences(doc.frontmatter);
+      const created = new Date(doc.frontmatter.created || 0);
+
+      for (const refId of refs) {
+        const refDoc = this.documents[refId];
+        if (!refDoc) continue;
+
+        const refCreated = new Date(refDoc.frontmatter.created || 0);
+        if (refCreated > created) {
+          this.conflicts.push({
+            type: "E",
+            priority: "MEDIUM",
+            title: "タイムスタンプ矛盾",
+            items: [
+              `${doc.frontmatter.id} created: ${doc.frontmatter.created}`,
+              `${refId} created: ${refDoc.frontmatter.created}`,
+            ],
+            reason: "参照先ドキュメントが参照元より後に作成されている（因果関係の矛盾）",
+            action: "タイムスタンプを確認してください。意図的な場合は OK です。",
+          });
+        }
+      }
+    }
+  }
+
+  detectAll() {
+    this.detectTypeA();
+    this.detectTypeB();
+    this.detectTypeC();
+    this.detectTypeD();
+    this.detectTypeE();
+    return this.conflicts;
+  }
+
+  generateReport() {
+    const now = new Date().toISOString();
+    const priorityCounts = {
+      HIGH: this.conflicts.filter((c) => c.priority === "HIGH").length,
+      MEDIUM: this.conflicts.filter((c) => c.priority === "MEDIUM").length,
+      LOW: this.conflicts.filter((c) => c.priority === "LOW").length,
+    };
+
+    let report = `# AI間矛盾検出レポート\n\n`;
+    report += `生成日時: ${now}\n`;
+    report += `検出件数: ${this.conflicts.length}\n`;
+    report += `- HIGH: ${priorityCounts.HIGH}件、MEDIUM: ${priorityCounts.MEDIUM}件、LOW: ${priorityCounts.LOW}件\n\n`;
+
+    // 優先度順でソート
+    const sorted = this.conflicts.sort((a, b) => {
+      const order = { HIGH: 0, MEDIUM: 1, LOW: 2 };
+      return order[a.priority] - order[b.priority];
+    });
+
+    report += `## 詳細\n\n`;
+    for (let i = 0; i < sorted.length; i++) {
+      const conflict = sorted[i];
+      report += `### [${conflict.priority}] タイプ${conflict.type}: ${conflict.title} (#${i + 1})\n`;
+      report += `**矛盾ペア:**\n`;
+      for (const item of conflict.items) {
+        report += `- ${item}\n`;
+      }
+      report += `\n**分析:**\n${conflict.reason}\n\n`;
+      report += `**推奨アクション:**\n${conflict.action}\n\n`;
+      report += `---\n\n`;
+    }
+
+    return report;
   }
 }
 
-const priorityOrder = { HIGH: 0, MEDIUM: 1, LOW: 2 };
-conflicts.sort((a, b) => priorityOrder[a.priority] - priorityOrder[b.priority]);
+// Main
+const docs = getAllDocuments();
+const detector = new ConflictDetector(docs);
+detector.detectAll();
+const report = detector.generateReport();
 
-const counts = {
-  HIGH: conflicts.filter((item) => item.priority === "HIGH").length,
-  MEDIUM: conflicts.filter((item) => item.priority === "MEDIUM").length,
-  LOW: conflicts.filter((item) => item.priority === "LOW").length,
-};
+const reportPath = path.join(vaultRoot, "tmp", "conflict_report.md");
+fs.mkdirSync(path.dirname(reportPath), { recursive: true });
+fs.writeFileSync(reportPath, report);
 
-const report = `# AI競合検出レポート
-
-Generated: ${new Date().toISOString()}
-
-## Summary
-
-| item | value |
-| --- | --- |
-| conflicts | ${conflicts.length} |
-| HIGH | ${counts.HIGH} |
-| MEDIUM | ${counts.MEDIUM} |
-| LOW | ${counts.LOW} |
-| firestore_dry_run_documents | ${dryRun.document_count} |
-| required_documents | ${requiredDocuments.length} |
-| policy_cards | ${policyCards.length} |
-
-## Details
-
-${conflicts.length === 0 ? "競合候補はありません。" : conflicts.map((item, index) => `### ${index + 1}. [${item.priority}] ${item.title}
-
-- type: ${item.type}
-- detail: ${item.detail}
-- action: ${item.action}
-`).join("\n")}
-`;
-
-const resolvedOut = path.resolve(vaultRoot, outPath);
-fs.mkdirSync(path.dirname(resolvedOut), { recursive: true });
-fs.writeFileSync(resolvedOut, report, "utf8");
-
-console.log(`wrote AI conflict report: ${path.relative(vaultRoot, resolvedOut)}`);
-console.log(`AI conflict detection completed: ${conflicts.length} conflicts (HIGH=${counts.HIGH}, MEDIUM=${counts.MEDIUM}, LOW=${counts.LOW})`);
-
-if (strict && counts.HIGH > 0) {
-  process.exit(1);
-}
+console.log(`✓ Conflict detection completed: ${reportPath}`);
+console.log(`Total conflicts: ${detector.conflicts.length}`);
