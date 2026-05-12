@@ -24,10 +24,7 @@ tags: [議会, 議員, 宇土市]
 
 ## 📝 テンプレート
 
-- [[assembly_question_template|一般質問テンプレート]]
-- [[template_assembly_member|議員情報テンプレート]]
-- [[template_assembly_activity|議員活動ログテンプレート]]
-- [[template_assembly_question|質問記録テンプレート]]
+テンプレートは `_templates/` フォルダに保存されています。
 
 ## 🗳️ 既存ドキュメント
 

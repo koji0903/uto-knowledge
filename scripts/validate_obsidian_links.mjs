@@ -10,7 +10,7 @@ function listMarkdownFiles(dir) {
 
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) return listMarkdownFiles(fullPath);
-    if (entry.isFile() && entry.name.endsWith(".md")) return [fullPath];
+    if (entry.isFile() && entry.name.endsWith(".md") && !entry.name.includes("_template")) return [fullPath];
     return [];
   });
 }
