@@ -11,6 +11,8 @@ tags: [DataLink, analysis, report, index]
 
 海洋データ、産業データ、政策検討に使う分析レポートを管理する場所。
 
+> 📖 **関連:** 全体像は [[../../01_Nori_Farming_DSS/KNOWLEDGE_MAP|🗺️ ナレッジ統合マップ]] を参照
+
 ## レポート一覧
 
 | レポート | 分野 | 対象期間 | 概要 |
