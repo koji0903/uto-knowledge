@@ -1,0 +1,70 @@
+{
+  "season": "2024-2025",
+  "start_date": "2025-01-01",
+  "end_date": "2025-08-31",
+  "status": "completed",
+  "phases": {
+    "preparation": {
+      "period": "2025-09 to 2025-10",
+      "status": "completed"
+    },
+    "main_season": {
+      "period": "2024-11 to 2025-02",
+      "status": "completed"
+    },
+    "spring_nori": {
+      "period": "2025-03 to 2025-04",
+      "status": "completed"
+    }
+  },
+  "data_sources": [
+    "jafic_red_tide_probability",
+    "solar_radiation",
+    "kumamoto_fishery_salinity",
+    "tidal_range_cm",
+    "market_price_grade_a_yen_kg",
+    "tsuboigawa_level_m",
+    "wind_speed",
+    "do_mg_l_mean",
+    "nutrient_p",
+    "salinity_historical_mean_psu",
+    "wind_direction",
+    "chlorophyll",
+    "shirakawa_level_m",
+    "chlorophyll_ground_mg_m3",
+    "midorigawa_flow_m3_s",
+    "water_temp_mean",
+    "water_temp_historical_mean_c",
+    "kumamoto_fishery_water_temp",
+    "water_temp_ma3",
+    "red_tide_event_flag_detailed",
+    "market_price_grade_c_yen_kg",
+    "shirakawa_flow_m3_s",
+    "market_price_yen_kg",
+    "transparency_m",
+    "red_tide_type",
+    "water_temp_historical_std_c",
+    "tide_level_cm",
+    "wave_height_max_m",
+    "market_price_grade_b_yen_kg",
+    "do_historical_mean_mg_l",
+    "rainfall_mm",
+    "salinity_mean",
+    "midorigawa_level_m",
+    "nutrient_n",
+    "kumamoto_fishery_do",
+    "quality_flags",
+    "red_tide_risk_flag",
+    "red_tide_severity",
+    "wave_period_sec"
+  ],
+  "record_count": 2673,
+  "unique_stations": 11,
+  "unique_dates": 243,
+  "schema_version": "3.2",
+  "data_quality": {
+    "completeness": 0.3380690372560291,
+    "missing_values": 72543,
+    "null_ratio": 0.6619309627439709
+  }
+}
