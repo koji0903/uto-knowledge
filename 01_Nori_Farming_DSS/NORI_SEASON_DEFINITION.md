@@ -2,40 +2,61 @@
 
 **プロジェクト:** Nori Farming Decision Support System  
 **更新日:** 2026-05-12  
-**バージョン:** 1.0  
+**バージョン:** 1.1（修正版：オフシーズン分離実装）  
 **目的:** シーズンベースのデータ・分析・予測管理体系の確立
 
 ---
 
-## 1️⃣ 海苔養殖シーズンの定義
+## 📝 更新履歴
+
+### v1.1 (2026-05-12) - オフシーズン分離実装
+- ✨ **新規:** `off_season/` フォルダ構造の実装
+- ✨ **修正:** `assign_to_season()` 関数が `(season_id, period_type)` タプルを返すように変更
+- ✨ **追加:** メタデータに `period_type` と `period_description` フィールドを追加
+- 📋 フォルダ構造ドキュメントを更新
+- 🔧 データ切り分けロジックを詳細に説明
+
+### v1.0 (2026-05-12) 初版
+- 海苔養殖シーズン定義の確立
+- 基本フォルダ構造の定義
+
+---
+
+## 1️⃣ 海苔養殖シーズンの定義（修正版 2026-05-12）
 
 ### 📅 **シーズン期間**
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│ 海苔養殖シーズン（1年間）                                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│  秋季: 9月～10月      → 種付け・苗床準備                         │
-│  冬季: 11月～2月      → 成長・最盛期（収穫主体）                │
-│  春季: 3月～4月       → 春のり・シーズン終盤                     │
-│  夏季: 5月～8月       → オフシーズン（整備・準備）               │
-│                                                                   │
-└─────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│ 海苔養殖シーズン（1年間 = 9ヶ月 + 3ヶ月オフシーズン）          │
+├──────────────────────────────────────────────────────────────────┤
+│                                                                    │
+│  🌾 養殖季: 9月～翌年5月（9ヶ月）                               │
+│      ├─ 秋季（9月～10月）: 種付け・苗床準備                     │
+│      ├─ 冬季（11月～2月）: 成長・最盛期（収穫主体）            │
+│      └─ 春季（3月～5月）: 春のり・シーズン終盤                  │
+│                                                                    │
+│  🌤️  オフシーズン: 6月～8月（3ヶ月）                           │
+│      └─ 施設整備・翌シーズン準備・気象監視                       │
+│                                                                    │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
-### 🗓️ **シーズン表記法**
+### 🗓️ **シーズン表記法（修正版）**
 
 ```
-シーズン表記: YY-YY形式 (前年度-当年度)
+シーズン表記: YYYY形式 (年号のみ)
 
 例:
-  2025-26シーズン = 2025年9月 ～ 2026年4月
-  2026-27シーズン = 2026年9月 ～ 2027年4月
-  
-数値参照:
-  開始年月: 202509（2025年9月）
-  終了年月: 202604（2026年4月）
+  2024シーズン = 2024年9月 ～ 2025年5月 (+ 2025年6月～8月オフシーズン)
+  2025シーズン = 2025年9月 ～ 2026年5月 (+ 2026年6月～8月オフシーズン)
+  2026シーズン = 2026年9月 ～ 2027年5月 (+ 2027年6月～8月オフシーズン)
+
+フォルダ構成:
+  seasons/2024/          ← 2024年9月～2025年5月
+  off_season/2024/       ← 2025年6月～8月
+  seasons/2025/          ← 2025年9月～2026年5月
+  off_season/2025/       ← 2026年6月～8月
 ```
 
 ### 📊 **各フェーズの特性**
@@ -44,123 +65,207 @@
 |---------|------|------|------|---------|
 | **種付け・準備** | 9月～10月 | 2ヶ月 | リスク評価 | 水温・栄養塩監視、病害予測 |
 | **成長・冬季本格** | 11月～2月 | 4ヶ月 | 最大収穫 | 赤潮検出、品質管理、収穫推奨 |
-| **春のり・終盤** | 3月～4月 | 2ヶ月 | 品質維持 | 水温上昇対応、シーズン終了準備 |
-| **オフシーズン** | 5月～8月 | 4ヶ月 | 維持管理 | 施設整備、翌シーズン準備 |
+| **春のり・終盤** | 3月～5月 | 3ヶ月 | 品質維持 | 水温上昇対応、シーズン終了準備 |
+| **オフシーズン** | 6月～8月 | 3ヶ月 | 維持管理 | 施設整備、翌シーズン準備、気象監視 |
 
-**合計:** 12ヶ月 = 1シーズン
+**合計:** 12ヶ月 = 9ヶ月養殖季 + 3ヶ月オフシーズン
 
 ---
 
 ## 2️⃣ シーズンベースのデータ管理
 
-### 📁 **フォルダ構造（新）**
+### 📁 **フォルダ構造（新 / 2026-05-12修正版）**
 
 ```
-04_DataLink/
-├── datasets/
-│   ├── seasons/                          ← NEW: シーズン毎データ
-│   │   ├── 2024-25/
-│   │   │   ├── marine_daily_features.csv
-│   │   │   ├── nori_predictions.csv
-│   │   │   └── quality_summary.md
-│   │   ├── 2025-26/
-│   │   │   ├── marine_daily_features.csv
-│   │   │   ├── nori_predictions.csv
-│   │   │   └── quality_summary.md
-│   │   └── 2026-27/ (進行中)
-│   │       ├── marine_daily_features.csv
-│   │       ├── nori_predictions.csv
-│   │       └── quality_summary.md
-│   │
-│   └── archive/                         ← 参考: 従来の年別データ
-│       ├── 2025/
-│       ├── 2026/
-│       └── README.md
+04_DataLink/datasets/
+│
+├── seasons/                              ← 🌾 養殖季データ（9月～5月）
+│   ├── 2024/                             (2025-01-01 ～ 2025-05-31)
+│   │   ├── marine_daily_features.csv     1,661行
+│   │   └── season_metadata.json          (period_type: "farming")
+│   ├── 2025/                             (2025-09-01 ～ 2026-05-11)
+│   │   ├── marine_daily_features.csv     2,783行
+│   │   └── season_metadata.json          (period_type: "farming")
+│   └── 2026/ (進行中)
+│       ├── marine_daily_features.csv
+│       └── season_metadata.json
+│
+├── off_season/                           ← 🌤️  オフシーズンデータ（6月～8月）
+│   ├── 2024/                             (2025-06-01 ～ 2025-08-31)
+│   │   ├── marine_daily_features.csv     1,012行
+│   │   └── season_metadata.json          (period_type: "offseason")
+│   ├── 2025/                             (進行中: 2026-06-01以降データ蓄積）
+│   │   ├── marine_daily_features.csv
+│   │   └── season_metadata.json
+│   └── 2026/ (進行中)
+│       ├── marine_daily_features.csv
+│       └── season_metadata.json
 │
 ├── reports/
-│   ├── season_2024-25/
-│   │   ├── season_summary.md
-│   │   ├── performance_analysis.md
-│   │   └── lessons_learned.md
-│   ├── season_2025-26/
-│   └── season_2026-27/ (進行中)
+│   ├── seasons/                          ← 養殖季分析レポート
+│   │   ├── 2024/
+│   │   │   ├── season_summary.md
+│   │   │   ├── performance_analysis.md
+│   │   │   └── lessons_learned.md
+│   │   └── 2025/
+│   └── off_season/                       ← オフシーズン気象分析
+│       ├── 2024/
+│       │   ├── weather_analysis.md
+│       │   ├── preparation_status.md
+│       │   └── notes.md
+│       └── 2025/
 │
 └── models/
-    ├── season_2024-25/
-    │   ├── red_tide_model.pkl
-    │   ├── harvest_model.pkl
-    │   └── model_evaluation.csv
-    ├── season_2025-26/
-    └── season_2026-27/ (進行中)
+    ├── seasons/                          ← 養殖季予測モデル
+    │   ├── 2024/
+    │   │   ├── red_tide_model.pkl
+    │   │   ├── harvest_model.pkl
+    │   │   └── model_evaluation.csv
+    │   └── 2025/
+    └── off_season/                       ← オフシーズン気象予測モデル
+        ├── 2024/
+        │   └── weather_prediction.pkl
+        └── 2025/
 ```
 
-### 🔄 **データ切り分けロジック**
+### 🔄 **データ切り分けロジック（修正版 2026-05-12）**
 
 ```python
-def assign_to_season(date: str) -> str:
+def assign_to_season(date_str: str) -> tuple:
     """
-    日付をシーズンに割り当てる
+    日付をシーズンと期間タイプに割り当てる
+    
+    シーズン定義:
+      - 養殖季: 9月～5月（9ヶ月）
+      - オフシーズン: 6月～8月（3ヶ月）
+    
+    戻り値: (シーズンID, 期間タイプ)
+      - シーズンID: "YYYY" 形式（年号のみ）（例: "2024"，"2025"）
+      - 期間タイプ: "farming"（9月-5月）か "offseason"（6月-8月）
     
     例:
-    2025-09-01 → "2025-26"
-    2025-12-15 → "2025-26"
-    2026-02-28 → "2025-26"
-    2026-04-30 → "2025-26"
-    2026-05-01 → "2026-27" (オフシーズン開始)
-    2026-09-01 → "2026-27"
+    2025-01-15 → ("2024", "farming")     ← 2024シーズン養殖季
+    2025-05-31 → ("2024", "farming")     ← 2024シーズン養殖季終了
+    2025-06-01 → ("2024", "offseason")   ← 2024シーズンオフシーズン開始
+    2025-08-31 → ("2024", "offseason")   ← 2024シーズンオフシーズン終了
+    2025-09-01 → ("2025", "farming")     ← 2025シーズン開始
+    2026-05-31 → ("2025", "farming")     ← 2025シーズン養殖季終了
     """
     import datetime
     
-    date_obj = datetime.datetime.strptime(date, "%Y-%m-%d")
+    date_obj = datetime.datetime.strptime(date_str, "%Y-%m-%d")
     year = date_obj.year
     month = date_obj.month
     
-    # 9月～12月: 前年度から始まるシーズン
+    # 9月～12月: その年のシーズン（養殖期）
     if month >= 9:
-        return f"{year}-{year+1}"
-    # 1月～8月: 前年度9月から始まるシーズン
-    else:
-        return f"{year-1}-{year}"
+        season_id = str(year)
+        period_type = "farming"
+    
+    # 1月～5月: 前年のシーズン（養殖期）
+    elif 1 <= month <= 5:
+        season_id = str(year - 1)
+        period_type = "farming"
+    
+    # 6月～8月: 前年のシーズン（オフシーズン）
+    else:  # 6 <= month <= 8
+        season_id = str(year - 1)
+        period_type = "offseason"
+    
+    return (season_id, period_type)
 ```
 
-### 📊 **シーズンメタデータ**
+**重要な変更点:**
+1. **シーズンID形式**: `"YYYY-YYYY"` → `"YYYY"` (年号のみ)
+2. **期間定義の修正**: 
+   - 養殖季: 9月～5月（前月は4月 ではなく 5月）
+   - オフシーズン: 6月～8月（前月は5月 ではなく 6月）
+3. **戻り値がタプル**: `(season_id, period_type)` を返す
+4. **フォルダの分け先**: 
+   - `period_type == "farming"` → `seasons/{season_id}/`
+   - `period_type == "offseason"` → `off_season/{season_id}/`
 
-各シーズンフォルダに `season_metadata.json` を配置：
+### 📊 **シーズンメタデータ（修正版 2026-05-12）**
+
+#### 養殖季: `seasons/{season_id}/season_metadata.json`
 
 ```json
 {
-  "season": "2025-26",
-  "start_date": "2025-09-01",
-  "end_date": "2026-04-30",
+  "season": "2024",
+  "start_date": "2025-01-01",
+  "end_date": "2025-05-31",
   "status": "completed",
+  "period_type": "farming",
+  "period_description": "9月～5月 養殖期間",
   "phases": {
     "preparation": {
-      "period": "2025-09 to 2025-10",
+      "period": "2024-09 to 2024-10",
       "status": "completed"
     },
     "main_season": {
-      "period": "2025-11 to 2026-02",
+      "period": "2024-11 to 2025-02",
       "status": "completed",
       "harvest_volume": "12,345 tons",
       "avg_price": "2,850 yen/kg"
     },
     "spring_nori": {
-      "period": "2026-03 to 2026-04",
+      "period": "2025-03 to 2025-05",
       "status": "completed"
     }
   },
-  "data_sources": [
-    "JMA_weather",
-    "MLIT_river",
-    "Kumamoto_fishery",
-    "JAXA_satellite",
-    "JAFIC_red_tide"
-  ],
-  "record_count": 5456,
+  "record_count": 1661,
+  "unique_stations": 11,
+  "unique_dates": 152,
   "schema_version": "3.2",
-  "quality_score": 0.94
+  "data_quality": {
+    "completeness": 0.335,
+    "missing_values": 32543,
+    "null_ratio": 0.665
+  }
 }
 ```
+
+#### オフシーズン: `off_season/{season_id}/season_metadata.json`
+
+```json
+{
+  "season": "2024",
+  "start_date": "2025-06-01",
+  "end_date": "2025-08-31",
+  "status": "completed",
+  "period_type": "offseason",
+  "period_description": "6月～8月 準備期間・気象監視",
+  "phases": {
+    "preparation": {
+      "period": "2024-09 to 2024-10",
+      "status": "completed"
+    },
+    "main_season": {
+      "period": "2024-11 to 2025-02",
+      "status": "completed"
+    },
+    "spring_nori": {
+      "period": "2025-03 to 2025-05",
+      "status": "completed"
+    }
+  },
+  "record_count": 1012,
+  "unique_stations": 11,
+  "unique_dates": 92,
+  "schema_version": "3.2",
+  "data_quality": {
+    "completeness": 0.343,
+    "missing_values": 25872,
+    "null_ratio": 0.657
+  }
+}
+```
+
+**フィールド説明:**
+- `season`: シーズン年号（"2024", "2025" など）
+- `period_type`: `"farming"` または `"offseason"` で期間を区分
+- `period_description`: 日本語での期間説明
+- `start_date`/`end_date`: 実際のデータ期間（フェーズ全体ではなくデータ範囲）
 
 ---
 

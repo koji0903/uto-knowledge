@@ -1,0 +1,12 @@
+farm_area,station_id,recommendation_date,window_start,window_end,window_days,urgency_level,expected_grade,color_drop_risk,disease_risk,confidence,trend,consecutive_stress_days,reasoning,last_updated
+宇土,uto,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.027,0.0,0.65,degrading,0,Moderate environmental stress (0.03). Maintain standard harvest schedule.,2026-05-11T21:25:55.191867
+三角,misumi,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.035,0.008,0.65,degrading,0,Moderate environmental stress (0.04). Maintain standard harvest schedule.,2026-05-11T21:25:55.192129
+岱明,taimei,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.036,0.024,0.65,degrading,0,Moderate environmental stress (0.04). Maintain standard harvest schedule.,2026-05-11T21:25:55.192375
+甲佐,kosa,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.036,0.016,0.65,degrading,0,Moderate environmental stress (0.04). Maintain standard harvest schedule.,2026-05-11T21:25:55.192634
+松島,matsushima,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.034,0.0,0.65,degrading,0,Moderate environmental stress (0.03). Maintain standard harvest schedule.,2026-05-11T21:25:55.192898
+熊本,kumamoto,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.042,0.04,0.65,degrading,0,Moderate environmental stress (0.04). Maintain standard harvest schedule.,2026-05-11T21:25:55.193136
+網田,ohda,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.13,0.0,0.65,degrading,0,Moderate environmental stress (0.13). Maintain standard harvest schedule.,2026-05-11T21:25:55.193463
+河内,kawachi,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.027,0.0,0.65,degrading,0,Moderate environmental stress (0.03). Maintain standard harvest schedule.,2026-05-11T21:25:55.194012
+小島,kojima,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.13,0.0,0.65,degrading,0,Moderate environmental stress (0.13). Maintain standard harvest schedule.,2026-05-11T21:25:55.194485
+松尾,matsuo,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.036,0.024,0.65,degrading,0,Moderate environmental stress (0.04). Maintain standard harvest schedule.,2026-05-11T21:25:55.194813
+沖新,okishin,2026-05-11,2026-05-16,2026-05-21,5,standard,上,0.036,0.016,0.65,degrading,0,Moderate environmental stress (0.04). Maintain standard harvest schedule.,2026-05-11T21:25:55.195122

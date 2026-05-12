@@ -1,0 +1,72 @@
+{
+  "season": "2017",
+  "start_date": "2018-06-01",
+  "end_date": "2018-08-31",
+  "status": "completed",
+  "phases": {
+    "preparation": {
+      "period": "2017-09 to 2017-10",
+      "status": "completed"
+    },
+    "main_season": {
+      "period": "2017-11 to 2018-02",
+      "status": "completed"
+    },
+    "spring_nori": {
+      "period": "2018-03 to 2018-05",
+      "status": "completed"
+    }
+  },
+  "data_sources": [
+    "rainfall_mm",
+    "chlorophyll",
+    "kumamoto_fishery_water_temp",
+    "shirakawa_level_m",
+    "tsuboigawa_level_m",
+    "water_temp_historical_mean_c",
+    "solar_radiation",
+    "midorigawa_level_m",
+    "wind_direction",
+    "market_price_yen_kg",
+    "jafic_red_tide_probability",
+    "transparency_m",
+    "shirakawa_flow_m3_s",
+    "market_price_grade_c_yen_kg",
+    "red_tide_risk_flag",
+    "nutrient_n",
+    "salinity_historical_mean_psu",
+    "do_historical_mean_mg_l",
+    "wind_speed",
+    "market_price_grade_a_yen_kg",
+    "wave_period_sec",
+    "kumamoto_fishery_salinity",
+    "red_tide_type",
+    "midorigawa_flow_m3_s",
+    "red_tide_severity",
+    "kumamoto_fishery_do",
+    "water_temp_mean",
+    "water_temp_historical_std_c",
+    "quality_flags",
+    "nutrient_p",
+    "market_price_grade_b_yen_kg",
+    "chlorophyll_ground_mg_m3",
+    "water_temp_ma3",
+    "red_tide_event_flag_detailed",
+    "tidal_range_cm",
+    "wave_height_max_m",
+    "salinity_mean",
+    "tide_level_cm",
+    "do_mg_l_mean"
+  ],
+  "record_count": 924,
+  "unique_stations": 5,
+  "unique_dates": 92,
+  "schema_version": "3.2",
+  "data_quality": {
+    "completeness": 0.17046774363847533,
+    "missing_values": 31426,
+    "null_ratio": 0.8295322563615246
+  },
+  "period_type": "offseason",
+  "period_description": "5月～8月 準備期間・気象監視"
+}
