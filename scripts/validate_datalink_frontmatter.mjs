@@ -18,6 +18,9 @@ const ignoredFolders = new Set([
   "00_SYSTEM",
   "01_ASSEMBLY",
   "02_POLICY_CARDS",
+  "datasets",
+  "ai_decisions",
+  "schema",
 ]);
 
 function parseValue(raw) {
