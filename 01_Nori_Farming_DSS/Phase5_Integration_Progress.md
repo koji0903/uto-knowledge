@@ -1,7 +1,7 @@
 # Phase 5: ウトマチプラットフォーム統合 - 進捗報告書
 
-**報告日**: 2026年5月12日  
-**プロジェクト全体進捗**: **65% → 70%**  
+**報告日**: 2026年5月13日  
+**プロジェクト全体進捗**: **70% → 80%**  
 **フェーズ**: Phase 5 / 実装フェーズ
 
 ---
@@ -24,11 +24,21 @@ Phase 5B: UIコンポーネント更新
   ├─ NoriLogForm.tsx (季節対応工程ログフォーム)
   └─ NoriManager.tsx (季節フィルタリング対応)
   
-Phase 5C: Firestore最適化（実装中）
-  ✅ Phase 5C-1: スキーマ拡張 (完了)
-  🔄 Phase 5C-2: データマイグレーション (実行準備完了)
-  📋 Phase 5C-3: 複合インデックス (保留中)
-  📋 2026-05-19 ～ 2026-05-26
+Phase 5C: Firestore最適化
+  ✅ Phase 5C-1: スキーマ拡張 (完了 2026-05-12)
+  ✅ Phase 5C-2: データマイグレーション (完了 2026-05-13)
+    ├─ nori_predictions    5,456件 → 100% season_id/period_type 付与
+    └─ nori_environment_data 5,456件 → 100% season_id/period_type 付与
+  ✅ Phase 5C-3: 複合インデックス追加 (完了 2026-05-13)
+    ├─ nori_process_logs: producerId+season_id+period_type+date
+    ├─ nori_predictions:  season_id+period_type+station_id+date
+    └─ nori_environment_data: season_id+period_type+station_id+date
+  ✅ Phase 5C-4: クエリ最適化 (完了 2026-05-13)
+    ├─ fetchNoriProcessLogsBySeason()
+    ├─ fetchNoriPredictionsBySeason()
+    └─ fetchNoriEnvironmentDataBySeason()
+  ✅ Phase 5C-5: Firebase Admin 認証共通化 (完了 2026-05-13)
+    └─ firebaseAdminInit.ts (ADC方式に統一)
   
 Phase 5D: テスト・デプロイ（計画中）
   📋 2026-05-26 ～ 2026-06-02
