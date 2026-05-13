@@ -9,6 +9,9 @@ Thumbs.db
 .firebaserc
 .claude/
 tmp/
+path/
+*.venv/
+venv/
 *.local.json
 serviceAccount*.json
 firebase-adminsdk*.json
