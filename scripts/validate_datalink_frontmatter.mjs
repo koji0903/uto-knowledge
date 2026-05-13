@@ -20,6 +20,7 @@ const ignoredFolders = new Set([
   "02_POLICY_CARDS",
   "datasets",
   "models",
+  "predictions",
   "reports",
   "ai_decisions",
   "schema",
