@@ -1,8 +1,8 @@
 # Phase 5: ウトマチプラットフォーム統合 - 進捗報告書
 
 **報告日**: 2026年5月13日  
-**プロジェクト全体進捗**: **90% → 95%**  
-**フェーズ**: Phase 5 / 実装完了・デプロイ待機
+**プロジェクト全体進捗**: **95% 完了**  
+**フェーズ**: Phase 5 / 実装完了 ✅ (デプロイは手動実行)
 
 ---
 
@@ -49,8 +49,8 @@ Phase 5D: テスト・デプロイ
   ✅ Phase 5D-4: 統合テスト・サーバーサイド移行 (完了 2026-05-13)
     ├─ noriFiltering: 14テスト ✅ (計35件全件パス)
     └─ NoriManager: fetchNoriProcessLogsBySeason に移行
-  📋 Phase 5D-5: Vercel 本番デプロイ (vercel login 後に実行)
-    └─ コード・インデックスはプッシュ済み
+  ⏭️  Phase 5D-5: Vercel 本番デプロイ → **SKIP** (手動実行)
+    └─ コマンド: npx vercel login && npx vercel --prod
 ```
 
 ---
