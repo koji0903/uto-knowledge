@@ -44,7 +44,7 @@
       "cliPathsByHost": {
         "MacBook-Air-15.local": "/opt/homebrew/bin/codex"
       },
-      "customModels": "",
+      "customModels": "gpt-5.4",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
