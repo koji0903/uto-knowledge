@@ -23,8 +23,8 @@ updated: 2026-05-12
 ### Phase 5C-2: Firestoreマイグレーション (準備完了)
 
 **次のステップ**:
-1. `01_Nori_Farming_DSS/Phase5C_Migration_Execution_Guide.md` で詳細確認
-2. `01_Nori_Farming_DSS/MIGRATION_QUICK_START.md` で実行コマンド確認
+1. `02_Agriculture/nori_farming_dss/Phase5C_Migration_Execution_Guide.md` で詳細確認
+2. `02_Agriculture/nori_farming_dss/MIGRATION_QUICK_START.md` で実行コマンド確認
 3. Firestore バックアップ作成
 4. ドライラン実行
 5. 本番マイグレーション実行
@@ -54,7 +54,7 @@ updated: 2026-05-12
 ## 📂 ドキュメント構成
 
 ```
-01_Nori_Farming_DSS/
+02_Agriculture/nori_farming_dss/
 ├── Phase5_Integration_Progress.md ← 全体進捗報告
 ├── Phase5B_UI_Component_Updates.md ← UI実装詳細
 ├── Phase5C_Implementation_Plan.md ← Firestore計画書
