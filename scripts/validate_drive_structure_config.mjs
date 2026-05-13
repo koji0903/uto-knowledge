@@ -69,7 +69,7 @@ for (const [index, folder] of structure.folders.entries()) {
 
   assert(typeof folder.firestoreCollection === "string", `missing firestoreCollection in ${context}`);
   assert(typeof folder.obsidianFolder === "string" && folder.obsidianFolder.length > 0, `missing obsidianFolder in ${context}`);
-  assert(folder.obsidianFolder.startsWith("04_DataLink/"), `obsidianFolder must be under 04_DataLink in ${context}: ${folder.obsidianFolder}`);
+  // obsidianFolder can be in any layer (00_System, 01_Inbox, 02_Agriculture, 03_Knowledge, 04_DataLink, etc)
   assert(!seenObsidianFolders.has(folder.obsidianFolder), `duplicate obsidianFolder: ${folder.obsidianFolder}`);
   seenObsidianFolders.add(folder.obsidianFolder);
 
