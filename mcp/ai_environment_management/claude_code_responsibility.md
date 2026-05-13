@@ -20,7 +20,7 @@ tags: [AI協力, Claude Code, 並行開発, 責務分担]
 
 **対象フォルダ:** 
 - `04_DataLink/**` （全体）
-- `06_Templates/`
+- `05_Templates/`
 - `mcp/ai_profiles/`
 - `ホーム.md`, `README.md`
 

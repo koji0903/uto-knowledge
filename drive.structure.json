@@ -8,7 +8,7 @@
       "name": "00_SYSTEM",
       "env": "GOOGLE_DRIVE_SYSTEM_FOLDER_ID",
       "firestoreCollection": "",
-      "obsidianFolder": "04_DataLink/00_SYSTEM"
+      "obsidianFolder": "00_System/vision"
     },
     {
       "name": "01_ASSEMBLY",

@@ -28,7 +28,7 @@
         "MacBook-Air-15.local": "/Users/hijikuro/.local/bin/claude"
       },
       "loadUserSettings": true,
-      "enableChrome": false,
+      "enableChrome": true,
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,

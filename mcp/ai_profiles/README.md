@@ -128,9 +128,9 @@ AI Personas に改善が必要な場合：
 
 ## 関連ドキュメント
 
-- `AGENTS.md` — AI 運用ガイド（全体）
+- `00_System/architecture/AGENTS.md` — AI 運用ガイド（全体）
 - `handoff_prompt.md` — AI間の引き継ぎテンプレート
 - `README.md` — Vault の入口
 - `04_DataLink/index.md` — DataLink 全体
 - `04_DataLink/02_POLICY_CARDS/policy_execution_board.md` — 政策実行ボード
-- `04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md` — Firestore連携スキーマ
+- `00_System/vision/regional_trading_company_datalink_schema.md` — Firestore連携スキーマ

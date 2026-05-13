@@ -15,7 +15,7 @@ Gemini から Firestore / Google Drive / Obsidian Vault を参照するときの
 
 - Google Drive と Firestore は Google アカウント側の権限で管理する
 - Obsidian Vault は filesystem MCP または GitHub 経由で参照する
-- Firestore の構造は `04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md` と `04_DataLink/index.md` を参照する
+- Firestore の構造は `00_System/vision/regional_trading_company_datalink_schema.md` と `04_DataLink/index.md` を参照する
 - Drive の構造は `drive.structure.json` を参照する
 
 ## 注意

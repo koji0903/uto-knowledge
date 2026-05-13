@@ -360,8 +360,8 @@ Instructions:
 - 実装は scripts/ に生成
 
 Knowledge:
-- AGENTS.md
-- 04_DataLink/00_SYSTEM/
+- 00_System/architecture/AGENTS.md
+- 00_System/vision/
 - 04_DataLink/02_POLICY_CARDS/
 - スクリプト例
 - Firestore スキーマ
