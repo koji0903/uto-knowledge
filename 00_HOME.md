@@ -31,6 +31,20 @@ updated: 2026-05-12
 
 ## 🚀 今すぐ実施すべきこと
 
+### 🌊 海苔OS (Nori OS) インポート (準備完了)
+
+**クイックスタート**:
+1. `02_Agriculture/nori_farming_dss/NORI_OS_QUICKSTART.md` でセットアップ確認
+2. ドライラン実行: `npm run import:nori:all:dry-run`
+3. 本番インポート: `npm run import:nori:all`
+4. 検証実行: `npm run verify:nori`
+5. アプリケーション起動: `npm run dev`
+
+**関連ドキュメント**:
+- [[02_Agriculture/nori_farming_dss/NORI_OS_QUICKSTART|🚀 クイックスタートガイド]] (5分で開始)
+- [[02_Agriculture/nori_farming_dss/Phase4_Utomachi_Integration|詳細統合ガイド]] (詳細な手順)
+- [[02_Agriculture/nori_farming_dss/NORI_SEASON_DEFINITION|シーズン管理]] (運用体系)
+
 ### Phase 5C-2: Firestoreマイグレーション (準備完了)
 
 **次のステップ**:
