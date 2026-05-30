@@ -5,6 +5,8 @@ tags: [index, mcp]
 created: 2026-05-04
 ---
 
+> ⬅ [[ホーム|🏠 ホーム]]
+
 # MCP 設定
 
 Claude、Gemini、ChatGPT などの AI クライアントから Vault を参照するための設定を置く場所。

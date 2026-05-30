@@ -1,31 +1,31 @@
 ---
-tags: [nori, obsidian, index, home]
-aliases: [ウトマチナレッジベース, Utomachi Knowledge Base]
+tags: [nori, obsidian, index, home, project-home]
+aliases: [Nori DSS ホーム, Utomachi Platform Home]
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-31
+scope: nori-farming-dss
 ---
 
-# ウトマチナレッジベース 📚
+# 🌊 Nori Farming DSS プロジェクトホーム
 
-**最終更新**: 2026年5月12日  
+> ⬅ **Vault全体のホームは [[ホーム|🏠 宇土OS ナレッジベース ホーム]] です。**
+> このページは **海苔養殖意思決定支援システム (Nori Farming DSS)** に特化した進捗ハブです。
+
+**最終更新**: 2026年5月12日
 **プロジェクト全体進捗**: 70% 完了
 
 ---
 
-## 🎯 このナレッジベースについて
-
-ウトマチプラットフォーム - 海苔養殖意思決定支援システム(Nori Farming DSS)の実装進捗、技術情報、ドキュメントを一元管理するナレッジベースです。
-
-### 🔗 全体 Vault ナビゲーション
-
-このページは **Nori Farming DSS** に特化したホームページです。  
-**宇土OS 全体**のナレッジベースは以下をご覧ください：
+## 🔗 関連ハブ
 
 | 対象 | リンク |
 |------|--------|
-| **日本語版（全体説明）** | [[ホーム|🇯🇵 宇土OS ナレッジベース ホーム]] |
-| **英語版（プロジェクト進捗）** | [[00_HOME|📊 Utomachi Platform Home]] |
-| **ナレッジベース層** | [[03_Knowledge/_OVERVIEW|📚 03_Knowledge - 学習ガイド]] |
+| **🏠 Vault全体ホーム** | [[ホーム\|宇土OS ナレッジベース ホーム]] |
+| **📂 Nori DSS 詳細目次** | [[02_Agriculture/nori_farming_dss/INDEX\|Nori DSS INDEX]] |
+| **🗺 ナレッジ統合マップ** | [[02_Agriculture/nori_farming_dss/KNOWLEDGE_MAP\|KNOWLEDGE_MAP]] |
+| **🚀 クイックスタート** | [[02_Agriculture/nori_farming_dss/NORI_OS_QUICKSTART\|NORI_OS_QUICKSTART]] |
+| **🌊 シーズン管理** | [[02_Agriculture/nori_farming_dss/NORI_SEASON_DEFINITION\|NORI_SEASON_DEFINITION]] |
+| **📚 ナレッジベース層** | [[03_Knowledge/_OVERVIEW\|03_Knowledge - 学習ガイド]] |
 
 ---
 

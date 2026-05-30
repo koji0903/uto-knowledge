@@ -1,3 +1,5 @@
+> ⬅ [[ホーム|🏠 ホーム]] / [[00_HOME|🌊 Nori DSS ホーム]]
+
 # 海苔養殖意思決定支援システム - ナレッジベースインデックス
 
 **プロジェクト:** Nori Farming Decision Support System × Utomachi Platform Integration  

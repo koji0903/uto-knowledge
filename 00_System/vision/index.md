@@ -7,6 +7,8 @@ status: active
 tags: [宇土OS, DataLink, system, index]
 ---
 
+> ⬅ [[ホーム|🏠 ホーム]]
+
 # 宇土OS システム仕様
 
 宇土OSの前提、レイヤ、機能OS、Firestore / Google Drive / Obsidian 連携の仕様を置く場所。

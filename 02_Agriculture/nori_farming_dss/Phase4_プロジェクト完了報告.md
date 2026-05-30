@@ -256,7 +256,7 @@ API応答: 100-150ms
 ### ドキュメント
 - [[Phase4_ML_Integration|Phase 4 詳細]]
 - [[01_Nori_Farming_DSS/INDEX|Noriナレッジベース]]
-- [[CHATGPT_INTEGRATION_DASHBOARD|ChatGPT統合]]
+- [[mcp/chatgpt_integration_dashboard|ChatGPT統合]]
 
 ### ファイルパス
 ```

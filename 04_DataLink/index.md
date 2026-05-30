@@ -5,6 +5,8 @@ tags: [index, datalink]
 created: 2026-05-04
 ---
 
+> ⬅ [[ホーム|🏠 ホーム]]
+
 # 04_DataLink - データ・実行層
 
 **Vault 4層構造における実行層**

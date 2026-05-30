@@ -436,7 +436,7 @@ PFUが横断的に課題を解く
 
 ### 参考資料
 - [[resources]] - Notionリンク一覧と活用ガイド
-- [[CHATGPT_INTEGRATION_DASHBOARD]] - ChatGPT統合統計
+- [[mcp/chatgpt_integration_dashboard|ChatGPT統合ダッシュボード]] - ChatGPT統合統計
 - [[04_DataLink/projects/index]] - 行政・議会プロジェクト一覧
 - [[03_Knowledge/business/index]] - ビジネスナレッジ一覧
 - [[03_Knowledge/tech/index]] - 技術ナレッジ一覧
