@@ -18,7 +18,7 @@ Claude、Gemini、ChatGPT、Codexなど複数AIが触れる前提のため、作
 4. [[04_DataLink/00_SYSTEM/index|宇土OS システム仕様]]
 5. [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]]
 6. [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
-7. [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
+7. [[00_System/vision/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
 8. [[mcp/ai_profiles/task_router|Task Router]]
 9. [[mcp/ai_profiles/handoff_prompt|AIハンドオフプロンプト]]
 10. [[mcp/ai_profiles/conflict_detector|AI競合検出]]

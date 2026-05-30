@@ -69,7 +69,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap_local_env.ps1
 | **実行管理** | [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
 | **政策棚卸し** | `tmp/policy_card_report.md` |
 | **運用ブリーフ** | `tmp/operations_brief.md` |
-| **地域商社DataLink** | [[04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
+| **地域商社DataLink** | [[00_System/vision/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
 | **AI運用** | [[AGENTS|AI運用ガイド]] |
 | **運用** | [[運用ダッシュボード|運用ダッシュボード]] |
 
