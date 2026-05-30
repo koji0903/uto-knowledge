@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779666183800-jlt41e82b",
+  "providerId": "claude",
+  "title": "宇土高校との連携・魅力化支援の議会質問を統合",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779666183801,
+  "updatedAt": 1779754859748,
+  "lastResponseAt": 1779754853039,
+  "sessionId": "e8172144-7810-4300-8621-e8f6c1e00a39",
+  "providerState": {
+    "providerSessionId": "e8172144-7810-4300-8621-e8f6c1e00a39"
+  },
+  "currentNote": "04_DataLink/decisions/decision_20260507_ai_handoff_operations.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 1466,
+    "cacheReadInputTokens": 126825,
+    "contextWindow": 200000,
+    "contextTokens": 128299,
+    "percentage": 64,
+    "contextWindowIsAuthoritative": true
+  }
+}

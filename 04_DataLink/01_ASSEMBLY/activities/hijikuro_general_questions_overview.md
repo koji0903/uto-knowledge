@@ -45,6 +45,12 @@ tags: [議員活動, 一般質問, 土黒功司]
 - [[rmo_os_specification]] - 地域連携、横断組織
 - [[relocation_os_specification]] - 移住・定住、空き家
 
+## 横断ビュー
+
+- [[../policy_links/hijikuro_general_questions_theme_index|横断テーマ別クロス索引]] - 5つの主要テーマ軸（子育て・教育／ICT・DX／地域防災／地域経済／公共施設）で全77質問を時系列に整理
+- [[hijikuro_questioning_style_analysis|質問の手法・スタイル分析]] - 4年間の通読から抽出した20の発見と「政策実装パイプライン」の構造分析
+- [[../policy_links/hijikuro_general_questions_policy_map|宇土OS対応表]] - 政策カード・宇土OSとの紐づけ
+
 ## 次アクション
 
 - 各質問を政策テーマ別に分解する

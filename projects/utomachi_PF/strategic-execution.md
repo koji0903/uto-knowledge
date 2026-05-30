@@ -1,0 +1,582 @@
+---
+title: "戦略的実行・リソース配分システム"
+parent: [[overview]]
+date: 2026-05-25
+tags: [strategy, execution, resource, resilience, intervention]
+---
+
+# 戦略的実行・リソース配分システム
+
+[[overview|Utomachi Platform]] の長期戦略実行フレームワーク。構造的弱点検出、リソース配分、レジリエンス管理。
+
+## 1. Regional State Snapshot (RegionalStateSnapshot)
+
+**ファイル**: src/types/identity.ts
+
+**役割**: リージョナルの健全性スナップショット。リアルタイム状態把握。
+
+### データスキーマ
+
+```typescript
+interface RegionalStateSnapshot {
+  id?: string;
+  
+  organizationId?: string;
+  
+  // リージョナル健全性レベル
+  marineRiskLevel?: 'stable' | 'active' | 'warning' | 'critical';
+  operationalLoadLevel?: 'stable' | 'active' | 'warning' | 'critical';
+  shipmentStabilityLevel?: 'stable' | 'active' | 'warning' | 'critical';
+  communityActivityLevel?: 'stable' | 'active' | 'warning' | 'critical';
+  
+  // メトリクス集計
+  unresolvedIncidentCount?: number;
+  activeWorkflowCount?: number;
+  onlinePresenceCount?: number;
+  activeEventCount?: number;
+  
+  summary?: string;
+  
+  metadata?: {
+    generatedBy?: string;
+  };
+  
+  createdAt?: Timestamp;
+}
+```
+
+### 状態レベル定義
+
+| レベル | 説明 | 介入 |
+|--------|------|------|
+| **stable** | 安定状態 | 定期監視 |
+| **active** | 活動中（正常範囲） | 監視強化 |
+| **warning** | 警告レベル | 予防的対応 |
+| **critical** | 危機状態 | 緊急対応 |
+
+### スナップショット例
+
+```
+Organization: 九州ノリ養殖協同組合
+
+Marine Risk Level: WARNING ⚠️
+  - 過去24h: 水温異常が2件
+  - 溶存酸素が閾値以下
+  → 対応タスク作成、監視強化
+
+Operational Load Level: ACTIVE
+  - 処理中タスク: 12件
+  - 平均処理時間: 4.5時間
+  → 通常範囲だが増加傾向
+
+Shipment Stability Level: STABLE ✓
+  - 直近7日の遅延率: 0%
+  - 品質クレーム: 0件
+
+Community Activity Level: ACTIVE
+  - オンラインメンバー: 28人
+  - この24hの操作: 156件
+
+Unresolved Incident Count: 2
+  - インシデント1: 水温異常（対応中）
+  - インシデント2: スタッフ欠勤（割り当て検討中）
+
+Active Workflow Count: 5
+Active Event Count: 8
+
+Summary:
+  "海洋リスクが高まっているが、
+   運用・出荷は正常。
+   スタッフ配置の最適化が課題。"
+```
+
+## 2. Regional Resilience Snapshot (RegionalResilienceSnapshot)
+
+**ファイル**: src/types/identity.ts
+
+**役割**: リージョナルのレジリエンス度（回復力）評価。長期健全性。
+
+### データスキーマ
+
+```typescript
+interface RegionalResilienceSnapshot {
+  id?: string;
+  
+  organizationId?: string;
+  
+  // レジリエンススコア・レベル
+  resilienceScore?: number;           // 0-100
+  resilienceLevel?: 'stable' | 'stressed' | 'fragile' | 'critical';
+  
+  // 構成要素スコア
+  staffingCapacity?: number;          // スタッフ余裕度
+  operationalLoad?: number;           // 運用負荷
+  incidentPressure?: number;          // インシデント圧力
+  workflowPressure?: number;          // ワークフロー圧力
+  communitySupportScore?: number;     // コミュニティ支援度
+  
+  recoveryVelocity?: number;          // 回復速度
+  sustainabilityIndex?: number;       // 持続可能度
+  
+  // 診断情報
+  diagnostics?: string[];             // 弱点・推奨事項
+  
+  generatedAt?: Timestamp;
+  createdAt?: Timestamp;
+}
+```
+
+### レジリエンスレベル定義
+
+| レベル | スコア | 説明 | 対応 |
+|--------|--------|------|------|
+| **stable** | 80-100 | 安定・余裕がある | 定期評価 |
+| **stressed** | 60-79 | 負荷増加・リスク上昇 | 監視強化・リソース計画 |
+| **fragile** | 40-59 | 脆弱・単一障害で瓦解 | 緊急対応・リソース投入 |
+| **critical** | 0-39 | 危機的・即座に支援必要 | 緊急支援・外部資源動員 |
+
+### スコア算出式（推定）
+
+```
+resilienceScore = 
+  20% * staffingCapacity
+  + 20% * (100 - operationalLoad)
+  + 20% * (100 - incidentPressure)
+  + 15% * (100 - workflowPressure)
+  + 15% * communitySupportScore
+  + 10% * recoveryVelocity
+```
+
+### レジリエンス評価例
+
+```
+Organization: 長崎ノリ養殖協同組合
+Timestamp: 2026-05-10 15:00
+
+Resilience Score: 68 (STRESSED) ⚠️
+
+Component Scores:
+  - Staffing Capacity: 65
+    Current: 12人 / Demand: 15人
+    Gap: −3人（−20%）
+    → リソース不足
+
+  - Operational Load: 72
+    今週の処理タスク: 45件
+    キャパ: 40件/週
+    → 112%負荷
+
+  - Incident Pressure: 55
+    未解決インシデント: 4件
+    平均解決時間: 6時間
+    → 解決速度が遅い
+
+  - Community Support Score: 78
+    スタッフ満足度: 7.2/10
+    参加率: 92%
+    → 比較的健全
+
+  - Recovery Velocity: 45
+    過去7日の回復時間: 平均8時間
+    ベストプラクティス: 4時間
+    → 改善余地あり
+
+Diagnostics:
+  ⚠️ "スタッフ不足が最大の制約要因。
+      シーズンピーク前に採用・訓練が必要"
+  ⚠️ "タスク処理時間が長い。
+      ワークフロー最適化・自動化を検討"
+  ✓ "コミュニティ支援度が高い。
+      住民パートナーシップは強み"
+
+Recommendations:
+  → 季節労働者の確保（来月中）
+  → タスク処理ワークフローの見直し
+  → 自動化ツール導入検討
+```
+
+## 3. Structural Weakness (StructuralWeakness)
+
+**ファイル**: src/types/identity.ts
+
+**役割**: 繰り返し発生する構造的問題の検出。根本原因の特定。
+
+### データスキーマ
+
+```typescript
+interface StructuralWeakness {
+  id?: string;
+  
+  organizationId?: string;
+  
+  // 弱点分類
+  weaknessType?: 'staffing_shortage'
+                | 'workflow_bottleneck'
+                | 'incident_cluster'
+                | 'shipment_instability'
+                | 'monitoring_overload'
+                | 'community_dependency'
+                | 'processing_instability';
+  
+  severity?: 'low' | 'medium' | 'high' | 'critical';
+  
+  // ドキュメント
+  title?: string;
+  description?: string;
+  
+  // パターン分析
+  occurrenceCount?: number;        // 発生回数
+  relatedIncidentCount?: number;   // 関連インシデント数
+  relatedWorkflowCount?: number;   // 関連ワークフロー数
+  relatedAllocationCount?: number; // リソース配分提案数
+  
+  trendDirection?: 'stable' | 'increasing' | 'decreasing';
+  
+  // 診断・推奨
+  diagnostics?: string[];
+  recommendations?: string[];
+  
+  detectedAt?: Timestamp;
+  createdAt?: Timestamp;
+}
+```
+
+### WeaknessType と事例
+
+#### 1. staffing_shortage（スタッフ不足）
+
+```
+Title: "シーズンピーク時のスタッフ不足"
+Severity: CRITICAL ⚠️
+
+Description:
+  海苔養殖のシーズンピーク（11月〜2月）に、
+  処理・出荷業務が増加し、
+  継続的にスタッフ不足が発生。
+
+Occurrence Count: 18 (過去2年)
+Related Incidents: 12
+Related Workflows: 8
+Related Allocations: 5
+
+Trend Direction: INCREASING 📈
+  過去3シーズンで発生パターンが深刻化
+
+Diagnostics:
+  - 出荷予定日を逆算した人員計画がない
+  - 季節労働者の採用手続きが遅い（2ヶ月前から）
+  - スタッフトレーニング期間を考慮していない
+
+Recommendations:
+  1. 新年度予算で季節労働者枠を確保
+  2. 7月までに採用・訓練完了スケジュール
+  3. 外注パートナーとの契約事前準備
+  4. 人員計画テンプレート標準化
+```
+
+#### 2. workflow_bottleneck（ワークフロー瓶首）
+
+```
+Title: "品質検査のボトルネック"
+Severity: HIGH
+
+Description:
+  出荷前の品質検査プロセスが、
+  1回の検査に2-3時間を要し、
+  下流の梱包・出荷作業が遅延。
+
+Occurrence Count: 45 (過去6ヶ月)
+Related Incidents: 8
+Related Workflows: 12
+
+Trend Direction: DECREASING ✓
+  検査チーム配置を月1人増やしたため、
+  状況は改善傾向
+
+Diagnostics:
+  - 検査基準の細部まで検査している
+  - 検査ツール（測定機等）が限定的
+  - 検査員スキルのばらつきあり
+
+Recommendations:
+  1. 検査基準を「必須」「推奨」に階層化
+  2. 自動検査機械導入検討
+  3. 検査員向けスキル標準化訓練
+  4. チェックリスト簡素化
+```
+
+#### 3. incident_cluster（インシデント集中）
+
+```
+Title: "水温異常の定期的発生"
+Severity: HIGH
+
+Description:
+  毎年冬期（1月〜2月）に、
+  海水温の急低下イベントが複数発生し、
+  同時期に複数のノリ白化インシデントが多発。
+
+Occurrence Count: 23 (過去3年)
+Related Incidents: 23
+Trend Direction: STABLE
+
+Diagnostics:
+  - 冬の海況変化が予測可能だが、
+    事前準備が不十分
+  - 単一の監視センサーに依存
+  - 対応プロトコルが定型化していない
+
+Recommendations:
+  1. 過去3年の水温データ分析・予測モデル構築
+  2. 複数の監視センサー配置
+  3. 冬季対応プロトコルの標準化
+  4. スタッフ事前訓練スケジュール
+```
+
+## 4. Strategic Intervention (StrategicIntervention)
+
+**ファイル**: src/types/identity.ts
+
+**役割**: 構造的弱点に対する長期対応計画。介入実行・評価。
+
+### データスキーマ
+
+```typescript
+interface StrategicIntervention {
+  id?: string;
+  
+  organizationId: string;
+  
+  // 対象とする構造的弱点
+  targetWeaknessIds: string[];
+  
+  // 介入の分類
+  type: 'capacity_building'
+       | 'process_redesign'
+       | 'resource_injection'
+       | 'policy_adjustment'
+       | 'structural_reform'
+       | 'logistics_restructuring'
+       | 'monitoring_improvement'
+       | 'training_program'
+       | 'equipment_investment'
+       | 'community_partnership';
+  
+  // 計画内容
+  title: string;
+  description: string;
+  
+  // 根拠
+  justification: {
+    ruleMatched: string;            // マッチしたルール
+    metrics: Record<string, number>; // 根拠メトリクス
+  };
+  
+  // アクション
+  recommendedActions: string[];
+  
+  // 実行管理
+  status: 'proposed' | 'planning' | 'executing' | 'monitoring' | 'resolved' | 'abandoned';
+  priorityScore: number;            // 0-100
+  
+  createdAt?: Timestamp;
+  updatedAt?: Timestamp;
+}
+```
+
+### 介入例
+
+#### 介入1: スタッフ採用・訓練（Capacity Building）
+
+```
+ID: intervention_001
+Type: capacity_building
+Title: "シーズンピーク向けスタッフ拡大計画"
+
+Target Weaknesses:
+  - staffing_shortage_critical
+  - incident_cluster_winter
+
+Description:
+  "2026年度のシーズンピーク（11月〜2月）に向け、
+   スタッフを現在の12人から15人に拡大。
+   新規採用者の訓練を7月〜9月に完了。"
+
+Justification:
+  Rule Matched: "Resilience Score < 70 AND StaffingCapacity < 80"
+  Metrics:
+    - Current Staff: 12人
+    - Demand (Peak): 18人
+    - Gap: −6人 (but target: 15人)
+    - Budget Allocation: ¥2.5M (salary + training)
+
+Recommended Actions:
+  1. HR部門への求人票提出（5月）
+  2. 面接・採用実施（6月）
+  3. 新規採用者訓練プログラム（7月〜9月）
+  4. 先輩との OJT（9月〜10月）
+  5. フルタイム配置（11月）
+
+Status: PLANNING 📋
+Priority Score: 95 (CRITICAL)
+
+Timeline:
+  - Start: 2026-05-01
+  - HR Interview: 2026-06-15
+  - Training Begin: 2026-07-01
+  - Target Completion: 2026-10-31
+```
+
+#### 介入2: ワークフロー最適化（Process Redesign）
+
+```
+ID: intervention_002
+Type: process_redesign
+Title: "品質検査プロセスの効率化"
+
+Target Weaknesses:
+  - workflow_bottleneck_medium
+
+Description:
+  "品質検査の2段階化・自動化により、
+   検査時間を3時間から1時間に短縮。
+   出荷スケジュールの遵守率を95%に向上。"
+
+Recommended Actions:
+  1. 検査基準の見直し・階層化
+  2. 自動検査機械の導入検討
+  3. チェックリスト簡素化
+  4. 検査員スキル標準化
+  5. プロセス監視KPI定義
+
+Status: EXECUTING 🚀
+Priority Score: 78 (HIGH)
+
+Timeline:
+  - Start: 2026-04-01
+  - Process Design: 2026-04-15
+  - Equipment Procurement: 2026-05-01
+  - Pilot Test: 2026-06-01
+  - Full Rollout: 2026-07-01
+```
+
+## 5. Regional Resource Allocation (RegionalResourceAllocation)
+
+**ファイル**: src/types/identity.ts
+
+**役割**: 緊急・計画的なリソース配分提案。スポット支援。
+
+### データスキーマ
+
+```typescript
+interface RegionalResourceAllocation {
+  id?: string;
+  
+  organizationId?: string;
+  
+  // リソース分類
+  allocationType?: 'staffing'
+                 | 'operations_support'
+                 | 'logistics_support'
+                 | 'monitoring_support'
+                 | 'community_support'
+                 | 'processing_support';
+  
+  priority?: 'low' | 'medium' | 'high' | 'urgent';
+  
+  // 計画内容
+  title?: string;
+  reason?: string;
+  recommendedAction?: string;
+  
+  // 配分先
+  targetOrganizationId?: string;
+  
+  // 関連付け
+  relatedIncidentId?: string;
+  relatedWorkflowId?: string;
+  relatedResilienceSnapshotId?: string;
+  
+  expectedEffect?: string;
+  
+  // 実行管理
+  status?: 'proposed' | 'accepted' | 'rejected' | 'completed';
+  
+  metadata?: {
+    generatedBy?: string;
+    autoGenerated?: boolean;
+  };
+  
+  createdAt?: Timestamp;
+}
+```
+
+### リソース配分例
+
+#### 配分1: 緊急スタッフ派遣
+
+```
+ID: allocation_001
+Type: staffing
+Priority: URGENT 🔴
+
+Title: "水温異常対応向け技術者派遣"
+
+Reason:
+  "九州ノリ養殖協同組合にて、
+   予期せぬ水温低下イベント発生。
+   対応経験のある技術者が不在。
+   緊急支援が必要。"
+
+Target Organization: 九州ノリ養殖協同組合
+
+Related Incident: incident_0510_water_temp
+
+Recommended Action:
+  "温度管理専門技術者1名を
+   九州ノリ組に2週間派遣。
+   加温設備の最適化・スタッフ訓練を実施。"
+
+Expected Effect:
+  "水温回復期間を48時間短縮。
+   スタッフの対応ノウハウが定着。
+   同組における今後の類似イベント対応力向上。"
+
+Status: PROPOSED 📋
+```
+
+#### 配分2: 機器レンタル
+
+```
+ID: allocation_002
+Type: operations_support
+Priority: HIGH
+
+Title: "自動選別機の一時利用"
+
+Reason:
+  "九州南部ノリ組の選別装置が故障。
+   修理に2週間。
+   その間、スタッフによる手作業選別では
+   シーズンピークの出荷量に対応不可。"
+
+Target Organization: 九州南部ノリ組
+
+Recommended Action:
+  "自動選別機をレンタル・搬入。
+   2週間の修理期間を補完。"
+
+Expected Effect:
+  "出荷スケジュール遵守：95%
+   追加コスト：¥380k（レンタル料）
+   損失回避：¥500k（納期遅延による買い叩き回避）"
+
+Status: PROPOSED 📋
+```
+
+## 関連リンク
+
+- [[overview]] - プロジェクト概要
+- [[decision-support]] - 意思決定支援システム
+- [[operations-management]] - イベント・インシデント管理
+- [[data-management]] - データ管理（RegionalStateSnapshot生成ロジック）

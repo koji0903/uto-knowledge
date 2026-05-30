@@ -39,7 +39,7 @@ tags: [ナレッジ, ガイド, index, overview]
 
 ### **1️⃣ general/ - 制度・基礎理解を学びたい人向け**
 
-👉 [[./general/_INDEX|📚 general/_INDEX.md]] へ
+👉 [[./general/index|📚 general/index]] へ
 
 **「こういう人向け」**：
 - 「宇土OSのビジョンを理解したい」
@@ -64,7 +64,7 @@ layer_structure_guide（8層統合）
 
 ### **2️⃣ business/ - ビジネス・産業を学びたい人向け**
 
-👉 [[./business/_INDEX|💼 business/_INDEX.md]] へ
+👉 [[./business/index|💼 business/index]] へ
 
 **「こういう人向け」**：
 - 「ウトマチ百貨店とは何か」
@@ -89,7 +89,7 @@ relocation_os（移住支援との組み合わせ）
 
 ### **3️⃣ tech/ - 技術・システムを学びたい人向け**
 
-👉 [[./tech/_INDEX|🔧 tech/_INDEX.md]] へ
+👉 [[./tech/index|🔧 tech/index]] へ
 
 **「こういう人向け」**：
 - 「Utomachi Platform の全体像」
@@ -118,28 +118,28 @@ AGENTS.md（AI運用基盤）
 ### シナリオ別の推奨読み順
 
 **「初めて宇土OS を聞いた」**
-1. [[./general/_INDEX|general/_INDEX]] - L0～L7 全体像
+1. [[./general/index|general (index)]] - L0～L7 全体像
 2. [[00_System/vision/vision_uto_os|vision_uto_os]] - 2040年のビジョン
 3. [[00_System/vision/layer_structure_guide|layer_structure_guide]] - 構造の詳細
 
 **「ウトマチ百貨店に興味がある」**
-1. [[./business/_INDEX|business/_INDEX]] - 全体概観
+1. [[./business/index|business (index)]] - 全体概観
 2. [[00_System/vision/utomachi_100_store_use_cases|utomachi_100_store_use_cases]] - 3つの成功例
 3. [[00_System/vision/utomachi_100_store_specification|utomachi_100_store_specification]] - 詳細仕様
 
 **「移住を検討している」**
-1. [[./business/_INDEX|business/_INDEX]] の「移住・定住OS」セクション
+1. [[./business/index|business (index)]] の「移住・定住OS」セクション
 2. [[00_System/vision/relocation_os_use_cases|relocation_os_use_cases]] - 田中花子さんの事例
 3. [[00_System/vision/relocation_os_specification|relocation_os_specification]] - 支援内容の詳細
 
 **「システム実装に携わる」**
-1. [[./tech/_INDEX|tech/_INDEX]] - 技術全体
+1. [[./tech/index|tech (index)]] - 技術全体
 2. [[00_System/architecture/Utomachi_Platform_Architecture|Utomachi_Platform_Architecture]] - プラットフォーム設計
 3. [[00_System/vision/regional_trading_company_datalink_schema|regional_trading_company_datalink_schema]] - Firestore スキーマ
 
 **「農業の高付加価値化に関心がある」**
-1. [[./business/_INDEX|business/_INDEX]] の「産業OS」セクション
-2. [[./tech/_INDEX|tech/_INDEX]] の「海苔養殖DSS」セクション
+1. [[./business/index|business (index)]] の「産業OS」セクション
+2. [[./tech/index|tech (index)]] の「海苔養殖DSS」セクション
 3. [[02_Agriculture/nori_farming_dss/KNOWLEDGE_MAP|nori_farming_dss のナレッジマップ]]
 
 ---
@@ -197,7 +197,7 @@ AGENTS.md（AI運用基盤）
 【ナレッジ層】- 「何を学べるか」
   ↓
 03_Knowledge/ ← 「ここ」
-  - _INDEX.md: 各分野のガイド
+  - index.md: 各分野のガイド
   - wikilink で 00_System/vision/ に参照
 
 【実行層】- 「実際どうやってるか」
@@ -216,19 +216,19 @@ AGENTS.md（AI運用基盤）
 
 **L6 政策レイヤ**を読む
 →「産業OSを実装する」について知りたい
-→[[./business/_INDEX|business/_INDEX]]へ
+→[[./business/index|business (index)]]へ
 
 ### business から tech へ
 
 **ウトマチ百貨店の規模拡大**を読む
 →「Firestore でどう管理するのか」知りたい
-→[[./tech/_INDEX|tech/_INDEX]]へ
+→[[./tech/index|tech (index)]]へ
 
 ### tech から general へ
 
 **Firestore スキーマ**を読む
 →「なぜこの設計にしたのか」背景を知りたい
-→[[./general/_INDEX|general/_INDEX]]の L4財源 へ
+→[[./general/index|general (index)]]の L4財源 へ
 
 ---
 
@@ -245,25 +245,25 @@ AGENTS.md（AI運用基盤）
 ### Q: 「何から読み始めるべき？」
 
 **A**: 
-- 初心者 → [[./general/_INDEX|general/_INDEX]] で L0～L7 を理解
-- 実務者 → 自分の職種/興味別に、該当 _INDEX.md から開始
+- 初心者 → [[./general/index|general (index)]] で L0～L7 を理解
+- 実務者 → 自分の職種/興味別に、該当 index.md から開始
 
 ### Q: 「新しいナレッジを追加したい」
 
 **A**: 
 1. 正式な文書なら `00_System/vision/` に追加
-2. ガイド・解説なら該当 `_INDEX.md` に wikilink を追加
+2. ガイド・解説なら該当 `index.md` に wikilink を追加
 3. 実績データなら `04_DataLink/` に追加
 
 ---
 
 ## 📞 サポート
 
-各セクションの _INDEX.md 最下部に「関連セクション」リンクがあります。
+各セクションの index.md 最下部に「関連セクション」リンクがあります。
 
-**迷ったら** → [[./general/_INDEX|general/_INDEX]] で基本から学び直す
+**迷ったら** → [[./general/index|general (index)]] で基本から学び直す
 
 ---
 
 **最終更新**: 2026-05-14  
-**3つの分野**: [[./business/_INDEX|💼 business]] / [[./tech/_INDEX|🔧 tech]] / [[./general/_INDEX|📚 general]]
+**3つの分野**: [[./business/index|💼 business]] / [[./tech/index|🔧 tech]] / [[./general/index|📚 general]]

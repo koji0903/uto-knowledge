@@ -32,7 +32,7 @@ tags: [政策実行カード, 宇土OS, index]
 | 階層 | リソース | 役割 |
 |------|---------|------|
 | **戦略（00_System）** | industry_os_specification | OS全体の設計思想・目標 |
-| **ナレッジ（03_Knowledge）** | [[../../03_Knowledge/business/_INDEX|business/_INDEX]] | ビジネス知識・背景理解 |
+| **ナレッジ（03_Knowledge）** | [[../../03_Knowledge/business/index|business (index)]] | ビジネス知識・背景理解 |
 | **実行（02_POLICY_CARDS）** | 本フォルダのカード | 具体的な施策・政策単位 |
 
 ## カテゴリ
@@ -41,6 +41,7 @@ tags: [政策実行カード, 宇土OS, index]
 | --- | --- |
 | 実行管理 | [[policy_execution_board]] |
 | 次回質問バックログ | [[next_question_backlog]] |
+| 整合性監査 | [[policy_cards_consistency_audit]] |
 | 産業・地域商社 | [[industry/index]] |
 | 子育て・教育 | [[childcare_education/index]] |
 | 地域運営・インフラ | [[community_infrastructure/index]] |

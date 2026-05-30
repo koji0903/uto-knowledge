@@ -1,0 +1,180 @@
+---
+title: "宇土市政 横断テーマ索引"
+date: 2026-05-29
+tags: [MOC, テーマ別, 横断索引, civic, 統合]
+type: cross-cutting-moc
+status: 運用中
+---
+
+# 宇土市政 横断テーマ索引
+
+ナレッジベース全体（civic / 00_System / 03_Knowledge / 04_DataLink / projects）を **テーマ別に統合** した横断索引。
+
+各テーマについて、**理論層（00_System）→ 分析層（civic）→ 実装層（04_DataLink）→ システム層（projects）** を一気通貫で辿ることができる。
+
+---
+
+## 🎯 主要テーマ一覧
+
+### 1. 🏢 [[civic/themes/public-facilities|公共施設の戦略的縮小]]
+**問い**: 年15.5億円の更新ギャップにどう対応するか
+
+| 層 | リソース |
+|----|---------|
+| 理論 | [[00_System/vision/L4L5_facility_finance_crisis\|L4-L5 施設財政危機]] / [[00_System/vision/L5_infrastructure_layer\|L5インフラ層]] |
+| 分析 | [[civic/finance/uto-city-public-facilities\|公共施設問題]] / [[civic/concepts/fiscal-constraint\|財政制約]] |
+| 実装 | [[04_DataLink/02_POLICY_CARDS/finance_facilities/pc_finance_001_public_facility_finance_gap\|pc_finance_001]] |
+| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問①③ |
+
+---
+
+### 2. 💼 [[civic/themes/industrial-strategy|産業戦略・地域商社]]
+**問い**: 地域経済をどう「稼ぐ構造」に転換するか
+
+| 層 | リソース |
+|----|---------|
+| 理論 | [[00_System/vision/industry_os_specification\|産業OS]] / [[00_System/vision/utomachi_100_store_specification\|ウトマチ百貨店]] |
+| 分析 | [[civic/concepts/local-economy\|地域経済]] / [[civic/concepts/public-private-partnership\|官民連携]] |
+| 実装 | [[04_DataLink/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company\|地域商社カード]] |
+| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問② |
+| ナレッジ | [[03_Knowledge/business/index\|business ナレッジ]] |
+
+---
+
+### 3. 👶 [[civic/themes/childcare-education|子育て・教育・人材育成]]
+**問い**: 若者の地域定着と次世代育成をどう実現するか
+
+| 層 | リソース |
+|----|---------|
+| 理論 | [[00_System/vision/childcare_os_specification\|子育てOS]] / [[00_System/vision/education_os_specification\|教育OS]] |
+| 分析 | [[civic/concepts/population-decline\|人口減少]] |
+| 実装 | 子育て・教育カード（5枚） |
+| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school\|令和8年6月② 高校連携]] |
+
+---
+
+### 4. 🏘️ [[civic/themes/relocation-station|移住・定住・駅周辺]]
+**問い**: 人口流出を止め、駅前を再生できるか
+
+| 層 | リソース |
+|----|---------|
+| 理論 | [[00_System/vision/relocation_os_specification\|移住・定住OS]] |
+| 分析 | [[civic/concepts/station-redevelopment\|駅周辺再生]] / [[civic/concepts/population-decline\|人口減少]] |
+| 実装 | [[04_DataLink/02_POLICY_CARDS/finance_facilities/pc_finance_002_city_hall_utilization_revenue\|新庁舎利活用]] |
+| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問② |
+
+---
+
+### 5. 🤝 [[civic/themes/civic-engagement-dx|市民参加・行政DX]]
+**問い**: 「話を聞く市役所」をどう実装するか
+
+| 層 | リソース |
+|----|---------|
+| 理論 | [[00_System/vision/rmo_os_specification\|RMO OS]] / [[00_System/architecture/Utomachi_Platform_Architecture\|ウトマチPF]] |
+| 分析 | [[civic/concepts/civic-participation\|市民参加]] / [[civic/concepts/dx-strategy\|DX戦略]] |
+| 実装 | 行政DX・AIカード |
+| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問③ |
+| システム | [[projects/utomachi_PF/overview\|Utomachi Platform]] |
+
+---
+
+## 🗺️ ナレッジレイヤとの対応
+
+```
+            ┌─────────────────────────────────────┐
+            │   00_System/  (理論・ビジョン層)    │
+            │   L0-L7、6OS、アーキテクチャ        │
+            └─────────────┬───────────────────────┘
+                          │
+            ┌─────────────▼───────────────────────┐
+            │   civic/  (分析・政策思考層)        │
+            │   概念・財政分析・議会質問          │
+            └─────────────┬───────────────────────┘
+                          │
+            ┌─────────────▼───────────────────────┐
+            │   04_DataLink/  (実装・データ層)    │
+            │   議会ログ・政策カード・データ      │
+            └─────────────┬───────────────────────┘
+                          │
+            ┌─────────────▼───────────────────────┐
+            │   projects/  (システム実装層)       │
+            │   Utomachi Platform                 │
+            └─────────────────────────────────────┘
+```
+
+### 各テーマで上記4層を辿る
+
+このページの **5つのテーマ** はそれぞれ、上記4層のリソースを統合的に持つ。
+
+質問準備時のワークフロー：
+1. 理論層で背景把握
+2. 分析層で課題構造を理解
+3. 実装層で具体カードを参照
+4. システム層で技術的可能性を確認
+
+---
+
+## 📊 テーマ横断マトリックス
+
+### テーマと概念ノートの関係
+
+| テーマ ＼ 概念 | 人口減少 | 財政制約 | 地域経済 | 市民参加 | DX | 官民連携 | 駅周辺 |
+|---|---|---|---|---|---|---|---|
+| 公共施設縮小 | ◯ | ⭐ | - | ◯ | - | ⭐ | ⭐ |
+| 産業戦略 | ◯ | ◯ | ⭐ | - | ◯ | ⭐ | ◯ |
+| 子育て・教育 | ⭐ | ◯ | - | ⭐ | - | - | - |
+| 移住・駅周辺 | ⭐ | ◯ | ⭐ | - | - | ◯ | ⭐ |
+| 市民参加・DX | ◯ | ◯ | - | ⭐ | ⭐ | - | - |
+
+⭐ = 中核 / ◯ = 関連
+
+### テーマと宇土OSの対応
+
+| テーマ ＼ OS | RMO | 子育て | 教育 | 産業 | 移住 | 百貨店 |
+|---|---|---|---|---|---|---|
+| 公共施設縮小 | - | - | ◯ | - | ◯ | - |
+| 産業戦略 | - | - | - | ⭐ | - | ⭐ |
+| 子育て・教育 | - | ⭐ | ⭐ | - | ◯ | - |
+| 移住・駅周辺 | - | - | - | ◯ | ⭐ | ◯ |
+| 市民参加・DX | ⭐ | ◯ | ◯ | ◯ | ◯ | ◯ |
+
+---
+
+## 🚀 用途別ナビゲーション
+
+### 議会質問テーマを選定する時
+1. 本ページで関心テーマを選択
+2. テーマ詳細ノートで4層リソースを確認
+3. 過去質問（04_DataLink/01_ASSEMBLY/）で重複を回避
+4. 質問構成案を作成
+
+### 政策提案を準備する時
+1. テーマから政策カードへ
+2. L6政策層 + 6OS仕様で理論裏付け
+3. 03_Knowledge で他事例参照
+
+### 市民説明を行う時
+1. 概念ノートで分かりやすく
+2. 財政ビューアで数値可視化
+3. 03_Knowledge/general で平易な説明資料参照
+
+---
+
+## 🔗 関連ハブノート
+
+### MOCハブ
+- [[civic/index|civic ナレッジベース ハブ]]
+- [[civic/concepts/index|概念ハブ]]
+- [[civic/finance/index|財政分析ハブ]]
+- [[civic/uto-city-council/index|議会活動ハブ]]
+
+### 外部ハブ
+- [[ホーム|🇯🇵 宇土OS ナレッジベース ホーム]]
+- [[00_System/vision/layer_structure_guide|8層構造統合ガイド]]
+- [[03_Knowledge/index|03_Knowledge OVERVIEW]]
+- [[04_DataLink/01_ASSEMBLY/index|議会情報トップ]]
+
+---
+
+**最終更新**: 2026年5月29日
+**ステータス**: ✅ 運用中

@@ -1,0 +1,145 @@
+---
+title: "テーマ: 市民参加・行政DX"
+date: 2026-05-29
+tags: [テーマ, 市民参加, DX, 行政効率化, 統合MOC, civic]
+type: theme-moc
+status: 運用中
+priority: 高
+---
+
+# テーマ: 市民参加・行政DX
+
+> **問い**: 「話を聞く市役所」をどう実装するか
+> 「聴く → 可視化 → 政策化 → フィードバック」のサイクルを実装。
+
+---
+
+## 🏛️ 理論層（00_System/）
+
+### 中核OS仕様
+- **[[00_System/vision/rmo_os_specification|RMO OS仕様書]]** ⭐
+  - 地域運営組織のデジタル化
+  - 市民参加の基盤
+
+### アーキテクチャ
+- **[[00_System/architecture/Utomachi_Platform_Architecture|ウトマチプラットフォーム アーキテクチャ]]** ⭐
+  - Next.js 16 / React 19 / Firestore / Firebase Auth / Google Gemini AI
+- [[00_System/architecture/STRATEGY|ナレッジ高度化戦略]]
+
+### L層
+- [[00_System/vision/L3_organization_pfu|L3 組織層 (PFU)]] - 課題解決ユニット
+- [[00_System/vision/L6_policy_layer|L6 政策層]] - 市民参加政策
+
+---
+
+## 📊 分析層（civic/）
+
+### 中核概念
+- **[[civic/concepts/civic-participation|市民参加]]** ⭐
+- **[[civic/concepts/dx-strategy|DX戦略]]** ⭐
+- [[civic/concepts/population-decline|人口減少]] - 職員不足対応
+
+### ツール実装例
+- [[civic/finance/overview|財政戦略ビューア]] - DXによる可視化例
+- [[civic/finance/fiscal-viewer-app|技術仕様]]
+
+---
+
+## 📋 実装層（04_DataLink/）
+
+### 行政DX・AIカード（2枚）
+- AI支援による政策立案
+- データ活用基盤
+
+### 運用基盤
+- [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
+
+---
+
+## 🗣️ 議会質問層
+
+- **[[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]** 質問③ ⭐
+  - 「話を聞く市役所」の実装
+  - 市民の声の可視化と政策化
+  - 行政DX・データ活用
+
+---
+
+## 📚 ナレッジ層
+
+- **[[03_Knowledge/tech/index|tech ナレッジ]]** ⭐
+  - DSS・AI運用基盤
+  - Utomachi Platform
+- [[03_Knowledge/general/index|general ナレッジ]] - 市民説明資料
+
+---
+
+## 🏗️ システム層
+
+- **[[projects/utomachi_PF/overview|Utomachi Platform]]** ⭐
+  - 市民参加システムの実装基盤
+
+---
+
+## 🎯 5段階の市民参加レベル
+
+```
+Level 1: 情報提供 (Inform)     ← 多くの自治体はここ
+Level 2: 意見聴取 (Consult)    ← 宇土市の現状
+Level 3: 関与 (Involve)        ← 目指す段階
+Level 4: 協働 (Collaborate)    ← さらに先
+Level 5: 権限委譲 (Empower)    ← 究極形
+```
+
+---
+
+## 💡 DX × 市民参加のサイクル
+
+```
+[聴く] SNS、Webプラットフォーム、AI解析
+   ↓
+[可視化] 財政ビューア、ダッシュボード、データ公開
+   ↓
+[政策化] PFU、データ駆動意思決定、AI支援
+   ↓
+[フィードバック] 結果可視化、市民への還元
+   ↓
+[聴く] へ戻る（継続的改善）
+```
+
+---
+
+## 💡 議会質問例
+
+### 戦略視点
+- 「市民の声をどう吸い上げ、政策に反映するか」
+- 「若者・子育て世代など、参加が限定的だった層へのアプローチは」
+
+### DX視点
+- 「データ活用やDXの戦略は」
+- 「職員不足の現実をDXでどう乗り越えるか」
+- 「ウトマチプラットフォームと行政システムの統合は」
+
+---
+
+## 🚀 アクションプラン
+
+- [ ] 現状の公聴制度の棚卸し
+- [ ] [[civic/finance/overview|財政ビューア]] のような可視化ツールの拡張
+- [ ] SNS・オンラインプラットフォーム活用の検討
+- [ ] [[projects/utomachi_PF/overview|Utomachi Platform]] と政策の連携検討
+
+---
+
+## 🔗 横断テーマ
+
+- [[civic/themes|横断テーマ索引]]
+- [[civic/themes/public-facilities|公共施設縮小]] - 説明・合意形成
+- [[civic/themes/industrial-strategy|産業戦略]] - 産業データ可視化
+- [[civic/themes/childcare-education|子育て・教育]] - 若者参画
+- [[civic/themes/relocation-station|移住・駅周辺]] - 移住者の参画
+
+---
+
+**最終更新**: 2026年5月29日
+**重要度**: ⚠️⚠️ 高（人口減少時代の必須インフラ）

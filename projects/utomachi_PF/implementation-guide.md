@@ -1,0 +1,604 @@
+---
+title: "実装ガイド・コンポーネント構成"
+parent: [[overview]]
+date: 2026-05-25
+tags: [implementation, components, patterns, architecture]
+---
+
+# 実装ガイド・コンポーネント構成
+
+[[overview|Utomachi Platform]] の実装パターン、主要コンポーネント、開発ガイドライン。
+
+## プロジェクト構成
+
+### src/ ディレクトリ構成
+
+```
+src/
+├── app/                      # Next.js App Router
+│   ├── layout.tsx            # ルートレイアウト
+│   └── page.tsx              # ホームページ
+│
+├── components/               # React コンポーネント (46ファイル)
+│   ├── AuthContext.tsx       # Firebase認証コンテキスト
+│   ├── IdentityContext.tsx   # Utomachi アイデンティティ
+│   ├── Header.tsx            # ヘッダー
+│   ├── Sidebar.tsx           # サイドバー
+│   ├── DashboardContent.tsx  # ダッシュボード本体
+│   │
+│   ├── # 機能別コンポーネント
+│   ├── AISuggestionCard.tsx  # AI提案表示
+│   ├── ProposalOverlay.tsx   # 提案オーバーレイ
+│   ├── StrategyInsightsOverlay.tsx  # 戦略分析
+│   ├── ImplementationSteps.tsx      # 実装ステップ表示
+│   │
+│   ├── # UI コンポーネント
+│   ├── KPIDashboard.tsx      # KPI表示
+│   ├── MediaGallery.tsx      # メディアギャラリー
+│   ├── ProducerDetailSheet.tsx     # 生産者詳細シート
+│   ├── StoreDetailSheet.tsx        # 店舗詳細シート
+│   │
+│   ├── # フォーム・管理UI
+│   ├── LoginForm.tsx         # ログインフォーム
+│   ├── ProductRequestForm.tsx      # 商品リクエストフォーム
+│   │
+│   └── # その他
+│       ├── LandingPage.tsx   # ランディングページ
+│       ├── RbacTestPanel.tsx # RBAC テストパネル
+│       └── SystemInfo.tsx    # システム情報
+│
+├── contexts/                 # React Context
+│   └── IdentityContext.tsx   # アイデンティティ管理
+│
+├── hooks/                    # Custom Hooks
+│   ├── useAdaptiveDensity.ts      # レスポンシブレイアウト
+│   ├── useBodyScrollLock.ts       # スクロール制御
+│   ├── useHasMounted.ts           # マウント完了判定
+│   ├── useMarketDemand.ts         # 市場需要データ
+│   └── useWorkspacePresence.ts    # ワークスペースプレゼンス
+│
+├── lib/                      # ユーティリティ
+│   ├── utils.ts              # 汎用ユーティリティ
+│   └── zipcode.ts            # 郵便番号処理
+│
+├── providers/                # App Providers
+│   └── NoriRoleProvider.tsx  # ノリロールプロバイダー
+│
+├── styles/                   # グローバルスタイル
+│   └── nori-typography.ts    # ノリ特化タイポグラフィ
+│
+└── types/                    # TypeScript 型定義
+    ├── index.ts              # 主要な複雑な型定義
+    ├── identity.ts           # 認証・アイデンティティ型
+    ├── market.ts             # 市場データ型
+    └── constants.ts          # 定数型
+```
+
+## 主要なコンポーネント
+
+### 1. AuthContext (Firebase認証)
+
+**ファイル**: src/components/AuthContext.tsx
+
+```typescript
+// Firebase Authentication との統合
+// - ログイン・ログアウト
+// - ユーザーセッション管理
+// - UID・メール取得
+
+export const AuthContext = React.createContext<AuthContextType>({...});
+
+export function AuthProvider({ children }) {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((firebaseUser) => {
+      setUser(firebaseUser);
+      setLoading(false);
+    });
+    return unsubscribe;
+  }, []);
+  
+  return (
+    <AuthContext.Provider value={{ user, loading }}>
+      {children}
+    </AuthContext.Provider>
+  );
+}
+```
+
+### 2. IdentityContext (Utomachi アイデンティティ)
+
+**ファイル**: src/contexts/IdentityContext.tsx
+
+```typescript
+// Utomachi 固有のアイデンティティ管理
+// - IdentityState (currentDomain, currentMembership等)
+// - ドメイン切り替え
+// - 権能チェック
+
+export const IdentityContext = React.createContext<IdentityContextType>({...});
+
+export function IdentityProvider({ children }) {
+  const { user } = useContext(AuthContext);
+  
+  const [identity, setIdentity] = useState<IdentityState>({
+    uid: user?.uid,
+    email: user?.email,
+    memberships: [],
+    capabilities: [],
+    isDemoMode: false
+  });
+  
+  // Firestore から Membership 情報をロード
+  useEffect(() => {
+    if (!user?.uid) return;
+    
+    const unsubscribe = onSnapshot(
+      query(
+        collection(db, 'memberships'),
+        where('userId', '==', user.uid)
+      ),
+      (snap) => {
+        const memberships = snap.docs.map(doc => doc.data() as Membership);
+        setIdentity(prev => ({
+          ...prev,
+          memberships,
+          currentMembership: memberships[0] // Primary
+        }));
+      }
+    );
+    
+    return unsubscribe;
+  }, [user?.uid]);
+  
+  return (
+    <IdentityContext.Provider value={{ identity, setIdentity }}>
+      {children}
+    </IdentityContext.Provider>
+  );
+}
+```
+
+### 3. DashboardContent (メインUI)
+
+**ファイル**: src/components/DashboardContent.tsx
+
+- ダッシュボード全体のレイアウト
+- [[RegionalStateSnapshot]] の表示
+- イベント・インシデント一覧
+- AI提案の統合表示
+
+### 4. AISuggestionCard
+
+**ファイル**: src/components/AISuggestionCard.tsx
+
+AI が生成した [[DecisionSupportSuggestion]] を表示。
+
+```typescript
+export function AISuggestionCard({
+  suggestion: DecisionSupportSuggestion,
+  onAccept?: () => void,
+  onReject?: () => void
+}) {
+  return (
+    <div className="border border-blue-200 rounded p-4">
+      <h3>{suggestion.title}</h3>
+      <p className="text-sm text-gray-600">{suggestion.reason}</p>
+      <ul className="mt-2 space-y-1">
+        {suggestion.suggestedActions?.map((action, i) => (
+          <li key={i} className="text-sm">✓ {action}</li>
+        ))}
+      </ul>
+      <div className="mt-3">
+        <span className="inline-block bg-blue-100 px-2 py-1 rounded text-xs">
+          信信度: {(suggestion.confidence ?? 0).toFixed(0)}%
+        </span>
+      </div>
+      <div className="mt-3 space-x-2">
+        <button onClick={onAccept} className="btn btn-primary">
+          受け入れる
+        </button>
+        <button onClick={onReject} className="btn btn-secondary">
+          却下する
+        </button>
+      </div>
+    </div>
+  );
+}
+```
+
+### 5. StrategyInsightsOverlay
+
+**ファイル**: src/components/StrategyInsightsOverlay.tsx
+
+複数の [[ResponseScenario]] を比較表示。推奨シナリオをハイライト。
+
+```typescript
+export function StrategyInsightsOverlay({
+  incident: OSIncident,
+  scenarios: ResponseScenario[]
+}) {
+  const recommended = scenarios.find(s => s.recommended);
+  
+  return (
+    <div className="overlay">
+      <h2>対応シナリオ分析</h2>
+      
+      {/* 推奨シナリオを上部に */}
+      {recommended && (
+        <div className="bg-green-50 border border-green-200 rounded p-4 mb-4">
+          <h3 className="font-bold text-green-900">推奨: {recommended.title}</h3>
+          <p>{recommended.description}</p>
+          
+          <div className="mt-3">
+            <h4 className="font-semibold">予想影響</h4>
+            {recommended.impacts?.map((impact, i) => (
+              <div key={i} className="flex justify-between mt-1">
+                <span>{impact.metricKey}</span>
+                <span className={impact.direction === 'improve' ? 'text-green-600' : 'text-red-600'}>
+                  {impact.currentValue} → {impact.projectedValue}
+                </span>
+              </div>
+            ))}
+          </div>
+          
+          <div className="mt-3">
+            <span className="inline-block bg-green-100 px-2 py-1 rounded text-sm">
+              信信度: {(recommended.confidence ?? 0).toFixed(0)}%
+            </span>
+          </div>
+        </div>
+      )}
+      
+      {/* 他のシナリオを比較表示 */}
+      <div className="mt-4">
+        <h3>他のシナリオ</h3>
+        {scenarios
+          .filter(s => !s.recommended)
+          .map((scenario, i) => (
+            <div key={i} className="border rounded p-3 mt-2">
+              <h4>{scenario.title}</h4>
+              <p className="text-sm text-gray-600">{scenario.description}</p>
+            </div>
+          ))}
+      </div>
+    </div>
+  );
+}
+```
+
+## 開発パターン
+
+### 1. イベント自動検出パターン
+
+```typescript
+// MonitoringRule に基づくイベント生成
+
+async function checkMonitoringRules(organizationId: string) {
+  const rules = await db.collection('monitoring_rules')
+    .where('organizationId', '==', organizationId)
+    .where('enabled', '==', true)
+    .get();
+  
+  for (const rule of rules.docs) {
+    const currentValue = await getMetricValue(rule.data().metricKey);
+    const threshold = rule.data().threshold;
+    const operator = rule.data().operator;
+    
+    // 演算子に応じて判定
+    if (checkCondition(currentValue, operator, threshold)) {
+      // イベント作成
+      const event: OSEvent = {
+        type: rule.data().eventTitle,
+        title: rule.data().eventTitle,
+        severity: rule.data().severity,
+        organizationId,
+        metadata: {
+          autoGenerated: true,
+          signalValue: currentValue,
+          threshold
+        }
+      };
+      
+      await db.collection('events').add(event);
+    }
+  }
+}
+
+function checkCondition(value: number, op: string, threshold: number): boolean {
+  switch (op) {
+    case 'gt': return value > threshold;
+    case 'gte': return value >= threshold;
+    case 'lt': return value < threshold;
+    case 'lte': return value <= threshold;
+    case 'eq': return value === threshold;
+    default: return false;
+  }
+}
+```
+
+### 2. ワークフロー生成パターン
+
+```typescript
+// インシデント作成時に、対応ワークフロー & タスクを生成
+
+async function createIncidentWithWorkflow(
+  incident: OSIncident,
+  responseTemplate: string // e.g., 'water_temp_anomaly'
+) {
+  // 1. インシデント作成
+  const incidentRef = await db.collection('incidents').add(incident);
+  
+  // 2. ワークフロー作成
+  const workflow: ResponseWorkflow = {
+    organizationId: incident.organizationId,
+    relatedIncidentId: incidentRef.id,
+    title: `対応ワークフロー: ${incident.title}`,
+    status: 'active',
+    steps: [
+      {
+        order: 1,
+        title: '原因調査',
+        assignedRole: 'operator',
+        status: 'ready'
+      },
+      {
+        order: 2,
+        title: '対応実施',
+        assignedRole: 'manager',
+        dependsOnStepIds: ['step_1'],
+        status: 'pending'
+      },
+      {
+        order: 3,
+        title: '結果確認',
+        assignedRole: 'director',
+        dependsOnStepIds: ['step_2'],
+        status: 'pending'
+      }
+    ]
+  };
+  
+  const workflowRef = await db.collection('workflows').add(workflow);
+  
+  // 3. タスク生成
+  for (const step of workflow.steps) {
+    const task: OperationTask = {
+      organizationId: incident.organizationId,
+      title: step.title,
+      description: `${incident.title} への対応`,
+      relatedEntityType: 'incident',
+      relatedEntityId: incidentRef.id,
+      status: 'pending',
+      priority: incident.severity === 'critical' ? 'critical' : 'high'
+    };
+    
+    await db.collection('tasks').add(task);
+  }
+  
+  return { incidentRef, workflowRef };
+}
+```
+
+### 3. AI提案生成パターン
+
+```typescript
+// Google Generative AI を使った提案生成
+
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+
+async function generateAISuggestion(
+  incident: OSIncident,
+  relatedMemories: OperationalMemory[]
+): Promise<DecisionSupportSuggestion> {
+  const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
+  
+  // プロンプト組み立て
+  const prompt = `
+以下のインシデントに対し、適切な対応を提案してください。
+
+【現在のインシデント】
+タイトル: ${incident.title}
+説明: ${incident.description}
+重要度: ${incident.severity}
+
+【関連する過去事例】
+${relatedMemories
+  .map(m => `
+- ${m.title}
+  状況: ${m.situation}
+  対応: ${m.response}
+  結果: ${m.outcome}
+`)
+  .join('\n')}
+
+【提案形式】
+1. 推奨される対応ステップ（3-5項目）
+2. 各ステップの理由
+3. 予想される結果
+4. リスク・注意点
+  `;
+  
+  const result = await model.generateContent(prompt);
+  const responseText = result.response.text();
+  
+  // レスポンス解析（実装は省略）
+  const suggestedActions = parseActions(responseText);
+  
+  return {
+    organizationId: incident.organizationId,
+    relatedIncidentId: incident.id,
+    title: `提案: ${incident.title}への対応`,
+    reason: `${relatedMemories.length}件の過去事例から提案`,
+    suggestedActions,
+    confidence: 0.85,
+    metadata: {
+      generatedBy: 'claude',
+      autoGenerated: true
+    }
+  };
+}
+```
+
+## 開発ガイドライン
+
+### 1. 新しい型定義の追加
+
+すべての新しいエンティティは `src/types/identity.ts` に定義：
+
+```typescript
+export interface MyNewEntity {
+  id?: string;
+  organizationId?: string;
+  
+  // 主要属性
+  title: string;
+  description?: string;
+  
+  // 関連付け
+  relatedEntityId?: string;
+  relatedEntityType?: string;
+  
+  // メタデータ
+  metadata?: {
+    autoGenerated?: boolean;
+    source?: string;
+  };
+  
+  createdAt?: Timestamp;
+  updatedAt?: Timestamp;
+}
+```
+
+### 2. Firestore コレクション命名規則
+
+- PascalCase を snake_case に変換
+- 例：`OSEvent` → `os_events`, `DecisionLog` → `decision_logs`
+
+### 3. コンポーネント開発
+
+```typescript
+// ✓ 推奨
+function MyComponent() {
+  const { identity } = useContext(IdentityContext);
+  
+  // 権能チェック
+  const canEdit = identity.capabilities.includes('my_entity.edit');
+  
+  return (
+    <div>
+      {canEdit && <EditButton />}
+    </div>
+  );
+}
+
+// ✗ 非推奨
+function MyComponent() {
+  // IdentityContext に依存しない
+  // → ドメイン・権限考慮なし
+  return <div>...</div>;
+}
+```
+
+### 4. Firestore クエリパターン
+
+```typescript
+// リアルタイム監視（イベント・インシデント）
+function useOrganizationEvents(organizationId: string) {
+  const [events, setEvents] = useState<OSEvent[]>([]);
+  
+  useEffect(() => {
+    const unsubscribe = onSnapshot(
+      query(
+        collection(db, 'events'),
+        where('organizationId', '==', organizationId),
+        where('status', '==', 'active'),
+        orderBy('createdAt', 'desc'),
+        limit(50)
+      ),
+      (snap) => {
+        setEvents(snap.docs.map(doc => doc.data() as OSEvent));
+      }
+    );
+    
+    return unsubscribe;
+  }, [organizationId]);
+  
+  return events;
+}
+```
+
+### 5. テスト対応
+
+**ユニットテスト**: vitest + Testing Library
+
+```typescript
+// src/__tests__/MyComponent.test.tsx
+import { render, screen } from '@testing-library/react';
+import MyComponent from '../MyComponent';
+
+describe('MyComponent', () => {
+  it('should render', () => {
+    render(<MyComponent />);
+    expect(screen.getByText(/expected text/i)).toBeInTheDocument();
+  });
+});
+```
+
+## スクリプト開発（tsx）
+
+データインポート・変換スクリプト：
+
+```typescript
+// scripts/importMyData.ts
+import { initializeApp } from 'firebase-admin/app';
+import { getFirestore } from 'firebase-admin/firestore';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const app = initializeApp();
+const db = getFirestore(app);
+
+async function importData(filePath: string) {
+  const csvContent = fs.readFileSync(filePath, 'utf-8');
+  const rows = csvContent.split('\n').slice(1); // ヘッダースキップ
+  
+  const batch = db.batch();
+  let count = 0;
+  
+  for (const row of rows) {
+    const [field1, field2, ...] = row.split(',');
+    
+    const doc = {
+      field1,
+      field2,
+      // ...
+      createdAt: new Date()
+    };
+    
+    const ref = db.collection('my_collection').doc();
+    batch.set(ref, doc);
+    count++;
+    
+    if (count % 500 === 0) {
+      await batch.commit();
+      console.log(`Imported ${count} records...`);
+    }
+  }
+  
+  await batch.commit();
+  console.log(`✓ Imported ${count} records total`);
+}
+
+importData(process.argv[2]);
+```
+
+## 関連リンク
+
+- [[overview]] - プロジェクト概要
+- [[auth-identity]] - 認証・アイデンティティシステム詳細
+- [[data-management]] - データインポート・管理パターン

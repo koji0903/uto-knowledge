@@ -78,5 +78,7 @@ tags: [議会, 一般質問, 宇土OS, 土黒功司]
 
 - [[../members/hijikuro_koji|土黒功司]]
 - [[../activities/hijikuro_general_questions_overview|一般質問活動サマリー]]
+- [[../activities/hijikuro_questioning_style_analysis|質問の手法・スタイル分析]]
+- [[hijikuro_general_questions_theme_index|横断テーマ別クロス索引]]
 - [[../questions/index|一般質問・質疑]]
 - [[../../02_POLICY_CARDS/index|政策実行カード]]

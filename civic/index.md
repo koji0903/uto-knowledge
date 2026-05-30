@@ -302,10 +302,10 @@ civic/ は宇土OS全体ナレッジベースの **「分析・政策思考層�
 | **🏗️ システム** | `projects/` | Utomachi Platform | [[projects/utomachi_PF/overview\|Utomachi PF]] |
 
 ### 知識・ナレッジ層
-- [[03_Knowledge/_OVERVIEW|03_Knowledge ナビゲーション]]
-  - [[03_Knowledge/business/_INDEX|business（ビジネス）]]
-  - [[03_Knowledge/tech/_INDEX|tech（技術）]]
-  - [[03_Knowledge/general/_INDEX|general（基礎）]]
+- [[03_Knowledge/index|03_Knowledge ナビゲーション]]
+  - [[03_Knowledge/business/index|business（ビジネス）]]
+  - [[03_Knowledge/tech/index|tech（技術）]]
+  - [[03_Knowledge/general/index|general（基礎）]]
 
 ---
 

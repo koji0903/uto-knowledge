@@ -4,8 +4,8 @@
   "title": "Analyze Utomachi store stakeholder impact",
   "titleGenerationStatus": "success",
   "createdAt": 1778366465744,
-  "updatedAt": 1778753816152,
-  "lastResponseAt": 1778753816152,
+  "updatedAt": 1779666068299,
+  "lastResponseAt": 1779666068299,
   "sessionId": "ea32b6b2-6e8b-452a-9bd4-5d6e72be60ab",
   "providerState": {
     "providerSessionId": "ea32b6b2-6e8b-452a-9bd4-5d6e72be60ab",
@@ -528,11 +528,11 @@
   "usage": {
     "model": "haiku",
     "inputTokens": 8,
-    "cacheCreationInputTokens": 666,
-    "cacheReadInputTokens": 89539,
+    "cacheCreationInputTokens": 430,
+    "cacheReadInputTokens": 92553,
     "contextWindow": 200000,
-    "contextTokens": 90213,
-    "percentage": 45,
-    "contextWindowIsAuthoritative": true
+    "contextTokens": 92991,
+    "percentage": 46,
+    "contextWindowIsAuthoritative": false
   }
 }

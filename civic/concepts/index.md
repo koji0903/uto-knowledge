@@ -1,0 +1,184 @@
+---
+title: "宇土市政 - 主要概念ハブ"
+date: 2026-05-29
+tags: [概念, MOC, 用語集, ナレッジハブ]
+type: moc
+---
+
+# 宇土市政 - 主要概念ハブ
+
+宇土市政を理解するための主要概念ノートをまとめた MOC（Map of Content）。
+
+---
+
+## 🌐 概念マップ
+
+```
+                  [[civic/concepts/population-decline|人口減少]]
+                            ↓
+              ┌─────────────┼─────────────┐
+              ↓             ↓             ↓
+       [[civic/concepts/fiscal-constraint|財政制約]]   [[civic/concepts/local-economy|地域経済]]   [[civic/concepts/civic-participation|市民参加]]
+              ↓             ↓             ↓
+              └─────────────┼─────────────┘
+                            ↓
+              ┌─────────────┼─────────────┐
+              ↓             ↓             ↓
+   [[civic/concepts/public-private-partnership|官民連携]]   [[civic/concepts/dx-strategy|DX戦略]]   [[civic/concepts/station-redevelopment|駅周辺再生]]
+```
+
+---
+
+## 📚 主要概念一覧
+
+### 🏛️ 構造的課題（最上位）
+
+#### [[civic/concepts/population-decline|人口減少]] ⚠️⚠️⚠️
+- 全ての市政課題の根本原因
+- 自然減 + 社会減
+- 若者流出、高齢化進行
+- **タグ**: #人口減少 #構造的課題
+
+#### [[civic/concepts/fiscal-constraint|財政制約]] ⚠️⚠️⚠️
+- 政策実行の限界条件
+- 公共施設更新ギャップ年15.5億円
+- 実質単年度収支のR5-R6赤字
+- **タグ**: #財政 #持続可能性
+
+---
+
+### 💼 経済・産業戦略
+
+#### [[civic/concepts/local-economy|地域経済]] ⚠️⚠️
+- 産業構造と域内循環
+- 「稼ぐ地域経済」の構築
+- 農業・漁業・商業・観光
+- **タグ**: #地域経済 #産業
+
+#### [[civic/concepts/station-redevelopment|駅周辺再生]] ⚠️⚠️
+- コンパクトシティ戦略
+- JR宇土駅周辺の再構築
+- 公共施設集約化の核
+- **タグ**: #まちづくり #都市計画
+
+---
+
+### 🤝 連携・参加
+
+#### [[civic/concepts/public-private-partnership|官民連携]] ⚠️⚠️
+- PPP/PFI、指定管理者制度
+- 「民間との共創」の実装
+- 財政制約の打開策
+- **タグ**: #官民連携 #PPP
+
+#### [[civic/concepts/civic-participation|市民参加]] ⚠️⚠️
+- 「話を聞く市役所」の実装
+- 多様な世代の参加
+- 政策形成プロセスへの参画
+- **タグ**: #市民参加 #民主主義
+
+---
+
+### 🔧 手段・インフラ
+
+#### [[civic/concepts/dx-strategy|DX戦略]] ⚠️⚠️
+- データドリブンな行政
+- 業務効率化（職員不足対応）
+- 政策意思決定の高度化
+- **タグ**: #DX #データ活用
+
+---
+
+## 🔗 概念間の関係性
+
+### 相互作用ネットワーク
+
+| 起点 | 影響先 | 関係 |
+|------|--------|------|
+| [[civic/concepts/population-decline\|人口減少]] | [[civic/concepts/fiscal-constraint\|財政制約]] | 直接（税収減） |
+| [[civic/concepts/population-decline\|人口減少]] | [[civic/concepts/local-economy\|地域経済]] | 直接（消費減） |
+| [[civic/concepts/fiscal-constraint\|財政制約]] | [[civic/concepts/public-private-partnership\|官民連携]] | 必然（公的限界） |
+| [[civic/concepts/fiscal-constraint\|財政制約]] | [[civic/concepts/dx-strategy\|DX戦略]] | 必然（効率化要請） |
+| [[civic/concepts/local-economy\|地域経済]] | [[civic/concepts/station-redevelopment\|駅周辺再生]] | 連動（商業活性化） |
+| [[civic/concepts/civic-participation\|市民参加]] | [[civic/concepts/dx-strategy\|DX戦略]] | 補完（デジタル参加） |
+| [[civic/concepts/public-private-partnership\|官民連携]] | [[civic/concepts/station-redevelopment\|駅周辺再生]] | 手段（再開発スキーム） |
+
+---
+
+## 🎯 議会活動との連携
+
+### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
+**テーマ**: 「人口減少時代における宇土市の構造改革について」
+
+| 質問 | 関連概念 |
+|------|---------|
+| 質問① 市政運営判断 | [[civic/concepts/population-decline\|人口減少]] + [[civic/concepts/fiscal-constraint\|財政制約]] |
+| 質問② 地域経済戦略 | [[civic/concepts/local-economy\|地域経済]] + [[civic/concepts/station-redevelopment\|駅周辺再生]] + [[civic/concepts/public-private-partnership\|官民連携]] |
+| 質問③ 市民参加 | [[civic/concepts/civic-participation\|市民参加]] + [[civic/concepts/dx-strategy\|DX戦略]] |
+
+### [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]
+**テーマ**: 「宇土高校との連携による地域人材育成と地域課題解決について」
+
+| 質問 | 関連概念 |
+|------|---------|
+| 質問①-③ 高校連携 | [[civic/concepts/local-economy\|地域経済]] + [[civic/concepts/civic-participation\|市民参加]] |
+| 質問④ 教育部 | [[civic/concepts/civic-participation\|市民参加]] |
+| 質問⑤ 市長ビジョン | [[civic/concepts/population-decline\|人口減少]]（戦略） |
+
+---
+
+## 📊 関連データ・分析
+
+### 財政分析
+- [[civic/finance|宇土市 財政戦略・分析]]
+- [[civic/finance/overview|財政戦略ビューア]]
+- [[civic/finance/uto-city-fiscal-analysis|財政状況の分析]]
+- [[civic/finance/uto-city-public-facilities|公共施設問題]]
+
+### 議会・市政
+- [[civic/uto-city-council|宇土市議会・議員活動]]
+- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+
+### プロジェクト
+- [[projects/utomachi_PF/overview|Utomachi Platform]]
+
+---
+
+## 🚀 概念ノートの活用方法
+
+### 議会質問の準備時
+1. テーマに関連する概念ノートを参照
+2. 概念間の関係性を質問構成に反映
+3. データ・分析ノートと組み合わせる
+
+### 市民説明時
+1. 複雑な問題を概念単位で整理
+2. 概念間の連鎖を「物語」として説明
+3. 課題の構造的理解を促す
+
+### 政策立案時
+1. 概念ごとに政策オプションを検討
+2. 影響範囲を明確化
+3. 優先順位の判断材料とする
+
+---
+
+## 📝 概念ノートの拡張予定
+
+### 追加予定の概念
+- [ ] 子育て支援
+- [ ] 高齢者福祉
+- [ ] 防災・減災
+- [ ] 教育（地域人材育成）
+- [ ] 環境・SDGs
+- [ ] 公共交通
+
+### 拡充予定の内容
+- [ ] 各概念のデータ充実
+- [ ] 他自治体ベンチマーク
+- [ ] 国の政策動向との接続
+
+---
+
+**最終更新**: 2026年5月29日
+**ステータス**: ✅ 運用中・拡張予定

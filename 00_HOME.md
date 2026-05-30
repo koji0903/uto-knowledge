@@ -21,11 +21,11 @@ scope: nori-farming-dss
 | 対象 | リンク |
 |------|--------|
 | **🏠 Vault全体ホーム** | [[ホーム\|宇土OS ナレッジベース ホーム]] |
-| **📂 Nori DSS 詳細目次** | [[02_Agriculture/nori_farming_dss/INDEX\|Nori DSS INDEX]] |
+| **📂 Nori DSS 詳細目次** | [[02_Agriculture/nori_farming_dss/index\|Nori DSS INDEX]] |
 | **🗺 ナレッジ統合マップ** | [[02_Agriculture/nori_farming_dss/KNOWLEDGE_MAP\|KNOWLEDGE_MAP]] |
 | **🚀 クイックスタート** | [[02_Agriculture/nori_farming_dss/NORI_OS_QUICKSTART\|NORI_OS_QUICKSTART]] |
 | **🌊 シーズン管理** | [[02_Agriculture/nori_farming_dss/NORI_SEASON_DEFINITION\|NORI_SEASON_DEFINITION]] |
-| **📚 ナレッジベース層** | [[03_Knowledge/_OVERVIEW\|03_Knowledge - 学習ガイド]] |
+| **📚 ナレッジベース層** | [[03_Knowledge/index\|03_Knowledge - 学習ガイド]] |
 
 ---
 

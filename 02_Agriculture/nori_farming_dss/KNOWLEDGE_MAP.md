@@ -402,7 +402,7 @@ Phase4_API_QuickRef.md
 
 ### **F. インデックス・参照**
 ```
-INDEX.md
+index.md
 └─ Nori DSS ナレッジベースインデックス（当ドキュメント）
 
 nori_integrated_data_roadmap.md

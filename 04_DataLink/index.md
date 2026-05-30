@@ -30,12 +30,12 @@ Firestore / Google Drive / GitHub
 |  | 00_System/vision | 03_Knowledge | 04_DataLink |
 |---|---|---|---|
 | **役割** | マスター理論 | 学習用ナレッジ | 実行・実績 |
-| **例** | utomachi_100_store_specification.md | business/_INDEX.md | 02_POLICY_CARDS/industry/ + logs/monthly_sales_*.md |
+| **例** | utomachi_100_store_specification.md | business/index | 02_POLICY_CARDS/industry/ + logs/monthly_sales_*.md |
 | **更新頻度** | 稀（設計変更時）| 必要に応じて | 日次～月次 |
 | **対象者** | 戦略立案者 | 学習希望者 | 実行担当者 |
 
 **使い方**:
-1. ナレッジ層で仕組みを理解 → [[03_Knowledge/business/_INDEX|business/_INDEX]] で「ウトマチとは」を学ぶ
+1. ナレッジ層で仕組みを理解 → [[03_Knowledge/business/index|business (index)]] で「ウトマチとは」を学ぶ
 2. 実行層で具体例を確認 → [[02_POLICY_CARDS/industry/|政策カード]]で「今、何をやってるか」確認
 3. ログで実績を追跡 → [[logs/|logs/]] で「売上実績」を確認
 
@@ -64,7 +64,7 @@ Firestore / Google Drive / GitHub
 
 | リソース | 内容 |
 |---------|------|
-| **ナレッジ（理解）** | [[03_Knowledge/business/_INDEX|business/_INDEX]] で仕組みを学ぶ |
+| **ナレッジ（理解）** | [[03_Knowledge/business/index|business (index)]] で仕組みを学ぶ |
 | **スキーマ（設計）** | [[00_System/vision/regional_trading_company_datalink_schema|地域商社 DataLink スキーマ]] |
 | **ポリシー（実行）** | [[02_POLICY_CARDS/industry/|政策実行カード / 産業OS]] |
 | **実績（確認）** | [[logs/|月次売上・生産者・商品ログ]] |
@@ -81,7 +81,7 @@ Firestore / Google Drive / GitHub
 
 **Vault 全体構成**:
 - [[00_System/vision/|00_System/vision]] - ビジョン・戦略層
-- [[03_Knowledge/_OVERVIEW|03_Knowledge/_OVERVIEW]] - ナレッジベース層（学習ガイド）
+- [[03_Knowledge/index|03_Knowledge/index]] - ナレッジベース層（学習ガイド）
 - [[ホーム|ホーム.md]] - Vault 全体ホーム
 
 **このレイヤの詳細**:

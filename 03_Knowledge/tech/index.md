@@ -120,7 +120,7 @@ tags: [ナレッジ, 技術, システム, アーキテクチャ, index]
 有機農業の生産・販売・流通管理を統合するシステム：
 
 **まず読むべき**:
-[[02_Agriculture/kumayuken/_Index|📋 AgriOS インデックス]]
+[[02_Agriculture/kumayuken/index|📋 AgriOS インデックス]]
 - システム概要
 - データモデル
 - ビジネスロジック
@@ -239,4 +239,4 @@ firebase deploy --only firestore
 ---
 
 **最終更新**: 2026-05-14  
-**関連セクション**: [[../business/_INDEX|business（ビジネス・産業）]] / [[../general/_INDEX|general（制度・基礎理解）]]
+**関連セクション**: [[../business/index|business（ビジネス・産業）]] / [[../general/index|general（制度・基礎理解）]]

@@ -1,0 +1,171 @@
+---
+title: "DX戦略・データ活用（宇土市の文脈）"
+date: 2026-05-29
+tags: [概念, DX, デジタル変革, データ活用, 行政効率化]
+type: concept
+aliases: ["DX-strategy", "DX戦略", "データ活用", "行政DX戦略", "デジタル変革"]
+---
+
+# DX戦略・データ活用（宇土市の文脈）
+
+## 📊 定義
+
+**DX（Digital Transformation）**とは、デジタル技術によって行政の業務プロセス、市民サービス、政策意思決定を変革する取り組みを指す。
+
+宇土市においては、人口減少・職員不足の現実を踏まえ、**行政運営の持続可能性を担保する手段**として位置づけられる。
+
+---
+
+## 🎯 DXの3つのレイヤー
+
+### Layer 1: デジタイゼーション（電子化）
+- 紙書類のPDF化
+- データのデジタル保存
+- 窓口手続きのオンライン化
+
+### Layer 2: デジタライゼーション（業務効率化）
+- ワークフロー自動化
+- RPAによる定型業務の代替
+- データ連携基盤の整備
+
+### Layer 3: デジタルトランスフォーメーション（変革）
+- データドリブンな意思決定
+- 市民との関係性の再構築
+- 新しい行政モデルの構築
+
+宇土市の現状：**Layer 1-2 中心**  
+目指す方向：**Layer 2-3 への深化**
+
+---
+
+## 📊 データ活用の実例
+
+### [[civic/finance/overview|宇土市 財政戦略ビューア]]
+
+DXの具体例として、9年度分の決算データを統合・可視化：
+
+- 構造化データ (consolidated-data.json)
+- 10種類のビューモード
+- CSV形式エクスポート
+- 統計分析機能
+
+→ 議会審議、市民説明、政策立案に活用可能
+
+### データソース統合の意義
+
+```
+従来:
+決算書PDF → 紙の決算書 → 議員が個別に読み込み
+    ↓
+非効率、活用困難
+
+DX後:
+複数データソース → 統合JSON → Webビューア
+    ↓
+可視化、比較分析、エクスポート可能
+```
+
+---
+
+## 🚨 人口減少時代におけるDXの必然性
+
+### 職員不足への対応
+
+```
+人口減少
+    ↓
+税収減少
+    ↓
+職員定数の維持困難
+    ↓
+業務量は変わらない/増加
+    ↓
+DXによる効率化が「選択肢」ではなく「必須」
+```
+
+### 市民サービスの維持
+
+```
+窓口での対面サービス
+    ↓
+維持困難（職員不足）
+    ↓
+オンライン化、自動化が必須
+```
+
+---
+
+## 💡 議会質問での視点
+
+### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問③
+
+```
+質問例：
+「市民の声を可視化し、政策形成や行政運営へつなげるため、
+データ活用やDXについてどのように取り組んでいく考えか。」
+
+→ 単なる電子化ではなく、政策意思決定への活用を問う
+```
+
+### 想定される議論
+
+| 論点 | 質問の方向性 |
+|------|-------------|
+| **データ整備** | データ収集・管理の体制は |
+| **分析能力** | データを政策に活かせるスキルは |
+| **インフラ** | システム基盤の整備状況は |
+| **人材** | DX推進人材の確保は |
+
+---
+
+## 📊 関連プロジェクト
+
+### [[projects/utomachi_PF/overview|Utomachi Platform]]
+地域経済・市民参加を支えるシステム基盤
+
+### [[civic/finance/fiscal-viewer-app|財政戦略ビューア技術仕様]]
+財政データのDX実装例
+
+---
+
+## 🏛️ 宇土OS体系との接続
+
+### 関連OS仕様
+- **[[00_System/vision/rmo_os_specification|RMO OS]]** - 地域運営のデジタル化
+- **[[00_System/vision/childcare_os_specification|子育てOS]]** - ワンストップ化
+- **[[00_System/vision/industry_os_specification|産業OS]]** - データ駆動の産業政策
+
+### アーキテクチャ ⭐
+- **[[00_System/architecture/Utomachi_Platform_Architecture|ウトマチプラットフォーム アーキテクチャ]]** ⭐
+  - Next.js 16 / React 19 / Firestore / Firebase Auth / Google Gemini AI
+- **[[00_System/architecture/STRATEGY|ナレッジ高度化戦略]]**
+
+### ナレッジ層
+- [[03_Knowledge/tech/index|tech ナレッジ]] - DSS・AI運用基盤
+
+### 政策実行カード
+- [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] - 行政DX・AI関連
+
+---
+
+## 🔗 関連ノート
+
+### 概念
+- [[civic/concepts/population-decline|人口減少]]
+- [[civic/concepts/civic-participation|市民参加]]
+- [[civic/concepts/fiscal-constraint|財政制約]]
+
+### 議会活動
+- [[civic/uto-city-council|宇土市議会・議員活動]]
+- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
+- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+
+### 実装例
+- [[civic/finance/overview|財政戦略ビューア]]
+- [[civic/finance/fiscal-viewer-app|技術仕様]]
+- [[projects/utomachi_PF/overview|Utomachi Platform]]
+
+---
+
+**重要度**: ⚠️⚠️ 高（人口減少時代の必須インフラ）
+**最終更新**: 2026年5月29日

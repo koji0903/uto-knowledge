@@ -330,7 +330,7 @@ integrated_data/: 1.4 MB (Phase 3a比: +96 KB)
 ### ドキュメント作成
 
 - [x] Phase3b_Extended_Data_Integration.md作成
-- [x] INDEX.md更新予定
+- [x] index.md更新予定
 - [x] 各スクリプトに docstring/header追記
 
 ---

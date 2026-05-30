@@ -301,7 +301,7 @@ Phase 3a で最適化した 26列スキーマが、 predictive_pipeline.py と�
 3. **ドキュメント面**
    - [ ] PredictiveModels.md が更新
    - [ ] Phase 3a-2 実装ノートが完成
-   - [ ] INDEX.md が Phase 3a-2 完了で更新
+   - [ ] index.md が Phase 3a-2 完了で更新
 
 ---
 

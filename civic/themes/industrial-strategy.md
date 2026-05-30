@@ -1,0 +1,167 @@
+---
+title: "テーマ: 産業戦略・地域商社"
+date: 2026-05-29
+tags: [テーマ, 産業戦略, 地域商社, 統合MOC, civic]
+type: theme-moc
+status: 運用中
+priority: 高
+---
+
+# テーマ: 産業戦略・地域商社
+
+> **問い**: 地域経済をどう「稼ぐ構造」に転換するか
+> 単発施策ではなく、地域内で経済循環し、域外から外貨を稼ぐ構造へ。
+
+---
+
+## 🏛️ 理論層（00_System/）
+
+### 中核OS仕様
+- **[[00_System/vision/industry_os_specification|産業OS仕様書]]** ⭐ 理論の核
+- **[[00_System/vision/utomachi_100_store_specification|ウトマチ百貨店仕様書]]** ⭐ 実装版
+
+### L層
+- [[00_System/vision/L4_finance_layer|L4 財政層]] - 産業からの財源化
+- [[00_System/vision/L6_policy_layer|L6 政策層]] - 産業政策
+- [[00_System/vision/L2_issue_layer|L2 課題層]] - 産業基盤縮小
+
+### アーキテクチャ
+- [[00_System/architecture/Utomachi_Platform_Architecture|ウトマチPF アーキテクチャ]]
+
+---
+
+## 📊 分析層（civic/）
+
+### 中核概念
+- **[[civic/concepts/local-economy|地域経済]]** ⭐
+- [[civic/concepts/public-private-partnership|官民連携・PPP]] ⭐
+- [[civic/concepts/station-redevelopment|駅周辺再生]] - 商業集積
+
+### 関連概念
+- [[civic/concepts/population-decline|人口減少]] - 担い手不足
+- [[civic/concepts/fiscal-constraint|財政制約]] - 自主財源化の要請
+
+---
+
+## 📋 実装層（04_DataLink/）
+
+### 産業政策実行カード（5枚）
+- **[[04_DataLink/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|pc_industry_001 地域商社構想]]** ⭐
+- [[04_DataLink/02_POLICY_CARDS/industry|産業カード一覧]]
+
+**カードのテーマ**:
+1. 地域商社構想の実装準備
+2. ふるさと納税を地域商社の販路に接続
+3. 宇土ブランド・特産品カタログ整備
+4. 商店街活性化と創業支援
+5. 産業横断PFUの設計
+
+### 運用基盤
+- [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] - 産業優先テーマ
+
+### 過去議会質問
+- [[04_DataLink/01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map|質問×宇土OS 対応マップ]]
+- R4-12, R5-09, R6-06 で産業関連質問
+
+---
+
+## 🗣️ 議会質問層（civic/uto-city-council/）
+
+### 直接関連
+- **[[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]** ⭐
+  - 質問②: 地域経済戦略・産業の軸選択・民間との共創
+- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]
+  - 高校探究活動と地域産業
+
+### マニフェスト
+- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]] - 「仕事とにぎわい」セクション
+
+---
+
+## 📚 ナレッジ層（03_Knowledge/）
+
+- **[[03_Knowledge/business/index|business ナレッジ]]** ⭐
+  - ウトマチ百貨店・地域商社化
+  - 移住・定住OS連携
+  - L4財源レイヤ
+  - 企業起業サポート
+
+---
+
+## 🏗️ システム層（projects/）
+
+- [[projects/utomachi_PF/overview|Utomachi Platform]] - 地域経済システム実装
+
+---
+
+## 🔢 主要データ・産業構造
+
+### 宇土市の主要産業セクター
+
+| セクター | 状況 | 課題 |
+|---------|------|------|
+| 農業 | 米・野菜・果樹 | 担い手不足、価格低迷 |
+| 漁業 | 有明海・八代海 | 漁獲量減少、後継者 |
+| 商業 | 商店街・ロードサイド | 商店街シャッター化 |
+| 観光 | マリーナ、レトロ館 | 利用伸び悩み |
+| 製造業 | 食品加工等 | 小規模事業者中心 |
+
+---
+
+## 🎯 政策の方向性
+
+### 「点」から「構造」へ
+
+```
+従来:「個別施策の集合」
+    ↓
+これから:「産業間連携 × 域内循環 × 域外稼ぎ × 民間連携」
+```
+
+### 地域商社モデルの中核
+
+```
+[生産者]      [地域商社]      [販路]
+農家     →               →   ふるさと納税
+漁師     →   ウトマチ百貨店  →   観光客
+製造業者 →               →   首都圏
+                              EC・通販
+```
+
+---
+
+## 💡 議会質問例
+
+### 戦略的視点
+- 「地域経済の軸を何に置くか」
+- 「産業間連携の仕組みは」
+- 「地域商社化への本気度は」
+
+### 実装視点
+- 「ふるさと納税の戦略的活用は」
+- 「特産品カタログの整備状況は」
+- 「商店街活性化の数値目標は」
+
+---
+
+## 🚀 アクションプラン
+
+- [ ] [[04_DataLink/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社カード]] の進捗確認
+- [ ] ふるさと納税の現状と返礼品強化
+- [ ] 産品台帳の整備状況
+- [ ] 民間事業者へのヒアリング
+- [ ] [[projects/utomachi_PF/overview|Utomachi Platform]] と政策の連携検討
+
+---
+
+## 🔗 横断テーマ
+
+- [[civic/themes|横断テーマ索引]]
+- [[civic/themes/public-facilities|公共施設縮小]] - 新庁舎での産業展示
+- [[civic/themes/relocation-station|移住・駅周辺]] - 駅前商業集積
+- [[civic/themes/civic-engagement-dx|市民参加・DX]] - 産業データ可視化
+
+---
+
+**最終更新**: 2026年5月29日
+**重要度**: ⚠️⚠️ 高（マニフェスト最重要テーマ）

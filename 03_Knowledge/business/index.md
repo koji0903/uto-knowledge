@@ -131,7 +131,7 @@ tags: [ナレッジ, ビジネス, 産業, index]
 農業の高付加価値化を支える技術知識：
 
 - [[02_Agriculture/nori_farming_dss/KNOWLEDGE_MAP|海苔養殖意思決定支援システム]]（宮崎県向けパイロット）
-- [[02_Agriculture/kumayuken/_Index|AgriOS - 熊本県有機農業研究会]]
+- [[02_Agriculture/kumayuken/index|AgriOS - 熊本県有機農業研究会]]
 
 ---
 
@@ -162,4 +162,4 @@ tags: [ナレッジ, ビジネス, 産業, index]
 ---
 
 **最終更新**: 2026-05-14  
-**関連セクション**: [[../general/_INDEX|general（制度理解）]] / [[../tech/_INDEX|tech（技術スタック）]]
+**関連セクション**: [[../general/index|general（制度理解）]] / [[../tech/index|tech（技術スタック）]]

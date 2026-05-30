@@ -9,6 +9,7 @@ Thumbs.db
 .firebaserc
 .claude/
 tmp/
+!tmp/index.md
 path/
 *.venv/
 venv/

@@ -306,4 +306,4 @@ L0: 前提（人口減・財政危機・地理的制約）
 ---
 
 **最終更新**: 2026-05-14  
-**関連セクション**: [[../business/_INDEX|business（ビジネス・産業）]] / [[../tech/_INDEX|tech（技術スタック）]]
+**関連セクション**: [[../business/index|business（ビジネス・産業）]] / [[../tech/index|tech（技術スタック）]]
