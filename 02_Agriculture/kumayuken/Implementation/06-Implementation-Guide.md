@@ -260,4 +260,4 @@ const handleClick = useCallback(() => {
 - [[../Architecture/02-Directory-Structure|ディレクトリ構成]] - プロジェクト構造
 - [[../DataModel/03-Data-Model|データモデル]] - データベース設計
 - [[../BusinessLogic/05-Business-Logic|ビジネスロジック]] - 計算ロジック
-- [[../_Index|ナレッジベース索引]] - 全体INDEX
+- [[../index|ナレッジベース索引]] - 全体INDEX

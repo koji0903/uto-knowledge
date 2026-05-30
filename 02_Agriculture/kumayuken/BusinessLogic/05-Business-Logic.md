@@ -288,4 +288,4 @@ paymentAmount = expenseTotal - withholdingTax;
 - [[../Masters/04-Master-Definition|マスタデータ詳細]] - マスタデータ
 - [[../DataModel/03-Data-Model|データモデル]] - データモデル
 - [[../Implementation/06-Implementation-Guide|実装ガイドライン]] - コード実装パターン
-- [[../_Index|ナレッジベース索引]] - 全体INDEX
+- [[../index|ナレッジベース索引]] - 全体INDEX

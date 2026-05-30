@@ -250,7 +250,7 @@ themes: [高等学校, 人材育成, 地域課題解決, 探究活動, 若者参
 ### 🏛️ 宇土OS体系（00_System/）⭐
 - [[00_System/vision/education_os_specification|教育OS仕様書]] - うと学・地域人材育成
 - [[00_System/vision/L6_policy_layer|L6 政策層]] - 子育て・教育政策
-- [[00_System/vision/L7_vision_uto_os|L7 ビジョン 2040]] - 若者定着戦略
+- [[00_System/vision/vision_uto_os|L7 ビジョン 2040]] - 若者定着戦略
 
 ### 📋 過去議会質問・政策カード（04_DataLink/）
 - [[04_DataLink/01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map|質問×宇土OS 対応マップ]]

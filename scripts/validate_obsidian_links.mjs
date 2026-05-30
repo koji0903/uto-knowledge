@@ -4,6 +4,23 @@ import path from "node:path";
 const vaultRoot = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 const ignoredDirs = new Set([".git", ".obsidian", ".claude", "tmp", "node_modules"]);
 
+// Files containing intentional placeholder/example wikilinks (setup guides, code-symbol references)
+const ignoredSources = new Set([
+  ".obsidian_setup_guide.md",
+  "projects/utomachi_PF/auth-identity.md",
+  "projects/utomachi_PF/data-management.md",
+  "projects/utomachi_PF/decision-support.md",
+  "projects/utomachi_PF/implementation-guide.md",
+  "projects/utomachi_PF/operations-management.md",
+  "projects/utomachi_PF/overview.md",
+  // Nori docs use [[Section]] as anchor refs (DataSources/Operations/Schema/Troubleshooting/Glossary/Accomplishments)
+  "02_Agriculture/nori_farming_dss/Architecture.md",
+  "02_Agriculture/nori_farming_dss/DataIntegration.md",
+  "02_Agriculture/nori_farming_dss/Overview.md",
+  "02_Agriculture/nori_farming_dss/PredictiveModels.md",
+  "02_Agriculture/nori_farming_dss/index.md",
+]);
+
 function listMarkdownFiles(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
     if (ignoredDirs.has(entry.name)) return [];
@@ -16,16 +33,19 @@ function listMarkdownFiles(dir) {
 }
 
 function normalizeRelative(file) {
-  return path.relative(vaultRoot, file).replaceAll(path.sep, "/");
+  // NFC-normalize so macOS APFS readdir (NFD) matches git-stored (NFC) link targets
+  return path.relative(vaultRoot, file).replaceAll(path.sep, "/").normalize("NFC");
 }
 
 function stripTarget(target) {
   return target
     .split("#")[0]
     .trim()
+    .replace(/\\$/, "")       // strip trailing backslash from escaped pipe (table cells: [[target\|label]])
     .replace(/^.\//, "")
     .replace(/\.md$/, "")
-    .replace(/\/$/, "/index");
+    .replace(/\/$/, "/index")
+    .normalize("NFC");        // NFC-normalize so links match NFC filenames stored in git
 }
 
 const files = listMarkdownFiles(vaultRoot);
@@ -46,6 +66,7 @@ let linkCount = 0;
 
 for (const file of files) {
   const relative = normalizeRelative(file);
+  if (ignoredSources.has(relative)) continue;
   const sourceDir = path.posix.dirname(relative);
   const markdown = fs.readFileSync(file, "utf8");
   const linkPattern = /\[\[([^\]|]+)(?:\|[^\]]*)?\]\]/g;

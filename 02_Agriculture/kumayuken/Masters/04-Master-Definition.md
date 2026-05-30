@@ -242,4 +242,4 @@ erDiagram
 
 - [[../DataModel/03-Data-Model|データモデル]] - データモデル全体
 - [[../BusinessLogic/05-Business-Logic|ビジネスロジック]] - 計算ロジック・ビジネスルール
-- [[../_Index|ナレッジベース索引]] - 全体INDEX
+- [[../index|ナレッジベース索引]] - 全体INDEX

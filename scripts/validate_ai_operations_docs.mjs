@@ -7,7 +7,7 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const vaultRoot = path.resolve(scriptDir, "..");
 
 const checkedFiles = [
-  "AGENTS.md",
+  "00_System/architecture/AGENTS.md",
   "README.md",
   "mcp/README.md",
   "mcp/ai_profiles/README.md",

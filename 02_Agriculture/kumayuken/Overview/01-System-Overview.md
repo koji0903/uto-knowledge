@@ -67,4 +67,4 @@ created: 2026-05-13
 - [[../Architecture/02-Directory-Structure|ディレクトリ構成]] - プロジェクト構造と実装パターン
 - [[../DataModel/03-Data-Model|データモデル]] - Firestore構成
 - [[../Masters/04-Master-Definition|マスタデータ詳細]] - マスタデータの詳細定義
-- [[../_Index|ナレッジベース索引]] - 全体INDEX
+- [[../index|ナレッジベース索引]] - 全体INDEX

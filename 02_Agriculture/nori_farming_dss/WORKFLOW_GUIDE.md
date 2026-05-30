@@ -139,7 +139,7 @@ gh pr create --base main --head develop \
 
 - [[NORI_OS_QUICKSTART|Nori OS クイックスタート]]
 - [[Phase4_Utomachi_Integration|Phase 4 統合ガイド]]
-- [[INDEX|ドキュメント索引]]
+- [[index|ドキュメント索引]]
 
 ---
 

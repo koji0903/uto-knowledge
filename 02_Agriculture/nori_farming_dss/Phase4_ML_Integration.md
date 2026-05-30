@@ -293,7 +293,7 @@ run_all_tests.sh               実行スクリプト
 
 ## 関連ドキュメント
 
-- [[Phase3c_Extended_Data_Integration_Complete|Phase 3c]] - 統計データ統合
+- [[Phase3b_Extended_Data_Integration|Phase 3c]] - 統計データ統合
 - [[Overview|システム概要]]
 - [[PredictiveModels|予測モデル]]
 

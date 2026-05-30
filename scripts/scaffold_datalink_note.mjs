@@ -21,7 +21,7 @@ const config = {
   decision: {
     collection: "decisions",
     folder: "04_DataLink/decisions",
-    template: "06_Templates/template_datalink_decision.md",
+    template: "05_Templates/template_datalink_decision.md",
     idPrefix: "dec_",
     fileName(id) {
       return `${id.replace(/^dec_/, "decision_")}.md`;
@@ -30,25 +30,25 @@ const config = {
   producer: {
     collection: "producers",
     folder: "04_DataLink/producers",
-    template: "06_Templates/template_datalink_producer.md",
+    template: "05_Templates/template_datalink_producer.md",
     idPrefix: "prodcr_",
   },
   product: {
     collection: "products",
     folder: "04_DataLink/products",
-    template: "06_Templates/template_datalink_product.md",
+    template: "05_Templates/template_datalink_product.md",
     idPrefix: "prod_",
   },
   project: {
     collection: "projects",
     folder: "04_DataLink/projects",
-    template: "06_Templates/template_datalink_project.md",
+    template: "05_Templates/template_datalink_project.md",
     idPrefix: "prj_",
   },
   log: {
     collection: "logs",
     folder: "04_DataLink/logs",
-    template: "06_Templates/template_datalink_log.md",
+    template: "05_Templates/template_datalink_log.md",
     idPrefix: "log_",
   },
 };

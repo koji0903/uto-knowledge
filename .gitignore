@@ -8,8 +8,7 @@ Thumbs.db
 .env.local
 .firebaserc
 .claude/
-tmp/*
-!tmp/index.md
+tmp/
 path/
 *.venv/
 venv/

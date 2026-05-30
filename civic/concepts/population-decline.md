@@ -108,7 +108,7 @@ aliases: ["人口減少", "市人口減少対策", "人口動態", "少子高齢
 - **[[00_System/vision/L0_premise_layer|L0 前提層]]** ⭐ 本概念の理論的基礎
   - 「人口3.6万→2040年3万、高齢化率35%超」が前提として定義
 - **[[00_System/vision/L2_issue_layer|L2 課題層]]** - 人口減少から派生する6つの構造的課題
-- **[[00_System/vision/L7_vision_uto_os|L7 ビジョン層]]** - 2040年ビジョン
+- **[[00_System/vision/vision_uto_os|L7 ビジョン層]]** - 2040年ビジョン
 
 ### 関連OS仕様
 - **[[00_System/vision/relocation_os_specification|移住・定住OS]]** - 自然減への対応戦略

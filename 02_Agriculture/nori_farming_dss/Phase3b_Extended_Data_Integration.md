@@ -378,7 +378,7 @@ integrated_data/: 1.4 MB (Phase 3a比: +96 KB)
 - [[Phase3a_Optimization]] - Phase 3a 設計
 - [[Phase3a-2_Completion_Report]] - Phase 3a 検証報告
 - [[Phase3a_Geographic_Interpolation]] - 距離補間詳細
-- [[DATA_INTEGRATION_PIPELINE]] - データ統合パイプライン全体
+- [[04_DataLink/datasets/02_DATA_INTEGRATION_PIPELINE|データ統合パイプライン]] - データ統合パイプライン全体
 - [[PredictiveModels]] - 予測モデル詳細
 
 ---

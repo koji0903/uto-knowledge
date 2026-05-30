@@ -211,4 +211,4 @@ INVOICE_DETAIL (請求明細)
 - [[../Masters/04-Master-Definition|マスタデータ詳細]] - 各マスタの詳細定義
 - [[../BusinessLogic/05-Business-Logic|ビジネスロジック]] - 計算ロジック・不変性の原則
 - [[../Overview/01-System-Overview|システム概要]] - システム全体像
-- [[../_Index|ナレッジベース索引]] - 全体INDEX
+- [[../index|ナレッジベース索引]] - 全体INDEX

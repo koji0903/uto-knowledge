@@ -24,7 +24,7 @@ priority: 高
 
 ### L層
 - [[00_System/vision/L6_policy_layer|L6 政策層]] - 子育て・教育政策
-- [[00_System/vision/L7_vision_uto_os|L7 ビジョン 2040]]
+- [[00_System/vision/vision_uto_os|L7 ビジョン 2040]]
 - [[00_System/vision/L5_infrastructure_layer|L5 インフラ層]] - 学校施設
 
 ---

@@ -159,4 +159,4 @@ const member = await MemberService.getById(id);
 - [[../Overview/01-System-Overview|システム概要]] - プロジェクト全体像
 - [[../DataModel/03-Data-Model|データモデル]] - データベース設計
 - [[../Implementation/06-Implementation-Guide|実装ガイドライン]] - コード実装の標準パターン
-- [[../_Index|ナレッジベース索引]] - 全体INDEX
+- [[../index|ナレッジベース索引]] - 全体INDEX

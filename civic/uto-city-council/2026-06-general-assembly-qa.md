@@ -246,7 +246,7 @@ assembly: 令和7年6月定例会
 - [[00_System/vision/L0_premise_layer|L0 前提層]] - 人口・財政の前提
 - [[00_System/vision/L2_issue_layer|L2 課題層]] - 6つの構造的課題
 - [[00_System/vision/L4L5_facility_finance_crisis|L4-L5 施設財政危機]]
-- [[00_System/vision/L7_vision_uto_os|L7 ビジョン 2040]]
+- [[00_System/vision/vision_uto_os|L7 ビジョン 2040]]
 - [[00_System/vision/industry_os_specification|産業OS仕様書]]
 - [[00_System/vision/rmo_os_specification|RMO OS仕様書]]
 

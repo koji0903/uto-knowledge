@@ -1,15 +1,17 @@
 ---
-id: tmp_index
-type: moc
-title: "tmp - 一時的な生成物・調査結果"
+id: tmp_lifecycle
+type: guide
+title: "tmp/ ライフサイクル運用ルール"
 created: 2026-05-31
 status: active
-tags: [moc, meta, governance, ephemeral]
+tags: [meta, governance, ephemeral, guide]
 ---
 
 > ⬅ [[ホーム|🏠 ホーム]]
 
-# 🧪 tmp — 一時的な生成物の置き場
+# 🧪 tmp/ ライフサイクル運用ルール
+
+> ℹ️ `tmp/` 自体は `.gitignore` 対象。このドキュメントは `tmp/` の運用ルールを記述するもので、`00_System/` 配下に格納されています。
 
 スクリプトの出力、調査の中間結果、デバッグ用のダンプを置く場所。
 **ナレッジではありません**。再生成可能なものだけ。

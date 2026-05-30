@@ -6,7 +6,7 @@ firestore_doc_id: dec_20260507_ai_handoff_operations
 created: 2026-05-07
 status: active
 tags: [DataLink, Firestore, decision, AI運用, MCP]
-related_files: [AGENTS.md, mcp/ai_profiles/handoff_prompt.md, scripts/generate_handoff_prompt.mjs, scripts/validate_ai_operations_docs.mjs]
+related_files: [00_System/architecture/AGENTS.md, mcp/ai_profiles/handoff_prompt.md, scripts/generate_handoff_prompt.mjs, scripts/validate_ai_operations_docs.mjs]
 related_collections: [logs, projects]
 ---
 
