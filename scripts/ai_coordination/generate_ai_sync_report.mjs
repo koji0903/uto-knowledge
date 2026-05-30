@@ -13,7 +13,7 @@ function getGitChanges(ai) {
   if (ai === "codex") {
     folders = ["04_DataLink/utomachi_100_store/implementation", "04_DataLink/utomachi_100_store/technical_specs", "04_DataLink/utomachi_100_store/development_logs"];
   } else if (ai === "claude_code") {
-    folders = ["04_DataLink", "06_Templates", "mcp/ai_profiles", "scripts"];
+    folders = ["04_DataLink", "05_Templates", "mcp/ai_profiles", "scripts"];
   }
 
   const changes = [];

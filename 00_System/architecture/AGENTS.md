@@ -15,7 +15,7 @@ Claude、Gemini、ChatGPT、Codexなど複数AIが触れる前提のため、作
 1. [[README|README]]
 2. [[運用ダッシュボード|運用ダッシュボード]]
 3. [[04_DataLink/index|データ連携]]
-4. [[04_DataLink/00_SYSTEM/index|宇土OS システム仕様]]
+4. [[04_DataLink/index|宇土OS システム仕様]]
 5. [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]]
 6. [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
 7. [[00_System/vision/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]

@@ -205,7 +205,7 @@ function createMCPIndex() {
 }
 
 function createTemplateIndex() {
-  const templateDir = path.join(vaultRoot, "06_Templates");
+  const templateDir = path.join(vaultRoot, "05_Templates");
   const indexFile = path.join(templateDir, "index.md");
 
   if (fs.existsSync(indexFile) &&
@@ -254,11 +254,11 @@ function main() {
     "04_DataLink/01_ASSEMBLY/_templates/template_assembly_member.md",
     "04_DataLink/01_ASSEMBLY/activities/hijikuro_general_questions_overview.md",
     "04_DataLink/01_ASSEMBLY/members/hijikuro_koji.md",
-    "06_Templates/template_datalink_decision.md",
-    "06_Templates/template_datalink_log.md",
-    "06_Templates/template_datalink_producer.md",
-    "06_Templates/template_datalink_product.md",
-    "06_Templates/template_datalink_project.md",
+    "05_Templates/template_datalink_decision.md",
+    "05_Templates/template_datalink_log.md",
+    "05_Templates/template_datalink_producer.md",
+    "05_Templates/template_datalink_product.md",
+    "05_Templates/template_datalink_project.md",
     "mcp/ai_profiles/conflict_detector.md",
     "mcp/ai_profiles/handoff_prompt.md",
     "mcp/ai_profiles/reference_guideline.md",
