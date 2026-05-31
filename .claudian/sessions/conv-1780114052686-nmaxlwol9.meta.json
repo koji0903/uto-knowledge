@@ -4,8 +4,8 @@
   "title": "Summarize Vault contents",
   "titleGenerationStatus": "success",
   "createdAt": 1780114052691,
-  "updatedAt": 1780180728773,
-  "lastResponseAt": 1780180728773,
+  "updatedAt": 1780183505993,
+  "lastResponseAt": 1780183505993,
   "sessionId": "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45",
   "providerState": {
     "providerSessionId": "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45"
@@ -13,11 +13,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 1,
-    "cacheCreationInputTokens": 482,
-    "cacheReadInputTokens": 218308,
+    "cacheCreationInputTokens": 1175,
+    "cacheReadInputTokens": 235034,
     "contextWindow": 1000000,
-    "contextTokens": 218791,
-    "percentage": 22,
+    "contextTokens": 236210,
+    "percentage": 24,
     "contextWindowIsAuthoritative": true
   }
 }
