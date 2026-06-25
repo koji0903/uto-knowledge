@@ -307,4 +307,5 @@ related_policy_cards:
 **作成**: 2026-06-01（改訂版・通告済み）
 **会派**: 会派「風」
 **関連質問**: [[civic/uto-city-council/2026-06-general-assembly-qa|質問①（構造改革）]]
+**質問意図・問題意識**: [[civic/uto-city-council/2026-06-general-assembly-thoughts|💭 質問意図と問題意識（事前すり合わせ）]]
 **マニフェスト分析**: [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]

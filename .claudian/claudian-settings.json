@@ -14,11 +14,13 @@
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
+  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "ja",
   "providerConfigs": {
     "claude": {
@@ -49,8 +51,7 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "native-windows",
-        "MacBook-Air-15.local": "native-windows"
+        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
@@ -64,6 +65,18 @@
       "preferredThinkingByModel": {},
       "selectedMode": "",
       "thinkingOptionsByModel": {},
+      "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
       "visibleModels": []
     }
   },
@@ -87,6 +100,5 @@
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
   "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {},
-  "requireCommandOrControlEnterToSend": false
+  "hiddenProviderCommands": {}
 }

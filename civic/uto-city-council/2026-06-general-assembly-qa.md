@@ -279,4 +279,4 @@ related_policy_cards:
 
 **作成**: 2026-06-01（改訂版・通告済み）
 **会派**: 会派「風」
-**関連**: [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②（高校連携）]] / [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]
+**関連**: [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②（高校連携）]] / [[civic/uto-city-council/2026-06-general-assembly-thoughts|💭 質問意図と問題意識（事前すり合わせ）]] / [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]

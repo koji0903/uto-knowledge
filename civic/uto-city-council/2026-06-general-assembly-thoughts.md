@@ -1,0 +1,412 @@
+---
+title: 令和8年6月定例会一般質問_質問意図と問題意識（土黒功司）
+date: 2026-06-01
+type: policy_thought
+status: 通告済み
+assembly: 令和8年6月定例会
+speaker: 会派「風」 土黒 功司
+faction: 会派「風」
+tags:
+  - 一般質問
+  - 市政ビジョン
+  - 行政改革
+  - 地域経済
+  - 公共施設
+  - RMO
+  - 地域運営組織
+  - 宇土高校
+  - 土黒功司
+  - 政策思想
+  - 質問意図
+  - 議員活動
+related_concepts: [population-decline, fiscal-constraint, local-economy, civic-participation, dx-strategy, public-private-partnership]
+related_os: [rmo, industry, education, relocation]
+related_questions:
+  - 2026-06-general-assembly-qa
+  - 2026-06-general-assembly-qa-2nd-uto-high-school
+---
+
+> ⬅ [[ホーム|🏠 ホーム]] / [[civic/index|civic ハブ]] / [[civic/uto-city-council/index|議会活動]]
+
+# 令和8年6月定例会一般質問に込めた想い
+
+> 📌 本ノートは [[civic/uto-city-council/2026-06-general-assembly-qa|質問①（構造改革）]] および [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②（宇土高校連携）]] を発する前の、**事前すり合わせ時点の土黒功司の問題意識・哲学**を整理した政策思考ドキュメント。通告書本体（質問事項）と対をなす「なぜ問うのか」の記録。
+
+---
+
+## はじめに
+
+今回の一般質問は、個別事業の是非や担当課の業務内容を問うものではない。
+
+私が本当に聞きたいのは、
+
+**「人口減少時代の宇土市を、光井市長はどのような未来へ導こうとしているのか」**
+
+である。
+
+市長就任後初めての本格的な一般質問として、
+
+- 地域経済
+- 組織改革
+- 公共施設
+- 地域コミュニティ
+- 若者育成
+
+というテーマを通じて、市長自身の考え方や哲学を引き出したい。
+
+---
+
+# １．地域経済について
+
+## 問題意識
+
+宇土市は近年、
+
+- MOBA
+- 御輿来海岸
+- かわまちづくり
+
+など観光資源への投資を進めている。
+
+しかし、
+
+「人が来ること」
+
+と
+
+「地域経済が豊かになること」
+
+は別問題である。
+
+観光客が増えても、
+
+- 市内事業者の売上
+- 市民所得
+- 雇用
+- 新規事業
+
+につながらなければ、本当の意味での地域活性化とは言えない。
+
+## 聞きたいこと
+
+私は市長に、
+
+「何をするのか」
+
+ではなく、
+
+「どんな経済構造を目指すのか」
+
+を聞きたい。
+
+行政だけで地域経済を動かすことはできない。
+
+だからこそ、
+
+- 民間との共創
+- 新規創業
+- 農業・漁業の高付加価値化
+- データ活用
+- 官民連携
+
+をどう位置付けるのか。
+
+市長自身の考えを聞きたい。
+
+---
+
+# ２．組織改革について
+
+## 問題意識
+
+光井市長は、
+
+- ワンチーム
+- 縦割り構造の改革
+- 職員の意識改革
+
+という言葉を使っている。
+
+私はこの言葉自体に強い関心を持っている。
+
+なぜなら、
+
+人口減少社会においては、
+
+これまでの組織運営のままでは持続できないからである。
+
+## 聞きたいこと
+
+市長が考える
+
+「縦割り構造の改革」
+
+とは何か。
+
+- 何が課題なのか
+- 何を変えたいのか
+- どのような成果を目指すのか
+
+を聞きたい。
+
+私は単なる組織論を聞いているのではない。
+
+宇土市全体をどう動かすかという、
+
+トップリーダーとしての考えを聞きたい。
+
+---
+
+# ３．公共施設と財政について
+
+## 問題意識
+
+宇土市は単年度収支だけを見れば黒字である。
+
+しかし長期的に見れば、
+
+公共施設の更新費用が大きな課題となる。
+
+私はAIを活用しながら、
+
+予算書
+決算書
+公共施設総合管理計画
+
+などを分析している。
+
+その結果、
+
+将来的な施設維持更新に必要な費用と、
+実際に確保できている財源には大きな差があると認識している。
+
+## 聞きたいこと
+
+私は、
+
+「この施設を残すのか」
+
+ではなく、
+
+「どうやって判断するのか」
+
+を聞きたい。
+
+今後、
+
+- 学校
+- 福祉施設
+- 市民会館
+- 給食センター
+
+など様々な施設について決断が必要になる。
+
+その時、
+
+感覚ではなく、
+
+説明可能な判断基準が必要になる。
+
+市長はどのような考え方で公共施設マネジメントを進めるのか。
+
+そこを聞きたい。
+
+---
+
+# ４．市民との対話とRMOについて
+
+## 問題意識
+
+光井市長は、
+
+「まず話を聞く」
+
+という姿勢を大切にしている。
+
+私はその姿勢を評価している。
+
+しかし、
+
+聞くこと自体が目的になってはいけない。
+
+重要なのは、
+
+聞いた声をどう政策へ反映するかである。
+
+## 聞きたいこと
+
+私は、
+
+「市民の声をどう聞くか」
+
+ではなく、
+
+「聞いた声をどう解決へつなげるか」
+
+を聞きたい。
+
+RMOもその手段の一つである。
+
+ただし、
+
+私はRMOありきとは考えていない。
+
+地域ごとに課題は異なる。
+
+重要なのは、
+
+地域課題を解決する仕組みをどう構築するかである。
+
+市長が考える、
+
+これからの地域運営の姿を聞きたい。
+
+---
+
+# ５．宇土高校について
+
+## 問題意識
+
+今回の質問は、
+単なる高校支援の話ではない。
+
+若者育成と地域人材戦略の話である。
+
+私は今年、
+宇土高校との関わりを深める中で、
+
+宇土高校の教育内容や生徒たちの取り組みに大きな可能性を感じた。
+
+一方で、
+
+宇土高校の魅力が地域に十分伝わっているとは感じていない。
+
+## 聞きたいこと
+
+私は、
+
+宇土高校をどう支援するか
+
+ではなく、
+
+宇土高校を宇土市の未来づくりのパートナーとしてどう位置付けるか
+
+を聞きたい。
+
+若者が、
+
+- 地域課題に触れる
+- 地域の大人と出会う
+- 地域で挑戦する
+
+その環境づくりに市はどう関わるのか。
+
+市長の考えを聞きたい。
+
+---
+
+# 私の政治姿勢
+
+私は一般質問を、
+
+担当課を追及する場とは考えていない。
+
+私は、
+
+宇土市の未来を考えるための議論の場
+
+だと考えている。
+
+今回の質問で聞きたいのは、
+
+事業ではない。
+
+予算でもない。
+
+制度でもない。
+
+私が聞きたいのは、
+
+「宇土市をどこへ導こうとしているのか」
+
+という市長の意思である。
+
+人口減少時代に入り、
+
+これまでの延長線上では自治体経営は成り立たなくなる。
+
+だからこそ、
+
+今必要なのは
+
+未来を語ること
+
+である。
+
+私はこれからも、
+
+宇土市の未来に必要な議論を続けていく。
+
+---
+
+# 📚 関連ナレッジ・対応する通告書
+
+## 🔗 通告書本体（質問事項）
+
+| ドキュメント | 内容 |
+|------|------|
+| [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①: 人口減少時代における宇土市の構造改革]] | 4問構成（市経営／公共施設／産業循環／市民対話×RMO） |
+| [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school\|質問②: 宇土高校との連携による地域人材育成と地域課題解決]] | 5問構成（連携実績／魅力化／地域課題研究／教育の縦の連携／パートナーシップ） |
+
+## 🧭 想いと通告書の対応関係
+
+| 本ノートのテーマ | 対応する通告書セクション | 主要な vault リンク |
+|----------------|------------------|-------------|
+| **１. 地域経済** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第3問「仕事とにぎわいのある宇土」 | [[civic/concepts/local-economy\|地域経済]] / [[civic/concepts/public-private-partnership\|官民連携]] / [[civic/themes/industrial-strategy\|産業戦略テーマ]] / [[00_System/vision/industry_os_specification\|産業OS仕様書]] / [[00_System/vision/utomachi_100_store_specification\|ウトマチ百貨店仕様書]] |
+| **２. 組織改革** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第1問「人口減少時代における宇土市経営」 | [[00_System/vision/L3_organization_pfu\|L3 組織レイヤ（PFU）]] / [[00_System/vision/layer_structure_guide\|宇土OS 8層構造]] / [[civic/uto-city-council/mitsuii-mayor-manifesto\|光井市長マニフェスト分析]] |
+| **３. 公共施設と財政** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第2問「公共施設と行政サービスの再設計」 | ⚠️ [[civic/finance/uto-city-public-facilities\|公共施設更新ギャップ 年15.5億円]] / [[civic/finance/uto-city-fiscal-analysis\|宇土市財政分析]] / [[civic/finance/overview\|財政戦略ビューア]] / [[00_System/vision/L4L5_facility_finance_crisis\|L4L5 施設老朽化と財政危機]] / [[civic/themes/public-facilities\|公共施設の戦略的縮小テーマ]] |
+| **４. 市民対話とRMO** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第4問「市民との対話と地域運営」 | [[civic/concepts/civic-participation\|市民参加]] / [[civic/themes/civic-engagement-dx\|市民参加・行政DXテーマ]] / [[00_System/vision/rmo_os_specification\|RMO OS 仕様書]] ⭐ / [[00_System/vision/rmo_os_use_cases\|RMO ユースケース]] |
+| **５. 宇土高校** | [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school\|質問②]] 全5問 | [[civic/themes/childcare-education\|子育て・教育・人材育成テーマ]] / [[00_System/vision/education_os_specification\|教育OS仕様書]] / [[00_System/vision/childcare_os_specification\|子育てOS仕様書]] |
+
+---
+
+## 🧠 通底する政策思想
+
+| 私の信念 | Vault 上の対応理論 |
+|---------|-----------------|
+| **「何をやるか」ではなく「何を変えるか」** | [[00_System/vision/layer_structure_guide\|宇土OS 8層構造]] — L2課題層から L7ビジョン層までの一貫した枠組み |
+| **「人口減少」は人口の問題ではなく構造の問題** | [[civic/concepts/population-decline\|人口減少（概念ノート）]] / [[00_System/vision/L0_premise_layer\|L0 前提レイヤ]] |
+| **「全てやる」は不可能、選択と集中** | [[civic/concepts/fiscal-constraint\|財政制約]] |
+| **「人が来ること」と「地域経済」は別** | [[civic/concepts/local-economy\|地域経済（域内経済循環）]] |
+| **「聞く」と「政策に反映する」は別** | [[civic/concepts/civic-participation\|市民参加（受益者→パートナー）]] |
+| **AIで予算・決算・施設計画を分析** | [[civic/finance/overview\|財政戦略ビューア（9年度分の決算可視化）]] / [[civic/finance/fiscal-viewer-app\|ビューア技術仕様]] / [[04_DataLink/02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline\|pc_admin_dx_001 市役所AI業務ガイドライン]] |
+| **高校生は支援対象ではなくパートナー** | [[civic/themes/childcare-education\|子育て・教育・人材育成テーマ]] |
+
+---
+
+## 📜 過去質問との連続性
+
+本通告書は単発の思いではなく、これまでの一般質問・議員活動の延長線上にある。
+
+- [[04_DataLink/01_ASSEMBLY/activities/hijikuro_general_questions_overview|過去の一般質問総覧]]
+- [[04_DataLink/01_ASSEMBLY/activities/hijikuro_questioning_style_analysis|質問スタイル分析]]
+- [[04_DataLink/01_ASSEMBLY/policy_links/hijikuro_general_questions_theme_index|テーマ別過去質問索引]]
+- [[04_DataLink/01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map|質問→政策マップ]]
+
+---
+
+## 🏛 答弁を受けた後のリフレクション計画
+
+通告書に対する答弁が出揃った後、本ノートを起点に下記を行う：
+
+1. **答弁の評価** — 「未来像を語っているか」「構造改革の解像度はどうか」「具体的なコミットがあったか」を本ノートの「聞きたいこと」と照合
+2. **政策実行ボードへの反映** — 数値・方針コミットがあれば [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] に追記
+3. **新規政策カード起案** — 「若者チャレンジ枠」「公共施設判断基準」など、答弁から具体施策が出れば新規 pc_* カードを検討
+4. **市民向け説明資料の作成** — [[00_System/vision/citizen_explanation_14billion_crisis|市民向け14億円危機説明]] に倣い、答弁内容を市民へ可視化
+
+---
+
+**作成**: 2026-06-01（質問通告日）
+**会派**: 会派「風」
+**通告書**: [[civic/uto-city-council/2026-06-general-assembly-qa|質問①]] / [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②]]
+**マニフェスト分析**: [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]

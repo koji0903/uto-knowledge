@@ -59,6 +59,7 @@ status: 運用中
 | [[civic/uto-city-council|議会活動ハブ]] | 議会活動の総合情報 |
 | [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] | 構造改革テーマ |
 | [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] | 高校連携テーマ |
+| 💭 [[civic/uto-city-council/2026-06-general-assembly-thoughts|令和8年6月定例会 質問意図と問題意識]] | 事前すり合わせ・政策思想 |
 | [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] | マニフェスト解読 |
 
 ---
