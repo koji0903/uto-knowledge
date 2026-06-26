@@ -4,7 +4,7 @@ type: assembly_member
 title: 土黒功司
 created: 2026-05-06
 status: active
-faction: 
+faction: 風
 committees: []
 focus_layers: [L2_issue_layer, L6_policy_layer, vision_uto_os]
 focus_os: [childcare_os_specification, education_os_specification, industry_os_specification, relocation_os_specification, rmo_os_specification]
