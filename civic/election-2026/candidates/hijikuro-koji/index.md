@@ -37,6 +37,8 @@ status: 蓄積中
 | [[civic/election-2026/candidates/hijikuro-koji/qa-defense|想定問答集（守り）]] ⭐ | 厳しい問いへの切り返し＋失言予防 |
 | [[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物 実文面集（短文）]] ⭐ | チラシ・SNS・演説原稿（UTO PRIDE軸） |
 | [[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|市民向け発信 ロングversion]] ⭐ | 所信・詳解・5分演説・対話Q&A |
+| [[civic/election-2026/candidates/hijikuro-koji/public-lecture|講演会 30分スピーチ＆対話]] ⭐ | 大ホール講演会の全原稿・運営・想定問答 |
+| [[civic/election-2026/candidates/hijikuro-koji/sns-note-strategy|SNS・Note発信戦略（公選法）]] ⭐ | FB/X/Note運用＋法令ガードレール |
 
 ---
 

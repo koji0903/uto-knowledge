@@ -77,8 +77,8 @@ election_date: 2026-10-04
 ## 🧭 用途別クイックアクセス
 
 ### 📣 発信する（演説・SNS・チラシ）
-✍️ **執筆前に必読**: [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|文体スタイルガイド（人格定義）]]
-[[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物（短文）]] ／ [[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版（所信・5分演説・対話Q&A）]] → 数字は [[civic/election-2026/current-values|現状値データ集]] / トーンは [[civic/election-2026/archive-2022/election-message-2022|発信哲学]]
+✍️ **執筆前に必読**: [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|文体スタイルガイド]] ／ ⚖️ **SNS/Note発信前に必読**: [[civic/election-2026/candidates/hijikuro-koji/sns-note-strategy|公選法コンプライアンス]]
+[[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物（短文）]] ／ [[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版]] ／ [[civic/election-2026/candidates/hijikuro-koji/public-lecture|講演会30分スピーチ＆対話]] → 数字は [[civic/election-2026/current-values|現状値データ集]] / トーンは [[civic/election-2026/archive-2022/election-message-2022|発信哲学]]
 
 ### 🎯 戦略を練る（どこで誰に）
 [[civic/election-2026/vote-strategy|得票戦略]] → [[civic/election-2026/turnout-trend-analysis|投票率トレンド]] / [[civic/election-2026/official-info|地区別データ]]

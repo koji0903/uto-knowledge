@@ -4,8 +4,8 @@
   "title": "Start Japanese conversation",
   "titleGenerationStatus": "success",
   "createdAt": 1782457762490,
-  "updatedAt": 1782464304266,
-  "lastResponseAt": 1782464304266,
+  "updatedAt": 1782510794409,
+  "lastResponseAt": 1782510794409,
   "sessionId": "c067d6fc-1227-4294-ab01-db972428a439",
   "providerState": {
     "providerSessionId": "c067d6fc-1227-4294-ab01-db972428a439"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 975,
-    "cacheReadInputTokens": 198082,
+    "cacheCreationInputTokens": 450,
+    "cacheReadInputTokens": 272640,
     "contextWindow": 1000000,
-    "contextTokens": 199059,
-    "percentage": 20,
+    "contextTokens": 273092,
+    "percentage": 27,
     "contextWindowIsAuthoritative": true
   }
 }
