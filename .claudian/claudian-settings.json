@@ -14,19 +14,20 @@
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
+  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "ja",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "/Users/hijikuro/.local/bin/claude",
-        "MacBook-Air-15.local": "/opt/homebrew/bin/claude"
+        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "/opt/homebrew/bin/claude"
       },
       "loadUserSettings": true,
       "enableChrome": true,
@@ -50,8 +51,7 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "native-windows",
-        "MacBook-Air-15.local": "native-windows"
+        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
@@ -71,7 +71,7 @@
       "cliPath": "",
       "cliPathsByHost": {},
       "discoveredModels": [],
-      "enabled": false,
+      "enabled": true,
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
@@ -88,19 +88,16 @@
     "claude": "low"
   },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {
-    "claude": "medium"
-  },
+  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "normal"
   },
   "lastCustomModel": "",
   "maxTabs": 3,
-  "tabBarPosition": "input",
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
   "hiddenProviderCommands": {},
-  "customModelAliases": {},
-  "requireCommandOrControlEnterToSend": false
+  "tabBarPosition": "input"
 }
