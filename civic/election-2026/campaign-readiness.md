@@ -70,7 +70,9 @@ status: 蓄積中
 
 ---
 
-## E. 後援会・組織・運営体制（🟡 2022実績あり）
+> 🗓️ 日程・タスクは [[civic/election-2026/campaign-schedule|運営スケジュール＆タスク表]] に集約。
+
+## E. 後援会・組織・運営体制（🟢 前回体制＋スケジュール化済）
 
 → 前回の体制・手順は [[civic/election-2026/archive-2022/operational-playbook|実務プレイブック]] / 原本は [[civic/election-2026/archive-2022/index|2022アーカイブ]]（後援会組織図・連絡網・規約・推薦名簿）。
 

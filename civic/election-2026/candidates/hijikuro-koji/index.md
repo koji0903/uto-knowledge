@@ -26,6 +26,7 @@ status: 蓄積中
 
 | ドキュメント | 内容 |
 |-------------|------|
+| [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|文体・話し方スタイルガイド]] ⭐ | 全発信の上位ルール（人格定義） |
 | [[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造（UTO PRIDE）]] ⭐ | 理念の背骨。全発信のルート |
 | [[civic/election-2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] ⭐ | 対外スローガン（顔の言葉） |
 | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] ⭐ | 5本柱を実データで具体化 |
@@ -34,7 +35,8 @@ status: 蓄積中
 | [[civic/election-2026/candidates/hijikuro-koji/declaration|宣言文（版管理）]] | 出馬宣言文の各版を記録 |
 | [[civic/election-2026/candidates/hijikuro-koji/message-analysis|メッセージ分析]] | ターゲット・訴求軸・キーフレーズ |
 | [[civic/election-2026/candidates/hijikuro-koji/qa-defense|想定問答集（守り）]] ⭐ | 厳しい問いへの切り返し＋失言予防 |
-| [[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物 実文面集]] ⭐ | チラシ・SNS・演説原稿（UTO PRIDE軸） |
+| [[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物 実文面集（短文）]] ⭐ | チラシ・SNS・演説原稿（UTO PRIDE軸） |
+| [[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|市民向け発信 ロングversion]] ⭐ | 所信・詳解・5分演説・対話Q&A |
 
 ---
 

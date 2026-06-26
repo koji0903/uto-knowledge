@@ -39,12 +39,13 @@ status: 運用中
 ## 📚 主要セクション
 
 ### 🗳️ 選挙ナレッジ ⭐ NEW
-**[[civic/election-2026/index|2026年10月 宇土市議会議員選挙ハブ]]** - 戦略・宣言文・メッセージの蓄積
+**[[civic/election-2026/index|🗳️ 2026 宇土市議選 ダッシュボード]]** - 事実・戦略・メッセージ・運営の司令塔（投票10/4・準備A〜G全🟢）
 
 | ドキュメント | 内容 |
 |-------------|------|
-| [[civic/election-2026/index\|2026市議選ハブ]] | 選挙ナレッジ総合 |
-| [[civic/election-2026/candidates/hijikuro-koji/index\|土黒功司 候補者ハブ]] | 2期目に向けた蓄積 |
+| [[civic/election-2026/index\|2026市議選ダッシュボード]] | カウントダウン・スコアボード・全文書マップ |
+| [[civic/election-2026/candidates/hijikuro-koji/index\|土黒功司 候補者ハブ]] | 思想→公約→実績→広報の9点セット |
+| [[civic/election-2026/official-info\|公式情報・現状値]] | 前回トップ当選・KPIベースライン |
 
 ---
 
