@@ -4,11 +4,14 @@
   "title": "Summarize Vault contents",
   "titleGenerationStatus": "success",
   "createdAt": 1780114052691,
-  "updatedAt": 1782372312294,
-  "lastResponseAt": 1782372312294,
-  "sessionId": "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45",
+  "updatedAt": 1782433737668,
+  "lastResponseAt": 1782433737668,
+  "sessionId": "94be5977-dfdd-427d-9de9-c73166c3c574",
   "providerState": {
-    "providerSessionId": "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45"
+    "providerSessionId": "94be5977-dfdd-427d-9de9-c73166c3c574",
+    "previousProviderSessionIds": [
+      "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45"
+    ]
   },
   "usage": {
     "model": "opus",
