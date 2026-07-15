@@ -4,21 +4,21 @@
   "title": "Start Japanese conversation",
   "titleGenerationStatus": "success",
   "createdAt": 1782457762490,
-  "updatedAt": 1783394257893,
-  "lastResponseAt": 1782510794409,
+  "updatedAt": 1784145420143,
+  "lastResponseAt": 1784145420143,
   "sessionId": "c067d6fc-1227-4294-ab01-db972428a439",
+  "selectedModel": "opus",
   "providerState": {
     "providerSessionId": "c067d6fc-1227-4294-ab01-db972428a439"
   },
-  "currentNote": "04_DataLink/02_POLICY_CARDS/_templates/template_policy_card.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 2,
-    "cacheCreationInputTokens": 450,
-    "cacheReadInputTokens": 272640,
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
     "contextWindow": 1000000,
-    "contextTokens": 273092,
-    "percentage": 27,
-    "contextWindowIsAuthoritative": true
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 0,
+    "percentage": 0
   }
 }

@@ -32,8 +32,6 @@
       "loadUserSettings": true,
       "enableChrome": true,
       "enableBangBash": true,
-      "enableOpus1M": false,
-      "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "opus",
       "environmentVariables": "",
@@ -50,10 +48,10 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethodsByHost": {
-        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "native-windows"
-      },
-      "wslDistroOverridesByHost": {}
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {},
+      "modelAliases": {},
+      "visibleModels": null
     },
     "opencode": {
       "cliPath": "",
