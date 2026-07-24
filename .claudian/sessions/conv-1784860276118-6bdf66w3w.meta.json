@@ -1,0 +1,27 @@
+{
+  "id": "conv-1784860276118-6bdf66w3w",
+  "providerId": "codex",
+  "title": "「海苔サミット2026」への議員視察報告書の作成をお願いします。",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1784860276125,
+  "updatedAt": 1784860607571,
+  "lastResponseAt": 1784860607571,
+  "sessionId": "019f91f6-7d55-7001-9950-4a38052d1c06",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "019f91f6-7d55-7001-9950-4a38052d1c06",
+    "sessionFilePath": "/Users/hijikuro/.codex/sessions/2026/07/24/rollout-2026-07-24T11-31-18-019f91f6-7d55-7001-9950-4a38052d1c06.jsonl",
+    "transcriptRootPath": "/Users/hijikuro/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "usage": {
+    "inputTokens": 99859,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 96000,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 99859,
+    "percentage": 39,
+    "model": "gpt-5.6-sol"
+  }
+}

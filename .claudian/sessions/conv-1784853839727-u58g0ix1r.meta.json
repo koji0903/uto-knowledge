@@ -4,14 +4,13 @@
   "title": "こんにちは",
   "titleGenerationStatus": "failed",
   "createdAt": 1784853839727,
-  "updatedAt": 1784854192968,
+  "updatedAt": 1784858382625,
   "lastResponseAt": 1784854192968,
   "sessionId": "4fa9b71c-9c7f-486b-8db9-2e8753482178",
   "selectedModel": "opus",
   "providerState": {
     "providerSessionId": "4fa9b71c-9c7f-486b-8db9-2e8753482178"
   },
-  "currentNote": "civic/election-2026/candidates/hijikuro-koji/citizen-messages-full.md",
   "usage": {
     "model": "opus",
     "inputTokens": 2,

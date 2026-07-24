@@ -1,0 +1,25 @@
+{
+  "id": "conv-1784858717666-x1090mbog",
+  "providerId": "claude",
+  "title": "Create PROJECT.md documentation files",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784858717690,
+  "updatedAt": 1784860117813,
+  "lastResponseAt": 1784860117813,
+  "sessionId": "17ade7e0-2578-435e-a1ea-1e46b9783929",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "17ade7e0-2578-435e-a1ea-1e46b9783929"
+  },
+  "currentNote": "04_DataLink/02_POLICY_CARDS/_templates/template_policy_card.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 47566,
+    "cacheReadInputTokens": 125031,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 172599,
+    "percentage": 17
+  }
+}
