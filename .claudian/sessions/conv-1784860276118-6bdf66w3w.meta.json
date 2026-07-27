@@ -4,13 +4,13 @@
   "title": "「海苔サミット2026」への議員視察報告書の作成をお願いします。",
   "titleGenerationStatus": "failed",
   "createdAt": 1784860276125,
-  "updatedAt": 1784860607571,
-  "lastResponseAt": 1784860607571,
+  "updatedAt": 1785142803259,
+  "lastResponseAt": 1785142803259,
   "sessionId": "019f91f6-7d55-7001-9950-4a38052d1c06",
   "selectedModel": "gpt-5.6-sol",
   "providerState": {
     "threadId": "019f91f6-7d55-7001-9950-4a38052d1c06",
-    "sessionFilePath": "/Users/hijikuro/.codex/sessions/2026/07/24/rollout-2026-07-24T11-31-18-019f91f6-7d55-7001-9950-4a38052d1c06.jsonl",
+    "sessionFilePath": "/Volumes/ExtSSD/.codex/sessions/2026/07/24/rollout-2026-07-24T11-31-18-019f91f6-7d55-7001-9950-4a38052d1c06.jsonl",
     "transcriptRootPath": "/Users/hijikuro/.codex/sessions",
     "workspaceDependencyToolVersion": 1
   },
