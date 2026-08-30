@@ -29,6 +29,7 @@ status: 蓄積中
 | [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|文体・話し方スタイルガイド]] ⭐ | 全発信の上位ルール（人格定義） |
 | [[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造（UTO PRIDE）]] ⭐ | 理念の背骨。全発信のルート |
 | [[civic/election-2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] ⭐ | 対外スローガン（顔の言葉） |
+| [[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。（震災後 改訂版）]] ⭐ | 災害後の対外メッセージ＋5つの挑戦（改訂版） |
 | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] ⭐ | 5本柱を実データで具体化 |
 | [[civic/election-2026/candidates/hijikuro-koji/manifesto-kpi|公約 KPI・財源の深掘り]] | 測れる目標と財源の考え方 |
 | [[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|1期目 実績棚卸し]] ⭐ | 4年・約77問を公約の裏付けに |
@@ -58,6 +59,7 @@ status: 蓄積中
 | 日付 | 更新内容 |
 |------|---------|
 | 2026-06-26 | 候補者ハブ新設 |
+| 2026-08-30 | 「こころ、ひとつに。」震災後 改訂メッセージ＆5つの挑戦（改訂版）を追加 |
 
 ---
 

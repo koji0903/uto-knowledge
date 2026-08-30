@@ -6,6 +6,7 @@
   "effortLevel": "low",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
   "titleGenerationModel": "",
   "excludedTags": [],
   "mediaFolder": "",
@@ -24,27 +25,29 @@
   "locale": "ja",
   "providerConfigs": {
     "claude": {
+      "enabled": true,
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "/opt/homebrew/bin/claude"
+        "device-390985f108130c53b4a73342f57ad1cde2cbabc15ed2fe6fb0f76eb95aed15b3": "/opt/homebrew/bin/claude"
       },
       "loadUserSettings": true,
       "enableChrome": true,
       "enableBangBash": true,
       "customModels": "",
+      "defaultModel": "opus",
       "lastModel": "opus",
-      "modelEnvironmentType": "",
+      "modelEnvironmentType": "opus",
       "titleModelEnvironmentType": "",
       "environmentVariables": "",
-      "environmentHash": ""
+      "environmentHash": "runtime-input:v1:122487052b8f958c73c485cf85d894a31a0f7b9fe6fa52e270cc8c223a2bd9d6"
     },
     "codex": {
       "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {
-        "device:97c8f4fb-8812-4efb-807f-b33f33ac83fa": "/opt/homebrew/bin/codex"
+        "device-390985f108130c53b4a73342f57ad1cde2cbabc15ed2fe6fb0f76eb95aed15b3": "/opt/homebrew/bin/codex"
       },
       "customModels": "gpt-5.4",
       "discoveredModels": [
@@ -279,10 +282,11 @@
       ],
       "modelAliases": {},
       "visibleModels": null,
+      "enableUltraEffort": false,
       "reasoningSummary": "detailed",
       "environmentVariables": "",
-      "environmentHash": "",
-      "catalogTimestamp": 1785148026501,
+      "environmentHash": "runtime-input:v1:a6db216cf6ba049c2a9641e86b4021754d5a15050672719dbc2ba9a3be694880",
+      "catalogTimestamp": 1788074195869,
       "catalogFingerprint": "1:17f83ea5ce504ba25e6c9b6fd781d61f4dd77a3cf66f75631df9fe799969977b",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}
@@ -325,6 +329,10 @@
     }
   },
   "settingsProvider": "claude",
+  "lastSelectedChatModel": {
+    "providerId": "claude",
+    "model": "opus"
+  },
   "savedProviderModel": {
     "claude": "opus",
     "codex": "gpt-5.6-sol"
@@ -343,11 +351,21 @@
   },
   "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
-  "maxTabs": 3,
+  "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
+  "enableDualPane": true,
+  "dualPaneSide": "right",
+  "restoreTabsOnStartup": true,
+  "collabEnabled": false,
+  "collabProjectsFolder": "workspace",
+  "collabGitPath": "",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedContentPaths": [],
   "hiddenProviderCommands": {},
+  "maxTabs": 3,
   "tabBarPosition": "input"
 }

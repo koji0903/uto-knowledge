@@ -4,22 +4,23 @@
   "title": "Create PROJECT.md documentation files",
   "titleGenerationStatus": "success",
   "createdAt": 1784858717690,
-  "updatedAt": 1784860117813,
-  "lastResponseAt": 1784860117813,
-  "sessionId": "17ade7e0-2578-435e-a1ea-1e46b9783929",
+  "lastActivityAt": 1788074493701,
+  "sessionId": null,
   "selectedModel": "sonnet",
   "providerState": {
-    "providerSessionId": "17ade7e0-2578-435e-a1ea-1e46b9783929"
+    "previousProviderSessionIds": [
+      "17ade7e0-2578-435e-a1ea-1e46b9783929"
+    ]
   },
-  "currentNote": "04_DataLink/02_POLICY_CARDS/_templates/template_policy_card.md",
+  "linkedContentPath": "04_DataLink/02_POLICY_CARDS/_templates/template_policy_card.md",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 2,
-    "cacheCreationInputTokens": 47566,
-    "cacheReadInputTokens": 125031,
-    "contextWindow": 1000000,
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 967000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 172599,
-    "percentage": 17
+    "contextTokens": 0,
+    "percentage": 0
   }
 }

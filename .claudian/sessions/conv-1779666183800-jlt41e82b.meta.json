@@ -4,11 +4,18 @@
   "title": "Start conversation",
   "titleGenerationStatus": "success",
   "createdAt": 1779666183801,
-  "updatedAt": 1782443368443,
-  "lastResponseAt": 1782443315782,
-  "sessionId": "e8172144-7810-4300-8621-e8f6c1e00a39",
+  "lastActivityAt": 1782443315782,
+  "sessionId": null,
   "providerState": {
-    "providerSessionId": "e8172144-7810-4300-8621-e8f6c1e00a39"
+    "previousProviderSessionIds": [
+      "e8172144-7810-4300-8621-e8f6c1e00a39"
+    ]
+  },
+  "modelRecoverySource": {
+    "sessionId": "e8172144-7810-4300-8621-e8f6c1e00a39",
+    "providerState": {
+      "providerSessionId": "e8172144-7810-4300-8621-e8f6c1e00a39"
+    }
   },
   "usage": {
     "model": "haiku",

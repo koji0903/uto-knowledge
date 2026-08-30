@@ -4,12 +4,13 @@
   "title": "Start Japanese conversation",
   "titleGenerationStatus": "success",
   "createdAt": 1782457762490,
-  "updatedAt": 1784853832090,
-  "lastResponseAt": 1784853814119,
-  "sessionId": "c067d6fc-1227-4294-ab01-db972428a439",
+  "lastActivityAt": 1784853814119,
+  "sessionId": null,
   "selectedModel": "opus",
   "providerState": {
-    "providerSessionId": "c067d6fc-1227-4294-ab01-db972428a439"
+    "previousProviderSessionIds": [
+      "c067d6fc-1227-4294-ab01-db972428a439"
+    ]
   },
   "usage": {
     "model": "opus",

@@ -4,12 +4,13 @@
   "title": "こんにちは",
   "titleGenerationStatus": "failed",
   "createdAt": 1784853839727,
-  "updatedAt": 1784858382625,
-  "lastResponseAt": 1784854192968,
-  "sessionId": "4fa9b71c-9c7f-486b-8db9-2e8753482178",
+  "lastActivityAt": 1784854192968,
+  "sessionId": null,
   "selectedModel": "opus",
   "providerState": {
-    "providerSessionId": "4fa9b71c-9c7f-486b-8db9-2e8753482178"
+    "previousProviderSessionIds": [
+      "4fa9b71c-9c7f-486b-8db9-2e8753482178"
+    ]
   },
   "usage": {
     "model": "opus",

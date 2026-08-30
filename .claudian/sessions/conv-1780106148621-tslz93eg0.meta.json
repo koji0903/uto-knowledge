@@ -4,11 +4,18 @@
   "title": "Review knowledge base status\n\n---\n\nTo better he...",
   "titleGenerationStatus": "success",
   "createdAt": 1780106148622,
-  "updatedAt": 1780114036723,
-  "lastResponseAt": 1780108682638,
-  "sessionId": "9b9ade53-9f0c-4bde-bdd6-12dc801aa745",
+  "lastActivityAt": 1780108682638,
+  "sessionId": null,
   "providerState": {
-    "providerSessionId": "9b9ade53-9f0c-4bde-bdd6-12dc801aa745"
+    "previousProviderSessionIds": [
+      "9b9ade53-9f0c-4bde-bdd6-12dc801aa745"
+    ]
+  },
+  "modelRecoverySource": {
+    "sessionId": "9b9ade53-9f0c-4bde-bdd6-12dc801aa745",
+    "providerState": {
+      "providerSessionId": "9b9ade53-9f0c-4bde-bdd6-12dc801aa745"
+    }
   },
   "usage": {
     "model": "opus",

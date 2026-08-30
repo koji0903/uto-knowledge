@@ -4,14 +4,22 @@
   "title": "Summarize Vault contents",
   "titleGenerationStatus": "success",
   "createdAt": 1780114052691,
-  "updatedAt": 1782438126703,
-  "lastResponseAt": 1782438090638,
-  "sessionId": "94be5977-dfdd-427d-9de9-c73166c3c574",
+  "lastActivityAt": 1782438090638,
+  "sessionId": null,
   "providerState": {
-    "providerSessionId": "94be5977-dfdd-427d-9de9-c73166c3c574",
     "previousProviderSessionIds": [
-      "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45"
+      "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45",
+      "94be5977-dfdd-427d-9de9-c73166c3c574"
     ]
+  },
+  "modelRecoverySource": {
+    "sessionId": "94be5977-dfdd-427d-9de9-c73166c3c574",
+    "providerState": {
+      "providerSessionId": "94be5977-dfdd-427d-9de9-c73166c3c574",
+      "previousProviderSessionIds": [
+        "cdf10a4f-9df8-4c27-804d-3d1f0f4a6c45"
+      ]
+    }
   },
   "usage": {
     "model": "opus",
