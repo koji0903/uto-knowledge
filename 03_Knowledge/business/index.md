@@ -3,7 +3,7 @@ id: knowledge_business_index
 type: index
 title: "ビジネス・産業知識ナレッジベース"
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-07-27
 status: active
 tags: [ナレッジ, ビジネス, 産業, index]
 ---
@@ -33,6 +33,23 @@ tags: [ナレッジ, ビジネス, 産業, index]
 ---
 
 ## 📚 ナレッジガイド
+
+### **ふるさと納税・地域産業投資**
+
+**実務研修ナレッジ**:
+
+1. [[furusato_tax_izumisano_training_2026-07|泉佐野市ふるさと納税研修―競争市場への対応と「ふるさと納税3.0」]]
+   - 成熟市場における自治体の役割
+   - 地場産品1号・2号・3号の活用
+   - 中間事業者への丸投げを避ける運営体制
+   - ポータル別の商品ページ最適化
+   - クラウドファンディング型ふるさと納税による設備投資
+   - 宇土市での小規模実証案、KPI、リスク
+
+**政策実装**:
+
+- [[../../04_DataLink/02_POLICY_CARDS/industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]]
+- [[../../04_DataLink/projects/prj_furusato_return_gift_boost|ふるさと納税返礼品強化]]
 
 ### **ウトマチ百貨店 - 産業OS実装プロジェクト**
 
@@ -161,5 +178,5 @@ tags: [ナレッジ, ビジネス, 産業, index]
 
 ---
 
-**最終更新**: 2026-05-14  
+**最終更新**: 2026-07-27
 **関連セクション**: [[../general/index|general（制度理解）]] / [[../tech/index|tech（技術スタック）]]
