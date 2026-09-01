@@ -4,7 +4,7 @@
   "title": "/logout",
   "titleGenerationStatus": "failed",
   "createdAt": 1788074529297,
-  "lastActivityAt": 1788076664081,
+  "lastActivityAt": 1788224868033,
   "sessionId": "0a2c9974-bc7a-48c8-8da7-622721d2e489",
   "selectedModel": "opus",
   "providerState": {
@@ -15,12 +15,12 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 2,
-    "cacheCreationInputTokens": 346,
-    "cacheReadInputTokens": 26461,
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 579,
+    "cacheReadInputTokens": 46962,
     "contextWindow": 1000000,
-    "contextTokens": 26809,
-    "percentage": 3,
+    "contextTokens": 47542,
+    "percentage": 5,
     "contextWindowIsAuthoritative": true
   }
 }
