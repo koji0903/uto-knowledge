@@ -28,7 +28,8 @@ status: 蓄積中
 |-------------|------|
 | [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|文体・話し方スタイルガイド]] ⭐ | 全発信の上位ルール（人格定義） |
 | [[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造（UTO PRIDE）]] ⭐ | 理念の背骨。全発信のルート |
-| [[civic/election-2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] ⭐ | 対外スローガン（顔の言葉） |
+| [[civic/election-2026/candidates/hijikuro-koji/campaign-pledge-2026|選挙公約 2026（確定版）]] 🏆 | **公表用の最終公約**（つなぐ軸・5つの挑戦） |
+| [[civic/election-2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] ⭐ | 対外スローガン（顔の言葉・前身） |
 | [[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。（震災後 改訂版）]] ⭐ | 災害後の対外メッセージ＋5つの挑戦（改訂版） |
 | [[civic/election-2026/candidates/hijikuro-koji/future-map|夢見る宇土市の未来マップ]] ⭐ | 5つの挑戦を一般質問と照合し一人称ビジョンへ改稿 |
 | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] ⭐ | 5本柱を実データで具体化 |
@@ -62,6 +63,7 @@ status: 蓄積中
 | 2026-06-26 | 候補者ハブ新設 |
 | 2026-08-30 | 「こころ、ひとつに。」震災後 改訂メッセージ＆5つの挑戦（改訂版）を追加 |
 | 2026-08-30 | 「夢見る宇土市の未来マップ」を追加（一般質問と照合し5つの挑戦を一人称ビジョンへ改稿） |
+| 2026-08-30 | 🏆 確定版「選挙公約 2026（つなぐ軸）」をナレッジ化・ハブ登録 |
 
 ---
 
