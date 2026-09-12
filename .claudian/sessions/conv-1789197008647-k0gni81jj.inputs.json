@@ -62,6 +62,20 @@
       "contentDigest": "090243bb2c10f99f16d4eb9024fd2e1531feae1e971fad915f00869ebe3863ea",
       "providerUserMessageId": "049681a3-0930-420a-bfa1-1be747010670",
       "providerAssistantMessageId": "c0b1c69e-2f15-4501-82c1-657511ca78d1"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789252522084-rysvi68",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1789252522058-hdu1ou0",
+      "timestamp": 1789252522058,
+      "rawDisplayText": "「宇土OS」の思想や考え方を、市民のみなさんに分かりやすく説明したいです",
+      "canonicalText": "「宇土OS」の思想や考え方を、市民のみなさんに分かりやすく説明したいです",
+      "images": [],
+      "contentDigest": "e1044c808fea0468c90118f80766c0f435b2cd1ed7d0b68634e2f3883812a81a",
+      "providerUserMessageId": "3b24fc35-039c-47a7-9a40-3f257601183d",
+      "providerAssistantMessageId": "a8041a63-3ffa-44c6-864a-7c28776bcf31"
     }
   ]
 }
