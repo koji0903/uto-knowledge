@@ -11,7 +11,6 @@
   "excludedTags": [],
   "mediaFolder": "",
   "systemPrompt": "あなたは日本語で回答するアシスタントです。\nすべての返答を日本語で行ってください。",
-  "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
@@ -33,7 +32,6 @@
       },
       "loadUserSettings": true,
       "enableChrome": true,
-      "enableBangBash": true,
       "customModels": "",
       "defaultModel": "opus",
       "lastModel": "opus",
@@ -323,7 +321,6 @@
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
-      "planBasePermissionMode": "normal",
       "preferredReasoningByModel": {},
       "visibleModels": null
     }
@@ -353,6 +350,7 @@
   "lastCustomModel": "",
   "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
+  "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789197008647-k0gni81jj",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789197008807-3pplqp1",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789197008634-8jjzfum",
+      "timestamp": 1789197008634,
+      "rawDisplayText": "こんにちは",
+      "canonicalText": "こんにちは",
+      "context": {
+        "linkedContent": {
+          "path": "civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "419b4e420db1ccfa5d00f12dc1ac8cb976c777032b85dd91751909974544251b",
+      "providerUserMessageId": "4ca7bd53-ee27-4870-91d5-277604289370",
+      "providerAssistantMessageId": "393270de-8b80-4a16-a637-327fb4223f97"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789197036171-8ovbj0z",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789197036159-iv0mfg9",
+      "timestamp": 1789197036159,
+      "rawDisplayText": "土黒功司市議会議員のホームページです。\nhttps://www.hijikurokoji.com/\nここで掲載されているコンテンツを分析し、これまで議論してきた内容から、まだ追加できる部分、市民に伝えるべき内容はないかを調査してください",
+      "canonicalText": "土黒功司市議会議員のホームページです。\nhttps://www.hijikurokoji.com/\nここで掲載されているコンテンツを分析し、これまで議論してきた内容から、まだ追加できる部分、市民に伝えるべき内容はないかを調査してください",
+      "images": [],
+      "contentDigest": "d4fac7df5312fcaf18643bbcfa27aa51c52c0fe5319a0e4f0efa93670b506bb6",
+      "providerUserMessageId": "3444dc1c-37e2-4dd5-a27e-a687cbe85b13",
+      "providerAssistantMessageId": "fa479acb-8acb-486d-8ff4-7348dba55d45"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789197056737-e805rfx",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1789197056717-x3ndwxp",
+      "timestamp": 1789197056717,
+      "rawDisplayText": "土黒功司市議会議員のホームページです。\nhttps://www.hijikurokoji.com/\nここで掲載されているコンテンツを分析し、これまで議論してきた内容から、まだ追加できる部分、市民に伝えるべき内容はないかを調査してください",
+      "canonicalText": "土黒功司市議会議員のホームページです。\nhttps://www.hijikurokoji.com/\nここで掲載されているコンテンツを分析し、これまで議論してきた内容から、まだ追加できる部分、市民に伝えるべき内容はないかを調査してください",
+      "images": [],
+      "contentDigest": "d4fac7df5312fcaf18643bbcfa27aa51c52c0fe5319a0e4f0efa93670b506bb6",
+      "providerUserMessageId": "7e55702a-f90c-4393-a38c-a7fd30b7ef5d",
+      "providerAssistantMessageId": "c331befb-cb77-4d6f-b072-546fd45a1531"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789197176115-rilbuh4",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1789197176100-tkclmwr",
+      "timestamp": 1789197176100,
+      "rawDisplayText": "5つの挑戦は「守る・育てる・稼ぐ・動かす・持続する」にしました。サイトの表現が最新です。ここに内容を肉付けしたいです。",
+      "canonicalText": "5つの挑戦は「守る・育てる・稼ぐ・動かす・持続する」にしました。サイトの表現が最新です。ここに内容を肉付けしたいです。",
+      "images": [],
+      "contentDigest": "090243bb2c10f99f16d4eb9024fd2e1531feae1e971fad915f00869ebe3863ea",
+      "providerUserMessageId": "049681a3-0930-420a-bfa1-1be747010670",
+      "providerAssistantMessageId": "c0b1c69e-2f15-4501-82c1-657511ca78d1"
+    }
+  ]
+}
