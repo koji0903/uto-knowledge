@@ -76,6 +76,48 @@
       "contentDigest": "e1044c808fea0468c90118f80766c0f435b2cd1ed7d0b68634e2f3883812a81a",
       "providerUserMessageId": "3b24fc35-039c-47a7-9a40-3f257601183d",
       "providerAssistantMessageId": "a8041a63-3ffa-44c6-864a-7c28776bcf31"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789625610738-6fozp25",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1789625610703-k92zljd",
+      "timestamp": 1789625610703,
+      "rawDisplayText": "https://www.hijikurokoji.com/\nが現在の土黒功司市議会議員のホームページです。\n私のこれまでの議員活動のナレッジから、追加できそうなコンテンツはありますか？",
+      "canonicalText": "https://www.hijikurokoji.com/\nが現在の土黒功司市議会議員のホームページです。\n私のこれまでの議員活動のナレッジから、追加できそうなコンテンツはありますか？",
+      "images": [],
+      "contentDigest": "805f8aed72b1e0fd61a8cb84a1259392845805dacd9d27679def442c4a76e71c",
+      "providerUserMessageId": "a9307c60-c3b4-4bd1-9b28-c0e79ab34b47",
+      "providerAssistantMessageId": "53c6fa56-e1b7-4dd1-ab65-909c49340974"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789625751542-3lqjzf6",
+      "userTurnOrdinal": 7,
+      "state": "accepted",
+      "localMessageId": "msg-1789625751534-k2d88zq",
+      "timestamp": 1789625751534,
+      "rawDisplayText": "Antigravityにて現在ホームページを構築中ですので、Antigravity向けのコンテンツ強化プロンプトを生成してください",
+      "canonicalText": "Antigravityにて現在ホームページを構築中ですので、Antigravity向けのコンテンツ強化プロンプトを生成してください",
+      "images": [],
+      "contentDigest": "c6f8ce0fd2cc5195266f24871d43e975b1c7a4ecac8de9fe0803d1712fc358e2",
+      "providerUserMessageId": "1b07d6c8-88a4-4c5b-b4cb-833c13b5c925",
+      "providerAssistantMessageId": "c4b952ef-f654-4a4a-8090-99fbbf4b5718"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789625878696-h10fi46",
+      "userTurnOrdinal": 8,
+      "state": "accepted",
+      "localMessageId": "msg-1789625878689-nwn39i1",
+      "timestamp": 1789625878689,
+      "rawDisplayText": "数字を統一した最終版に調整して再出力してください",
+      "canonicalText": "数字を統一した最終版に調整して再出力してください",
+      "images": [],
+      "contentDigest": "086407aefc629b6531c683b1666f76874d93ce4a3d4269663ddbebfa779829cc",
+      "providerUserMessageId": "0847077b-cac0-438a-abef-d50342fd9684",
+      "providerAssistantMessageId": "76db649b-f205-4332-93b7-9966daf9ec42"
     }
   ]
 }
