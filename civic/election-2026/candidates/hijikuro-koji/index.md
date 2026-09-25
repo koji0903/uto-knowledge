@@ -28,6 +28,8 @@ status: 蓄積中
 |-------------|------|
 | [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|文体・話し方スタイルガイド]] ⭐ | 全発信の上位ルール（人格定義） |
 | [[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造（UTO PRIDE）]] ⭐ | 理念の背骨。全発信のルート |
+| [[civic/election-2026/candidates/hijikuro-koji/council-principles|議会理念と5つの行動原則]] ⭐ | 議会のあり方の理念（つなぐだけで終わらせない） |
+| [[civic/election-2026/candidates/hijikuro-koji/city-vision-principles|まちづくり理念と5つの行動原則（仮）]] ⭐ | まち全体のあり方の理念（暮らしの豊かさは減らさない） |
 | [[civic/election-2026/candidates/hijikuro-koji/campaign-pledge-2026|選挙公約 2026（確定版）]] 🏆 | **公表用の最終公約**（つなぐ軸・5つの挑戦） |
 | [[civic/election-2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] ⭐ | 対外スローガン（顔の言葉・前身） |
 | [[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。（震災後 改訂版）]] ⭐ | 災害後の対外メッセージ＋5つの挑戦（改訂版） |

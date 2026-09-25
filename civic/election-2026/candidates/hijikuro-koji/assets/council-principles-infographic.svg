@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240" font-family="'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf3fb"/>
+      <stop offset="1" stop-color="#f7fbff"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f6fb2"/>
+      <stop offset="1" stop-color="#2f9e8f"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1f6fb2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="1240" fill="url(#bgC)"/>
+
+  <!-- header -->
+  <text x="500" y="70" text-anchor="middle" font-size="26" fill="#1f6fb2" font-weight="bold">🏛️ 宇土市議会 議会理念</text>
+  <text x="500" y="120" text-anchor="middle" font-size="34" fill="#12456e" font-weight="bold">市民の声を届けるだけで、終わらない。</text>
+  <text x="500" y="164" text-anchor="middle" font-size="34" fill="#12456e" font-weight="bold">宇土の未来を、議論し、選択し、<tspan fill="#2f9e8f">動かす</tspan>議会へ。</text>
+
+  <!-- 5 principle cards -->
+  <!-- card 1 -->
+  <g filter="url(#sh)">
+    <rect x="70" y="210" width="860" height="140" rx="18" fill="#ffffff"/>
+    <circle cx="140" cy="280" r="38" fill="url(#hero)"/>
+    <text x="140" y="293" text-anchor="middle" font-size="34" fill="#fff" font-weight="bold">1</text>
+    <text x="205" y="262" font-size="24" fill="#12456e" font-weight="bold">「誰が言ったか」より「何を言ったか」</text>
+    <text x="205" y="300" font-size="18" fill="#456">会派・立場・人間関係ではなく、提案の中身で議論する。</text>
+    <text x="205" y="328" font-size="18" fill="#456">賛成でも反対でもなく「宇土に何が必要か」で考える。</text>
+  </g>
+  <!-- card 2 -->
+  <g filter="url(#sh)">
+    <rect x="70" y="370" width="860" height="140" rx="18" fill="#ffffff"/>
+    <circle cx="140" cy="440" r="38" fill="url(#hero)"/>
+    <text x="140" y="453" text-anchor="middle" font-size="34" fill="#fff" font-weight="bold">2</text>
+    <text x="205" y="422" font-size="24" fill="#12456e" font-weight="bold">個別の要望を、政策へ変える</text>
+    <text x="205" y="460" font-size="18" fill="#456">一人の困りごとを、一つの要望で終わらせない。</text>
+    <text x="205" y="488" font-size="18" fill="#456">一人の声から、市全体の課題を見つけ、政策につなげる。</text>
+  </g>
+  <!-- card 3 -->
+  <g filter="url(#sh)">
+    <rect x="70" y="530" width="860" height="140" rx="18" fill="#ffffff"/>
+    <circle cx="140" cy="600" r="38" fill="url(#hero)"/>
+    <text x="140" y="613" text-anchor="middle" font-size="34" fill="#fff" font-weight="bold">3</text>
+    <text x="205" y="582" font-size="24" fill="#12456e" font-weight="bold">「質問したこと」より「何が変わったか」</text>
+    <text x="205" y="620" font-size="18" fill="#456">一般質問・視察・委員会、それ自体は成果ではない。</text>
+    <text x="205" y="648" font-size="18" fill="#456">政策や市民生活が、どう良くなったかを大切にする。</text>
+  </g>
+  <!-- card 4 -->
+  <g filter="url(#sh)">
+    <rect x="70" y="690" width="860" height="140" rx="18" fill="#ffffff"/>
+    <circle cx="140" cy="760" r="38" fill="url(#hero)"/>
+    <text x="140" y="773" text-anchor="middle" font-size="34" fill="#fff" font-weight="bold">4</text>
+    <text x="205" y="742" font-size="24" fill="#12456e" font-weight="bold">批判するだけでなく、対案を示す</text>
+    <text x="205" y="780" font-size="18" fill="#456">行政の監視は議会の役割。でも「悪い」で終わらせない。</text>
+    <text x="205" y="808" font-size="18" fill="#456">では、どうすればよいか。監視と提案の両方ができる議会へ。</text>
+  </g>
+  <!-- card 5 -->
+  <g filter="url(#sh)">
+    <rect x="70" y="850" width="860" height="140" rx="18" fill="#ffffff"/>
+    <circle cx="140" cy="920" r="38" fill="url(#hero)"/>
+    <text x="140" y="933" text-anchor="middle" font-size="34" fill="#fff" font-weight="bold">5</text>
+    <text x="205" y="902" font-size="24" fill="#12456e" font-weight="bold">現在ではなく、未来に責任を持つ</text>
+    <text x="205" y="940" font-size="18" fill="#456">人口・財政・公共施設。難しい判断ほど、</text>
+    <text x="205" y="968" font-size="18" fill="#456">「今、反対されない選択」でなく「10年後に必要な選択」を。</text>
+  </g>
+
+  <!-- footer message -->
+  <g filter="url(#sh)">
+    <rect x="70" y="1030" width="860" height="150" rx="20" fill="url(#hero)"/>
+    <text x="500" y="1085" text-anchor="middle" font-size="30" fill="#fff" font-weight="bold">「つなぐだけで終わらせない。」</text>
+    <text x="500" y="1130" text-anchor="middle" font-size="22" fill="#eafaf6">市民と行政をつなぎ、その「つながり」を、</text>
+    <text x="500" y="1162" text-anchor="middle" font-size="26" fill="#fff" font-weight="bold">宇土を動かす力へ。</text>
+  </g>
+</svg>

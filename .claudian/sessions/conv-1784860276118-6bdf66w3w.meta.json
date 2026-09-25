@@ -6,7 +6,7 @@
   "createdAt": 1784860276125,
   "lastActivityAt": 1788074337325,
   "sessionId": "019f91f6-7d55-7001-9950-4a38052d1c06",
-  "selectedModel": "gpt-5.6-sol",
+  "selectedModel": "openai-codex/gpt-5.6-sol",
   "providerState": {
     "threadId": "019f91f6-7d55-7001-9950-4a38052d1c06",
     "sessionFilePath": "/Volumes/ExtSSD/.codex/sessions/2026/07/24/rollout-2026-07-24T11-31-18-019f91f6-7d55-7001-9950-4a38052d1c06.jsonl",
