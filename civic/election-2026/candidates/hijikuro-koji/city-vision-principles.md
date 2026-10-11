@@ -94,6 +94,8 @@ based_on:
 > 「つながりを、宇土を動かす力へ」という共通スローガンが、両理念を貫く背骨。
 > → [[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに]] / [[civic/election-2026/candidates/hijikuro-koji/five-challenges-content|5つの挑戦 肉付け]]
 
+> 🔗 原則5「未来から逆算」の数値根拠 → [[civic/uto-os-analysis/04_政策・未来シナリオ/2040未来予測センター_時間軸と判断期限|2040未来予測センター]] / [[civic/uto-os-analysis/04_政策・未来シナリオ/スマートシュリンク戦略ビジョン_5大政策ピラー|スマートシュリンク戦略]]
+
 ---
 
 ## 🖼️ インフォグラフィック
