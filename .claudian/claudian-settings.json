@@ -1,8 +1,7 @@
 {
   "userName": "",
-  "permissionMode": "normal",
+  "permissionMode": "acceptEdits",
   "model": "opus",
-  "thinkingBudget": "medium",
   "effortLevel": "low",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -37,20 +36,19 @@
       "titleModelEnvironmentType": "",
       "environmentVariables": "",
       "environmentHash": "runtime-input:v1:122487052b8f958c73c485cf85d894a31a0f7b9fe6fa52e270cc8c223a2bd9d6",
-      "responseStyle": "Default",
       "modelAliases": {},
       "visibleModels": [
         "haiku",
         "sonnet",
-        "opus",
-        "fable"
+        "opus[1m]",
+        "claude-fable-5-1[1m]"
       ],
       "selectedModels": [
         {
-          "value": "sonnet",
-          "label": "Sonnet",
-          "description": "Sonnet 5 · Efficient for routine tasks",
-          "resolvedModel": "claude-sonnet-5",
+          "value": "opus[1m]",
+          "label": "Opus",
+          "description": "Opus 4.8 with 1M context · Best for everyday, complex tasks · $5/$25 per Mtok",
+          "resolvedModel": "claude-opus-4-8[1m]",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": [
             "low",
@@ -61,10 +59,24 @@
           ]
         },
         {
-          "value": "opus",
-          "label": "Opus",
-          "description": "Opus 4.8 · Best for everyday, complex tasks · ~2× usage vs Sonnet",
-          "resolvedModel": "claude-opus-4-8",
+          "value": "claude-fable-5-1[1m]",
+          "label": "Fable",
+          "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks",
+          "resolvedModel": "claude-fable-5-1",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "sonnet",
+          "label": "Sonnet",
+          "description": "Sonnet 5 · Efficient for routine tasks · $2/$10 per Mtok · promo through Aug 31",
+          "resolvedModel": "claude-sonnet-5",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": [
             "low",
@@ -77,11 +89,19 @@
         {
           "value": "haiku",
           "label": "Haiku",
-          "description": "Haiku 4.5 · Fastest for quick answers",
+          "description": "Haiku 4.5 · Fastest for quick answers · $1/$5 per Mtok",
           "resolvedModel": "claude-haiku-4-5-20251001",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": []
         }
+      ],
+      "outputStyle": null,
+      "promptSuggestions": false,
+      "discoveredOutputStyles": [
+        "default",
+        "Proactive",
+        "Explanatory",
+        "Learning"
       ]
     },
     "codex": {
@@ -110,7 +130,7 @@
       "selectedModels": [
         {
           "model": "gpt-5.6-sol",
-          "displayName": "GPT-5.6-Sol",
+          "displayName": "GPT-5.6 Sol",
           "description": "Latest frontier agentic coding model.",
           "supportedReasoningEfforts": [
             {
@@ -151,7 +171,7 @@
         },
         {
           "model": "gpt-5.6-terra",
-          "displayName": "GPT-5.6-Terra",
+          "displayName": "GPT-5.6 Terra",
           "description": "Balanced agentic coding model for everyday work.",
           "supportedReasoningEfforts": [
             {
@@ -192,7 +212,7 @@
         },
         {
           "model": "gpt-5.6-luna",
-          "displayName": "GPT-5.6-Luna",
+          "displayName": "GPT-5.6 Luna",
           "description": "Fast and affordable agentic coding model.",
           "supportedReasoningEfforts": [
             {
@@ -307,7 +327,7 @@
         },
         {
           "model": "gpt-5.4-mini",
-          "displayName": "GPT-5.4-Mini",
+          "displayName": "GPT-5.4 Mini",
           "description": "Small, fast, and cost-efficient model for simpler coding tasks.",
           "supportedReasoningEfforts": [
             {
@@ -336,7 +356,8 @@
           ],
           "isDefault": false
         }
-      ]
+      ],
+      "responseVerbosity": "default"
     },
     "opencode": {
       "cliPath": "",
@@ -346,7 +367,6 @@
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "selectedMode": "",
       "thinkingOptionsByModel": {},
       "visibleModels": [],
       "selectedModels": []
@@ -359,7 +379,6 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "toolMode": "all",
       "visibleModels": [],
       "selectedModels": []
     },
@@ -381,7 +400,7 @@
     "model": "opus"
   },
   "savedProviderModel": {
-    "claude": "opus",
+    "claude": "claude-code/opus[1m]",
     "codex": "gpt-5.6-sol"
   },
   "savedProviderEffort": {
@@ -391,25 +410,28 @@
   "savedProviderServiceTier": {
     "codex": "priority"
   },
-  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
-    "claude": "normal",
+    "claude": "acceptEdits",
     "codex": "normal"
   },
   "pendingProviderSessionInvalidations": {},
-  "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
   "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
+  "enableZenMode": true,
   "enableDualPane": true,
   "dualPaneSide": "right",
   "restoreTabsOnStartup": true,
+  "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
+  "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
-  "hiddenProviderCommands": {},
+  "hiddenCommands": [],
+  "thinkingBudget": "medium",
+  "savedProviderThinkingBudget": {},
   "lastCustomModel": "",
   "collabEnabled": false,
   "collabProjectsFolder": "workspace",
