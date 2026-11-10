@@ -30,7 +30,7 @@
   "defaultSaveFolder": "copilot/copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": true,
-  "autoAddActiveContentToContext": true,
+  "autoAttachActiveNote": true,
   "defaultOpenArea": "view",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
@@ -338,8 +338,9 @@
   "enableCustomPromptTemplating": true,
   "enableSelfHostMode": false,
   "enableMiyo": false,
-  "enableMiyoSearchSkill": false,
+  "enableMiyoSearchSkill": true,
   "miyoSearchAll": false,
+  "miyoExtraSearchFolders": [],
   "relevantNotesLiveUpdate": true,
   "miyoServerUrl": "",
   "selfHostSearchProvider": "firecrawl",
@@ -348,7 +349,7 @@
   "parallelApiKey": "",
   "exaApiKey": "",
   "supadataApiKey": "",
-  "docProcessorBackend": "plus",
+  "enableMiyoDocumentProcessing": false,
   "enableLexicalBoosts": true,
   "suggestedDefaultCommands": true,
   "autonomousAgentEnabledToolIds": [
@@ -379,6 +380,7 @@
     "activeBackend": "opencode",
     "backends": {},
     "debugFullFrames": true,
+    "offerFeedbackCards": true,
     "notificationSound": true,
     "notificationSoundId": "piano",
     "welcomeDismissed": false,
@@ -389,9 +391,6 @@
           "disabled": true
         },
         "copilot-web-fetch": {
-          "disabled": true
-        },
-        "copilot-read-pdf": {
           "disabled": true
         }
       }
@@ -445,22 +444,22 @@
     {
       "providerId": "63ac0e2c-0e2a-43c4-b3b3-8a4172416154",
       "info": {
-        "id": "claude-fable-5[1m]",
-        "displayName": "Fable",
-        "description": "Fable 5 · Most capable for your hardest and longest-running tasks · Requires usage credits"
-      },
-      "configuredModelId": "0ad7db17-eedb-4fc6-b3c1-0514f206b734",
-      "configuredAt": 1791754014516
-    },
-    {
-      "providerId": "63ac0e2c-0e2a-43c4-b3b3-8a4172416154",
-      "info": {
         "id": "opus",
         "displayName": "Opus",
         "description": "Opus 4.8 · Best for everyday, complex tasks · ~2× usage vs Sonnet"
       },
       "configuredModelId": "083a1e09-922b-498f-b2b2-72da204b62d1",
       "configuredAt": 1791754014516
+    },
+    {
+      "providerId": "63ac0e2c-0e2a-43c4-b3b3-8a4172416154",
+      "info": {
+        "id": "claude-fable-5-1[1m]",
+        "displayName": "Fable",
+        "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks"
+      },
+      "configuredModelId": "dd6c963a-c6b8-4114-9390-640efdc5cb1b",
+      "configuredAt": 1792890784471
     }
   ],
   "backends": {
@@ -553,25 +552,6 @@
         }
       },
       {
-        "id": "deepseek-v4-flash-0731",
-        "displayName": "DeepSeek V4 Flash 0731",
-        "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
-        "toolCall": true,
-        "reasoning": true,
-        "reasoningEfforts": [],
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 1048576
-        }
-      },
-      {
         "id": "deepseek-v4.1-flash",
         "displayName": "DeepSeek V4.1 Flash",
         "description": "Fast multimodal reasoning for coding and agentic tasks.",
@@ -640,6 +620,8 @@
       "minimax-m3"
     ]
   },
+  "autoAddActiveContentToContext": true,
+  "docProcessorBackend": "plus",
   "temperature": 0.1,
   "generateAIChatTitleOnSave": true,
   "showSuggestedPrompts": true,
@@ -654,5 +636,5 @@
   "autoAddSelectionToContext": false,
   "_keychainVaultId": "ce918006",
   "miyoConnectionMode": "local",
-  "settingsVersion": 14
+  "settingsVersion": 16
 }

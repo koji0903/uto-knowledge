@@ -102,7 +102,8 @@
         "Proactive",
         "Explanatory",
         "Learning"
-      ]
+      ],
+      "sessionEnvironmentHash": "runtime-input:v1:ebc4ebc6ad9f613efdcf6ec714d83795d5000ef0a5a8d9955baf5dbec8f4fa98"
     },
     "codex": {
       "enabled": true,
@@ -121,12 +122,14 @@
         "gpt-5.4-mini"
       ],
       "enableUltraEffort": false,
+      "responseStyle": "pragmatic",
+      "responseVerbosity": "default",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "runtime-input:v1:a6db216cf6ba049c2a9641e86b4021754d5a15050672719dbc2ba9a3be694880",
+      "sessionEnvironmentHash": "runtime-input:v1:cf4a613a63a895356fbc95544817979656506c93b9fb3fe1c76833522e1c19fc",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {},
-      "responseStyle": "pragmatic",
       "selectedModels": [
         {
           "model": "gpt-5.6-sol",
@@ -356,8 +359,7 @@
           ],
           "isDefault": false
         }
-      ],
-      "responseVerbosity": "default"
+      ]
     },
     "opencode": {
       "cliPath": "",
@@ -379,6 +381,7 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
+      "sessionEnvironmentHash": "",
       "visibleModels": [],
       "selectedModels": []
     },
@@ -412,9 +415,10 @@
     "providerId": "claude",
     "model": "opus"
   },
+  "inlineEditModel": null,
   "savedProviderModel": {
     "claude": "claude-code/opus[1m]",
-    "codex": "gpt-5.6-sol"
+    "codex": "openai-codex/gpt-5.6-sol"
   },
   "savedProviderEffort": {
     "claude": "low",
@@ -431,6 +435,7 @@
   "enableAutoScroll": true,
   "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
+  "pluginRenderedFenceLanguages": [],
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
   "enableZenMode": true,
@@ -441,6 +446,7 @@
   "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
+  "projectSort": "last-updated",
   "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
   "hiddenCommands": [],
