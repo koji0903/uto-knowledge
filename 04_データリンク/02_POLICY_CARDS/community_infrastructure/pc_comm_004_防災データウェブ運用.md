@@ -10,7 +10,7 @@ policy_domain: community_infrastructure
 related_layers: [L1_fact_layer, L3_organization_pfu, L5_infrastructure_layer]
 related_os: [rmo_os_specification]
 related_questions: [q_r4_12_hijikuro, q_r6_03_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r6_03_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年3月_土黒功司_質問根拠]
 tags: [政策実行カード, 防災, DX, データ運用, Web]
 ---
 
@@ -26,8 +26,8 @@ tags: [政策実行カード, 防災, DX, データ運用, Web]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]] - 災害時のホームページ・庁内データ管理
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地域防災、備蓄、防災情報の公開
+- [[../../01_議会活動/questions/R6年3月_土黒功司_一般質問]] - 災害時のホームページ・庁内データ管理
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - 地域防災、備蓄、防災情報の公開
 - [[rmo_os_specification]] - 地域運営データの一元管理
 - [[L1_fact_layer]] - 事実・データレイヤ
 
@@ -68,8 +68,8 @@ tags: [政策実行カード, 防災, DX, データ運用, Web]
 
 ## 関連リンク
 
-- [[index|地域運営・インフラ 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/community_infrastructure/index|地域運営・インフラ 政策実行カード]]
 - [[rmo_os_specification]]
 - [[pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]]
 - [[pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

@@ -10,7 +10,7 @@ policy_domain: industry
 related_layers: [L3_organization_pfu, L6_policy_layer]
 related_os: [industry_os_specification, rmo_os_specification, industry_rmo_connectivity]
 related_questions: [q_r4_12_hijikuro, q_r5_09_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r5_09_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R5年9月_土黒功司_質問根拠]
 tags: [政策実行カード, PFU, 横断組織, 産業連携]
 ---
 
@@ -26,8 +26,8 @@ R4-12一般質問では、産業、商業、観光、農林水産、ふるさと
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 課をまたいだ産業連携
-- [[../../01_ASSEMBLY/questions/r5_09_hijikuro_general_question]] - 地域産業支援・連携
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - 課をまたいだ産業連携
+- [[../../01_議会活動/questions/R5年9月_土黒功司_一般質問]] - 地域産業支援・連携
 - [[L3_organization_pfu]] - 課題解決ユニット
 - [[industry_rmo_connectivity]] - RMOとの接続
 
@@ -68,4 +68,4 @@ R4-12一般質問では、産業、商業、観光、農林水産、ふるさと
 - [[industry/index]]
 - [[L3_organization_pfu]]
 - [[industry_rmo_connectivity]]
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]]
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]]

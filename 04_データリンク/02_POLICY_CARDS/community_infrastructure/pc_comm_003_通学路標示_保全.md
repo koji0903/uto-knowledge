@@ -10,7 +10,7 @@ policy_domain: community_infrastructure
 related_layers: [L5_infrastructure_layer, L6_policy_layer]
 related_os: [childcare_os_specification, education_os_specification]
 related_questions: [q_r5_06_hijikuro, q_r6_09_hijikuro]
-related_evidence: [ev_r5_06_hijikuro_question_source, ev_r6_09_hijikuro_question_source]
+related_evidence: [ev_R5年6月_土黒功司_質問根拠, ev_R6年9月_土黒功司_質問根拠]
 tags: [政策実行カード, インフラ, 通学路, 道路安全]
 ---
 
@@ -26,8 +26,8 @@ tags: [政策実行カード, インフラ, 通学路, 道路安全]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]] - 子どもたちの安心安全な通学確保
-- [[../../01_ASSEMBLY/questions/r6_09_hijikuro_general_question]] - 道路安全確保、白線・文字表示の劣化
+- [[../../01_議会活動/questions/R5年6月_土黒功司_一般質問]] - 子どもたちの安心安全な通学確保
+- [[../../01_議会活動/questions/R6年9月_土黒功司_一般質問]] - 道路安全確保、白線・文字表示の劣化
 - [[L5_infrastructure_layer]] - インフラレイヤ
 - [[education_os_specification]] - 学校・地域連携
 - [[childcare_os_specification]] - 子どもの安全導線
@@ -70,8 +70,8 @@ tags: [政策実行カード, インフラ, 通学路, 道路安全]
 
 ## 関連リンク
 
-- [[index|地域運営・インフラ 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/community_infrastructure/index|地域運営・インフラ 政策実行カード]]
 - [[L5_infrastructure_layer]]
 - [[education_os_specification]]
 - [[childcare_os_specification]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

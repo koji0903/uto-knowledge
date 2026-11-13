@@ -119,21 +119,21 @@ type: civic-hub
 - 宇土市財政状況
 - 宇土市産業構造
 
-### 過去の一般質問（04_DataLink/01_ASSEMBLY との接続）⭐
-- **[[04_データリンク/01_ASSEMBLY/activities/hijikuro_general_questions_overview|議員質問 全体概観]]** - 9会期68問のサマリー
-- **[[04_データリンク/01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map|質問×宇土OS 対応マップ]]** ⭐ 重要
-- **[[04_データリンク/01_ASSEMBLY/index|議会情報トップ]]**
+### 過去の一般質問（04_DataLink/01_議会活動 との接続）⭐
+- **[[04_データリンク/01_議会活動/activities/土黒功司一般質問概観|議員質問 全体概観]]** - 9会期68問のサマリー
+- **[[04_データリンク/01_議会活動/policy_links/土黒功司一般質問政策マップ|質問×宇土OS 対応マップ]]** ⭐ 重要
+- **[[04_データリンク/01_議会活動/index|議会情報トップ]]**
 
 #### 会期別質問ログ
-- [[04_データリンク/01_ASSEMBLY/questions/r4_12_hijikuro_general_question|R4-12]]
-- [[04_データリンク/01_ASSEMBLY/questions/r5_03_hijikuro_general_question|R5-03]]
-- [[04_データリンク/01_ASSEMBLY/questions/r5_06_hijikuro_general_question|R5-06]]
-- [[04_データリンク/01_ASSEMBLY/questions/r5_09_hijikuro_general_question|R5-09]]
-- [[04_データリンク/01_ASSEMBLY/questions/r5_12_hijikuro_general_question|R5-12]]
-- [[04_データリンク/01_ASSEMBLY/questions/r6_03_hijikuro_general_question|R6-03]]
-- [[04_データリンク/01_ASSEMBLY/questions/r6_06_hijikuro_general_question|R6-06]]
-- [[04_データリンク/01_ASSEMBLY/questions/r6_09_hijikuro_general_question|R6-09]]
-- [[04_データリンク/01_ASSEMBLY/questions/r6_12_hijikuro_general_question|R6-12]]
+- [[04_データリンク/01_議会活動/questions/R4年12月_土黒功司_一般質問|R4-12]]
+- [[04_データリンク/01_議会活動/questions/R5年3月_土黒功司_一般質問|R5-03]]
+- [[04_データリンク/01_議会活動/questions/R5年6月_土黒功司_一般質問|R5-06]]
+- [[04_データリンク/01_議会活動/questions/R5年9月_土黒功司_一般質問|R5-09]]
+- [[04_データリンク/01_議会活動/questions/R5年12月_土黒功司_一般質問|R5-12]]
+- [[04_データリンク/01_議会活動/questions/R6年3月_土黒功司_一般質問|R6-03]]
+- [[04_データリンク/01_議会活動/questions/R6年6月_土黒功司_一般質問|R6-06]]
+- [[04_データリンク/01_議会活動/questions/R6年9月_土黒功司_一般質問|R6-09]]
+- [[04_データリンク/01_議会活動/questions/R6年12月_土黒功司_一般質問|R6-12]]
 
 ### 政策実行カード ⭐
 - **[[04_データリンク/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]** - 5優先テーマの進捗管理

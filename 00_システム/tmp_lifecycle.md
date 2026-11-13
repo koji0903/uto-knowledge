@@ -64,7 +64,7 @@ find tmp/ -type f -mtime +30 -delete
 
 | NG例 | 理由 | 正しい場所 |
 |------|------|----------|
-| 議会質問の下書き | ナレッジである | `04_DataLink/01_ASSEMBLY/questions/` |
+| 議会質問の下書き | ナレッジである | `04_DataLink/01_議会活動/questions/` |
 | ChatGPT会話の保存 | 整理前のメモ | `01_Inbox/` |
 | 概念ノート | 永続的なナレッジ | `civic/concepts/` または `03_Knowledge/` |
 | プロジェクト計画 | プロジェクト固有 | `02_Agriculture/.../` または `projects/` |

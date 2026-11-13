@@ -10,7 +10,7 @@ policy_domain: admin_dx
 related_layers: [L1_fact_layer, L3_organization_pfu, L6_policy_layer]
 related_os: [education_os_specification, rmo_os_specification]
 related_questions: [q_r5_06_hijikuro, q_r5_12_hijikuro]
-related_evidence: [ev_r5_06_hijikuro_question_source, ev_r5_12_hijikuro_question_source]
+related_evidence: [ev_R5年6月_土黒功司_質問根拠, ev_R5年12月_土黒功司_質問根拠]
 tags: [政策実行カード, 行政DX, AI, 業務改善]
 ---
 
@@ -26,8 +26,8 @@ tags: [政策実行カード, 行政DX, AI, 業務改善]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]] - 人工知能の登場における業務・教育への影響
-- [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] - 自治体DXの取組
+- [[../../01_議会活動/questions/R5年6月_土黒功司_一般質問]] - 人工知能の登場における業務・教育への影響
+- [[../../01_議会活動/questions/R5年12月_土黒功司_一般質問]] - 自治体DXの取組
 - [[L3_organization_pfu]] - 横断PFU
 - [[education_os_specification]] - 教育分野のAI活用
 - [[rmo_os_specification]] - 議事録要約・地域運営支援
@@ -69,7 +69,7 @@ tags: [政策実行カード, 行政DX, AI, 業務改善]
 
 ## 関連リンク
 
-- [[index|行政DX・AI 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/admin_dx/index|行政DX・AI 政策実行カード]]
 - [[education_os_specification]]
 - [[rmo_os_specification]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

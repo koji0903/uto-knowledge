@@ -10,7 +10,7 @@ policy_domain: childcare_education
 related_layers: [L2_issue_layer, L6_policy_layer]
 related_os: [childcare_os_specification]
 related_questions: [q_r6_12_hijikuro]
-related_evidence: [ev_r6_12_hijikuro_question_source]
+related_evidence: [ev_R6年12月_土黒功司_質問根拠]
 tags: [政策実行カード, 子育てOS, こどもまんなか, 情報発信]
 ---
 
@@ -26,7 +26,7 @@ tags: [政策実行カード, 子育てOS, こどもまんなか, 情報発信]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r6_12_hijikuro_general_question]] - こどもまんなか応援サポーター宣言
+- [[../../01_議会活動/questions/R6年12月_土黒功司_一般質問]] - こどもまんなか応援サポーター宣言
 - [[childcare_os_specification]] - ライフイベント起点、逆検索、ワンストップ
 - [[L6_policy_layer]] - 政策レイヤ
 
@@ -66,6 +66,6 @@ tags: [政策実行カード, 子育てOS, こどもまんなか, 情報発信]
 
 ## 関連リンク
 
-- [[index|子育て・教育 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/childcare_education/index|子育て・教育 政策実行カード]]
 - [[childcare_os_specification]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

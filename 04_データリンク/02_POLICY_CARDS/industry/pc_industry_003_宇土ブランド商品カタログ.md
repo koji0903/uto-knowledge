@@ -10,7 +10,7 @@ policy_domain: industry
 related_layers: [L1_fact_layer, L6_policy_layer]
 related_os: [industry_os_specification, utomachi_100_store_specification]
 related_questions: [q_r4_12_hijikuro, q_r6_06_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r6_06_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 宇土ブランド, 特産品, 商品台帳]
 ---
 
@@ -26,8 +26,8 @@ tags: [政策実行カード, 宇土ブランド, 特産品, 商品台帳]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - ウトブランド、旬を届ける実行協議会
-- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] - 特産品PR
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - ウトブランド、旬を届ける実行協議会
+- [[../../01_議会活動/questions/R6年6月_土黒功司_一般質問]] - 特産品PR
 - [[industry_os_specification]] - producer / product / sales_channel の考え方
 
 ## 現状
@@ -67,4 +67,4 @@ tags: [政策実行カード, 宇土ブランド, 特産品, 商品台帳]
 - [[industry/index]]
 - [[industry_os_specification]]
 - [[utomachi_100_store_specification]]
-- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]]
+- [[../../01_議会活動/questions/R6年6月_土黒功司_一般質問]]

@@ -10,7 +10,7 @@ policy_domain: childcare_education
 related_layers: [L5_infrastructure_layer, L6_policy_layer]
 related_os: [education_os_specification, childcare_os_specification]
 related_questions: [q_r4_12_hijikuro, q_r6_03_hijikuro, q_r6_12_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r6_03_hijikuro_question_source, ev_r6_12_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年3月_土黒功司_質問根拠, ev_R6年12月_土黒功司_質問根拠]
 tags: [政策実行カード, 教育OS, GIGAスクール, ICT教育]
 ---
 
@@ -26,9 +26,9 @@ tags: [政策実行カード, 教育OS, GIGAスクール, ICT教育]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 学校教育向けICT環境、端末整備、ICTサポート
-- [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]] - GIGAスクール構想の現状と今後
-- [[../../01_ASSEMBLY/questions/r6_12_hijikuro_general_question]] - 端末更新、Chromebook検討、日常活用
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - 学校教育向けICT環境、端末整備、ICTサポート
+- [[../../01_議会活動/questions/R6年3月_土黒功司_一般質問]] - GIGAスクール構想の現状と今後
+- [[../../01_議会活動/questions/R6年12月_土黒功司_一般質問]] - 端末更新、Chromebook検討、日常活用
 - [[education_os_specification]] - 教育OS仕様
 - [[childcare_os_specification]] - 子育てOS仕様
 
@@ -70,7 +70,7 @@ tags: [政策実行カード, 教育OS, GIGAスクール, ICT教育]
 
 ## 関連リンク
 
-- [[index|子育て・教育 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/childcare_education/index|子育て・教育 政策実行カード]]
 - [[education_os_specification]]
 - [[childcare_os_specification]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

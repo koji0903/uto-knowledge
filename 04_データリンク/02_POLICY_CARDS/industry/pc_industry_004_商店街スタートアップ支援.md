@@ -10,7 +10,7 @@ policy_domain: industry
 related_layers: [L2_issue_layer, L6_policy_layer]
 related_os: [industry_os_specification, relocation_os_specification]
 related_questions: [q_r5_03_hijikuro]
-related_evidence: [ev_r5_03_hijikuro_question_source]
+related_evidence: [ev_R5年3月_土黒功司_質問根拠]
 tags: [政策実行カード, 商店街, 創業支援, 空き店舗]
 ---
 
@@ -26,7 +26,7 @@ R5-03一般質問では、商店街の活性化、市内創業・開業、イン
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r5_03_hijikuro_general_question]] - 商店街活性化と創業・開業
+- [[../../01_議会活動/questions/R5年3月_土黒功司_一般質問]] - 商店街活性化と創業・開業
 - [[industry_os_specification]] - 企業・生産者・販路の接続
 - [[relocation_os_specification]] - 仕事付き移住との接続
 
@@ -66,4 +66,4 @@ R5-03一般質問では、商店街の活性化、市内創業・開業、イン
 - [[industry/index]]
 - [[industry_os_specification]]
 - [[relocation_os_specification]]
-- [[../../01_ASSEMBLY/questions/r5_03_hijikuro_general_question]]
+- [[../../01_議会活動/questions/R5年3月_土黒功司_一般質問]]

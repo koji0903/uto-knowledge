@@ -45,4 +45,4 @@ tags: [宇土OS, DataLink, system, index]
 
 - [[../index|データ連携]]
 - [[../02_POLICY_CARDS/index|政策実行カード]]
-- [[../01_ASSEMBLY/index|議員活動]]
+- [[../01_議会活動/index|議員活動]]

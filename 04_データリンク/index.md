@@ -85,7 +85,7 @@ Firestore / Google Drive / GitHub
 - [[ホーム|ホーム.md]] - Vault 全体ホーム
 
 **このレイヤの詳細**:
-- [[../01_ASSEMBLY/|01_ASSEMBLY]] - 議会活動データ
+- [[../01_議会活動/|01_議会活動]] - 議会活動データ
 - [[../02_POLICY_CARDS/|02_POLICY_CARDS]] - 政策実行カード
 - [[../projects/|projects]] - プロジェクト管理
 - [[../decisions/|decisions]] - 意思決定ログ

@@ -10,7 +10,7 @@ policy_domain: finance_facilities
 related_layers: [L1_fact_layer, L4_finance_layer, L5_infrastructure_layer]
 related_os: [education_os_specification, relocation_os_specification, industry_os_specification]
 related_questions: [q_r5_06_hijikuro]
-related_evidence: [ev_r5_06_hijikuro_question_source]
+related_evidence: [ev_R5年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 財政, 公共施設, 施設老朽化]
 ---
 
@@ -26,7 +26,7 @@ tags: [政策実行カード, 財政, 公共施設, 施設老朽化]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]] - 新庁舎建設費、災害復旧事業債、公共施設への影響
+- [[../../01_議会活動/questions/R5年6月_土黒功司_一般質問]] - 新庁舎建設費、災害復旧事業債、公共施設への影響
 - [[L4_finance_layer]] - 財政レイヤ
 - [[L5_infrastructure_layer]] - インフラレイヤ
 - [[L4L5_facility_finance_crisis]] - 施設・財政危機分析
@@ -68,8 +68,8 @@ tags: [政策実行カード, 財政, 公共施設, 施設老朽化]
 
 ## 関連リンク
 
-- [[index|財政・公共施設 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/finance_facilities/index|財政・公共施設 政策実行カード]]
 - [[L4_finance_layer]]
 - [[L5_infrastructure_layer]]
 - [[L4L5_facility_finance_crisis]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

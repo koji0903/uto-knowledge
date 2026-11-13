@@ -41,7 +41,7 @@ Vault全体で使用するタグの**正規語彙集**。新しいタグを追�
 | `concept` | 概念定義 | `civic/concepts/*` |
 | `policy_card` | 政策実行カード | `pc_*.md` |
 | `assembly_question` | 議会一般質問 | `r*_*_hijikuro_general_question.md` |
-| `evidence` | 根拠資料 | `04_DataLink/01_ASSEMBLY/evidence/*` |
+| `evidence` | 根拠資料 | `04_DataLink/01_議会活動/evidence/*` |
 | `decision` | 意思決定ログ | `decisions/decision_*.md` |
 | `log` | 運用ログ | `logs/log_*.md` |
 | `template` | テンプレート | `05_Templates/*` |

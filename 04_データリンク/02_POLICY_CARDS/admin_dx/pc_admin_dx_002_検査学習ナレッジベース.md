@@ -10,7 +10,7 @@ policy_domain: admin_dx
 related_layers: [L1_fact_layer, L3_organization_pfu, L6_policy_layer]
 related_os: []
 related_questions: [q_r5_12_hijikuro]
-related_evidence: [ev_r5_12_hijikuro_question_source]
+related_evidence: [ev_R5年12月_土黒功司_質問根拠]
 tags: [政策実行カード, 行政視察, 議会, ナレッジ管理]
 ---
 
@@ -26,8 +26,8 @@ tags: [政策実行カード, 行政視察, 議会, ナレッジ管理]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] - 行政視察受入実績、自治体DX
-- [[../../01_ASSEMBLY/activities/hijikuro_general_questions_overview]] - 一般質問活動サマリー
+- [[../../01_議会活動/questions/R5年12月_土黒功司_一般質問]] - 行政視察受入実績、自治体DX
+- [[../../01_議会活動/activities/土黒功司一般質問概観]] - 一般質問活動サマリー
 - [[L1_fact_layer]] - 事実・データレイヤ
 - [[L6_policy_layer]] - 政策レイヤ
 
@@ -67,7 +67,7 @@ tags: [政策実行カード, 行政視察, 議会, ナレッジ管理]
 
 ## 関連リンク
 
-- [[index|行政DX・AI 政策実行カード]]
-- [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]]
-- [[../../01_ASSEMBLY/activities/hijikuro_general_questions_overview]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[04_データリンク/02_POLICY_CARDS/admin_dx/index|行政DX・AI 政策実行カード]]
+- [[../../01_議会活動/questions/R5年12月_土黒功司_一般質問]]
+- [[../../01_議会活動/activities/土黒功司一般質問概観]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

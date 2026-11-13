@@ -10,7 +10,7 @@ policy_domain: relocation_brand
 related_layers: [L2_issue_layer, L6_policy_layer]
 related_os: [relocation_os_specification, industry_os_specification, childcare_os_specification]
 related_questions: [q_r6_06_hijikuro]
-related_evidence: [ev_r6_06_hijikuro_question_source]
+related_evidence: [ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 移住定住, 魅力発信, 関係人口]
 ---
 
@@ -26,7 +26,7 @@ tags: [政策実行カード, 移住定住, 魅力発信, 関係人口]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] - 「九州のどまんなか宇土市」の魅力発信
+- [[../../01_議会活動/questions/R6年6月_土黒功司_一般質問]] - 「九州のどまんなか宇土市」の魅力発信
 - [[relocation_os_specification]] - 移住・定住OS
 - [[industry_os_specification]] - 産業・特産品との接続
 - [[childcare_os_specification]] - 子育て環境との接続
@@ -67,7 +67,7 @@ tags: [政策実行カード, 移住定住, 魅力発信, 関係人口]
 
 ## 関連リンク
 
-- [[index|移住・魅力発信 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/relocation_brand/index|移住・魅力発信 政策実行カード]]
 - [[relocation_os_specification]]
 - [[../finance_facilities/pc_finance_002_city_hall_utilization_revenue|新庁舎利活用と市民価値の最大化]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

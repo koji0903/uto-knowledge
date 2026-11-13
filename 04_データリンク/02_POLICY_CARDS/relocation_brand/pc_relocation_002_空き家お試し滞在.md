@@ -10,7 +10,7 @@ policy_domain: relocation_brand
 related_layers: [L1_fact_layer, L2_issue_layer, L3_organization_pfu, L4_finance_layer]
 related_os: [relocation_os_specification, rmo_os_specification]
 related_questions: [q_r4_12_hijikuro, q_r6_06_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r6_06_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 移住定住, 空き家, お試し居住]
 ---
 
@@ -26,8 +26,8 @@ tags: [政策実行カード, 移住定住, 空き家, お試し居住]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地域おこし協力隊、移住・定住促進、退任後の定住
-- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] - 魅力発信から定住・移住先としての選択肢化
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - 地域おこし協力隊、移住・定住促進、退任後の定住
+- [[../../01_議会活動/questions/R6年6月_土黒功司_一般質問]] - 魅力発信から定住・移住先としての選択肢化
 - [[relocation_os_specification]] - 空き家活用、試験住宅、移住者支援
 - [[relocation_os_use_cases]] - お試し居住、仕事マッチング、定住化
 - [[L1_fact_layer]] - 空き家の分布と利用可能性
@@ -70,10 +70,10 @@ tags: [政策実行カード, 移住定住, 空き家, お試し居住]
 
 ## 関連リンク
 
-- [[index|移住・魅力発信 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/relocation_brand/index|移住・魅力発信 政策実行カード]]
 - [[relocation_os_specification]]
 - [[rmo_os_specification]]
 - [[L3_organization_pfu]]
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]]
-- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]]
+- [[../../01_議会活動/questions/R6年6月_土黒功司_一般質問]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

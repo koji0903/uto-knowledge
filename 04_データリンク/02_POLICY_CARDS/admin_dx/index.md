@@ -15,12 +15,12 @@ tags: [政策実行カード, 行政DX, AI, index]
 
 | カード | 状態 | 主な接続先 |
 | --- | --- | --- |
-| [[pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | draft | [[../../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]], [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] |
-| [[pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]] | draft | [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]], [[L1_fact_layer]] |
+| [[pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | draft | [[../../01_議会活動/questions/R5年6月_土黒功司_一般質問]], [[../../01_議会活動/questions/R5年12月_土黒功司_一般質問]] |
+| [[pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]] | draft | [[../../01_議会活動/questions/R5年12月_土黒功司_一般質問]], [[L1_fact_layer]] |
 
 ## 関連リンク
 
 - [[L1_fact_layer]]
 - [[L3_organization_pfu]]
 - [[L6_policy_layer]]
-- [[../../01_ASSEMBLY/questions/index]]
+- [[../../01_議会活動/questions/index]]

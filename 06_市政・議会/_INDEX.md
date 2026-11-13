@@ -326,7 +326,7 @@ civic/ は宇土OS全体ナレッジベースの **「分析・政策思考層�
 |----|---------|------|------|
 | **🏛️ 理論・ビジョン** | `00_System/` | 8層構造・6OS仕様 | [[00_システム/vision/layer_structure_guide\|8層構造ガイド]] |
 | **📊 分析・政策思考** | `civic/` | 概念・財政分析・議会質問 | このページ |
-| **📋 実装・データ** | `04_DataLink/` | 議会ログ・政策カード | [[04_データリンク/01_ASSEMBLY/index\|議会情報トップ]] |
+| **📋 実装・データ** | `04_DataLink/` | 議会ログ・政策カード | [[04_データリンク/01_議会活動/index\|議会情報トップ]] |
 | **🏗️ システム** | `projects/` | Utomachi Platform | [[projects/utomachi_PF/overview\|Utomachi PF]] |
 
 ### 知識・ナレッジ層
@@ -344,7 +344,7 @@ civic/ は宇土OS全体ナレッジベースの **「分析・政策思考層�
 ### 議員活動の上位ハブ
 - [[ホーム|🇯🇵 宇土OS ナレッジベース ホーム]] - Vault全体トップ
 - [[00_システム/vision/layer_structure_guide|🟥 8層構造統合ガイド]] - 理論ハブ
-- [[04_データリンク/01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map|質問×宇土OS マップ]] - 議会×理論
+- [[04_データリンク/01_議会活動/policy_links/土黒功司一般質問政策マップ|質問×宇土OS マップ]] - 議会×理論
 
 ---
 

@@ -11,7 +11,7 @@ policy_domain: industry
 related_layers: [L4_finance_layer, L6_policy_layer]
 related_os: [industry_os_specification, utomachi_100_store_specification]
 related_questions: [q_r4_12_hijikuro, q_r5_03_hijikuro, q_r6_03_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r5_03_hijikuro_question_source, ev_r6_03_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R5年3月_土黒功司_質問根拠, ev_R6年3月_土黒功司_質問根拠]
 related_knowledge: [kb_furusato_tax_izumisano_training_202607]
 tags: [政策実行カード, ふるさと納税, 地域商社, 財源]
 ---
@@ -29,9 +29,9 @@ tags: [政策実行カード, ふるさと納税, 地域商社, 財源]
 ## 根拠
 
 - [[../../../03_Knowledge/business/furusato_tax_izumisano_training_2026-07|泉佐野市ふるさと納税研修]]
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 地元産品のふるさと納税出品
-- [[../../01_ASSEMBLY/questions/r5_03_hijikuro_general_question]] - ふるさと納税の活用可能性
-- [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]] - 制度変更に伴う影響と対応
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - 地元産品のふるさと納税出品
+- [[../../01_議会活動/questions/R5年3月_土黒功司_一般質問]] - ふるさと納税の活用可能性
+- [[../../01_議会活動/questions/R6年3月_土黒功司_一般質問]] - 制度変更に伴う影響と対応
 - [[L4_finance_layer]] - 財源戦略
 - [[utomachi_100_store_specification]] - ふるさと納税統合
 
@@ -84,5 +84,5 @@ tags: [政策実行カード, ふるさと納税, 地域商社, 財源]
 - [[industry/index]]
 - [[L4_finance_layer]]
 - [[utomachi_100_store_specification]]
-- [[../../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]]
+- [[../../01_議会活動/questions/R6年3月_土黒功司_一般質問]]
 - [[../../../03_Knowledge/business/furusato_tax_izumisano_training_2026-07]]

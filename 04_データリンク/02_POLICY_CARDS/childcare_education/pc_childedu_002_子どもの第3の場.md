@@ -10,7 +10,7 @@ policy_domain: childcare_education
 related_layers: [L3_organization_pfu, L5_infrastructure_layer, L6_policy_layer]
 related_os: [childcare_os_specification, education_os_specification]
 related_questions: [q_r4_12_hijikuro, q_r6_06_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r6_06_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 子育てOS, サードプレイス, 旧田中会館]
 ---
 
@@ -26,8 +26,8 @@ tags: [政策実行カード, 子育てOS, サードプレイス, 旧田中会�
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - 不登校児童、学びの場、サードプレイス
-- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] - 旧田中会館横に新設予定の子どもサードプレイス
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - 不登校児童、学びの場、サードプレイス
+- [[../../01_議会活動/questions/R6年6月_土黒功司_一般質問]] - 旧田中会館横に新設予定の子どもサードプレイス
 - [[childcare_os_specification]] - 子育て支援の情報・相談・施設連携
 - [[education_os_specification]] - 学びの質向上と地域連携
 
@@ -68,7 +68,7 @@ tags: [政策実行カード, 子育てOS, サードプレイス, 旧田中会�
 
 ## 関連リンク
 
-- [[index|子育て・教育 政策実行カード]]
+- [[04_データリンク/02_POLICY_CARDS/childcare_education/index|子育て・教育 政策実行カード]]
 - [[childcare_os_specification]]
 - [[education_os_specification]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]

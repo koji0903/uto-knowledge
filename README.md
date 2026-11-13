@@ -17,7 +17,7 @@ Obsidian + GitHub + Firestore による統合知識管理環境
 ```
 04_DataLink/
 ├── 00_SYSTEM/         - 宇土OS体系（層構造 + 6つの機能OS）
-├── 01_ASSEMBLY/       - 議会・議員情報
+├── 01_議会活動/       - 議会・議員情報
 ├── 02_POLICY_CARDS/   - 政策実行カード
 ├── decisions/         - 意思決定台帳（Firestore対応）
 ├── producers/         - 生産者台帳（Firestore対応）
@@ -64,7 +64,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap_local_env.ps1
 | **移住・定住** | [[relocation_os_specification|移住・定住OS 仕様書]] |
 | **ウトマチプラットフォーム** | [[Utomachi_Platform_Architecture|システムアーキテクチャ]] ⭐ NEW |
 | **海苔養殖シーズン管理** | [[02_農業/nori_farming_dss/NORI_SEASON_DEFINITION|シーズン定義・管理体系]] ⭐ ⭐ NEW |
-| **議会情報** | [[04_データリンク/01_ASSEMBLY/index|宇土市議会・議員情報]] |
+| **議会情報** | [[04_データリンク/01_議会活動/index|宇土市議会・議員情報]] |
 | **政策実行** | [[04_データリンク/02_POLICY_CARDS/index|政策実行カード]] |
 | **実行管理** | [[04_データリンク/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
 | **政策棚卸し** | `tmp/policy_card_report.md` |

@@ -20,7 +20,7 @@ ChatGPT由来の知識を、宇土OSのどの領域に接続するかを確認�
 | 領域 | 主な接続先 |
 | --- | --- |
 | 行政・政策 | [[L6_policy_layer]], [[vision_uto_os]] |
-| 議会・市政 | [[04_データリンク/01_ASSEMBLY/index]] |
+| 議会・市政 | [[04_データリンク/01_議会活動/index]] |
 | 産業・地域商社 | [[industry_os]], [[utomachi_100_store_specification]] |
 | 技術・AI運用 | [[mcp/index]], [[mcp/ai_profiles/task_router]] |
 

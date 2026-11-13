@@ -10,7 +10,7 @@ policy_domain: industry
 related_layers: [L3_organization_pfu, L4_finance_layer, L6_policy_layer]
 related_os: [industry_os_specification, utomachi_100_store_specification, industry_rmo_connectivity]
 related_questions: [q_r4_12_hijikuro, q_r5_09_hijikuro, q_r6_06_hijikuro]
-related_evidence: [ev_r4_12_hijikuro_question_source, ev_r5_09_hijikuro_question_source, ev_r6_06_hijikuro_question_source]
+related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R5年9月_土黒功司_質問根拠, ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 産業OS, 地域商社, ウトマチ百貨店]
 ---
 
@@ -26,9 +26,9 @@ tags: [政策実行カード, 産業OS, 地域商社, ウトマチ百貨店]
 
 ## 根拠
 
-- [[../../01_ASSEMBLY/questions/r4_12_hijikuro_general_question]] - ローカル・マニフェスト、仕事を支える、賑わい創造
-- [[../../01_ASSEMBLY/questions/r5_09_hijikuro_general_question]] - 地域産業支援・連携
-- [[../../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]] - 特産品PRと魅力発信
+- [[../../01_議会活動/questions/R4年12月_土黒功司_一般質問]] - ローカル・マニフェスト、仕事を支える、賑わい創造
+- [[../../01_議会活動/questions/R5年9月_土黒功司_一般質問]] - 地域産業支援・連携
+- [[../../01_議会活動/questions/R6年6月_土黒功司_一般質問]] - 特産品PRと魅力発信
 - [[industry_os_specification]] - 産業OS仕様
 - [[utomachi_100_store_specification]] - 地域商社実装
 
@@ -69,4 +69,4 @@ tags: [政策実行カード, 産業OS, 地域商社, ウトマチ百貨店]
 - [[industry/index]]
 - [[industry_os]]
 - [[industry_rmo_connectivity]]
-- [[../../01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map]]
+- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
