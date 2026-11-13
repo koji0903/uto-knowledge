@@ -15,12 +15,12 @@ Generated: 2026-05-30T22:34:38.922Z
  M .gitignore
  M 00_System/architecture/Utomachi_Platform_Architecture.md
 RM tmp/index.md -> 00_System/tmp_lifecycle.md
- M 02_Agriculture/kumayuken/Architecture/02-Directory-Structure.md
- M 02_Agriculture/kumayuken/BusinessLogic/05-Business-Logic.md
- M 02_Agriculture/kumayuken/DataModel/03-Data-Model.md
- M 02_Agriculture/kumayuken/Implementation/06-Implementation-Guide.md
- M 02_Agriculture/kumayuken/Masters/04-Master-Definition.md
- M 02_Agriculture/kumayuken/Overview/01-System-Overview.md
+ M 02_Agriculture/kumayuken/02_アーキテクチャ/02_ディレクトリ構造.md
+ M 02_Agriculture/kumayuken/05_ビジネスロジック/05_ビジネスロジック.md
+ M 02_Agriculture/kumayuken/03_データモデル/03_データモデル.md
+ M 02_Agriculture/kumayuken/06_実装ガイド/06_実装ガイド.md
+ M 02_Agriculture/kumayuken/04_マスター定義/04_マスター定義.md
+ M 02_Agriculture/kumayuken/01_概要/01_システム概要.md
  M 02_Agriculture/nori_farming_dss/Phase3b_Extended_Data_Integration.md
  M 02_Agriculture/nori_farming_dss/Phase4_ML_Integration.md
  M 02_Agriculture/nori_farming_dss/WORKFLOW_GUIDE.md
