@@ -63,13 +63,13 @@ powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap_local_env.ps1
 | **地域商社実装** | [[utomachi_100_store_specification|ウトマチ百貨店 仕様書]] |
 | **移住・定住** | [[relocation_os_specification|移住・定住OS 仕様書]] |
 | **ウトマチプラットフォーム** | [[Utomachi_Platform_Architecture|システムアーキテクチャ]] ⭐ NEW |
-| **海苔養殖シーズン管理** | [[02_Agriculture/nori_farming_dss/NORI_SEASON_DEFINITION|シーズン定義・管理体系]] ⭐ ⭐ NEW |
-| **議会情報** | [[04_DataLink/01_ASSEMBLY/index|宇土市議会・議員情報]] |
-| **政策実行** | [[04_DataLink/02_POLICY_CARDS/index|政策実行カード]] |
-| **実行管理** | [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
+| **海苔養殖シーズン管理** | [[02_農業/nori_farming_dss/NORI_SEASON_DEFINITION|シーズン定義・管理体系]] ⭐ ⭐ NEW |
+| **議会情報** | [[04_データリンク/01_ASSEMBLY/index|宇土市議会・議員情報]] |
+| **政策実行** | [[04_データリンク/02_POLICY_CARDS/index|政策実行カード]] |
+| **実行管理** | [[04_データリンク/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |
 | **政策棚卸し** | `tmp/policy_card_report.md` |
 | **運用ブリーフ** | `tmp/operations_brief.md` |
-| **地域商社DataLink** | [[00_System/vision/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
+| **地域商社DataLink** | [[00_システム/vision/regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]] |
 | **AI運用** | [[AGENTS|AI運用ガイド]] |
 | **運用** | [[運用ダッシュボード|運用ダッシュボード]] |
 

@@ -98,7 +98,7 @@ source: https://www.uto-os.jp/
 | 2040未来予測センター ✅ | `/future-center` | [[06_市政・議会/07_宇土OS分析/04_政策・未来シナリオ/2040未来予測センター_時間軸と判断期限|2040未来予測センター]] |
 | 将来リスク（推）| `/future-risk` | — |
 | 政策選択肢 ✅ | `/choices` | [[06_市政・議会/07_宇土OS分析/04_政策・未来シナリオ/スマートシュリンク戦略ビジョン_5大政策ピラー|スマートシュリンク戦略]] |
-| 作成者の意見・政策提言（推）| `/policy-advice` | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges-content|5つの挑戦]] |
+| 作成者の意見・政策提言（推）| `/policy-advice` | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/5つの課題-content|5つの挑戦]] |
 | 施策台帳（推）| `/policy-ledger` | [[06_市政・議会/07_宇土OS分析/05_市議会論点・監査検証/施策台帳と政策ROI算定基準|施策台帳と政策ROI]] |
 | 重点KPI進捗（推）| `/plan-kpi` | [[06_市政・議会/07_宇土OS分析/06_KPI辞書・指標ハンドブック/自治体経営KPIハンドブック_定義と市民翻訳|KPIハンドブック]] |
 | RMO 地域運営組織（推）| `/rmo` | [[06_市政・議会/07_宇土OS分析/03_人口・地域社会・地区カルテ/RMO_地域運営組織と住民主体自治モデル|RMO地域運営組織]] |
@@ -147,8 +147,8 @@ source: https://www.uto-os.jp/
 ## 🔗 関連
 
 - [[06_市政・議会/07_宇土OS分析/00_MOC/00_宇土OS_総合ナレッジMOC|宇土OS 総合ナレッジ MOC]]
-- [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/uto-os-explained|宇土OS やさしい説明（市民向け）]]
-- [[00_System/vision/index|宇土OS システム仕様（理論層）]]
+- [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/宇土OS解説|宇土OS やさしい説明（市民向け）]]
+- [[00_システム/vision/index|宇土OS システム仕様（理論層）]]
 
 ---
 

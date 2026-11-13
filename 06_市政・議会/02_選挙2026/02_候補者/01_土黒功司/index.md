@@ -30,13 +30,13 @@ status: 蓄積中
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造（UTO PRIDE）]] ⭐ | 理念の背骨。全発信のルート |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/council-principles|議会理念と5つの行動原則]] ⭐ | 議会のあり方の理念（つなぐだけで終わらせない） |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/city-vision-principles|まちづくり理念と5つの行動原則（仮）]] ⭐ | まち全体のあり方の理念（暮らしの豊かさは減らさない） |
-| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-pledge-2026|選挙公約 2026（確定版）]] 🏆 | **公表用の最終公約**（つなぐ軸・5つの挑戦） |
-| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] ⭐ | 対外スローガン（顔の言葉・前身） |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/選挙公約_2026|選挙公約 2026（確定版）]] 🏆 | **公表用の最終公約**（つなぐ軸・5つの挑戦） |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/5つの課題|宇土を進化させる5つの挑戦]] ⭐ | 対外スローガン（顔の言葉・前身） |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。（震災後 改訂版）]] ⭐ | 災害後の対外メッセージ＋5つの挑戦（改訂版） |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/future-map|夢見る宇土市の未来マップ]] ⭐ | 5つの挑戦を一般質問と照合し一人称ビジョンへ改稿 |
-| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] ⭐ | 5本柱を実データで具体化 |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/マニフェスト_2期目|2期目 重点公約パッケージ]] ⭐ | 5本柱を実データで具体化 |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-kpi|公約 KPI・財源の深掘り]] | 測れる目標と財源の考え方 |
-| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|1期目 実績棚卸し]] ⭐ | 4年・約77問を公約の裏付けに |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/1期目の成果|1期目 実績棚卸し]] ⭐ | 4年・約77問を公約の裏付けに |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration|宣言文（版管理）]] | 出馬宣言文の各版を記録 |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/message-analysis|メッセージ分析]] | ターゲット・訴求軸・キーフレーズ |
 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense|想定問答集（守り）]] ⭐ | 厳しい問いへの切り返し＋失言予防 |
@@ -52,7 +52,7 @@ status: 蓄積中
 | 宣言文のテーマ | 関連政策ナレッジ |
 |----------------|------------------|
 | 子どもたちが誇れる宇土 | [[06_市政・議会/themes/childcare-education\|子育て・教育・人材育成]] |
-| 世代を超えた共創 | [[06_市政・議会/01_概念集/civic-participation\|市民参加]] / [[06_市政・議会/themes/civic-engagement-dx\|市民参加・DX]] |
+| 世代を超えた共創 | [[06_市政・議会/01_概念集/市民参加と地域ガバナンス\|市民参加]] / [[06_市政・議会/themes/civic-engagement-dx\|市民参加・DX]] |
 | 宇土市の進化 | [[06_市政・議会/themes/industrial-strategy\|産業戦略]] / [[06_市政・議会/03_財政/index\|財政分析]] |
 | 1期目の実績 | [[06_市政・議会/06_議会/index\|議会活動ハブ]] |
 

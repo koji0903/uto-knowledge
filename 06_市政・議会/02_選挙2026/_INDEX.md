@@ -65,9 +65,9 @@ election_date: 2026-10-04
 | 軸 | ドキュメント |
 |----|-------------|
 | 🧭 なぜ（思想） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy\|思想構造 UTO PRIDE]] |
-| 🚀 顔（スローガン） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges\|5つの挑戦]] |
-| 📋 何を（公約） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term\|公約パッケージ]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-kpi\|KPI・財源]] |
-| 🏛️ 裏付け（実績） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term\|1期目実績]] |
+| 🚀 顔（スローガン） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/5つの課題\|5つの挑戦]] |
+| 📋 何を（公約） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/マニフェスト_2期目\|公約パッケージ]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-kpi\|KPI・財源]] |
+| 🏛️ 裏付け（実績） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/1期目の成果\|1期目実績]] |
 | 📣 どう届ける | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials\|広報物]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/message-analysis\|メッセージ分析]] |
 | 🛡️ 守り | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense\|想定問答]] |
 | 📜 宣言文 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration\|宣言文（版管理）]] |
@@ -78,7 +78,7 @@ election_date: 2026-10-04
 
 ### 📣 発信する（演説・SNS・チラシ）
 ✍️ **執筆前に必読**: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|文体スタイルガイド]] ／ ⚖️ **SNS/Note発信前に必読**: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/sns-note-strategy|公選法コンプライアンス]]
-[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物（短文）]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/public-lecture|講演会30分スピーチ＆対話]] → 数字は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]] / トーンは [[06_市政・議会/02_選挙2026/archive-2022/election-message-2022|発信哲学]]
+[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物（短文）]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/public-lecture|講演会30分スピーチ＆対話]] → 数字は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]] / トーンは [[06_市政・議会/02_選挙2026/archive-2022/選挙メッセージ_2022|発信哲学]]
 
 ### 🎯 戦略を練る（どこで誰に）
 [[06_市政・議会/02_選挙2026/vote-strategy|得票戦略]] → [[06_市政・議会/02_選挙2026/turnout-trend-analysis|投票率トレンド]] / [[06_市政・議会/02_選挙2026/official-info|地区別データ]]
@@ -90,14 +90,14 @@ election_date: 2026-10-04
 [[06_市政・議会/02_選挙2026/campaign-schedule|運営スケジュール]] → 前回の型は [[06_市政・議会/02_選挙2026/archive-2022/operational-playbook|2022プレイブック]]
 
 ### 📚 根拠を確認する（事実・数字）
-[[06_市政・議会/02_選挙2026/official-info|公式情報]] / [[06_市政・議会/02_選挙2026/current-values|現状値]] / [[06_市政・議会/03_財政/index|財政分析]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|実績]]
+[[06_市政・議会/02_選挙2026/official-info|公式情報]] / [[06_市政・議会/02_選挙2026/current-values|現状値]] / [[06_市政・議会/03_財政/index|財政分析]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/1期目の成果|実績]]
 
 ---
 
 ## 📦 アーカイブ・参照
 
 - **[[06_市政・議会/02_選挙2026/archive-2022/index|2022選挙活動アーカイブ]]**（全gdoc統合済）
-  - [[06_市政・議会/02_選挙2026/archive-2022/election-message-2022|メッセージ原典]] / [[06_市政・議会/02_選挙2026/archive-2022/bridge-concept-2022|架け橋]] / [[06_市政・議会/02_選挙2026/archive-2022/messaging-2022|進化分析]]
+  - [[06_市政・議会/02_選挙2026/archive-2022/選挙メッセージ_2022|メッセージ原典]] / [[06_市政・議会/02_選挙2026/archive-2022/架け橋コンセプト_2022年選挙|架け橋]] / [[06_市政・議会/02_選挙2026/archive-2022/messaging-2022|進化分析]]
   - [[06_市政・議会/02_選挙2026/archive-2022/profile-2022-full|プロフィール]] / [[06_市政・議会/02_選挙2026/archive-2022/operational-playbook|実務プレイブック]] / [[06_市政・議会/02_選挙2026/archive-2022/templates-2022|文面テンプレ]]
 
 ---
@@ -117,10 +117,10 @@ civic/election-2026/
 └── candidates/hijikuro-koji/
     ├── index.md                   候補者ハブ
     ├── philosophy.md              思想構造（UTO PRIDE）
-    ├── five-challenges.md         5つの挑戦（公開スローガン）
-    ├── manifesto-2nd-term.md      重点公約パッケージ
+    ├── 5つの課題.md         5つの挑戦（公開スローガン）
+    ├── マニフェスト_2期目.md      重点公約パッケージ
     ├── manifesto-kpi.md           公約KPI・財源
-    ├── achievements-1st-term.md   1期目実績
+    ├── 1期目の成果.md   1期目実績
     ├── campaign-materials.md      広報物 実文面
     ├── qa-defense.md              想定問答（守り）
     ├── message-analysis.md        メッセージ分析
@@ -131,7 +131,7 @@ civic/election-2026/
 
 ## 🔗 関連ナレッジ（vault本体）
 
-- 議会実績: [[06_市政・議会/06_議会/index|議会活動ハブ]] / [[04_DataLink/01_ASSEMBLY/members/hijikuro_koji|議員プロフィール]]
+- 議会実績: [[06_市政・議会/06_議会/index|議会活動ハブ]] / [[04_データリンク/01_ASSEMBLY/members/hijikuro_koji|議員プロフィール]]
 - 政策土台: [[06_市政・議会/themes/index|横断テーマ索引]] / [[06_市政・議会/01_概念集/index|主要概念]] / [[06_市政・議会/03_財政/index|財政分析]]
 
 ---

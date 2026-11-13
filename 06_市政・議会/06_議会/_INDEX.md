@@ -53,8 +53,8 @@ type: civic-hub
 - **[[06_市政・議会/concepts|宇土市政 - 主要概念ハブ]]** ⭐ - 全概念ノートの統合MOC
 
 ### 人口減少対策
-- [[06_市政・議会/01_概念集/population-decline|人口減少（概念）]]
-- [[06_市政・議会/01_概念集/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/人口減少|人口減少（概念）]]
+- [[06_市政・議会/01_概念集/地域経済|地域経済]]
 - 若者定住・移住施策（準備中）
 
 ### 💰 公共施設・財政 ⭐
@@ -63,16 +63,16 @@ type: civic-hub
   - [[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政状況の分析]]
   - [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題分析]] ⚠️ 重要
   - [[06_市政・議会/03_財政/fiscal-viewer-app|技術仕様]]（開発者向け）
-- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約（概念）]]
+- [[06_市政・議会/01_概念集/財政制約と自治体運営|財政制約（概念）]]
 
 ### 地域経済・産業
-- [[06_市政・議会/01_概念集/local-economy|地域経済（概念）]]
-- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]]
-- [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP]]
+- [[06_市政・議会/01_概念集/地域経済|地域経済（概念）]]
+- [[06_市政・議会/01_概念集/駅前再開発|駅周辺再生]]
+- [[06_市政・議会/01_概念集/公民連携|官民連携・PPP]]
 
 ### 市民参加・行政改革
-- [[06_市政・議会/01_概念集/civic-participation|市民参画の仕組み]]
-- [[06_市政・議会/01_概念集/dx-strategy|行政DX戦略]]
+- [[06_市政・議会/01_概念集/市民参加と地域ガバナンス|市民参画の仕組み]]
+- [[06_市政・議会/01_概念集/DX戦略|行政DX戦略]]
 
 ---
 
@@ -120,23 +120,23 @@ type: civic-hub
 - 宇土市産業構造
 
 ### 過去の一般質問（04_DataLink/01_ASSEMBLY との接続）⭐
-- **[[04_DataLink/01_ASSEMBLY/activities/hijikuro_general_questions_overview|議員質問 全体概観]]** - 9会期68問のサマリー
-- **[[04_DataLink/01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map|質問×宇土OS 対応マップ]]** ⭐ 重要
-- **[[04_DataLink/01_ASSEMBLY/index|議会情報トップ]]**
+- **[[04_データリンク/01_ASSEMBLY/activities/hijikuro_general_questions_overview|議員質問 全体概観]]** - 9会期68問のサマリー
+- **[[04_データリンク/01_ASSEMBLY/policy_links/hijikuro_general_questions_policy_map|質問×宇土OS 対応マップ]]** ⭐ 重要
+- **[[04_データリンク/01_ASSEMBLY/index|議会情報トップ]]**
 
 #### 会期別質問ログ
-- [[04_DataLink/01_ASSEMBLY/questions/r4_12_hijikuro_general_question|R4-12]]
-- [[04_DataLink/01_ASSEMBLY/questions/r5_03_hijikuro_general_question|R5-03]]
-- [[04_DataLink/01_ASSEMBLY/questions/r5_06_hijikuro_general_question|R5-06]]
-- [[04_DataLink/01_ASSEMBLY/questions/r5_09_hijikuro_general_question|R5-09]]
-- [[04_DataLink/01_ASSEMBLY/questions/r5_12_hijikuro_general_question|R5-12]]
-- [[04_DataLink/01_ASSEMBLY/questions/r6_03_hijikuro_general_question|R6-03]]
-- [[04_DataLink/01_ASSEMBLY/questions/r6_06_hijikuro_general_question|R6-06]]
-- [[04_DataLink/01_ASSEMBLY/questions/r6_09_hijikuro_general_question|R6-09]]
-- [[04_DataLink/01_ASSEMBLY/questions/r6_12_hijikuro_general_question|R6-12]]
+- [[04_データリンク/01_ASSEMBLY/questions/r4_12_hijikuro_general_question|R4-12]]
+- [[04_データリンク/01_ASSEMBLY/questions/r5_03_hijikuro_general_question|R5-03]]
+- [[04_データリンク/01_ASSEMBLY/questions/r5_06_hijikuro_general_question|R5-06]]
+- [[04_データリンク/01_ASSEMBLY/questions/r5_09_hijikuro_general_question|R5-09]]
+- [[04_データリンク/01_ASSEMBLY/questions/r5_12_hijikuro_general_question|R5-12]]
+- [[04_データリンク/01_ASSEMBLY/questions/r6_03_hijikuro_general_question|R6-03]]
+- [[04_データリンク/01_ASSEMBLY/questions/r6_06_hijikuro_general_question|R6-06]]
+- [[04_データリンク/01_ASSEMBLY/questions/r6_09_hijikuro_general_question|R6-09]]
+- [[04_データリンク/01_ASSEMBLY/questions/r6_12_hijikuro_general_question|R6-12]]
 
 ### 政策実行カード ⭐
-- **[[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]** - 5優先テーマの進捗管理
+- **[[04_データリンク/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]** - 5優先テーマの進捗管理
 - 産業・地域商社カード（5枚）
 - 子育て・教育カード（5枚）
 - 公共施設・財政カード（2枚）

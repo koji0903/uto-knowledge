@@ -25,7 +25,7 @@ RM tmp/index.md -> 00_System/tmp_lifecycle.md
  M 02_Agriculture/nori_farming_dss/Phase4_ML_Integration.md
  M 02_Agriculture/nori_farming_dss/WORKFLOW_GUIDE.md
  M 04_DataLink/decisions/decision_20260507_ai_handoff_operations.md
- M civic/concepts/population-decline.md
+ M civic/concepts/人口減少.md
  M civic/themes/childcare-education.md
  M civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school.md
  M civic/uto-city-council/2026-06-general-assembly-qa.md
