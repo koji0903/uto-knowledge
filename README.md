@@ -63,7 +63,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap_local_env.ps1
 | **地域商社実装** | [[utomachi_100_store_specification|ウトマチ百貨店 仕様書]] |
 | **移住・定住** | [[relocation_os_specification|移住・定住OS 仕様書]] |
 | **ウトマチプラットフォーム** | [[Utomachi_Platform_Architecture|システムアーキテクチャ]] ⭐ NEW |
-| **海苔養殖シーズン管理** | [[02_農業/nori_farming_dss/NORI_SEASON_DEFINITION|シーズン定義・管理体系]] ⭐ ⭐ NEW |
+| **海苔養殖シーズン管理** | [[02_農業/海苔養殖業/NORI_SEASON_DEFINITION|シーズン定義・管理体系]] ⭐ ⭐ NEW |
 | **議会情報** | [[04_データリンク/01_議会活動/index|宇土市議会・議員情報]] |
 | **政策実行** | [[04_データリンク/02_POLICY_CARDS/index|政策実行カード]] |
 | **実行管理** | [[04_データリンク/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] |

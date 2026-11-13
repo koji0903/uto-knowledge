@@ -46,12 +46,12 @@ election_date: 2026-10-04
 
 | 領域 | 状態 | 主担当ノート |
 |------|:--:|------|
-| A メッセージ・政策 | 🟢 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index\|候補者ハブ]] |
-| B 制度・データ | 🟢 | [[06_市政・議会/02_選挙2026/official-info\|公式情報]] |
-| C/D 情勢・得票戦略 | 🟢 | [[06_市政・議会/02_選挙2026/vote-strategy\|得票戦略]] |
-| E 運営・スケジュール | 🟢 | [[06_市政・議会/02_選挙2026/campaign-schedule\|スケジュール]] |
-| F 広報物 | 🟢 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials\|広報物]] |
-| G 守り（想定問答） | 🟢 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense\|想定問答]] |
+| A メッセージ・政策 | 🟢 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|候補者ハブ]] |
+| B 制度・データ | 🟢 | [[06_市政・議会/02_選挙2026/official-info|公式情報]] |
+| C/D 情勢・得票戦略 | 🟢 | [[06_市政・議会/02_選挙2026/vote-strategy|得票戦略]] |
+| E 運営・スケジュール | 🟢 | [[06_市政・議会/02_選挙2026/campaign-schedule|スケジュール]] |
+| F 広報物 | 🟢 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物]] |
+| G 守り（想定問答） | 🟢 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense|想定問答]] |
 
 > 詳細チェックリスト → [[06_市政・議会/02_選挙2026/campaign-readiness|✅ 選挙準備マップ]]
 
@@ -64,13 +64,13 @@ election_date: 2026-10-04
 ### コア・ドキュメント（発信の背骨 → 具体）
 | 軸 | ドキュメント |
 |----|-------------|
-| 🧭 なぜ（思想） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy\|思想構造 UTO PRIDE]] |
-| 🚀 顔（スローガン） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/5つの課題\|5つの挑戦]] |
-| 📋 何を（公約） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/マニフェスト_2期目\|公約パッケージ]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-kpi\|KPI・財源]] |
-| 🏛️ 裏付け（実績） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/1期目の成果\|1期目実績]] |
-| 📣 どう届ける | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials\|広報物]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/message-analysis\|メッセージ分析]] |
-| 🛡️ 守り | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense\|想定問答]] |
-| 📜 宣言文 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration\|宣言文（版管理）]] |
+| 🧭 なぜ（思想） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]] |
+| 🚀 顔（スローガン） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/5つの課題|5つの挑戦]] |
+| 📋 何を（公約） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/マニフェスト_2期目|公約パッケージ]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-kpi|KPI・財源]] |
+| 🏛️ 裏付け（実績） | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/1期目の成果|1期目実績]] |
+| 📣 どう届ける | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物]] ／ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/message-analysis|メッセージ分析]] |
+| 🛡️ 守り | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense|想定問答]] |
+| 📜 宣言文 | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration|宣言文（版管理）]] |
 
 ---
 

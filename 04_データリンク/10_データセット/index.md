@@ -11,7 +11,7 @@ tags: [DataLink, dataset, index]
 
 CSV、外部データ、分析用データセットの所在・仕様・品質メモを管理する場所。大容量ファイル本体はObsidianに入れず、ここでは参照情報と運用ルールを管理する。
 
-> 📖 **関連:** 全体像は [[../../02_Agriculture/nori_farming_dss/KNOWLEDGE_MAP|🗺️ ナレッジ統合マップ]] を参照
+> 📖 **関連:** 全体像は [[../../02_Agriculture/02_農業/海苔養殖業/KNOWLEDGE_MAP|🗺️ ナレッジ統合マップ]] を参照
 
 ## 🎯 システム実装概要
 

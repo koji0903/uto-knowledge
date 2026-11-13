@@ -106,9 +106,9 @@ regional_trading_company_datalink_schema（Firestore設計）
    ↓
 AGENTS.md（AI運用基盤）
    ↓
-02_Agriculture/nori_farming_dss/（農業DSS）
+02_Agriculture/02_農業/海苔養殖業/（農業DSS）
    ↓
-02_Agriculture/kumayuken/（AgriOS）
+02_Agriculture/02_農業/熊本県有機農業研究会/（AgriOS）
 ```
 
 ---
@@ -140,7 +140,7 @@ AGENTS.md（AI運用基盤）
 **「農業の高付加価値化に関心がある」**
 1. [[./business/index|business (index)]] の「産業OS」セクション
 2. [[./tech/index|tech (index)]] の「海苔養殖DSS」セクション
-3. [[02_農業/nori_farming_dss/KNOWLEDGE_MAP|nori_farming_dss のナレッジマップ]]
+3. [[02_農業/海苔養殖業/KNOWLEDGE_MAP|02_農業/海苔養殖業 のナレッジマップ]]
 
 ---
 

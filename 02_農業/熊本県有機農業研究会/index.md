@@ -1,5 +1,5 @@
 ---
-tags: [kumayuken, index, navigation]
+tags: [02_農業/熊本県有機農業研究会, index, navigation]
 created: 2026-05-13
 updated: 2026-05-13
 ---
@@ -13,7 +13,7 @@ updated: 2026-05-13
 ## 🗂️ ナレッジ構成
 
 ```
-kumayuken/
+02_農業/熊本県有機農業研究会/
 ├── Overview/               # システム概要
 │   └── 01-System-Overview.md
 ├── Architecture/           # アーキテクチャ・設計
@@ -256,7 +256,7 @@ Overview (入口)
 - **作成日**: 2026-05-13
 - **最終更新**: 2026-05-13
 - **ドキュメント数**: 6 本
-- **保存場所**: `/Users/hijikuro/workspace/uto-knowledge/kumayuken/`
+- **保存場所**: `/Users/hijikuro/workspace/uto-knowledge/02_農業/熊本県有機農業研究会/`
 
 ---
 
@@ -275,5 +275,5 @@ Overview (入口)
 ナレッジベースに関する質問や改善提案は、各ドキュメントのファイルを参照してください。不足している内容がある場合は、該当するドキュメントを更新してください。
 
 **関連リソース**:
-- プロジェクトコード: `/Users/hijikuro/ViveCoding/kumayuken`
-- ナレッジベース: `/Users/hijikuro/workspace/uto-knowledge/kumayuken/`
+- プロジェクトコード: `/Users/hijikuro/ViveCoding/02_農業/熊本県有機農業研究会`
+- ナレッジベース: `/Users/hijikuro/workspace/uto-knowledge/02_農業/熊本県有機農業研究会/`

@@ -86,7 +86,7 @@ separate lines.
 ## Render-safe math
 
 - In a table, write a pipe inside math as <code>\lvert</code>/<code>\rvert</code>
-  and anywhere else as <code>\|</code>; a bare <code>|</code> starts a new column.
+  and anywhere else as <code>|</code>; a bare <code>|</code> starts a new column.
 - When a script inserts <code>$$</code>, use a literal or function replacement
   (JavaScript <code>replace</code> turns <code>$$</code> into <code>$</code>), then
   recount the delimiters in every changed file.

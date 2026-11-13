@@ -21,12 +21,12 @@ tags: [moc, meta, use_case]
 
 | OS | ユースケース |
 |----|------------|
-| RMO OS | [[00_システム/vision/rmo_os_use_cases\|rmo_os_use_cases]] |
-| 子育てOS | [[00_システム/vision/childcare_os_use_cases\|childcare_os_use_cases]] |
-| 教育OS | [[00_システム/vision/education_os_use_cases\|education_os_use_cases]] |
-| 産業OS | [[00_システム/vision/industry_os_use_cases\|industry_os_use_cases]] |
-| 移住・定住OS | [[00_システム/vision/relocation_os_use_cases\|relocation_os_use_cases]] |
-| ウトマチ百貨店 | [[00_システム/vision/utomachi_100_store_use_cases\|utomachi_100_store_use_cases]] |
+| RMO OS | [[00_システム/vision/rmo_os_use_cases|rmo_os_use_cases]] |
+| 子育てOS | [[00_システム/vision/childcare_os_use_cases|childcare_os_use_cases]] |
+| 教育OS | [[00_システム/vision/education_os_use_cases|education_os_use_cases]] |
+| 産業OS | [[00_システム/vision/industry_os_use_cases|industry_os_use_cases]] |
+| 移住・定住OS | [[00_システム/vision/relocation_os_use_cases|relocation_os_use_cases]] |
+| ウトマチ百貨店 | [[00_システム/vision/utomachi_100_store_use_cases|utomachi_100_store_use_cases]] |
 
 ---
 

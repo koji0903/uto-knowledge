@@ -15,15 +15,15 @@ Generated: 2026-05-30T22:34:38.777Z
  M .gitignore
  M 00_System/architecture/Utomachi_Platform_Architecture.md
 RM tmp/index.md -> 00_System/tmp_lifecycle.md
- M 02_Agriculture/kumayuken/02_アーキテクチャ/02_ディレクトリ構造.md
- M 02_Agriculture/kumayuken/05_ビジネスロジック/05_ビジネスロジック.md
- M 02_Agriculture/kumayuken/03_データモデル/03_データモデル.md
- M 02_Agriculture/kumayuken/06_実装ガイド/06_実装ガイド.md
- M 02_Agriculture/kumayuken/04_マスター定義/04_マスター定義.md
- M 02_Agriculture/kumayuken/01_概要/01_システム概要.md
- M 02_Agriculture/nori_farming_dss/Phase3b_Extended_Data_Integration.md
- M 02_Agriculture/nori_farming_dss/Phase4_ML_Integration.md
- M 02_Agriculture/nori_farming_dss/WORKFLOW_GUIDE.md
+ M 02_Agriculture/02_農業/熊本県有機農業研究会/02_アーキテクチャ/02_ディレクトリ構造.md
+ M 02_Agriculture/02_農業/熊本県有機農業研究会/05_ビジネスロジック/05_ビジネスロジック.md
+ M 02_Agriculture/02_農業/熊本県有機農業研究会/03_データモデル/03_データモデル.md
+ M 02_Agriculture/02_農業/熊本県有機農業研究会/06_実装ガイド/06_実装ガイド.md
+ M 02_Agriculture/02_農業/熊本県有機農業研究会/04_マスター定義/04_マスター定義.md
+ M 02_Agriculture/02_農業/熊本県有機農業研究会/01_概要/01_システム概要.md
+ M 02_Agriculture/02_農業/海苔養殖業/Phase3b_Extended_Data_Integration.md
+ M 02_Agriculture/02_農業/海苔養殖業/Phase4_ML_Integration.md
+ M 02_Agriculture/02_農業/海苔養殖業/WORKFLOW_GUIDE.md
  M 04_DataLink/decisions/decision_20260507_ai_handoff_operations.md
  M civic/concepts/人口減少.md
  M civic/themes/childcare-education.md

@@ -89,17 +89,17 @@ tags: [ナレッジ, 技術, システム, アーキテクチャ, index]
 海洋データを活用した海苔養殖の予測・最適化システム：
 
 **システム概要**:
-[[02_農業/nori_farming_dss/KNOWLEDGE_MAP|🗺️ ナレッジ統合マップ]] - 全体像
-[[02_農業/nori_farming_dss/Overview|📖 Overview]] - 目的・背景
+[[02_農業/海苔養殖業/KNOWLEDGE_MAP|🗺️ ナレッジ統合マップ]] - 全体像
+[[02_農業/海苔養殖業/Overview|📖 Overview]] - 目的・背景
 
 **技術構成**:
 
 | コンポーネント | ドキュメント |
 |--------------|-----------|
-| **システム設計** | [[02_農業/nori_farming_dss/Architecture|Architecture]] |
-| **データ統合** | [[02_農業/nori_farming_dss/DataIntegration|DataIntegration]] |
-| **予測モデル** | [[02_農業/nori_farming_dss/PredictiveModels|PredictiveModels]] |
-| **シーズン管理** | [[02_農業/nori_farming_dss/NORI_SEASON_DEFINITION|シーズン定義]] |
+| **システム設計** | [[02_農業/海苔養殖業/Architecture|Architecture]] |
+| **データ統合** | [[02_農業/海苔養殖業/DataIntegration|DataIntegration]] |
+| **予測モデル** | [[02_農業/海苔養殖業/PredictiveModels|PredictiveModels]] |
+| **シーズン管理** | [[02_農業/海苔養殖業/NORI_SEASON_DEFINITION|シーズン定義]] |
 
 **実装進捗**:
 - Phase 3: データ統合パイプライン ✅
@@ -234,7 +234,7 @@ firebase deploy --only firestore
 → [[00_システム/architecture/AGENTS|AGENTS.md]]の「新規エージェント追加」セクション参照
 
 ### 「海苔データを追加したい」
-→ [[02_農業/nori_farming_dss/DataIntegration|DataIntegration.md]]で既存パイプラインを確認
+→ [[02_農業/海苔養殖業/DataIntegration|DataIntegration.md]]で既存パイプラインを確認
 
 ---
 
