@@ -32,10 +32,10 @@ ChatGPT由来の知識を、宇土OSのどの領域に接続するかを確認�
 
 ## 関連ドキュメント
 
-- [[vision_uto_os]]
-- [[layer_structure_guide]]
-- [[resources]]
-- [[mcp/index]]
+- [[00_システム/vision/ビジョン_宇土OS|ビジョン_宇土OS]]
+- [[00_システム/vision/層構造ガイド|層構造ガイド]]
+- <!-- TODO: リソース索引（未実装）-->リソース（実装待ち）
+- [[08_MCP/index]]
 
 ---
 

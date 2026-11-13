@@ -716,8 +716,8 @@ npm run start             # 本番サーバー起動
 ## 関連ドキュメント
 
 ### 内部ドキュメント
-- [[Phase4_Utomachi_Integration]] - Nori統合
-- [[02_農業/海苔養殖業/DataIntegration|海洋データ取得ガイド]] - 海洋データ取得
+- [[00_システム/vision/フェーズ4_宇土統合計画|フェーズ4_宇土統合計画]] - Nori統合
+- <!-- TODO: DataIntegration.md（未実装）-->[[04_データリンク/10_データセット|データセット・パイプライン]] - 海洋データ取得ガイド（実装待ち）
 
 ### 外部ドキュメント
 - [Nori Phase 4 ML Integration](../Codex/Nori/docs/Phase4_ML_Integration_Complete.md)

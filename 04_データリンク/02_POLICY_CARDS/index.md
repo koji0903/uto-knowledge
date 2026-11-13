@@ -55,7 +55,7 @@ tags: [政策実行カード, 宇土OS, index]
 | --- | --- | --- |
 | [[industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]] | draft | [[industry_os_specification]], [[utomachi_100_store_specification]] |
 | [[industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]] | draft | [[L4_finance_layer]], [[utomachi_100_store_specification]] |
-| [[industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]] | draft | [[industry_os]], [[resources]] |
+| [[industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]] | draft | [[industry_os_specification]], <!-- TODO: リソース索引（未実装）-->リソース |
 | [[industry/pc_industry_004_shopping_street_startup_support|商店街活性化と創業支援]] | draft | [[industry_os_specification]], [[L6_policy_layer]] |
 | [[industry/pc_industry_005_cross_department_industry_pfu|産業横断PFUの設計]] | draft | [[L3_organization_pfu]], [[industry_rmo_connectivity]] |
 | [[childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]] | draft | [[education_os_specification]], [[childcare_os_specification]] |

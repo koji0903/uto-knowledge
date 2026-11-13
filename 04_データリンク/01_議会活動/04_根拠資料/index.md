@@ -26,7 +26,7 @@ tags: [議会, 根拠資料, evidence, index]
 - [[../activities/index|議員活動ログ]]
 - [[../questions/index|一般質問・質疑]]
 - [[../policy_links/index|宇土OS対応表]]
-- [[resources]]
+- <!-- TODO: リソース索引（未実装）-->リソース（実装待ち）
 
 
 ## 土黒功司 一般質問 出典

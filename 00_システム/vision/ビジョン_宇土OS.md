@@ -435,8 +435,8 @@ PFUが横断的に課題を解く
 - [[relocation_os]] - 移住・定住OS（空き家・人材循環）
 
 ### 参考資料
-- [[resources]] - Notionリンク一覧と活用ガイド
-- [[mcp/chatgpt_integration_dashboard|ChatGPT統合ダッシュボード]] - ChatGPT統合統計
+- <!-- TODO: リソース索引（未実装）-->リソース - Notionリンク一覧と活用ガイド（実装待ち）
+- [[08_MCP/chatgpt_integration_dashboard|ChatGPT統合ダッシュボード]] - ChatGPT統合統計
 - [[04_データリンク/projects/index]] - 行政・議会プロジェクト一覧
 - [[03_知識/business/index]] - ビジネスナレッジ一覧
 - [[03_知識/tech/index]] - 技術ナレッジ一覧

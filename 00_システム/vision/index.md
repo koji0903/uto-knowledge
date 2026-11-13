@@ -39,7 +39,7 @@ tags: [宇土OS, DataLink, system, index]
 ## DataLink仕様
 
 - [[regional_trading_company_datalink_schema|地域商社 DataLink 最小スキーマ]]
-- [[resources|リソース索引]]
+- <!-- TODO: リソース索引（未実装）-->リソース索引 - Notion等の外部資料集
 
 ## 関連リンク
 
