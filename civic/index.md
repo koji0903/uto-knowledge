@@ -51,6 +51,7 @@ status: 運用中
 
 ### 📊 宇土OS 深層分析ナレッジ ⭐ NEW
 **[[civic/uto-os-analysis/00_MOC/00_宇土OS_総合ナレッジMOC|🧭 宇土OS 総合ナレッジ MOC]]** - uto-os.jp の財政・公会計・施設・人口・政策・議会論点の体系的分析（38ノート／6分野）
+🌐 **[[civic/uto-os-analysis/00_MOC/uto-os-jp_サイト構造とコンテンツ分析|uto-os.jp サイト構造とコンテンツ分析]]** - 公開サイト全52ページを6メニューで体系化・本ナレッジと対応づけ
 
 | 分野 MOC | 内容 |
 |----------|------|
@@ -82,6 +83,7 @@ status: 運用中
 | ドキュメント | 内容 |
 |-------------|------|
 | [[civic/uto-city-council|議会活動ハブ]] | 議会活動の総合情報 |
+| [[civic/uto-city-council/2026-4th-assembly-agenda\|令和8年 第4回定例会（R8-4）]] ⭐NEW | 議案→決算→論点→原稿の4点パッケージ |
 | [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] | 構造改革テーマ |
 | [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] | 高校連携テーマ |
 | 💭 [[civic/uto-city-council/2026-06-general-assembly-thoughts|令和8年6月定例会 質問意図と問題意識]] | 事前すり合わせ・政策思想 |

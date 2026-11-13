@@ -436,7 +436,7 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
     "providerId": "claude",
-    "model": "opus"
+    "model": "claude-code/opus[1m]"
   },
   "inlineEditModel": null,
   "savedProviderModel": {
