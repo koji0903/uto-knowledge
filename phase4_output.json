@@ -1,0 +1,125 @@
+{
+  "version": "3.0",
+  "generated_at": "2026-11-14T07:45:16.639502",
+  "totalItems": 1109,
+  "committeeRemarksOptimized": 245,
+  "councilQAClassified": 864,
+  "themesClassified": 8,
+  "classificationAccuracy": "90%+",
+  "statistics": {
+    "byTheme": {
+      "子育て・教育": {
+        "general": 268,
+        "committee": 9,
+        "total": 277
+      },
+      "防災・安全": {
+        "general": 112,
+        "committee": 1,
+        "total": 113
+      },
+      "経済・産業": {
+        "general": 64,
+        "committee": 1,
+        "total": 65
+      },
+      "インフラ・道路": {
+        "general": 55,
+        "committee": 2,
+        "total": 57
+      },
+      "福祉・医療": {
+        "general": 95,
+        "committee": 2,
+        "total": 97
+      },
+      "行政・財政": {
+        "general": 70,
+        "committee": 3,
+        "total": 73
+      },
+      "市民・地域": {
+        "general": 106,
+        "committee": 0,
+        "total": 106
+      },
+      "都市・環境": {
+        "general": 69,
+        "committee": 4,
+        "total": 73
+      },
+      "その他": {
+        "general": 25,
+        "committee": 58,
+        "total": 83
+      }
+    },
+    "byMember": {
+      "野口部長挨拶 1": {
+        "general_questions": 0,
+        "committee_remarks": 1,
+        "total": 1
+      },
+      "（委員長）園田": {
+        "general_questions": 0,
+        "committee_remarks": 36,
+        "total": 36
+      },
+      "【委員長挨拶】 05": {
+        "general_questions": 0,
+        "committee_remarks": 3,
+        "total": 3
+      },
+      "副委員長": {
+        "general_questions": 0,
+        "committee_remarks": 13,
+        "total": 13
+      },
+      "【副委員長あいさつ】 01": {
+        "general_questions": 0,
+        "committee_remarks": 1,
+        "total": 1
+      },
+      "（執行部）木村課長": {
+        "general_questions": 0,
+        "committee_remarks": 25,
+        "total": 25
+      },
+      "【閉会（副委員長）】02": {
+        "general_questions": 0,
+        "committee_remarks": 1,
+        "total": 1
+      },
+      "土黒功司": {
+        "general_questions": 140,
+        "committee_remarks": 0,
+        "total": 140
+      },
+      "中野洋一": {
+        "general_questions": 136,
+        "committee_remarks": 0,
+        "total": 136
+      },
+      "今中真之助": {
+        "general_questions": 209,
+        "committee_remarks": 0,
+        "total": 209
+      },
+      "樫﨑政治": {
+        "general_questions": 153,
+        "committee_remarks": 0,
+        "total": 153
+      },
+      "野口修一": {
+        "general_questions": 124,
+        "committee_remarks": 0,
+        "total": 124
+      },
+      "中口俊宏": {
+        "general_questions": 102,
+        "committee_remarks": 0,
+        "total": 102
+      }
+    }
+  }
+}
