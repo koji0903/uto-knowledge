@@ -1,0 +1,33 @@
+{
+  "total": 5,
+  "valid": 5,
+  "warnings": 0,
+  "errors": 0,
+  "files": [
+    {
+      "path": "04_DataLink/decisions/decision_20260507_ai_handoff_operations.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "04_DataLink/projects/prj_furusato_return_gift_boost.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "04_DataLink/projects/prj_regional_trading_pfu.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "04_DataLink/logs/log_20260507_001.md",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "path": "04_DataLink/logs/log_20260507_002.md",
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

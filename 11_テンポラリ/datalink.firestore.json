@@ -1,0 +1,197 @@
+{
+  "mode": "dry-run",
+  "generated_at": "2026-05-30T22:34:45.994Z",
+  "document_count": 5,
+  "documents": [
+    {
+      "collection": "decisions",
+      "docId": "dec_20260507_ai_handoff_operations",
+      "path": "decisions/dec_20260507_ai_handoff_operations",
+      "source": "04_DataLink/decisions/decision_20260507_ai_handoff_operations.md",
+      "data": {
+        "id": "dec_20260507_ai_handoff_operations",
+        "type": "decision",
+        "firestore_collection": "decisions",
+        "firestore_doc_id": "dec_20260507_ai_handoff_operations",
+        "created": "2026-05-07",
+        "status": "active",
+        "tags": [
+          "DataLink",
+          "Firestore",
+          "decision",
+          "AI運用",
+          "MCP"
+        ],
+        "related_files": [
+          "00_System/architecture/AGENTS.md",
+          "mcp/ai_profiles/handoff_prompt.md",
+          "scripts/generate_handoff_prompt.mjs",
+          "scripts/validate_ai_operations_docs.mjs"
+        ],
+        "related_collections": [
+          "logs",
+          "projects"
+        ],
+        "obsidian_path": "04_DataLink/decisions/decision_20260507_ai_handoff_operations.md"
+      }
+    },
+    {
+      "collection": "projects",
+      "docId": "prj_furusato_return_gift_boost",
+      "path": "projects/prj_furusato_return_gift_boost",
+      "source": "04_DataLink/projects/prj_furusato_return_gift_boost.md",
+      "data": {
+        "id": "prj_furusato_return_gift_boost",
+        "type": "project",
+        "firestore_collection": "projects",
+        "firestore_doc_id": "prj_furusato_return_gift_boost",
+        "name": "ふるさと納税返礼品強化",
+        "domain": "産業",
+        "owner": "土黒功司",
+        "stakeholders": [
+          "企画財政",
+          "商工観光",
+          "農林水産",
+          "観光物産協会",
+          "生産者",
+          "事業者"
+        ],
+        "related_policy_cards": [
+          "pc_industry_002",
+          "pc_industry_003",
+          "pc_finance_001"
+        ],
+        "related_collections": [
+          "products",
+          "producers",
+          "logs"
+        ],
+        "next_action": "返礼品候補の商品台帳項目と販路KPIを整理する",
+        "created": "2026-05-07",
+        "status": "planning",
+        "tags": [
+          "DataLink",
+          "Firestore",
+          "ふるさと納税",
+          "返礼品",
+          "地域商社"
+        ],
+        "obsidian_path": "04_DataLink/projects/prj_furusato_return_gift_boost.md"
+      }
+    },
+    {
+      "collection": "projects",
+      "docId": "prj_regional_trading_pfu",
+      "path": "projects/prj_regional_trading_pfu",
+      "source": "04_DataLink/projects/prj_regional_trading_pfu.md",
+      "data": {
+        "id": "prj_regional_trading_pfu",
+        "type": "project",
+        "firestore_collection": "projects",
+        "firestore_doc_id": "prj_regional_trading_pfu",
+        "name": "地域商社準備PFU",
+        "domain": "産業",
+        "owner": "土黒功司",
+        "stakeholders": [
+          "商工観光",
+          "農林水産",
+          "観光物産協会",
+          "商工会",
+          "生産者",
+          "事業者"
+        ],
+        "related_policy_cards": [
+          "pc_industry_001",
+          "pc_industry_003",
+          "pc_industry_005"
+        ],
+        "related_collections": [
+          "producers",
+          "products",
+          "logs"
+        ],
+        "next_action": "産品・事業者・販路台帳の初期候補を整理する",
+        "created": "2026-05-07",
+        "status": "planning",
+        "tags": [
+          "DataLink",
+          "Firestore",
+          "地域商社",
+          "PFU",
+          "産業OS"
+        ],
+        "obsidian_path": "04_DataLink/projects/prj_regional_trading_pfu.md"
+      }
+    },
+    {
+      "collection": "logs",
+      "docId": "log_20260507_001",
+      "path": "logs/log_20260507_001",
+      "source": "04_DataLink/logs/log_20260507_001.md",
+      "data": {
+        "id": "log_20260507_001",
+        "type": "log",
+        "firestore_collection": "logs",
+        "firestore_doc_id": "log_20260507_001",
+        "event_type": "data_update",
+        "summary": "地域商社向けDataLinkスキーマと初期プロジェクトを追加",
+        "related_files": [
+          "04_DataLink/00_SYSTEM/regional_trading_company_datalink_schema.md",
+          "04_DataLink/projects/prj_regional_trading_pfu.md",
+          "04_DataLink/projects/prj_furusato_return_gift_boost.md"
+        ],
+        "related_policy_cards": [
+          "pc_industry_001",
+          "pc_industry_002",
+          "pc_industry_003",
+          "pc_industry_005"
+        ],
+        "created": "2026-05-07",
+        "status": "active",
+        "tags": [
+          "DataLink",
+          "Firestore",
+          "作業ログ",
+          "地域商社"
+        ],
+        "obsidian_path": "04_DataLink/logs/log_20260507_001.md"
+      }
+    },
+    {
+      "collection": "logs",
+      "docId": "log_20260507_002",
+      "path": "logs/log_20260507_002",
+      "source": "04_DataLink/logs/log_20260507_002.md",
+      "data": {
+        "id": "log_20260507_002",
+        "type": "log",
+        "firestore_collection": "logs",
+        "firestore_doc_id": "log_20260507_002",
+        "event_type": "data_update",
+        "summary": "複数AI運用のハンドオフ生成とCI検証を整備",
+        "related_files": [
+          "AGENTS.md",
+          "mcp/ai_profiles/handoff_prompt.md",
+          "scripts/generate_handoff_prompt.mjs",
+          "scripts/start_work.sh",
+          "scripts/validate_ai_operations_docs.mjs",
+          "04_DataLink/decisions/decision_20260507_ai_handoff_operations.md"
+        ],
+        "related_policy_cards": [
+          "pc_admin_dx_001"
+        ],
+        "created": "2026-05-07",
+        "status": "active",
+        "tags": [
+          "DataLink",
+          "Firestore",
+          "作業ログ",
+          "AI運用",
+          "MCP",
+          "行政DX"
+        ],
+        "obsidian_path": "04_DataLink/logs/log_20260507_002.md"
+      }
+    }
+  ]
+}

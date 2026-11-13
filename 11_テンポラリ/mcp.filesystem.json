@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "uto-knowledge-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Volumes/ExtSSD/workspace/uto-knowledge"
+      ]
+    }
+  }
+}
