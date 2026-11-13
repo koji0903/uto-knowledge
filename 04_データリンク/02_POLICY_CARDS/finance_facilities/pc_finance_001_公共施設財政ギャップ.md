@@ -72,4 +72,4 @@ tags: [政策実行カード, 財政, 公共施設, 施設老朽化]
 - [[L4_finance_layer]]
 - [[L5_infrastructure_layer]]
 - [[L4L5_facility_finance_crisis]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

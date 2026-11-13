@@ -164,7 +164,7 @@ consolidated-data.json (データベース)
 
 ### 市政関連
 - [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
-- [[projects/utomachi_PF/overview|Utomachi Platform]] - 地域経済システム
+-  - 地域経済システム
 
 ---
 

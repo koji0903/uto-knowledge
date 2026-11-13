@@ -72,4 +72,4 @@ tags: [政策実行カード, RMO, 自主防災組織, 防災リーダー]
 - [[rmo_os_specification]]
 - [[L3_organization_pfu]]
 - [[pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

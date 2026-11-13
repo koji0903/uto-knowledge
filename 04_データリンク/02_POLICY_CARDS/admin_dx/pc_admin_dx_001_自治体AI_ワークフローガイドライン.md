@@ -72,4 +72,4 @@ tags: [政策実行カード, 行政DX, AI, 業務改善]
 - [[04_データリンク/02_POLICY_CARDS/admin_dx/index|行政DX・AI 政策実行カード]]
 - [[education_os_specification]]
 - [[rmo_os_specification]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

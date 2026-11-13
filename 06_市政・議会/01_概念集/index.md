@@ -158,7 +158,7 @@ type: moc
 - [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ### プロジェクト
-- [[projects/utomachi_PF/overview|Utomachi Platform]]
+- 
 
 ---
 

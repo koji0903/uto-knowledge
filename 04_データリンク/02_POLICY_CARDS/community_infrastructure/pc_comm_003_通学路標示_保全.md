@@ -74,4 +74,4 @@ tags: [政策実行カード, インフラ, 通学路, 道路安全]
 - [[L5_infrastructure_layer]]
 - [[education_os_specification]]
 - [[childcare_os_specification]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

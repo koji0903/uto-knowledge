@@ -29,4 +29,4 @@ tags: [政策実行カード, 産業OS, 地域商社, index]
 - [[industry_os_specification]]
 - [[utomachi_100_store_specification]]
 - [[industry_rmo_connectivity]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

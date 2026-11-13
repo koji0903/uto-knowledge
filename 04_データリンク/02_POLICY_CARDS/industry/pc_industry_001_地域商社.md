@@ -69,4 +69,4 @@ tags: [政策実行カード, 産業OS, 地域商社, ウトマチ百貨店]
 - [[industry/index]]
 - [[industry_os]]
 - [[industry_rmo_connectivity]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

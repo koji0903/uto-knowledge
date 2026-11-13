@@ -72,4 +72,4 @@ tags: [政策実行カード, 防災, DX, データ運用, Web]
 - [[rmo_os_specification]]
 - [[pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]]
 - [[pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

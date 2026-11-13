@@ -179,7 +179,7 @@ R5の大幅赤字→R6で改善という動きは、
 - [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]
 
 ### プロジェクト
-- [[projects/utomachi_PF/overview|Utomachi Platform]] - 地域経済システム
+-  - 地域経済システム
 
 ---
 

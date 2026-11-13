@@ -120,7 +120,7 @@ DXによる効率化が「選択肢」ではなく「必須」
 
 ## 📊 関連プロジェクト
 
-### [[projects/utomachi_PF/overview|Utomachi Platform]]
+### 
 地域経済・市民参加を支えるシステム基盤
 
 ### [[06_市政・議会/03_財政/fiscal-viewer-app|財政戦略ビューア技術仕様]]
@@ -131,14 +131,14 @@ DXによる効率化が「選択肢」ではなく「必須」
 ## 🏛️ 宇土OS体系との接続
 
 ### 関連OS仕様
-- **[[00_システム/03_ビジョン体系/rmo_os_specification|RMO OS]]** - 地域運営のデジタル化
-- **[[00_システム/03_ビジョン体系/childcare_os_specification|子育てOS]]** - ワンストップ化
-- **[[00_システム/03_ビジョン体系/industry_os_specification|産業OS]]** - データ駆動の産業政策
+- **** - 地域運営のデジタル化
+- **** - ワンストップ化
+- **** - データ駆動の産業政策
 
 ### アーキテクチャ ⭐
-- **[[00_システム/01_アーキテクチャ/Utomachi_Platform_Architecture|ウトマチプラットフォーム アーキテクチャ]]** ⭐
+- **** ⭐
   - Next.js 16 / React 19 / Firestore / Firebase Auth / Google Gemini AI
-- **[[00_システム/01_アーキテクチャ/STRATEGY|ナレッジ高度化戦略]]**
+- ****
 
 ### ナレッジ層
 - [[03_知識/tech/index|tech ナレッジ]] - DSS・AI運用基盤
@@ -163,7 +163,7 @@ DXによる効率化が「選択肢」ではなく「必須」
 ### 実装例
 - [[06_市政・議会/03_財政/overview|財政戦略ビューア]]
 - [[06_市政・議会/03_財政/fiscal-viewer-app|技術仕様]]
-- [[projects/utomachi_PF/overview|Utomachi Platform]]
+- 
 
 ---
 

@@ -70,4 +70,4 @@ tags: [政策実行カード, 移住定住, 魅力発信, 関係人口]
 - [[04_データリンク/02_POLICY_CARDS/relocation_brand/index|移住・魅力発信 政策実行カード]]
 - [[relocation_os_specification]]
 - [[../finance_facilities/pc_finance_002_city_hall_utilization_revenue|新庁舎利活用と市民価値の最大化]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

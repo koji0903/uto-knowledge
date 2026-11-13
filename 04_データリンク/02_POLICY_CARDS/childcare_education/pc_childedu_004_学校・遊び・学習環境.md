@@ -70,4 +70,4 @@ tags: [政策実行カード, 子育てOS, 教育OS, 遊び場, 学び場]
 - [[04_データリンク/02_POLICY_CARDS/childcare_education/index|子育て・教育 政策実行カード]]
 - [[childcare_os_specification]]
 - [[education_os_specification]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

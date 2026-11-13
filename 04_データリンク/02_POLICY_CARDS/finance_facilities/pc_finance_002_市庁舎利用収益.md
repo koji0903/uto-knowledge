@@ -71,4 +71,4 @@ tags: [政策実行カード, 新庁舎, 公共施設, 市民利用]
 - [[04_データリンク/02_POLICY_CARDS/finance_facilities/index|財政・公共施設 政策実行カード]]
 - [[../industry/pc_industry_003_uto_brand_product_catalog|宇土ブランド・特産品カタログ整備]]
 - [[L5_infrastructure_layer]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 

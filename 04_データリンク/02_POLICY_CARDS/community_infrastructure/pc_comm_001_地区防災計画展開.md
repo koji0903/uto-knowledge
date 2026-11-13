@@ -73,4 +73,4 @@ tags: [政策実行カード, RMO, 防災, 地区防災計画]
 - [[04_データリンク/02_POLICY_CARDS/community_infrastructure/index|地域運営・インフラ 政策実行カード]]
 - [[rmo_os_specification]]
 - [[L3_organization_pfu]]
-- [[../../01_議会活動/policy_links/土黒功司一般質問政策マップ]]
+- 
