@@ -79,20 +79,6 @@
           "resolvedModel": "claude-haiku-4-5-20251001",
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": []
-        },
-        {
-          "value": "opus[1m]",
-          "label": "Opus (1M context)",
-          "description": "Opus 4.8 with 1M context · Best for everyday, complex tasks · ~2× usage vs Sonnet",
-          "resolvedModel": "claude-opus-4-8[1m]",
-          "reasoningMetadataResolved": true,
-          "supportedEffortLevels": [
-            "low",
-            "medium",
-            "high",
-            "xhigh",
-            "max"
-          ]
         }
       ],
       "outputStyle": null,
