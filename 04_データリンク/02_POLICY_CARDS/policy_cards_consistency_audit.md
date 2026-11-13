@@ -48,7 +48,7 @@ tags: [監査, 政策実行カード, 整合性チェック, 一般質問, 土�
 | [[community_infrastructure/pc_comm_003_school_route_road_marking_maintenance]] | R5-06 / R6-09 | 通学路安全プログラム×道路標示を統合 |
 | [[community_infrastructure/pc_comm_004_disaster_data_web_operations]] | R4-12 / R6-03 | 災害時のWeb・庁内データ運用論を網羅 |
 | [[finance_facilities/pc_finance_002_city_hall_utilization_revenue]] | R5-06 / R6-06 | 新庁舎の「ハコ→価値創造」論を継承 |
-| [[admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base]] | R5-12 | 行政視察論をナレッジ化する方向性で一致 |
+| [[admin_dx/pc_admin_dx_002_検査学習ナレッジベース]] | R5-12 | 行政視察論をナレッジ化する方向性で一致 |
 
 ---
 
@@ -64,7 +64,7 @@ tags: [監査, 政策実行カード, 整合性チェック, 一般質問, 土�
 | [[finance_facilities/pc_finance_001_public_facility_finance_gap]] | R5-06 | **+ R5-03 Q6-7**（ふるさと納税の投資的活用） | 「他自治体は施設整備に投入」事例の引用元 |
 | [[relocation_brand/pc_relocation_001_uto_brand_migration_funnel]] | R6-06 | **+ R4-12 Q2**（地域おこし協力隊定住率50%）<br>**+ R5-12 Q2**（崇城大学連携） | 移住導線の既存資産として把握すべき |
 | [[relocation_brand/pc_relocation_002_vacant_house_trial_stay]] | R4-12, R6-06 | （現状で妥当） | 議会で直接論点化されていない領域 |
-| [[admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline]] | R5-06, R5-12 | **+ R6-03 Q1-2**（テレワーク・冗長化）<br>**+ R6-12 Q9**（教育DX） | DXは行政・教育・災害時に横断 |
+| [[admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン]] | R5-06, R5-12 | **+ R6-03 Q1-2**（テレワーク・冗長化）<br>**+ R6-12 Q9**（教育DX） | DXは行政・教育・災害時に横断 |
 
 ---
 

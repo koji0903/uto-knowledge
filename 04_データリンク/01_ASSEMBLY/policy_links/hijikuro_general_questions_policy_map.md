@@ -71,8 +71,8 @@ tags: [議会, 一般質問, 宇土OS, 土黒功司]
 
 - [[L1_fact_layer]]
 - [[L3_organization_pfu]]
-- [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]]
-- [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]]
+- [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]]
+- [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]]
 
 ## 関連リンク
 

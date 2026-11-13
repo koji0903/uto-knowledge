@@ -26,7 +26,7 @@ tags: [政策実行カード, 宇土OS, 実行管理, index]
 | 2 | 防災・地域運営 | [[community_infrastructure/pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]] / [[community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]] | 地区防災計画テンプレート |
 | 3 | 教育DX | [[childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]] | GIGA活用KPI表 |
 | 4 | 財政・公共施設 | [[finance_facilities/pc_finance_001_public_facility_finance_gap|公共施設・財政ギャップの見える化]] | 公共施設台帳の最小項目 |
-| 5 | 行政DX・AI | [[admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] | AI利用ガイドライン1ページ版 |
+| 5 | 行政DX・AI | [[admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | AI利用ガイドライン1ページ版 |
 
 ## 議会質問に使う束
 
@@ -35,7 +35,7 @@ tags: [政策実行カード, 宇土OS, 実行管理, index]
 | GIGAスクール更新後の活用KPI | [[childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]] | [[../01_ASSEMBLY/questions/r6_12_hijikuro_general_question]], [[../01_ASSEMBLY/questions/r6_03_hijikuro_general_question]] |
 | 地区防災計画の横展開と補助制度 | [[community_infrastructure/pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]] | [[../01_ASSEMBLY/questions/r6_06_hijikuro_general_question]], [[../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] |
 | 通学路安全プログラムの公開・補修状況 | [[community_infrastructure/pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]] | [[../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]], [[../01_ASSEMBLY/questions/r6_09_hijikuro_general_question]] |
-| 生成AIの業務利用ルールと研修 | [[admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] | [[../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]], [[../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] |
+| 生成AIの業務利用ルールと研修 | [[admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | [[../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]], [[../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] |
 | 公共施設更新費と市民説明 | [[finance_facilities/pc_finance_001_public_facility_finance_gap|公共施設・財政ギャップの見える化]] | [[../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]], [[L4L5_facility_finance_crisis]] |
 
 ## 実装準備に使う束
@@ -53,7 +53,7 @@ tags: [政策実行カード, 宇土OS, 実行管理, index]
 | 候補 | 理由 | 入口 |
 | --- | --- | --- |
 | 空き家活用・お試し居住 | 魅力発信と地域おこし協力隊の定住実績を、住まい・お試し居住へ接続できる | [[relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] |
-| 行政視察ナレッジ | 宇土市の強みを外部評価から抽出できる | [[admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]] |
+| 行政視察ナレッジ | 宇土市の強みを外部評価から抽出できる | [[admin_dx/pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]] |
 | 児童発達支援 | 子育てOSで制度・施設・相談を統合できる | [[childcare_education/pc_childedu_005_child_development_support_facilities|児童発達支援と公共施設の接続]] |
 
 ## 関連リンク

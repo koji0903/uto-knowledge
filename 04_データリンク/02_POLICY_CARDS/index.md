@@ -71,8 +71,8 @@ tags: [政策実行カード, 宇土OS, index]
 | [[finance_facilities/pc_finance_002_city_hall_utilization_revenue|新庁舎利活用と市民価値の最大化]] | draft | [[L5_infrastructure_layer]], [[industry_os_specification]] |
 | [[relocation_brand/pc_relocation_001_uto_brand_migration_funnel|「九州のどまんなか宇土市」から移住導線へ]] | draft | [[relocation_os_specification]], [[childcare_os_specification]] |
 | [[relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] | draft | [[relocation_os_specification]], [[rmo_os_specification]] |
-| [[admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] | draft | [[education_os_specification]], [[rmo_os_specification]] |
-| [[admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]] | draft | [[L1_fact_layer]], [[L6_policy_layer]] |
+| [[admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | draft | [[education_os_specification]], [[rmo_os_specification]] |
+| [[admin_dx/pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]] | draft | [[L1_fact_layer]], [[L6_policy_layer]] |
 
 ## 関連リンク
 

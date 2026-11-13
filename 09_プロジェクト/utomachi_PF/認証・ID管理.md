@@ -268,5 +268,5 @@ if (identity.capabilities.includes('nori.harvest.record')) {
 
 ## 関連リンク
 - [[overview]] - プロジェクト概要
-- [[operations-management]] - オペレーション管理（監査ログ含む）
+- [[運用管理]] - オペレーション管理（監査ログ含む）
 - [[workflow-management]] - ワークフロー内の権能チェック

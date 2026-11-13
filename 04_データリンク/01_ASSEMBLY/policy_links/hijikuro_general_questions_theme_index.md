@@ -145,7 +145,7 @@ GIGAスクール（既出）に加え、**生成AI・自治体DX・災害時の�
 | [[r6_03_hijikuro_general_question]] | Q1 | 企画財政部長 | 令和2年7月豪雨の通信インフラ被害 |
 | [[r6_03_hijikuro_general_question]] | Q2 | 企画財政部長 | 現在の冗長化・CDN・テレワーク対応 |
 
-➡️ 関連政策カード: [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドライン]] / [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|議会知識のナレッジベース化]] / [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_004_disaster_data_web_operations|災害時のWeb運用]]
+➡️ 関連政策カード: [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドライン]] / [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_002_検査学習ナレッジベース|議会知識のナレッジベース化]] / [[../../02_POLICY_CARDS/community_infrastructure/pc_comm_004_disaster_data_web_operations|災害時のWeb運用]]
 
 ---
 

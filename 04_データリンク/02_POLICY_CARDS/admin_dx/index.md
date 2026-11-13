@@ -15,8 +15,8 @@ tags: [政策実行カード, 行政DX, AI, index]
 
 | カード | 状態 | 主な接続先 |
 | --- | --- | --- |
-| [[pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] | draft | [[../../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]], [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] |
-| [[pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]] | draft | [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]], [[L1_fact_layer]] |
+| [[pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | draft | [[../../01_ASSEMBLY/questions/r5_06_hijikuro_general_question]], [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]] |
+| [[pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]] | draft | [[../../01_ASSEMBLY/questions/r5_12_hijikuro_general_question]], [[L1_fact_layer]] |
 
 ## 関連リンク
 

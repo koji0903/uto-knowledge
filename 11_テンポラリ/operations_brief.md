@@ -54,7 +54,7 @@ RM tmp/index.md -> 00_System/tmp_lifecycle.md
 
 | order | id | card | priority | domain | first_next_action | first_kpi |
 | ---: | --- | --- | --- | --- | --- | --- |
-| 1 | pc_admin_dx_001 | [[04_データリンク/02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] | high | admin_dx | R5-06とR5-12の答弁からAI・DXに関する行政の現状を抽出する | AI活用対象業務の登録件数 |
+| 1 | pc_admin_dx_001 | [[04_データリンク/02_POLICY_CARDS/admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | high | admin_dx | R5-06とR5-12の答弁からAI・DXに関する行政の現状を抽出する | AI活用対象業務の登録件数 |
 | 2 | pc_childedu_001 | [[04_データリンク/02_POLICY_CARDS/childcare_education/pc_childedu_001_giga_school_daily_use|GIGAスクールの日常活用と端末更新]] | high | childcare_education | R4-12、R6-03、R6-12の答弁から端末・支援・活用差に関する論点を抽出する | 端末の授業利用頻度 |
 | 3 | pc_childedu_002 | [[04_データリンク/02_POLICY_CARDS/childcare_education/pc_childedu_002_child_third_place|子どもサードプレイスの運用設計]] | high | childcare_education | R6-06答弁から施設整備・周辺環境・運営上の配慮事項を抽出する | 利用者数 |
 | 4 | pc_comm_001 | [[04_データリンク/02_POLICY_CARDS/community_infrastructure/pc_comm_001_district_disaster_plan_rollout|地区防災計画の横展開]] | high | community_infrastructure | R6-06答弁から走潟地区モデルと他地区展開の条件を抽出する | 地区防災計画の策定地区数 |
@@ -65,7 +65,7 @@ RM tmp/index.md -> 00_System/tmp_lifecycle.md
 | 9 | pc_industry_001 | [[04_データリンク/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社構想の実装準備]] | high | industry | R4-12、R5-09、R6-06の答弁から行政の既存取組を抜き出す | 産品・事業者台帳の登録件数 |
 | 10 | pc_industry_002 | [[04_データリンク/02_POLICY_CARDS/industry/pc_industry_002_furusato_tax_strategy|ふるさと納税を地域商社の販路に接続]] | high | industry | 返礼品候補の棚卸し表を作る | 新規返礼品数 |
 | 11 | pc_industry_005 | [[04_データリンク/02_POLICY_CARDS/industry/pc_industry_005_cross_department_industry_pfu|産業横断PFUの設計]] | high | industry | 現在存在する協議会・会議体を一覧化する | 横断会議の開催回数 |
-| 12 | pc_admin_dx_002 | [[04_データリンク/02_POLICY_CARDS/admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]] | medium | admin_dx | R5-12答弁から行政視察受入実績と評価ポイントを抽出する | 視察テーマ台帳の登録件数 |
+| 12 | pc_admin_dx_002 | [[04_データリンク/02_POLICY_CARDS/admin_dx/pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]] | medium | admin_dx | R5-12答弁から行政視察受入実績と評価ポイントを抽出する | 視察テーマ台帳の登録件数 |
 
 ## DataLink
 

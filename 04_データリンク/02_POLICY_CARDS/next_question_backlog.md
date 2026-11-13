@@ -26,7 +26,7 @@ tags: [政策実行カード, 一般質問, 議会, 宇土OS]
 | high | 自主防災組織と防災リーダー | 組織率、リーダー育成、避難所運営、年度替わりの引き継ぎ | [[community_infrastructure/pc_comm_002_autonomous_disaster_org_network|自主防災組織ネットワークの強化]] |
 | high | 通学路・道路標示の補修優先順位 | 危険箇所台帳、公開状況、補修予算、地域からの通報導線 | [[community_infrastructure/pc_comm_003_school_route_road_marking_maintenance|通学路・道路標示メンテナンス]] |
 | high | 公共施設更新費と市民説明 | 施設別更新費、優先順位、複合化・転用、市民説明の方法 | [[finance_facilities/pc_finance_001_public_facility_finance_gap|公共施設・財政ギャップの見える化]] |
-| high | 自治体AI活用ルール | 利用ガイドライン、個人情報保護、職員研修、効果測定 | [[admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] |
+| high | 自治体AI活用ルール | 利用ガイドライン、個人情報保護、職員研修、効果測定 | [[admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] |
 
 ## 産業・地域商社
 

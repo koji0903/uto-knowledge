@@ -39,8 +39,8 @@ tags: [議会, 宇土OS, policy-link, index]
 | [[../../02_POLICY_CARDS/finance_facilities/pc_finance_002_city_hall_utilization_revenue|新庁舎利活用と市民価値の最大化]] | 庁舎利活用 | draft |
 | [[../../02_POLICY_CARDS/relocation_brand/pc_relocation_001_uto_brand_migration_funnel|「九州のどまんなか宇土市」から移住導線へ]] | 移住・魅力発信 | draft |
 | [[../../02_POLICY_CARDS/relocation_brand/pc_relocation_002_vacant_house_trial_stay|空き家活用・お試し居住の実装準備]] | 空き家・移住 | draft |
-| [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|自治体AI活用ガイドラインと業務実装]] | 行政DX・AI | draft |
-| [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_002_inspection_learning_knowledge_base|行政視察・議会知識のナレッジベース化]] | 議会ナレッジ | draft |
+| [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_001_自治体AI_ワークフローガイドライン|自治体AI活用ガイドラインと業務実装]] | 行政DX・AI | draft |
+| [[../../02_POLICY_CARDS/admin_dx/pc_admin_dx_002_検査学習ナレッジベース|行政視察・議会知識のナレッジベース化]] | 議会ナレッジ | draft |
 
 ## 紐づけカテゴリ
 
