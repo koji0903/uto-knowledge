@@ -1,6 +1,6 @@
 {
   "userName": "",
-  "permissionMode": "acceptEdits",
+  "permissionMode": "yolo",
   "model": "claude-code/opus[1m]",
   "effortLevel": "low",
   "serviceTier": "default",
@@ -436,7 +436,7 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
     "providerId": "claude",
-    "model": "claude-code/opus[1m]"
+    "model": "haiku"
   },
   "inlineEditModel": null,
   "savedProviderModel": {
@@ -451,7 +451,7 @@
     "codex": "priority"
   },
   "savedProviderPermissionMode": {
-    "claude": "acceptEdits",
+    "claude": "yolo",
     "codex": "normal"
   },
   "pendingProviderSessionInvalidations": {},

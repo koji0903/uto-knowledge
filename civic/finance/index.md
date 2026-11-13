@@ -172,6 +172,7 @@ R5の大幅赤字→R6で改善という動きは、
 ## 🔗 関連リンク
 
 ### 議会活動
+- [[civic/uto-city-council/2026-study-session-summary|令和8年度 議員勉強会 総合整理]]（財政概要R7・中期財政見通しの提案）🆕
 - [[civic/uto-city-council|宇土市議会・議員活動]]
 - [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 - [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
