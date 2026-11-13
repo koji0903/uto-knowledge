@@ -137,7 +137,7 @@ idea → planning → active → done
 ### 自動検出フェーズ（scripts/detect_ai_conflicts.mjs）
 
 ```bash
-bash scripts/detect_ai_conflicts.sh [--ai claude|gemini|chatgpt|all] [--output tmp/conflict_report.md]
+bash scripts/detect_ai_conflicts.sh [--ai claude|gemini|chatgpt|all] [--output tmp/競合レポート.md]
 ```
 
 **処理フロー:**
@@ -157,7 +157,7 @@ bash scripts/detect_ai_conflicts.sh [--ai claude|gemini|chatgpt|all] [--output t
    → MEDIUM: 調査・確認が必要
    → LOW: 参考情報
 
-5. tmp/conflict_report.md に出力
+5. tmp/競合レポート.md に出力
    → Markdown 形式で矛盾ペアと根拠を記録
 ```
 
@@ -167,7 +167,7 @@ bash scripts/detect_ai_conflicts.sh [--ai claude|gemini|chatgpt|all] [--output t
 
 **矛盾が見つかった場合:**
 ```
-1. tmp/conflict_report.md をハンドオフドキュメントに含める
+1. tmp/競合レポート.md をハンドオフドキュメントに含める
    → `bash scripts/generate_interactive_handoff.sh --ai claude`
 
 2. AI へ矛盾解決を依頼
@@ -179,7 +179,7 @@ bash scripts/detect_ai_conflicts.sh [--ai claude|gemini|chatgpt|all] [--output t
 
 ---
 
-## 矛盾検出レポート（tmp/conflict_report.md）の形式
+## 矛盾検出レポート（tmp/競合レポート.md）の形式
 
 ```markdown
 # AI間矛盾検出レポート
@@ -226,7 +226,7 @@ bash scripts/detect_ai_conflicts.sh [--ai claude|gemini|chatgpt|all] [--output t
 ## AI の矛盾解決ワークフロー
 
 ```
-1. tmp/conflict_report.md を読み込み
+1. tmp/競合レポート.md を読み込み
 2. 推奨アクション の [ ] チェック項目を処理
 3. 根拠・調査結果を 04_DataLink/ai_decisions/claude_conflict_resolution_*.md に記録
 4. 修正すべき ドキュメントを更新
@@ -292,7 +292,7 @@ bash scripts/detect_ai_conflicts.sh [--ai claude|gemini|chatgpt|all] [--output t
 ## ベストプラクティス
 
 1. **矛盾解決の最優先**
-   - 毎朝、first thing として `tmp/conflict_report.md` を確認
+   - 毎朝、first thing として `tmp/競合レポート.md` を確認
    - HIGH 優先度は即座に対応
 
 2. **参照先の更新時は related_* も更新**

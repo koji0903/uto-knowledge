@@ -1,16 +1,16 @@
 # AIハンドオフ
 
-Generated: 2026-05-30T23:22:58.403Z
+Generated: 2026-05-30T23:22:58.571Z
 
 ## 宛先
 
-- AI: chatgpt
+- AI: codex
 - 役割: 実装、検証、スクリプト、ドキュメント整備担当
 
 ## 前提
 
 - このVaultは Obsidian を思考OS、FirestoreをデータOS、Google Driveをファイル実体、MCPをAI連携口として使います。
-- 作業前に `AI運用ガイド.md`、`tmp/ai_context.md`、`tmp/ai_conflict_report.md` を読んでください。
+- 作業前に `AI運用ガイド.md`、`tmp/ai_context.md`、`tmp/ai_競合レポート.md` を読んでください。
 - 既存のフォルダ名、ファイル名、ID、Firestore collection名を安易に変更しないでください。
 - `.env`、秘密鍵、OAuthトークン、サービスアカウントJSONはGitへ追加しないでください。
 
@@ -34,14 +34,14 @@ Generated: 2026-05-30T23:22:58.403Z
 
 ## AI競合検出
 
-- report: `tmp/ai_conflict_report.md`
+- report: `tmp/ai_競合レポート.md`
 - status: 未生成
-- 作業前に `bash scripts/detect_ai_conflicts.sh --out tmp/ai_conflict_report.md` を実行し、HIGH競合が0件であることを確認してください。
+- 作業前に `bash scripts/detect_ai_conflicts.sh --out tmp/ai_競合レポート.md` を実行し、HIGH競合が0件であることを確認してください。
 
 
 ## 今回の依頼
 
-validate chatgpt handoff
+validate codex handoff
 
 ## 対象範囲
 
@@ -79,7 +79,7 @@ validate chatgpt handoff
 
 ```bash
 bash scripts/generate_ai_context.sh
-bash scripts/detect_ai_conflicts.sh --out tmp/ai_conflict_report.md
+bash scripts/detect_ai_conflicts.sh --out tmp/ai_競合レポート.md
 bash scripts/validate_ai_operations_docs.sh
 bash scripts/maintenance_check.sh local
 ```
