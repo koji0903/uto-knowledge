@@ -7,7 +7,7 @@ status: 蓄積中
 source_path: "GoogleDrive/マイドライブ/宇土市議会議員/2022 選挙活動"
 ---
 
-> ⬅ [[civic/election-2026/index|🗳️ 2026市議選ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/index|🗳️ 2026市議選ハブ]]
 
 # 📦 2022選挙活動アーカイブ
 
@@ -22,15 +22,15 @@ source_path: "GoogleDrive/マイドライブ/宇土市議会議員/2022 選挙�
 
 | ノート | 内容 |
 |--------|------|
-| [[civic/election-2026/archive-2022/operational-playbook|実務プレイブック]] ⭐ | 備忘録ベースの手順・教訓・選挙カー運用 |
-| [[civic/election-2026/archive-2022/messaging-2022|メッセージ＆プロフィール]] ⭐ | 2022の言葉・想い・経歴と2026への進化 |
-| [[civic/election-2026/archive-2022/profile-2022-full|プロフィール・経歴（原典）]] | 学歴・職歴の全文と選挙ストーリー軸 |
-| [[civic/election-2026/archive-2022/koenkai-meeting-20220824|後援会打ち合わせ 8/24]] | 体制づくり・立候補者情勢 |
-| [[civic/election-2026/archive-2022/koenkai-meeting-20220904|後援会打ち合わせ 9/04]] | 支持拡大・青年部・チラシ |
-| [[civic/election-2026/archive-2022/election-message-2022|選挙メッセージ（原典・完全版）]] ⭐ | キャッチ・架け橋・施策の大本 |
-| [[civic/election-2026/archive-2022/bridge-concept-2022|地域と行政の「架け橋」]] ⭐ | 中核コンセプトの深掘り原典 |
-| [[civic/election-2026/archive-2022/templates-2022|文面テンプレート集]] | 事務所開き案内 等の再利用文面 |
-| [[civic/election-2026/archive-2022/gdoc-links|Google Docsリンク集]] | gdoc本文のURLと統合状況 |
+| [[06_市政・議会/02_選挙2026/archive-2022/operational-playbook|実務プレイブック]] ⭐ | 備忘録ベースの手順・教訓・選挙カー運用 |
+| [[06_市政・議会/02_選挙2026/archive-2022/messaging-2022|メッセージ＆プロフィール]] ⭐ | 2022の言葉・想い・経歴と2026への進化 |
+| [[06_市政・議会/02_選挙2026/archive-2022/profile-2022-full|プロフィール・経歴（原典）]] | 学歴・職歴の全文と選挙ストーリー軸 |
+| [[06_市政・議会/02_選挙2026/archive-2022/koenkai-meeting-20220824|後援会打ち合わせ 8/24]] | 体制づくり・立候補者情勢 |
+| [[06_市政・議会/02_選挙2026/archive-2022/koenkai-meeting-20220904|後援会打ち合わせ 9/04]] | 支持拡大・青年部・チラシ |
+| [[06_市政・議会/02_選挙2026/archive-2022/election-message-2022|選挙メッセージ（原典・完全版）]] ⭐ | キャッチ・架け橋・施策の大本 |
+| [[06_市政・議会/02_選挙2026/archive-2022/bridge-concept-2022|地域と行政の「架け橋」]] ⭐ | 中核コンセプトの深掘り原典 |
+| [[06_市政・議会/02_選挙2026/archive-2022/templates-2022|文面テンプレート集]] | 事務所開き案内 等の再利用文面 |
+| [[06_市政・議会/02_選挙2026/archive-2022/gdoc-links|Google Docsリンク集]] | gdoc本文のURLと統合状況 |
 
 ---
 
@@ -61,15 +61,15 @@ source_path: "GoogleDrive/マイドライブ/宇土市議会議員/2022 選挙�
 - 写真素材: `全体写真_こぶし入り/直立/笑顔.png`・`走潟の風景.jpg`
 - 提出様式xlsx: 立候補届出・事務所設置届・出納責任者選任届・ビラ届出・収支報告書
 
-> 💡 2026は上記aiを土台に、メッセージを「[[civic/election-2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]」へ差し替えれば短期間で制作可能。
+> 💡 2026は上記aiを土台に、メッセージを「[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]」へ差し替えれば短期間で制作可能。
 
 ---
 
 ## 🔗 2026ナレッジへの接続
 
-- 運営手順 → [[civic/election-2026/campaign-readiness|選挙準備マップ]] E/F/G領域を埋める一次資料
-- メッセージ進化 → [[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造]] / [[civic/election-2026/candidates/hijikuro-koji/declaration|宣言文]]
-- 実績 → [[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|1期目実績]]（2022トップ当選1,474票）
+- 運営手順 → [[06_市政・議会/02_選挙2026/campaign-readiness|選挙準備マップ]] E/F/G領域を埋める一次資料
+- メッセージ進化 → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration|宣言文]]
+- 実績 → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|1期目実績]]（2022トップ当選1,474票）
 
 ---
 

@@ -59,7 +59,7 @@ aliases: ["財政制約", "財政の持続可能性", "財政的制約"]
 ```
 人口減少
     ↓
-市税減少（[[civic/concepts/population-decline|人口減少]] 参照）
+市税減少（[[06_市政・議会/01_概念集/population-decline|人口減少]] 参照）
     ↓
 地方交付税の縮小（国の財政逼迫）
     ↓
@@ -104,7 +104,7 @@ aliases: ["財政制約", "財政の持続可能性", "財政的制約"]
 
 ## 💡 議会質問での視点
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問①
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問①
 
 ```
 質問例：
@@ -180,19 +180,19 @@ aliases: ["財政制約", "財政の持続可能性", "財政的制約"]
 ## 🔗 関連ノート
 
 ### 概念
-- [[civic/concepts/population-decline|人口減少]]
-- [[civic/concepts/local-economy|地域経済]]
-- [[civic/concepts/dx-strategy|DX戦略]]
+- [[06_市政・議会/01_概念集/population-decline|人口減少]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/dx-strategy|DX戦略]]
 
 ### 財政分析
-- [[civic/finance/uto-city-fiscal-analysis|宇土市 財政状況の分析]]
-- [[civic/finance/uto-city-public-facilities|公共施設問題]]
-- [[civic/finance/overview|財政戦略ビューア]]
+- [[06_市政・議会/03_財政/uto-city-fiscal-analysis|宇土市 財政状況の分析]]
+- [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]]
+- [[06_市政・議会/03_財政/overview|財政戦略ビューア]]
 
 ### 議会活動
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ---
 

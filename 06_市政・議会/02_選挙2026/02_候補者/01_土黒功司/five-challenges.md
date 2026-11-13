@@ -4,10 +4,10 @@ date: 2026-06-26
 tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, スローガン, 5つの挑戦]
 type: messaging
 status: 確定候補
-based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
+based_on: "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🚀 宇土市を進化させる5つの挑戦（公開スローガン）
 
@@ -36,11 +36,11 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 
 | # | 思想：進化の方向 | 公開：5つの挑戦 | 具体：公約 |
 |---|------------------|------------------|------------|
-| ① | 人口減少に適応する | **人口減少時代に適応する宇土へ** | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#① 人口減少に適応する\|公共施設の戦略的再編]] |
-| ② | 子どもへ投資する | **子どもたちが誇れる宇土へ** | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#② 子どもへ投資する\|子育て・教育への投資]] |
-| ③ | 稼ぐ地域をつくる | **稼ぐ力のある宇土へ** | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#③ 稼ぐ地域をつくる\|地域商社・稼ぐ構造]] |
-| ④ | 共創社会をつくる | **行政任せではない共創の宇土へ** | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#④ 共創社会をつくる\|官民・市民の共創]] |
-| ⑤ | データと対話で未来を考える | **データと対話で未来を考える宇土へ** | [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#⑤ データと対話で未来を考える\|データと対話の市役所]] |
+| ① | 人口減少に適応する | **人口減少時代に適応する宇土へ** | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#① 人口減少に適応する\|公共施設の戦略的再編]] |
+| ② | 子どもへ投資する | **子どもたちが誇れる宇土へ** | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#② 子どもへ投資する\|子育て・教育への投資]] |
+| ③ | 稼ぐ地域をつくる | **稼ぐ力のある宇土へ** | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#③ 稼ぐ地域をつくる\|地域商社・稼ぐ構造]] |
+| ④ | 共創社会をつくる | **行政任せではない共創の宇土へ** | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#④ 共創社会をつくる\|官民・市民の共創]] |
+| ⑤ | データと対話で未来を考える | **データと対話で未来を考える宇土へ** | [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#⑤ データと対話で未来を考える\|データと対話の市役所]] |
 
 ---
 
@@ -61,7 +61,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 ## 📐 使用ガイド
 
 - **見出し/ポスター**: 「宇土市を進化させる5つの挑戦」＋5項目を箇条書き
-- **演説の骨**: 各挑戦 → 1期目実績（[[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|棚卸し]]）→ 2期目の約束、の順で1分ずつ
+- **演説の骨**: 各挑戦 → 1期目実績（[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|棚卸し]]）→ 2期目の約束、の順で1分ずつ
 - **SNS**: 1投稿1挑戦で5回シリーズ展開も可能
 - **締め**: 「子どもたちが誇れる宇土へ。UTO PRIDE。」
 

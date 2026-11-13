@@ -5,12 +5,12 @@ tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, 公約, 確定版, �
 type: manifesto
 status: 確定（公表用）
 based_on:
-  - "[[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。]]"
-  - "[[civic/election-2026/candidates/hijikuro-koji/future-map|夢見る宇土市の未来マップ]]"
-  - "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
+  - "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。]]"
+  - "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/future-map|夢見る宇土市の未来マップ]]"
+  - "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🗳️ 選挙公約 2026（確定版）
 
@@ -143,10 +143,10 @@ based_on:
 | ノート | 位置づけ |
 |--------|----------|
 | **本ノート（campaign-pledge-2026）** | 🟢 **確定公約（公表用の最終文面）** |
-| [[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。]] | 震災後 改訂メッセージ（本公約の前段・素材） |
-| [[civic/election-2026/candidates/hijikuro-koji/future-map|夢見る宇土市の未来マップ]] | 一人称ビジョン版（演説・SNS用の膨らませ素材） |
-| [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] | 施策の実データ・詳細版 |
-| [[civic/election-2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] | 旧・進化軸スローガン（前身） |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。]] | 震災後 改訂メッセージ（本公約の前段・素材） |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/future-map|夢見る宇土市の未来マップ]] | 一人称ビジョン版（演説・SNS用の膨らませ素材） |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] | 施策の実データ・詳細版 |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]] | 旧・進化軸スローガン（前身） |
 
 > **軸の進化**：旧版は「進化／適応」を前面に出した5本柱だったが、確定版は震災を経て **「つなぐ／架け橋」** を統一フレームに再設計。さらに見直し版で、覚えやすい**動詞ラベル（守る・育てる・稼ぐ・動かす・持続する）**と**「4年後にめざす姿」**を追加し、有権者への到達度・記憶性・検証可能性を高めた。
 

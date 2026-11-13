@@ -9,7 +9,7 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 
 # 🗂️ 宇土市 公開データインデックス
 
-> ⬅ [[civic/index|市政ハブ]] ／ 📌 オープンデータ提供：宇土市役所
+> ⬅ [[06_市政・議会/index|市政ハブ]] ／ 📌 オープンデータ提供：宇土市役所
 
 宇土市が公開している主要な統計・リスト型データの一覧。各データセットはCSV形式でGoogleスプレッドシートで管理・公開中。
 
@@ -23,7 +23,7 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 |------------|----------|--------|------|
 | **人口統計** | 432113_population | 2KB | R8.1.1基準の住基人口・世帯数・世帯構成 |
 
-> **🔗 関連**: [[civic/election-2026/current-values|現状値データ集（人口詳細）]] / [[civic/uto-city-council/2026-study-session/02-経済部|経済部]]
+> **🔗 関連**: [[06_市政・議会/02_選挙2026/current-values|現状値データ集（人口詳細）]] / [[06_市政・議会/06_議会/2026-study-session/02_経済部|経済部]]
 
 ---
 
@@ -44,7 +44,7 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 - 施設系（特別養護老人ホーム・老健施設・グループホーム）
 - その他（成年後見支援・相談支援等）
 
-> **🔗 関連**: [[civic/uto-city-council/2026-study-session/05-健康福祉部#老人保健施設グループホーム|健康福祉部（施設概要）]] / [[civic/election-2026/current-values|現状値データ集（介護・福祉）]]
+> **🔗 関連**: [[06_市政・議会/06_議会/2026-study-session/05_健康福祉部#老人保健施設グループホーム|健康福祉部（施設概要）]] / [[06_市政・議会/02_選挙2026/current-values|現状値データ集（介護・福祉）]]
 
 #### 医療機関一覧
 | 項目 | 内容 |
@@ -60,7 +60,7 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 | サイズ | 6KB |
 | 内容 | 認可保育所・認可外保育施設・幼稚園 |
 
-> **🔗 関連**: [[civic/uto-city-council/2026-study-session/05-健康福祉部#保育状況r7実績|健康福祉部（保育現状）]]
+> **🔗 関連**: [[06_市政・議会/06_議会/2026-study-session/05_健康福祉部#保育状況r7実績|健康福祉部（保育現状）]]
 
 ---
 
@@ -79,7 +79,7 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 - 民俗文化財
 - 天然記念物
 
-> **🔗 関連**: [[civic/uto-city-council/2026-study-session/07-教育部#文化課|教育部（文化課）]] / 詳細：[[civic/uto-os-analysis/02_歴史・文化/宇土市_文化財ガイド|宇土市文化財ガイド]]
+> **🔗 関連**: [[06_市政・議会/06_議会/2026-study-session/07_教育部#文化課|教育部（文化課）]] / 詳細：[[06_市政・議会/07_宇土OS分析/02_歴史・文化/宇土市_文化財ガイド|宇土市文化財ガイド]]
 
 #### 観光施設一覧
 | 項目 | 内容 |
@@ -88,7 +88,7 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 | サイズ | 1KB |
 | 主要施設 | 干潟景勝地（御輿来海岸）・宇土城跡・轟貝塚 |
 
-> **🔗 関連**: [[civic/uto-city-council/2026-study-session/02-経済部#商工観光課|経済部（観光基盤）]]
+> **🔗 関連**: [[06_市政・議会/06_議会/2026-study-session/02_経済部#商工観光課|経済部（観光基盤）]]
 
 ---
 
@@ -106,7 +106,7 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 - 地震指定緊急避難場所
 - 建設型仮設住宅予定地
 
-> **🔗 関連**: [[civic/uto-city-council/2026-study-session/01-総務部|総務部（防災・復興支援）]]
+> **🔗 関連**: [[06_市政・議会/06_議会/2026-study-session/01_総務部|総務部（防災・復興支援）]]
 
 #### AED設置箇所一覧
 | 項目 | 内容 |
@@ -169,9 +169,9 @@ source: "uto_open_data ディレクトリ（Google Sheets リンク）"
 
 ## 🔗 関連ノート
 
-- [[civic/election-2026/current-values|現状値データ集（財政・人口・福祉）]]
-- [[civic/uto-city-council/2026-study-session-summary|総合整理（政策・復興・DX）]]
-- [[civic/index|宇土市 政策ハブ]]
+- [[06_市政・議会/02_選挙2026/current-values|現状値データ集（財政・人口・福祉）]]
+- [[06_市政・議会/06_議会/2026-study-session-summary|総合整理（政策・復興・DX）]]
+- [[06_市政・議会/index|宇土市 政策ハブ]]
 
 ---
 

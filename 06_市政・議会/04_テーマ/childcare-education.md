@@ -32,8 +32,8 @@ priority: 高
 ## 📊 分析層（civic/）
 
 ### 関連概念
-- [[civic/concepts/population-decline|人口減少]] ⭐ - 自然減への対応
-- [[civic/concepts/civic-participation|市民参加]] - 若者参画
+- [[06_市政・議会/01_概念集/population-decline|人口減少]] ⭐ - 自然減への対応
+- [[06_市政・議会/01_概念集/civic-participation|市民参加]] - 若者参画
 
 ---
 
@@ -55,11 +55,11 @@ priority: 高
 ## 🗣️ 議会質問層（civic/uto-city-council/）
 
 ### 中核質問
-- **[[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月② 宇土高校連携]]** ⭐
+- **[[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月② 宇土高校連携]]** ⭐
   - 質問①〜⑤: 高校との連携、地域人材育成、地域課題解決
 
 ### マニフェスト
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]] - 「子育て・教育」セクション
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]] - 「子育て・教育」セクション
 
 ---
 
@@ -90,7 +90,7 @@ priority: 高
 
 ## 💡 議会質問例
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月②]] 構成
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月②]] 構成
 
 | # | 所管 | テーマ |
 |---|------|--------|
@@ -113,10 +113,10 @@ priority: 高
 
 ## 🔗 横断テーマ
 
-- [[civic/themes|横断テーマ索引]]
-- [[civic/themes/public-facilities|公共施設縮小]] - 学校複合化
-- [[civic/themes/industrial-strategy|産業戦略]] - 高校生の地域産業学習
-- [[civic/themes/civic-engagement-dx|市民参加・DX]] - 若者参画
+- [[06_市政・議会/themes|横断テーマ索引]]
+- [[06_市政・議会/themes/public-facilities|公共施設縮小]] - 学校複合化
+- [[06_市政・議会/themes/industrial-strategy|産業戦略]] - 高校生の地域産業学習
+- [[06_市政・議会/themes/civic-engagement-dx|市民参加・DX]] - 若者参画
 
 ---
 

@@ -16,64 +16,64 @@ status: 運用中
 
 ## 🎯 主要テーマ一覧
 
-### 1. 🏢 [[civic/themes/public-facilities|公共施設の戦略的縮小]]
+### 1. 🏢 [[06_市政・議会/themes/public-facilities|公共施設の戦略的縮小]]
 **問い**: 年15.5億円の更新ギャップにどう対応するか
 
 | 層 | リソース |
 |----|---------|
 | 理論 | [[00_System/vision/L4L5_facility_finance_crisis\|L4-L5 施設財政危機]] / [[00_System/vision/L5_infrastructure_layer\|L5インフラ層]] |
-| 分析 | [[civic/finance/uto-city-public-facilities\|公共施設問題]] / [[civic/concepts/fiscal-constraint\|財政制約]] |
+| 分析 | [[06_市政・議会/03_財政/uto-city-public-facilities\|公共施設問題]] / [[06_市政・議会/01_概念集/fiscal-constraint\|財政制約]] |
 | 実装 | [[04_DataLink/02_POLICY_CARDS/finance_facilities/pc_finance_001_public_facility_finance_gap\|pc_finance_001]] |
-| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問①③ |
+| 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|令和8年6月①]] 質問①③ |
 
 ---
 
-### 2. 💼 [[civic/themes/industrial-strategy|産業戦略・地域商社]]
+### 2. 💼 [[06_市政・議会/themes/industrial-strategy|産業戦略・地域商社]]
 **問い**: 地域経済をどう「稼ぐ構造」に転換するか
 
 | 層 | リソース |
 |----|---------|
 | 理論 | [[00_System/vision/industry_os_specification\|産業OS]] / [[00_System/vision/utomachi_100_store_specification\|ウトマチ百貨店]] |
-| 分析 | [[civic/concepts/local-economy\|地域経済]] / [[civic/concepts/public-private-partnership\|官民連携]] |
+| 分析 | [[06_市政・議会/01_概念集/local-economy\|地域経済]] / [[06_市政・議会/01_概念集/public-private-partnership\|官民連携]] |
 | 実装 | [[04_DataLink/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company\|地域商社カード]] |
-| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問② |
+| 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|令和8年6月①]] 質問② |
 | ナレッジ | [[03_Knowledge/business/index\|business ナレッジ]] |
 
 ---
 
-### 3. 👶 [[civic/themes/childcare-education|子育て・教育・人材育成]]
+### 3. 👶 [[06_市政・議会/themes/childcare-education|子育て・教育・人材育成]]
 **問い**: 若者の地域定着と次世代育成をどう実現するか
 
 | 層 | リソース |
 |----|---------|
 | 理論 | [[00_System/vision/childcare_os_specification\|子育てOS]] / [[00_System/vision/education_os_specification\|教育OS]] |
-| 分析 | [[civic/concepts/population-decline\|人口減少]] |
+| 分析 | [[06_市政・議会/01_概念集/population-decline\|人口減少]] |
 | 実装 | 子育て・教育カード（5枚） |
-| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school\|令和8年6月② 高校連携]] |
+| 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school\|令和8年6月② 高校連携]] |
 
 ---
 
-### 4. 🏘️ [[civic/themes/relocation-station|移住・定住・駅周辺]]
+### 4. 🏘️ [[06_市政・議会/themes/relocation-station|移住・定住・駅周辺]]
 **問い**: 人口流出を止め、駅前を再生できるか
 
 | 層 | リソース |
 |----|---------|
 | 理論 | [[00_System/vision/relocation_os_specification\|移住・定住OS]] |
-| 分析 | [[civic/concepts/station-redevelopment\|駅周辺再生]] / [[civic/concepts/population-decline\|人口減少]] |
+| 分析 | [[06_市政・議会/01_概念集/station-redevelopment\|駅周辺再生]] / [[06_市政・議会/01_概念集/population-decline\|人口減少]] |
 | 実装 | [[04_DataLink/02_POLICY_CARDS/finance_facilities/pc_finance_002_city_hall_utilization_revenue\|新庁舎利活用]] |
-| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問② |
+| 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|令和8年6月①]] 質問② |
 
 ---
 
-### 5. 🤝 [[civic/themes/civic-engagement-dx|市民参加・行政DX]]
+### 5. 🤝 [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DX]]
 **問い**: 「話を聞く市役所」をどう実装するか
 
 | 層 | リソース |
 |----|---------|
 | 理論 | [[00_System/vision/rmo_os_specification\|RMO OS]] / [[00_System/architecture/Utomachi_Platform_Architecture\|ウトマチPF]] |
-| 分析 | [[civic/concepts/civic-participation\|市民参加]] / [[civic/concepts/dx-strategy\|DX戦略]] |
+| 分析 | [[06_市政・議会/01_概念集/civic-participation\|市民参加]] / [[06_市政・議会/01_概念集/dx-strategy\|DX戦略]] |
 | 実装 | 行政DX・AIカード |
-| 議会 | [[civic/uto-city-council/2026-06-general-assembly-qa\|令和8年6月①]] 質問③ |
+| 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|令和8年6月①]] 質問③ |
 | システム | [[projects/utomachi_PF/overview\|Utomachi Platform]] |
 
 ---
@@ -163,10 +163,10 @@ status: 運用中
 ## 🔗 関連ハブノート
 
 ### MOCハブ
-- [[civic/index|civic ナレッジベース ハブ]]
-- [[civic/concepts/index|概念ハブ]]
-- [[civic/finance/index|財政分析ハブ]]
-- [[civic/uto-city-council/index|議会活動ハブ]]
+- [[06_市政・議会/index|civic ナレッジベース ハブ]]
+- [[06_市政・議会/01_概念集/index|概念ハブ]]
+- [[06_市政・議会/03_財政/index|財政分析ハブ]]
+- [[06_市政・議会/06_議会/index|議会活動ハブ]]
 
 ### 外部ハブ
 - [[ホーム|🇯🇵 宇土OS ナレッジベース ホーム]]

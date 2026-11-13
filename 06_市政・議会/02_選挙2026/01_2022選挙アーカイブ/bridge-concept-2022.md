@@ -7,12 +7,12 @@ status: 確認済
 source: "gdoc: 地域と行政の「架け橋」（手入力）"
 ---
 
-> ⬅ [[civic/election-2026/archive-2022/index|📦 2022アーカイブ]] / [[civic/election-2026/archive-2022/election-message-2022|📣 選挙メッセージ]]
+> ⬅ [[06_市政・議会/02_選挙2026/archive-2022/index|📦 2022アーカイブ]] / [[06_市政・議会/02_選挙2026/archive-2022/election-message-2022|📣 選挙メッセージ]]
 
 # 🌉 地域と行政の「架け橋」（2022原典）
 
 土黒功司の中核コンセプト「架け橋」を掘り下げた原文（Google Docs本文より転記）。
-[[civic/election-2026/candidates/hijikuro-koji/philosophy|現在の思想構造（UTO PRIDE）]]の源流。
+[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|現在の思想構造（UTO PRIDE）]]の源流。
 
 ---
 
@@ -41,7 +41,7 @@ source: "gdoc: 地域と行政の「架け橋」（手入力）"
 愛するものを守るため、全力を尽くします。
 ```
 
-> 💡 「家族・仲間・地域」の3点を「愛するもの」として束ね、**守るための立候補**と位置づける情緒的な締め。SNS告示投稿（[[civic/election-2026/archive-2022/messaging-2022|messaging-2022]]）の「守るべき家族／挑戦する仲間／受け継ぐ地域」と同型。
+> 💡 「家族・仲間・地域」の3点を「愛するもの」として束ね、**守るための立候補**と位置づける情緒的な締め。SNS告示投稿（[[06_市政・議会/02_選挙2026/archive-2022/messaging-2022|messaging-2022]]）の「守るべき家族／挑戦する仲間／受け継ぐ地域」と同型。
 
 ---
 
@@ -59,7 +59,7 @@ source: "gdoc: 地域と行政の「架け橋」（手入力）"
 
 ### 子育てメッセージの具体性が一貫
 - 2022「共働きの子育て・学ぶ場所・遊び場所」
-  → 1期目の議会質問「子どもの遊び・学びの場」「子どもサードプレイス」（[[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|実績]]）
+  → 1期目の議会質問「子どもの遊び・学びの場」「子どもサードプレイス」（[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|実績]]）
   → **言葉が具体的な議会活動として実行された証拠**。
 
 ---

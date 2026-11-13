@@ -15,7 +15,7 @@ created: 2026-10-12
 
 # PFU 政策実験フレームワーク (小さく試す・撤退の規律)
 
-> 🔗 **議員活動との接続**: まちづくり原則「どうすればできるか」「人を責めず仕組みを改善」の実装手法 → [[civic/election-2026/candidates/hijikuro-koji/city-vision-principles|まちづくり理念と5つの行動原則]] / [[civic/concepts/public-private-partnership|官民連携・PPP]]
+> 🔗 **議員活動との接続**: まちづくり原則「どうすればできるか」「人を責めず仕組みを改善」の実装手法 → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/city-vision-principles|まちづくり理念と5つの行動原則]] / [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP]]
 
 Policy Fast-fail & Upgrade (PFU) は、不確実性の高い自治体経営において「最初から巨額予算を組まず、小さく試し、データで検証し、ダメなら素早く撤退する」ための政策規律フレームワークです。
 

@@ -12,7 +12,7 @@ aliases: ["官民連携", "民間連携", "民間との共創", "PPP", "PFI", "�
 
 **「官民連携（PPP: Public-Private Partnership）」**とは、公共サービス・公共事業の企画・実施に民間事業者を活用する仕組みを指す。
 
-[[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]では **「民間との共創」** という言葉で表現されている。
+[[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]では **「民間との共創」** という言葉で表現されている。
 
 ---
 
@@ -54,7 +54,7 @@ aliases: ["官民連携", "民間連携", "民間との共創", "PPP", "PFI", "�
 | 健康福祉館（あじさいの湯） | 1,830万円 |
 | 老人福祉センター | 1,862万円 |
 
-→ [[civic/finance/uto-city-public-facilities|公共施設問題分析]] 参照
+→ [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題分析]] 参照
 
 ### 課題
 
@@ -69,7 +69,7 @@ aliases: ["官民連携", "民間連携", "民間との共創", "PPP", "PFI", "�
 ### なぜ重要か
 
 ```
-財政制約（[[civic/concepts/fiscal-constraint|財政制約]] 参照）
+財政制約（[[06_市政・議会/01_概念集/fiscal-constraint|財政制約]] 参照）
     ↓
 公的資金だけでは公共施設更新不可能
     ↓
@@ -106,13 +106,13 @@ PFI/PPP が選択肢として浮上
 - 課題発見からの共同検討
 - 民間提案制度
 - スタートアップ・若手起業家との連携
-- 大学・高校との連携（[[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|高校連携質問]] 参照）
+- 大学・高校との連携（[[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|高校連携質問]] 参照）
 
 ---
 
 ## 💡 議会質問での視点
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問②
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問②
 
 ```
 質問例：
@@ -163,18 +163,18 @@ PFI/PPP が選択肢として浮上
 ## 🔗 関連ノート
 
 ### 概念
-- [[civic/concepts/local-economy|地域経済]]
-- [[civic/concepts/fiscal-constraint|財政制約]]
-- [[civic/concepts/station-redevelopment|駅周辺再生]]
-- [[civic/concepts/civic-participation|市民参加]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]]
+- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]]
+- [[06_市政・議会/01_概念集/civic-participation|市民参加]]
 
 ### 議会活動
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ### 財政・施設
-- [[civic/finance/uto-city-public-facilities|公共施設問題]]
+- [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]]
 
 ---
 

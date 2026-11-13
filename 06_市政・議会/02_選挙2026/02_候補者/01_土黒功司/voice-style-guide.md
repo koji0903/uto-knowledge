@@ -7,7 +7,7 @@ status: 確定
 priority: 最高
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 候補者ハブ]]
 
 # ✍️ 土黒功司 文体・話し方スタイルガイド（人格定義）
 
@@ -142,9 +142,9 @@ priority: 最高
 
 ## 🔗 このガイドを適用する発信
 
-- [[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物（短文）]]
-- [[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版]]
-- [[civic/election-2026/candidates/hijikuro-koji/declaration|宣言文]]
+- [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物（短文）]]
+- [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版]]
+- [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration|宣言文]]
 - 今後のnote・議会だより・SNS・後援会報すべて
 
 ---

@@ -4,10 +4,10 @@ date: 2026-06-26
 tags: [civic, 選挙, 宇土市議選, 2026, 公約, KPI, 財源, 土黒功司]
 type: manifesto-detail
 status: ドラフト
-based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公約パッケージ]]"
+based_on: "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term|公約パッケージ]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|📋 公約パッケージ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term|📋 公約パッケージ]]
 
 # 📐 2期目公約 KPI・財源の深掘り
 
@@ -16,8 +16,8 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公
 
 > 📊 財政の前提（R6決算）: 歳入225.9億／歳出219.9億／**実質単年度収支 −6.7億**／**経常収支比率95.8%**（硬直化）／市税は歳入の15.7%（35.5億）。公共施設は**年−15.5億の更新ギャップ**。
 > → 「新規のバラマキ」ではなく **「組み替え・稼ぐ・縮減」** が財源の基本姿勢。
-> 📈 **KPIの現状値（ベースライン）は [[civic/election-2026/current-values|現状値データ集]] に集約**（出典: 宇土OS財政ダッシュボード）。各KPIは現状値→目標で設定。
-> 🔗 **数値の深層根拠**: [[civic/uto-os-analysis/00_MOC/00_宇土OS_総合ナレッジMOC|宇土OS 総合ナレッジ MOC]]（財政構造診断・431億円問題・人口推計・地域商社・行政DX の詳細分析）
+> 📈 **KPIの現状値（ベースライン）は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]] に集約**（出典: 宇土OS財政ダッシュボード）。各KPIは現状値→目標で設定。
+> 🔗 **数値の深層根拠**: [[06_市政・議会/07_宇土OS分析/00_MOC/00_宇土OS_総合ナレッジMOC|宇土OS 総合ナレッジ MOC]]（財政構造診断・431億円問題・人口推計・地域商社・行政DX の詳細分析）
 
 ---
 
@@ -30,7 +30,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公
 | 財源の考え方 | 施設総量削減による**更新費・維持費の縮減**（年15.5億ギャップの圧縮）。新庁舎等の利活用で歳入創出 |
 | 監視ポイント | 「先送り」されていないか。個別施設の優先順位の透明化 |
 
-→ [[civic/themes/public-facilities|公共施設の戦略的縮小]] / [[civic/finance/uto-city-public-facilities|公共施設問題]]
+→ [[06_市政・議会/themes/public-facilities|公共施設の戦略的縮小]] / [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]]
 
 ---
 
@@ -43,7 +43,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公
 | 財源の考え方 | 国の「こども・子育て」交付金の最大活用。既存施設の子ども向け転用（①と連動でコスト中立） |
 | 監視ポイント | 「宣言」で終わらせず実装まで（こどもまんなかの見える化） |
 
-→ [[civic/themes/childcare-education|子育て・教育・人材育成]]
+→ [[06_市政・議会/themes/childcare-education|子育て・教育・人材育成]]
 
 ---
 
@@ -56,7 +56,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公
 | 財源の考え方 | **歳入を増やす側の柱**。ふるさと納税・地域商社で自主財源を厚くし、市税15.7%への依存を緩和 |
 | 監視ポイント | 補助金の単発消化でなく「循環する仕組み」になっているか |
 
-→ [[civic/themes/industrial-strategy|産業戦略・地域商社]] / [[civic/concepts/local-economy|地域経済]]
+→ [[06_市政・議会/themes/industrial-strategy|産業戦略・地域商社]] / [[06_市政・議会/01_概念集/local-economy|地域経済]]
 
 ---
 
@@ -68,7 +68,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公
 | 財源の考え方 | 民間資金・ノウハウの導入で**市の単独負担を圧縮**。共助で行政コストを代替 |
 | 監視ポイント | 「丸投げ」でなく対等な共創か。市民の当事者性が育つ設計か |
 
-→ [[civic/concepts/public-private-partnership|官民連携]] / [[civic/concepts/civic-participation|市民参加]]
+→ [[06_市政・議会/01_概念集/public-private-partnership|官民連携]] / [[06_市政・議会/01_概念集/civic-participation|市民参加]]
 
 ---
 
@@ -81,7 +81,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公
 | 財源の考え方 | DXによる**業務効率化＝人件費・事務コストの抑制**。職員不足への適応投資 |
 | 監視ポイント | ツール導入が目的化していないか。市民に開かれているか |
 
-→ [[civic/themes/civic-engagement-dx|市民参加・行政DX]] / [[projects/utomachi_PF/overview|Utomachi PF]]
+→ [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DX]] / [[projects/utomachi_PF/overview|Utomachi PF]]
 
 ---
 
@@ -96,14 +96,14 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|公
 | **組み替える** | ②全般 | 既存予算・国交付金を子ども・未来へ重点配分 |
 
 > → 「新しい財布」ではなく「**今ある財布の中身を、縮めて・稼いで・組み替える**」。
-> これは1期目に問い続けた財政・公共施設の問題意識（[[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|実績]]）と完全に一貫。
+> これは1期目に問い続けた財政・公共施設の問題意識（[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|実績]]）と完全に一貫。
 
 ---
 
 ## ⚠️ 留意（誠実さの担保）
 
 - 議員に予算編成権はない → 「実現する」でなく「**議会で求める・監視する**」と正確に語る
-- ✅ 現状値（ベースライン）は [[civic/election-2026/current-values|現状値データ集]]で確認済（出典付き）。目標値はこの現状値からの改善幅で設定
+- ✅ 現状値（ベースライン）は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]]で確認済（出典付き）。目標値はこの現状値からの改善幅で設定
 - 演説等では**出典年度を添える**（年度がバラつくため）
 - 「できなかったこと」も含めて4年後に検証できる形にする
 

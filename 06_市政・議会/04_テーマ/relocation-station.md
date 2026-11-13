@@ -31,10 +31,10 @@ priority: 高
 ## 📊 分析層（civic/）
 
 ### 中核概念
-- **[[civic/concepts/station-redevelopment|駅周辺再生]]** ⭐
-- [[civic/concepts/population-decline|人口減少]] - 流出抑制
-- [[civic/concepts/local-economy|地域経済]] - 駅前商業
-- [[civic/concepts/public-private-partnership|官民連携]] - 再開発スキーム
+- **[[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]]** ⭐
+- [[06_市政・議会/01_概念集/population-decline|人口減少]] - 流出抑制
+- [[06_市政・議会/01_概念集/local-economy|地域経済]] - 駅前商業
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携]] - 再開発スキーム
 
 ---
 
@@ -53,7 +53,7 @@ priority: 高
 
 ## 🗣️ 議会質問層
 
-- **[[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]** 質問② - 駅周辺活性化を含む経済戦略
+- **[[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]** 質問② - 駅周辺活性化を含む経済戦略
 
 ---
 
@@ -96,10 +96,10 @@ priority: 高
 
 ## 🔗 横断テーマ
 
-- [[civic/themes|横断テーマ索引]]
-- [[civic/themes/public-facilities|公共施設縮小]] - 集約の核
-- [[civic/themes/industrial-strategy|産業戦略]] - 駅前商業集積
-- [[civic/themes/childcare-education|子育て・教育]] - 子育て世代誘致
+- [[06_市政・議会/themes|横断テーマ索引]]
+- [[06_市政・議会/themes/public-facilities|公共施設縮小]] - 集約の核
+- [[06_市政・議会/themes/industrial-strategy|産業戦略]] - 駅前商業集積
+- [[06_市政・議会/themes/childcare-education|子育て・教育]] - 子育て世代誘致
 
 ---
 

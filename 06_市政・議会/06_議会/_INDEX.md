@@ -24,7 +24,7 @@ type: civic-hub
 - **[[2026-4th-assembly-question-prep|第4回定例会 質問論点]]** — 5つの挑戦軸での論点整理
 - **[[2026-4th-assembly-question-draft|第4回定例会 質問原稿]]** — 2テーマ（災害復旧の財政規律／企業版ふるさと納税）の原稿・想定答弁
 
-> 📌 財政数値の正本は [[civic/election-2026/current-values|現状値データ集]]（年度・出典つき）。
+> 📌 財政数値の正本は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]]（年度・出典つき）。
 
 #### 6月定例会（通告済み・令和8年）
 
@@ -50,29 +50,29 @@ type: civic-hub
 ## 🎯 市政課題別
 
 ### 🌐 主要概念ハブ
-- **[[civic/concepts|宇土市政 - 主要概念ハブ]]** ⭐ - 全概念ノートの統合MOC
+- **[[06_市政・議会/concepts|宇土市政 - 主要概念ハブ]]** ⭐ - 全概念ノートの統合MOC
 
 ### 人口減少対策
-- [[civic/concepts/population-decline|人口減少（概念）]]
-- [[civic/concepts/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/population-decline|人口減少（概念）]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済]]
 - 若者定住・移住施策（準備中）
 
 ### 💰 公共施設・財政 ⭐
-- **[[civic/finance|宇土市 財政戦略・分析]]** - 統合ハブ
-  - [[civic/finance/overview|財政戦略ビューア]]（ツール）
-  - [[civic/finance/uto-city-fiscal-analysis|財政状況の分析]]
-  - [[civic/finance/uto-city-public-facilities|公共施設問題分析]] ⚠️ 重要
-  - [[civic/finance/fiscal-viewer-app|技術仕様]]（開発者向け）
-- [[civic/concepts/fiscal-constraint|財政制約（概念）]]
+- **[[06_市政・議会/finance|宇土市 財政戦略・分析]]** - 統合ハブ
+  - [[06_市政・議会/03_財政/overview|財政戦略ビューア]]（ツール）
+  - [[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政状況の分析]]
+  - [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題分析]] ⚠️ 重要
+  - [[06_市政・議会/03_財政/fiscal-viewer-app|技術仕様]]（開発者向け）
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約（概念）]]
 
 ### 地域経済・産業
-- [[civic/concepts/local-economy|地域経済（概念）]]
-- [[civic/concepts/station-redevelopment|駅周辺再生]]
-- [[civic/concepts/public-private-partnership|官民連携・PPP]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済（概念）]]
+- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]]
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP]]
 
 ### 市民参加・行政改革
-- [[civic/concepts/civic-participation|市民参画の仕組み]]
-- [[civic/concepts/dx-strategy|行政DX戦略]]
+- [[06_市政・議会/01_概念集/civic-participation|市民参画の仕組み]]
+- [[06_市政・議会/01_概念集/dx-strategy|行政DX戦略]]
 
 ---
 
@@ -107,7 +107,7 @@ type: civic-hub
 ## 📊 議会資料・参考
 
 ### 市長マニフェスト
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長 令和7年選挙マニフェスト]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長 令和7年選挙マニフェスト]]
   - 防災
   - 子育て・教育
   - 健康

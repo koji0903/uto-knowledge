@@ -7,7 +7,7 @@ status: 確認済
 source: "gdoc: プロフィール（手入力）"
 ---
 
-> ⬅ [[civic/election-2026/archive-2022/index|📦 2022アーカイブ]] / [[civic/election-2026/archive-2022/gdoc-links|🔗 gdocリンク集]]
+> ⬅ [[06_市政・議会/02_選挙2026/archive-2022/index|📦 2022アーカイブ]] / [[06_市政・議会/02_選挙2026/archive-2022/gdoc-links|🔗 gdocリンク集]]
 
 # 👤 土黒功司 プロフィール・経歴（2022原典）
 
@@ -54,9 +54,9 @@ source: "gdoc: プロフィール（手入力）"
 - **IT × 地域**（熊大工学→IT企業→UTOMESHI）＝公約⑤「データと対話／宇土OS」の必然性
 - **災害支援（熊本地震・豪雨）** ＝公約④「共創・共助」の原体験
 - **東京・海外での経験 → 地元回帰** ＝「外を知って宇土を選んだ」説得力
-- **宇土高校卒** ＝[[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|宇土高校連携]]質問の当事者性
+- **宇土高校卒** ＝[[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|宇土高校連携]]質問の当事者性
 
-> 🔄 2026版プロフィールは、この経歴に **1期目の議員実績**（[[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|トップ当選1,474票・約77質問]]）を追記して更新する。
+> 🔄 2026版プロフィールは、この経歴に **1期目の議員実績**（[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|トップ当選1,474票・約77質問]]）を追記して更新する。
 
 ---
 

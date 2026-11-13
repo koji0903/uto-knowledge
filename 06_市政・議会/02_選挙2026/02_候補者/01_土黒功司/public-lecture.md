@@ -7,13 +7,13 @@ status: ドラフト
 duration: "スピーチ30分＋対話30分＝計60分"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 候補者ハブ]]
 
 # 🎤 市民向け講演会 30分スピーチ＆対話ガイド
 
 全市民対象・大ホールでの講演会（スピーチ30分＋対話30分）の完全原稿と運営ガイド。
-文体は [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]] に準拠（伴走者トーン・一文短く・構造を主語に・未来で締める）。
-数字は [[civic/election-2026/current-values|現状値データ集]]、実績は [[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|実績棚卸し]]に基づく。
+文体は [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]] に準拠（伴走者トーン・一文短く・構造を主語に・未来で締める）。
+数字は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]]、実績は [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|実績棚卸し]]に基づく。
 
 > ⚠️ 法令: 選挙期間中の演説会は公選法の規律下。投票依頼の可否・会場要件は選管に確認。本稿は政策を語る本体。
 
@@ -314,7 +314,7 @@ duration: "スピーチ30分＋対話30分＝計60分"
 
 ## 🛡️ 講演会 想定問答（ライブ版）
 
-> 守りの[[civic/election-2026/candidates/hijikuro-koji/qa-defense|想定問答集]]＋市民向けQ&Aを、講演会の現場用に再編。声に出す前提の言い回し。
+> 守りの[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense|想定問答集]]＋市民向けQ&Aを、講演会の現場用に再編。声に出す前提の言い回し。
 
 ### 政策の核心
 
@@ -359,11 +359,11 @@ duration: "スピーチ30分＋対話30分＝計60分"
 ## ✅ 当日チェックリスト
 
 - [ ] 原稿の最終リハーサル（時間計測・間の確認）
-- [ ] 数字の出典・年度を再確認（[[civic/election-2026/current-values|現状値]]）
+- [ ] 数字の出典・年度を再確認（[[06_市政・議会/02_選挙2026/current-values|現状値]]）
 - [ ] 選管に演説会の規律・投票依頼の可否を確認
 - [ ] 司会（質疑進行役）との打ち合わせ・合図決め
 - [ ] スライド/配布資料（使う場合）の準備
-- [ ] 受付・誘導・記録（写真/動画）の役割分担 → [[civic/election-2026/campaign-schedule|スケジュール]]
+- [ ] 受付・誘導・記録（写真/動画）の役割分担 → [[06_市政・議会/02_選挙2026/campaign-schedule|スケジュール]]
 - [ ] 高齢者・車椅子・子連れへの配慮（座席・音量）
 
 ---

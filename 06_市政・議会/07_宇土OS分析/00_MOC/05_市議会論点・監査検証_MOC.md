@@ -25,8 +25,8 @@ created: 2026-10-12
 - [[施策台帳と政策ROI算定基準]]
 
 ## 🏛️ 実議会パッケージ（議案書ベース）
-- [[civic/uto-city-council/2026-4th-assembly-agenda|第4回定例会 議案まとめ（R8-4）]] — 全22議案＋諮問3件／災害復旧補正+33.5億円
-- [[civic/uto-city-council/2025-r7-settlement-analysis|R7決算 精査]] — 決算審査意見書ベースの数値精査
-- [[civic/uto-city-council/2026-4th-assembly-question-prep|一般質問・審査 論点づくり]] ／ [[civic/uto-city-council/2026-4th-assembly-question-draft|質問原稿ドラフト]]
+- [[06_市政・議会/06_議会/2026-4th-assembly-agenda|第4回定例会 議案まとめ（R8-4）]] — 全22議案＋諮問3件／災害復旧補正+33.5億円
+- [[06_市政・議会/06_議会/2025-r7-settlement-analysis|R7決算 精査]] — 決算審査意見書ベースの数値精査
+- [[06_市政・議会/06_議会/2026-4th-assembly-question-prep|一般質問・審査 論点づくり]] ／ [[06_市政・議会/06_議会/2026-4th-assembly-question-draft|質問原稿ドラフト]]
 
 ↩️ [[00_宇土OS_総合ナレッジMOC]] に戻る

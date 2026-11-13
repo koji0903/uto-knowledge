@@ -64,13 +64,13 @@ aliases: ["地域経済", "地域経済戦略", "地域経済活性化戦略", "
 
 ### マニフェストの方向性
 
-[[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]で掲げられた施策：
+[[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]で掲げられた施策：
 
 - 農業・漁業支援
 - 起業創業支援
-- 民間との共創（[[civic/concepts/public-private-partnership|官民連携]]）
+- 民間との共創（[[06_市政・議会/01_概念集/public-private-partnership|官民連携]]）
 - 観光振興
-- [[civic/concepts/station-redevelopment|駅周辺再生]]
+- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]]
 
 ### イベント型 vs 構造型
 
@@ -85,7 +85,7 @@ aliases: ["地域経済", "地域経済戦略", "地域経済活性化戦略", "
 
 ## 💡 議会質問での視点
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問②より
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問②より
 
 ```
 質問例：
@@ -96,7 +96,7 @@ aliases: ["地域経済", "地域経済戦略", "地域経済活性化戦略", "
 → 選択と集中の議論を促す。
 ```
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] との接続
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] との接続
 
 ```
 高校生の探究活動 → 地域経済課題への取り組み
@@ -143,15 +143,15 @@ aliases: ["地域経済", "地域経済戦略", "地域経済活性化戦略", "
 ## 🔗 関連ノート
 
 ### 概念
-- [[civic/concepts/population-decline|人口減少]]
-- [[civic/concepts/public-private-partnership|官民連携]]
-- [[civic/concepts/station-redevelopment|駅周辺再生]]
-- [[civic/concepts/fiscal-constraint|財政制約]]
+- [[06_市政・議会/01_概念集/population-decline|人口減少]]
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携]]
+- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]]
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]]
 
 ### 議会活動
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ### プロジェクト
 - [[projects/utomachi_PF/overview|Utomachi Platform]] - 地域産業OS

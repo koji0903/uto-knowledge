@@ -40,7 +40,7 @@ aliases: ["DX-strategy", "DX戦略", "データ活用", "行政DX戦略", "デ�
 
 ## 📊 データ活用の実例
 
-### [[civic/finance/overview|宇土市 財政戦略ビューア]]
+### [[06_市政・議会/03_財政/overview|宇土市 財政戦略ビューア]]
 
 DXの具体例として、9年度分の決算データを統合・可視化：
 
@@ -97,7 +97,7 @@ DXによる効率化が「選択肢」ではなく「必須」
 
 ## 💡 議会質問での視点
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問③
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問③
 
 ```
 質問例：
@@ -123,7 +123,7 @@ DXによる効率化が「選択肢」ではなく「必須」
 ### [[projects/utomachi_PF/overview|Utomachi Platform]]
 地域経済・市民参加を支えるシステム基盤
 
-### [[civic/finance/fiscal-viewer-app|財政戦略ビューア技術仕様]]
+### [[06_市政・議会/03_財政/fiscal-viewer-app|財政戦略ビューア技術仕様]]
 財政データのDX実装例
 
 ---
@@ -151,18 +151,18 @@ DXによる効率化が「選択肢」ではなく「必須」
 ## 🔗 関連ノート
 
 ### 概念
-- [[civic/concepts/population-decline|人口減少]]
-- [[civic/concepts/civic-participation|市民参加]]
-- [[civic/concepts/fiscal-constraint|財政制約]]
+- [[06_市政・議会/01_概念集/population-decline|人口減少]]
+- [[06_市政・議会/01_概念集/civic-participation|市民参加]]
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]]
 
 ### 議会活動
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ### 実装例
-- [[civic/finance/overview|財政戦略ビューア]]
-- [[civic/finance/fiscal-viewer-app|技術仕様]]
+- [[06_市政・議会/03_財政/overview|財政戦略ビューア]]
+- [[06_市政・議会/03_財政/fiscal-viewer-app|技術仕様]]
 - [[projects/utomachi_PF/overview|Utomachi Platform]]
 
 ---

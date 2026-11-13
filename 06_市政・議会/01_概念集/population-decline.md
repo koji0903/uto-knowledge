@@ -37,13 +37,13 @@ aliases: ["人口減少", "市人口減少対策", "人口動態", "少子高齢
 ```
 人口減少
     ↓
-市税収入の減少（[[civic/finance/uto-city-fiscal-analysis|財政分析]] 参照）
+市税収入の減少（[[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政分析]] 参照）
     ↓
 公共サービス維持コストの相対的増加
     ↓
 施設利用者の減少
     ↓
-[[civic/finance/uto-city-public-facilities|公共施設更新ギャップ]] の拡大
+[[06_市政・議会/03_財政/uto-city-public-facilities|公共施設更新ギャップ]] の拡大
     ↓
 施設の集約・廃止が必須
     ↓
@@ -77,7 +77,7 @@ aliases: ["人口減少", "市人口減少対策", "人口動態", "少子高齢
 
 ## 🏛️ 関連する政策領域
 
-### [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]] における位置づけ
+### [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]] における位置づけ
 
 - **子育て・教育**: 自然減への対応
 - **健康**: 高齢化対応
@@ -86,8 +86,8 @@ aliases: ["人口減少", "市人口減少対策", "人口動態", "少子高齢
 
 ### 議会質問テーマとの連携
 
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] - 構造改革の根本テーマ
-- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] - 若者の地域参画
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] - 構造改革の根本テーマ
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] - 若者の地域参画
 
 ---
 
@@ -124,18 +124,18 @@ aliases: ["人口減少", "市人口減少対策", "人口動態", "少子高齢
 ## 🔗 関連ノート
 
 ### 概念
-- [[civic/concepts/local-economy|地域経済]]
-- [[civic/concepts/fiscal-constraint|財政制約]]
-- [[civic/concepts/civic-participation|市民参加]]
-- [[civic/concepts/dx-strategy|DX戦略]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]]
+- [[06_市政・議会/01_概念集/civic-participation|市民参加]]
+- [[06_市政・議会/01_概念集/dx-strategy|DX戦略]]
 
 ### 分析・データ
-- [[civic/finance/uto-city-fiscal-analysis|宇土市 財政状況の分析]]
-- [[civic/finance/uto-city-public-facilities|宇土市 公共施設問題]]
+- [[06_市政・議会/03_財政/uto-city-fiscal-analysis|宇土市 財政状況の分析]]
+- [[06_市政・議会/03_財政/uto-city-public-facilities|宇土市 公共施設問題]]
 
 ### 議会活動
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ---
 

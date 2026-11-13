@@ -12,7 +12,7 @@ aliases: ["駅周辺活性化", "駅周辺再生", "駅前再生", "宇土駅周
 
 **「駅周辺再生」**とは、JR宇土駅周辺エリアを **コンパクトシティの中核** として再構築する取り組みを指す。
 
-[[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]の **「仕事とにぎわいのある宇土」** の中核施策。
+[[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]の **「仕事とにぎわいのある宇土」** の中核施策。
 
 ---
 
@@ -82,7 +82,7 @@ aliases: ["駅周辺活性化", "駅周辺再生", "駅前再生", "宇土駅周
   └── 福祉関連（5階以上）
 ```
 
-→ [[civic/finance/uto-city-public-facilities|公共施設問題]] の解決策にもなる
+→ [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]] の解決策にもなる
 
 ### 民間機能の誘致
 
@@ -94,13 +94,13 @@ aliases: ["駅周辺活性化", "駅周辺再生", "駅前再生", "宇土駅周
 
 ### スキーム
 
-→ [[civic/concepts/public-private-partnership|官民連携・PPP]] の活用
+→ [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP]] の活用
 
 ---
 
 ## 💰 財政・経済的意義
 
-### [[civic/concepts/fiscal-constraint|財政制約]] への対応
+### [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]] への対応
 
 ```
 公共施設更新ギャップ: 年15.5億円不足
@@ -112,7 +112,7 @@ aliases: ["駅周辺活性化", "駅周辺再生", "駅前再生", "宇土駅周
 - 集約による効率化 → 運営費削減
 ```
 
-### [[civic/concepts/local-economy|地域経済]] への波及
+### [[06_市政・議会/01_概念集/local-economy|地域経済]] への波及
 
 ```
 駅周辺活性化
@@ -130,7 +130,7 @@ aliases: ["駅周辺活性化", "駅周辺再生", "駅前再生", "宇土駅周
 
 ## 💡 議会質問での視点
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問②
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問②
 
 ```
 質問例：
@@ -180,19 +180,19 @@ aliases: ["駅周辺活性化", "駅周辺再生", "駅前再生", "宇土駅周
 ## 🔗 関連ノート
 
 ### 概念
-- [[civic/concepts/local-economy|地域経済]]
-- [[civic/concepts/public-private-partnership|官民連携]]
-- [[civic/concepts/fiscal-constraint|財政制約]]
-- [[civic/concepts/population-decline|人口減少]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携]]
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]]
+- [[06_市政・議会/01_概念集/population-decline|人口減少]]
 
 ### 議会活動
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ### 財政・施設
-- [[civic/finance/uto-city-public-facilities|公共施設問題]]
-- [[civic/finance/uto-city-fiscal-analysis|財政分析]]
+- [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]]
+- [[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政分析]]
 
 ---
 

@@ -7,7 +7,7 @@ status: 蓄積中
 source: "gdoc各種（手入力）"
 ---
 
-> ⬅ [[civic/election-2026/archive-2022/index|📦 2022アーカイブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/archive-2022/index|📦 2022アーカイブ]]
 
 # ✉️ 2022選挙 文面テンプレート集
 
@@ -38,9 +38,9 @@ source: "gdoc各種（手入力）"
 ```
 
 ### メモ
-- 後援会長は **松本久幸**さん（三ヶ地区区長）。フルネーム確認できた（[[civic/election-2026/archive-2022/koenkai-meeting-20220824|8/24記録]]の「松本さん」）。
-- 2022事務所開き: 9/23 11:00〜（自宅庭・テント、お茶のみ提供）→ [[civic/election-2026/archive-2022/operational-playbook|プレイブック]]参照
-- 🔄 2026版: スローガンを「[[civic/election-2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]」系に、肩書を「現職・市議会議員」に更新。
+- 後援会長は **松本久幸**さん（三ヶ地区区長）。フルネーム確認できた（[[06_市政・議会/02_選挙2026/archive-2022/koenkai-meeting-20220824|8/24記録]]の「松本さん」）。
+- 2022事務所開き: 9/23 11:00〜（自宅庭・テント、お茶のみ提供）→ [[06_市政・議会/02_選挙2026/archive-2022/operational-playbook|プレイブック]]参照
+- 🔄 2026版: スローガンを「[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]」系に、肩書を「現職・市議会議員」に更新。
 
 ---
 

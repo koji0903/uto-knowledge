@@ -5,11 +5,11 @@ tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, 未来マップ, ビ�
 type: messaging
 status: 確定候補
 based_on:
-  - "[[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。]]"
-  - "[[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|1期目 実績棚卸し]]"
+  - "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに。]]"
+  - "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|1期目 実績棚卸し]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🗺️ ひじくろこうじが夢見る宇土市の未来マップ
 

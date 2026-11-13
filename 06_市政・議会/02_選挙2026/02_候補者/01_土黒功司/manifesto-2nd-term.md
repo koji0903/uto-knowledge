@@ -4,17 +4,17 @@ date: 2026-06-26
 tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, 公約, マニフェスト]
 type: manifesto
 status: ドラフト
-based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
+based_on: "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 📋 土黒功司 2期目 重点公約パッケージ
 
-思想構造 [[civic/election-2026/candidates/hijikuro-koji/philosophy|UTO PRIDE]] の「進化の方向（5本柱）」を、宇土市の実データに基づく具体公約へ落とし込んだもの。各公約は **現状認識 → 公約 → 根拠データ → 関連ナレッジ** で構成。
+思想構造 [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|UTO PRIDE]] の「進化の方向（5本柱）」を、宇土市の実データに基づく具体公約へ落とし込んだもの。各公約は **現状認識 → 公約 → 根拠データ → 関連ナレッジ** で構成。
 
 > 全体メッセージ: **「学びを、行動に。」** 1期目で学んだ宇土の課題を、2期目で実行に移す。
-> 各公約の裏付けは [[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|1期目 実績棚卸し]]（4年・約77問）を参照。
+> 各公約の裏付けは [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|1期目 実績棚卸し]]（4年・約77問）を参照。
 
 ---
 
@@ -47,7 +47,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 | 必要圧縮率 | **45.9%** |
 | 旧耐震基準施設 | 43.6% |
 
-**関連**: [[civic/themes/public-facilities|公共施設の戦略的縮小]] / [[civic/finance/uto-city-public-facilities|公共施設問題分析]] / [[civic/concepts/population-decline|人口減少]]
+**関連**: [[06_市政・議会/themes/public-facilities|公共施設の戦略的縮小]] / [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題分析]] / [[06_市政・議会/01_概念集/population-decline|人口減少]]
 
 ---
 
@@ -62,7 +62,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 
 **実践の裏付け**: PTA・体育協会・宇土高校での継続的な現場活動（言行一致）
 
-**関連**: [[civic/themes/childcare-education|子育て・教育・人材育成]] / [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月② 高校連携]]
+**関連**: [[06_市政・議会/themes/childcare-education|子育て・教育・人材育成]] / [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月② 高校連携]]
 
 ---
 
@@ -75,7 +75,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 - ふるさと納税を地域商社の販路に接続し、稼ぎを地域に還流
 - 商店街活性化・創業支援で「稼ぐ担い手」を増やす
 
-**関連**: [[civic/themes/industrial-strategy|産業戦略・地域商社]] / [[civic/concepts/local-economy|地域経済]] / [[04_DataLink/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社構想カード]]
+**関連**: [[06_市政・議会/themes/industrial-strategy|産業戦略・地域商社]] / [[06_市政・議会/01_概念集/local-economy|地域経済]] / [[04_DataLink/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社構想カード]]
 
 ---
 
@@ -90,7 +90,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 
 **実践の裏付け**: 災害支援・体育協会・地域経済活性化の現場経験
 
-**関連**: [[civic/concepts/public-private-partnership|官民連携・PPP]] / [[civic/concepts/civic-participation|市民参加]]
+**関連**: [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP]] / [[06_市政・議会/01_概念集/civic-participation|市民参加]]
 
 ---
 
@@ -103,7 +103,7 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 - AI・データ活用による政策立案と行政の効率化
 - 市民の声をデータとして集め、政策に反映する仕組みづくり
 
-**関連**: [[civic/themes/civic-engagement-dx|市民参加・行政DX]] / [[civic/concepts/dx-strategy|DX戦略]] / [[projects/utomachi_PF/overview|Utomachi Platform]]
+**関連**: [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DX]] / [[06_市政・議会/01_概念集/dx-strategy|DX戦略]] / [[projects/utomachi_PF/overview|Utomachi Platform]]
 
 ---
 

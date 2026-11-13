@@ -6,7 +6,7 @@ type: prompt
 status: ドラフト
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🤖 Antigravity向け コンテンツ強化プロンプト
 
@@ -170,7 +170,7 @@ status: ドラフト
 - ✅ 数字統一済み：公共施設の更新財源不足は全ページ「年約15.5億円」（R6・40年平均ベース）に統一。人口は「約36,500人」。
 - さらに強化したい場合の追加オプション：
   - 「提案が動いた実例（ビフォーアフター）」ページ（[[04_DataLink/01_ASSEMBLY/activities/hijikuro_questioning_style_analysis|スタイル分析]] C・E項）
-  - 一人称ビジョン版（[[civic/election-2026/candidates/hijikuro-koji/future-map|未来マップ]]）をトップの「想い」に反映
+  - 一人称ビジョン版（[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/future-map|未来マップ]]）をトップの「想い」に反映
 
 ---
 

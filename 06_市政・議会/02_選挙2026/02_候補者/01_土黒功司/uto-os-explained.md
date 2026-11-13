@@ -9,7 +9,7 @@ based_on:
   - "[[00_System/vision/citizen_explanation_14billion_crisis|市民向け説明：14億円問題]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 💡 宇土OSって、なんですか？
 

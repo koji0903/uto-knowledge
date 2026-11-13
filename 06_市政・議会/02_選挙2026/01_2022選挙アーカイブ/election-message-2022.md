@@ -7,7 +7,7 @@ status: 確認済
 source: "gdoc: 選挙メッセージ（手入力）"
 ---
 
-> ⬅ [[civic/election-2026/archive-2022/index|📦 2022アーカイブ]] / [[civic/election-2026/archive-2022/messaging-2022|メッセージ進化分析]]
+> ⬅ [[06_市政・議会/02_選挙2026/archive-2022/index|📦 2022アーカイブ]] / [[06_市政・議会/02_選挙2026/archive-2022/messaging-2022|メッセージ進化分析]]
 
 # 📣 2022選挙メッセージ（原典・完全版）
 
@@ -74,7 +74,7 @@ source: "gdoc: 選挙メッセージ（手入力）"
 | 2 | 子育て環境の充実 | 子供はまちの未来。子供が誇れるまち |
 | 3 | 防災・社会福祉環境の充実 | やさしいまち、助け合いのまち |
 
-> 🔄 この3本柱の進化＝2026「[[civic/election-2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]」。対応は [[civic/election-2026/archive-2022/messaging-2022|メッセージ進化分析]]参照。
+> 🔄 この3本柱の進化＝2026「[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]」。対応は [[06_市政・議会/02_選挙2026/archive-2022/messaging-2022|メッセージ進化分析]]参照。
 
 ---
 
@@ -85,7 +85,7 @@ source: "gdoc: 選挙メッセージ（手入力）"
 - （一社）よか隊ネット熊本 代表理事［災害支援団体］
 - UTOMESHI（株）代表取締役［地域×IT］
 
-> ※ 詳細年表は [[civic/election-2026/archive-2022/profile-2022-full|プロフィール・経歴（原典）]]。
+> ※ 詳細年表は [[06_市政・議会/02_選挙2026/archive-2022/profile-2022-full|プロフィール・経歴（原典）]]。
 
 ---
 

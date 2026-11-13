@@ -4,10 +4,10 @@ date: 2026-08-30
 tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, スローガン, 5つの挑戦, 防災, こころひとつに]
 type: messaging
 status: 確定候補
-based_on: "[[civic/election-2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]]"
+based_on: "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|宇土を進化させる5つの挑戦]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # ❤️ こころ、ひとつに。
 

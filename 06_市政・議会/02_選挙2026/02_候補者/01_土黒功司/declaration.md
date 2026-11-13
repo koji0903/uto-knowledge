@@ -6,7 +6,7 @@ type: note
 status: ドラフト
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 📜 土黒功司 2期目 出馬宣言文（版管理）
 
@@ -21,7 +21,7 @@ status: ドラフト
 | **v2** | 2026-06-27 | 候補（推奨） | スタイルガイド準拠でリライト。未来の締めを強化 |
 | v1 | 2026-06-26 | 初稿 | ご提示いただいた最初の宣言文案 |
 
-> 文体基準: [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]]
+> 文体基準: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]]
 
 ---
 
@@ -94,7 +94,7 @@ status: ドラフト
 - **共創のスローガン**：「世代を超えて／立場を超えて／ともに、共に」
 - **締め**：進化（=変化への前向きな約束）
 
-→ 詳細は [[civic/election-2026/candidates/hijikuro-koji/message-analysis|メッセージ分析]] を参照。
+→ 詳細は [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/message-analysis|メッセージ分析]] を参照。
 
 ## 🟡 v1（2026-06-26）｜候補
 
@@ -127,7 +127,7 @@ status: ドラフト
 - **共創のスローガン**：「世代を超えて／立場を超えて／ともに、共に」
 - **締め**：進化（=変化への前向きな約束）
 
-→ 詳細は [[civic/election-2026/candidates/hijikuro-koji/message-analysis|メッセージ分析]] を参照。
+→ 詳細は [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/message-analysis|メッセージ分析]] を参照。
 
 ---
 

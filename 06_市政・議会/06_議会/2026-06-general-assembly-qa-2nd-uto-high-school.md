@@ -134,7 +134,7 @@ related_policy_cards:
 
 # 📚 質問の構造分析と関連ナレッジ
 
-> ⬅ [[ホーム|🏠 ホーム]] / [[civic/index|civic ハブ]] / [[civic/uto-city-council/index|議会活動]] / [[civic/uto-city-council/2026-06-general-assembly-qa|質問①（構造改革）]]
+> ⬅ [[ホーム|🏠 ホーム]] / [[06_市政・議会/index|civic ハブ]] / [[06_市政・議会/06_議会/index|議会活動]] / [[06_市政・議会/06_議会/2026-06-general-assembly-qa|質問①（構造改革）]]
 
 本通告書は質問①「構造改革」（人口減少時代の市経営）と対をなす、**「人材投資」軸**からの一般質問。Vault に蓄積した教育OS・市民参加・地域経済の理論と連動した設計。
 
@@ -173,8 +173,8 @@ related_policy_cards:
 ### 【第1問】これまでの宇土市と宇土高校との連携
 
 **🧠 理論的背景**
-- [[civic/concepts/population-decline|人口減少 (概念ノート)]] — 若者の地域定着の重要性
-- [[civic/themes/childcare-education|子育て・教育・人材育成 (横断テーマ)]] — 若者の地域定着戦略
+- [[06_市政・議会/01_概念集/population-decline|人口減少 (概念ノート)]] — 若者の地域定着の重要性
+- [[06_市政・議会/themes/childcare-education|子育て・教育・人材育成 (横断テーマ)]] — 若者の地域定着戦略
 
 **📋 政策実行カード（既存教育施策）**
 - [[04_DataLink/02_POLICY_CARDS/childcare_education/pc_childedu_001_giga_school_daily_use|pc_childedu_001 GIGAスクール日常活用]]
@@ -185,8 +185,8 @@ related_policy_cards:
 ### 【第2問】宇土高校魅力化支援の方向性
 
 **🏛 政策・マニフェスト**
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] — 「宇土高校の魅力を最大限にいかす支援方法を検討」の出典
-- [[civic/uto-city-council/2026-06-general-assembly-qa|質問①（構造改革）]] — 「ワンチーム宇土」の解釈フレーム
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] — 「宇土高校の魅力を最大限にいかす支援方法を検討」の出典
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|質問①（構造改革）]] — 「ワンチーム宇土」の解釈フレーム
 
 **🧠 理論的背景**
 - [[00_System/vision/education_os_specification|教育OS 仕様書]] — 学校統廃合・うと学・学びの質向上
@@ -201,15 +201,15 @@ related_policy_cards:
 本問は「行政が保有するオープンデータ × フィールド × 成果発表機会」の三点セットを提案する設計。
 
 **🧠 関連概念**
-- [[civic/concepts/dx-strategy|DX戦略]] — オープンデータ活用と市民共創
-- [[civic/concepts/civic-participation|市民参加]] — 高校生を「政策形成パートナー」へ
-- [[civic/themes/civic-engagement-dx|市民参加・行政DX (横断テーマ)]]
+- [[06_市政・議会/01_概念集/dx-strategy|DX戦略]] — オープンデータ活用と市民共創
+- [[06_市政・議会/01_概念集/civic-participation|市民参加]] — 高校生を「政策形成パートナー」へ
+- [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DX (横断テーマ)]]
 
 **📊 地域課題ごとの紐付けノート**
-- 公共交通・防災・商店街活性化 → [[civic/themes/relocation-station|移住・駅周辺再生]] / [[civic/themes/industrial-strategy|産業戦略]]
+- 公共交通・防災・商店街活性化 → [[06_市政・議会/themes/relocation-station|移住・駅周辺再生]] / [[06_市政・議会/themes/industrial-strategy|産業戦略]]
 - 環境・地域産業 → [[00_System/vision/industry_os_specification|産業OS 仕様書]]
-- 人口減少 → [[civic/concepts/population-decline|人口減少]] / [[00_System/vision/L0_premise_layer|L0 前提レイヤ]]
-- 公共施設データ → [[civic/finance/uto-city-public-facilities|公共施設更新ギャップ]]
+- 人口減少 → [[06_市政・議会/01_概念集/population-decline|人口減少]] / [[00_System/vision/L0_premise_layer|L0 前提レイヤ]]
+- 公共施設データ → [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設更新ギャップ]]
 
 **📋 政策実行カード**
 - [[04_DataLink/02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|pc_admin_dx_001 市役所AI業務ガイドライン]] — オープンデータ運用の前提整備
@@ -223,7 +223,7 @@ related_policy_cards:
 - [[00_System/vision/education_os_specification|教育OS 仕様書]] — 学校統廃合・学びの質向上
 - [[00_System/vision/education_os_use_cases|教育OS ユースケース]] — 探究学習・キャリア教育
 - [[00_System/vision/childcare_os_specification|子育てOS 仕様書]] — 妊娠〜青少年期の一貫支援
-- [[civic/themes/childcare-education|子育て・教育・人材育成]] — テーマ横断MOC
+- [[06_市政・議会/themes/childcare-education|子育て・教育・人材育成]] — テーマ横断MOC
 
 **🎓 SSH連携・探究学習の波及戦略**
 - 高校 → 小中学校への「縦の連携」を制度化する提案
@@ -247,13 +247,13 @@ related_policy_cards:
    → 帰結指標：地域人材育成・地域課題解決・**関係人口・定住人口の創出・若者の還流**
 
 **🏛 政策・マニフェスト**
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] — 「学びと誇りのある宇土」「若者・女性の声が届く宇土」「宇土で働く、宇土で挑戦する」
-- [[civic/uto-city-council/2026-06-general-assembly-qa|質問①（構造改革）]] — 「ワンチーム宇土」の具体運用
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] — 「学びと誇りのある宇土」「若者・女性の声が届く宇土」「宇土で働く、宇土で挑戦する」
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|質問①（構造改革）]] — 「ワンチーム宇土」の具体運用
 
 **🧠 関連概念・OS**
-- [[civic/concepts/population-decline|人口減少]] — 関係人口・定住人口戦略の文脈
-- [[civic/concepts/local-economy|地域経済]] — 「宇土で働く・挑戦する」の構造
-- [[civic/themes/relocation-station|移住・定住・駅周辺]] — 若者定着の空間戦略
+- [[06_市政・議会/01_概念集/population-decline|人口減少]] — 関係人口・定住人口戦略の文脈
+- [[06_市政・議会/01_概念集/local-economy|地域経済]] — 「宇土で働く・挑戦する」の構造
+- [[06_市政・議会/themes/relocation-station|移住・定住・駅周辺]] — 若者定着の空間戦略
 - [[00_System/vision/relocation_os_specification|移住・定住OS 仕様書]]
 - [[00_System/vision/rmo_os_specification|RMO OS 仕様書]] — 地域組織運営への若者参画
 - [[00_System/vision/industry_os_specification|産業OS 仕様書]] — 「宇土で働く・挑戦する」の経済基盤
@@ -296,16 +296,16 @@ related_policy_cards:
 
 ## 🔄 答弁後のフォローアップ予定
 
-1. **答弁内容を [[civic/uto-city-council/index|議会活動ハブ]] に記録**
+1. **答弁内容を [[06_市政・議会/06_議会/index|議会活動ハブ]] に記録**
 2. **第3問のオープンデータ提供方針 → [[04_DataLink/02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline|pc_admin_dx_001]] へ追記**
 3. **第4問の教育部の答弁 → [[00_System/vision/education_os_implementation|教育OS 実装ガイド]] に反映**
-4. **第5問の市長判断 → [[civic/themes/childcare-education|子育て・教育・人材育成テーマMOC]] と [[civic/uto-city-council/mitsuii-mayor-manifesto|マニフェスト分析]] に更新**
+4. **第5問の市長判断 → [[06_市政・議会/themes/childcare-education|子育て・教育・人材育成テーマMOC]] と [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|マニフェスト分析]] に更新**
 5. **若者チャレンジ枠の答弁内容次第で、新規 `pc_childedu_*` カードを起案検討**
 
 ---
 
 **作成**: 2026-06-01（改訂版・通告済み）
 **会派**: 会派「風」
-**関連質問**: [[civic/uto-city-council/2026-06-general-assembly-qa|質問①（構造改革）]]
-**質問意図・問題意識**: [[civic/uto-city-council/2026-06-general-assembly-thoughts|💭 質問意図と問題意識（事前すり合わせ）]]
-**マニフェスト分析**: [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]
+**関連質問**: [[06_市政・議会/06_議会/2026-06-general-assembly-qa|質問①（構造改革）]]
+**質問意図・問題意識**: [[06_市政・議会/06_議会/2026-06-general-assembly-thoughts|💭 質問意図と問題意識（事前すり合わせ）]]
+**マニフェスト分析**: [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]

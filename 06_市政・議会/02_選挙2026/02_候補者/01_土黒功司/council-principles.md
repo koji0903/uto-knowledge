@@ -4,10 +4,10 @@ date: 2026-09-13
 tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, 議会理念, 行動原則, つなぐ, 動かす]
 type: philosophy
 status: 確定候補
-based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
+based_on: "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🏛️ 宇土市議会 議会理念と5つの行動原則
 
@@ -82,16 +82,16 @@ based_on: "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構�
 | 行動原則 | 対応する実績・思想 |
 |----------|--------------------|
 | 2｜個別要望を政策へ | 走潟の一事例を全市課題へ昇華する手法 → [[04_DataLink/01_ASSEMBLY/activities/hijikuro_questioning_style_analysis\|質問スタイル分析 C-9]] |
-| 3｜何が変わったか | 提案→実現の追跡（GIGA・通学路・地区防災） → [[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term\|実績棚卸し]] |
+| 3｜何が変わったか | 提案→実現の追跡（GIGA・通学路・地区防災） → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term\|実績棚卸し]] |
 | 4｜対案を示す | 「現場→データ→他自治体事例→提案」の4部構成 → 質問スタイル分析 A-3 |
-| 5｜未来に責任 | 5つの挑戦「持続する」・宇土OS → [[civic/election-2026/candidates/hijikuro-koji/five-challenges-content\|5つの挑戦 肉付け]] |
-| 全体 | スローガン「つながりを、動かす力へ」 → [[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message\|こころ、ひとつに]] |
+| 5｜未来に責任 | 5つの挑戦「持続する」・宇土OS → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges-content\|5つの挑戦 肉付け]] |
+| 全体 | スローガン「つながりを、動かす力へ」 → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/kokoro-hitotsu-message\|こころ、ひとつに]] |
 
 ---
 
 ## 🖼️ インフォグラフィック
 
-![[civic/election-2026/candidates/hijikuro-koji/assets/council-principles-infographic.svg]]
+![[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/assets/council-principles-infographic.svg]]
 
 ---
 

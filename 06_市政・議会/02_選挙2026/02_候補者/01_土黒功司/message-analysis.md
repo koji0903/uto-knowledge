@@ -4,14 +4,14 @@ date: 2026-06-26
 tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, メッセージ分析]
 type: analysis
 status: 蓄積中
-source: "[[civic/election-2026/candidates/hijikuro-koji/declaration|宣言文 v1]]"
+source: "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration|宣言文 v1]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🔍 土黒功司 宣言文 メッセージ分析
 
-対象: [[civic/election-2026/candidates/hijikuro-koji/declaration|宣言文 v1（2026-06-26）]]
+対象: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration|宣言文 v1（2026-06-26）]]
 
 ---
 
@@ -19,11 +19,11 @@ source: "[[civic/election-2026/candidates/hijikuro-koji/declaration|宣言文 v1
 
 | 軸 | 内容 | 政策ナレッジ |
 |----|------|-------------|
-| ① 動機の純粋性 | 「議員が目的ではない」＝権力志向の否定、地域起点 | [[civic/concepts/civic-participation\|市民参加]] |
-| ② 次世代への責任 | 「子どもたちが誇れる宇土を残したい」 | [[civic/themes/childcare-education\|子育て・教育]] |
-| ③ 成長と継続性 | 「1期=学び／2期=行動」 | [[civic/uto-city-council/index\|議会実績]] |
-| ④ 共創・対話 | 「世代を超えて／立場を超えて／ともに」 | [[civic/themes/civic-engagement-dx\|市民参加・DX]] |
-| ⑤ 進化の約束 | 「次の時代へ進化させる」 | [[civic/themes/industrial-strategy\|産業戦略]] |
+| ① 動機の純粋性 | 「議員が目的ではない」＝権力志向の否定、地域起点 | [[06_市政・議会/01_概念集/civic-participation\|市民参加]] |
+| ② 次世代への責任 | 「子どもたちが誇れる宇土を残したい」 | [[06_市政・議会/themes/childcare-education\|子育て・教育]] |
+| ③ 成長と継続性 | 「1期=学び／2期=行動」 | [[06_市政・議会/06_議会/index\|議会実績]] |
+| ④ 共創・対話 | 「世代を超えて／立場を超えて／ともに」 | [[06_市政・議会/themes/civic-engagement-dx\|市民参加・DX]] |
+| ⑤ 進化の約束 | 「次の時代へ進化させる」 | [[06_市政・議会/themes/industrial-strategy\|産業戦略]] |
 
 ---
 
@@ -58,7 +58,7 @@ source: "[[civic/election-2026/candidates/hijikuro-koji/declaration|宣言文 v1
 - 「進化」が抽象的 → どの分野を、どう変えるかの一言が欲しい
 - 数字・固有の課題（公共施設15.5億ギャップ等）との接続余地
 
-→ 政策の具体化は [[civic/themes/index|横断テーマ索引]] と [[civic/finance/index|財政分析]] を素材に。
+→ 政策の具体化は [[06_市政・議会/themes/index|横断テーマ索引]] と [[06_市政・議会/03_財政/index|財政分析]] を素材に。
 
 ---
 

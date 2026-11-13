@@ -7,11 +7,11 @@ status: 蓄積中
 source: "[[04_DataLink/01_ASSEMBLY/activities/hijikuro_general_questions_overview|一般質問活動サマリー]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🏛️ 土黒功司 1期目 実績棚卸し（2022–2026）
 
-公約 [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] の説得力を裏付ける、1期目の実証データ。「2期目で言うこと」は、すべて「1期目で問うてきたこと」の延長であることを示す。
+公約 [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term|2期目 重点公約パッケージ]] の説得力を裏付ける、1期目の実証データ。「2期目で言うこと」は、すべて「1期目で問うてきたこと」の延長であることを示す。
 
 > **コアメッセージ**: 公約は思いつきではない。**4年間・9定例会・約77問**の一般質問で積み上げた問題意識の結晶である。
 
@@ -21,7 +21,7 @@ source: "[[04_DataLink/01_ASSEMBLY/activities/hijikuro_general_questions_overvie
 
 > **令和4年10月16日 宇土市議会議員選挙で 1,474票・最多得票のトップ当選**（44歳・無所属）。
 > 定数18に19人が立候補、当選ライン665票のなか、次点に164票差をつけた圧倒的1位。
-> → 出典・全データ: [[civic/election-2026/official-info|公式情報]]
+> → 出典・全データ: [[06_市政・議会/02_選挙2026/official-info|公式情報]]
 
 ---
 
@@ -60,39 +60,39 @@ source: "[[04_DataLink/01_ASSEMBLY/activities/hijikuro_general_questions_overvie
 - **新庁舎の建設・利活用**を継続的に質問（R5-06）— 公約「既存資産の利活用による財源確保」の起点
 - **旧田中会館の多目的交流施設活用**（R6-03）— 既存施設の転換・複合化の具体提案
 - 地域防災・自主防災組織・地区防災計画を一貫して追及（R4-12, R5-12, R6-06）
-→ 公約①: [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#① 人口減少に適応する|公共施設の戦略的再編]]
+→ 公約①: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#① 人口減少に適応する|公共施設の戦略的再編]]
 
 ### ② 子どもへ投資する ← 最多・最一貫テーマ
 - **GIGAスクール/学校ICT**を4年通して継続追及（R4-12, R5-06, R6-03, R6-12）
 - **不登校児童**への対応（R4-12）、**子どもの遊び・学びの場**（R5-03）
 - **子どもサードプレイス**の新設（R6-06）、**児童発達支援環境**の充実（R6-09）
 - **「こどもまんなか応援サポーター宣言」**を後押し（R6-12）
-→ 公約②: [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#② 子どもへ投資する|子育て・教育への投資]]
+→ 公約②: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#② 子どもへ投資する|子育て・教育への投資]]
 
 ### ③ 稼ぐ地域をつくる ← 産業・ブランドで実証
 - **商店街活性化・市内創業/開業支援**（R5-03）
 - **地域産業支援・連携**（R5-09）、**特産品PR**（R6-06）
 - **ふるさと納税制度変更の影響**を分析的に質問（R6-03）— 公約「ふるさと納税の販路接続」の前提認識
 - **「九州のどまんなか宇土市」**を活かした魅力発信（R6-06）
-→ 公約③: [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#③ 稼ぐ地域をつくる|地域商社・稼ぐ構造]]
+→ 公約③: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#③ 稼ぐ地域をつくる|地域商社・稼ぐ構造]]
 
 ### ④ 共創社会をつくる ← 地域連携・防災の共助で実証
 - **自主防災組織・地区防災計画**を繰り返し提起（R5-12, R6-06）— 共助の仕組みづくり
 - **行政視察受入から見た宇土の特徴**（R5-12）— 外部視点で強みを言語化
 - 保護者ケア・地域連携など、立場を超えた協働の視点（R5-09）
-→ 公約④: [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#④ 共創社会をつくる|官民・市民の共創]]
+→ 公約④: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#④ 共創社会をつくる|官民・市民の共創]]
 
 ### ⑤ データと対話で未来を考える ← DX・AIで先行
 - **AIの業務・教育への影響**をいち早く質問（R5-06）— 先見性
 - **自治体DX**の取組（R5-12）
 - **災害時のHP・庁内データ管理の安定運用**（R6-03）— データ基盤への着目
-→ 公約⑤: [[civic/election-2026/candidates/hijikuro-koji/manifesto-2nd-term#⑤ データと対話で未来を考える|データと対話の市役所]]
+→ 公約⑤: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-2nd-term#⑤ データと対話で未来を考える|データと対話の市役所]]
 
 ---
 
 ## 🏃 議会以外の実践活動（言行一致の裏付け）
 
-思想構造 [[civic/election-2026/candidates/hijikuro-koji/philosophy|UTO PRIDE]] の「実践（7領域）」に対応。
+思想構造 [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|UTO PRIDE]] の「実践（7領域）」に対応。
 
 | 領域 | 内容 | 裏付ける柱 |
 |------|------|-----------|

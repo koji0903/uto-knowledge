@@ -6,7 +6,7 @@ type: framework
 status: 蓄積中
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🧭 土黒功司 思想構造（UTO PRIDE）
 
@@ -51,7 +51,7 @@ status: 蓄積中
 - 未来をつくる
 
 → 手段ではなく**態度**。共創・対話を全活動の作法とする。
-関連: [[civic/concepts/civic-participation|市民参加]] / [[civic/themes/civic-engagement-dx|市民参加・行政DX]]
+関連: [[06_市政・議会/01_概念集/civic-participation|市民参加]] / [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DX]]
 
 ---
 
@@ -63,15 +63,15 @@ status: 蓄積中
 
 ## 🧩 進化の方向（5本柱）
 
-> 📢 この5本柱を市民向けに磨いた公開コピーが [[civic/election-2026/candidates/hijikuro-koji/five-challenges|「宇土を進化させる5つの挑戦」]]。
+> 📢 この5本柱を市民向けに磨いた公開コピーが [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|「宇土を進化させる5つの挑戦」]]。
 
 | # | 方向 | 関連政策ナレッジ |
 |---|------|------------------|
-| 1 | 人口減少に適応する | [[civic/concepts/population-decline\|人口減少]] |
-| 2 | 子どもへ投資する | [[civic/themes/childcare-education\|子育て・教育・人材育成]] |
-| 3 | 稼ぐ地域をつくる | [[civic/themes/industrial-strategy\|産業戦略]] / [[civic/concepts/local-economy\|地域経済]] |
-| 4 | 共創社会をつくる | [[civic/concepts/civic-participation\|市民参加]] / [[civic/concepts/public-private-partnership\|官民連携]] |
-| 5 | データと対話で未来を考える | [[civic/concepts/dx-strategy\|DX戦略]] / [[civic/themes/civic-engagement-dx\|市民参加・DX]] |
+| 1 | 人口減少に適応する | [[06_市政・議会/01_概念集/population-decline\|人口減少]] |
+| 2 | 子どもへ投資する | [[06_市政・議会/themes/childcare-education\|子育て・教育・人材育成]] |
+| 3 | 稼ぐ地域をつくる | [[06_市政・議会/themes/industrial-strategy\|産業戦略]] / [[06_市政・議会/01_概念集/local-economy\|地域経済]] |
+| 4 | 共創社会をつくる | [[06_市政・議会/01_概念集/civic-participation\|市民参加]] / [[06_市政・議会/01_概念集/public-private-partnership\|官民連携]] |
+| 5 | データと対話で未来を考える | [[06_市政・議会/01_概念集/dx-strategy\|DX戦略]] / [[06_市政・議会/themes/civic-engagement-dx\|市民参加・DX]] |
 
 ---
 
@@ -81,12 +81,12 @@ status: 蓄積中
 
 | 領域 | 性質 | 思想との接続 |
 |------|------|--------------|
-| 市議会活動 | 制度 | 進化の方向 全般 → [[civic/uto-city-council/index\|議会活動ハブ]] |
+| 市議会活動 | 制度 | 進化の方向 全般 → [[06_市政・議会/06_議会/index\|議会活動ハブ]] |
 | PTA | 教育・子ども | ②子どもへ投資 |
 | 体育協会 | 地域・健康 | 共創・世代を超えて |
 | 災害支援 | 安全・共助 | ④共創社会 |
 | 宇土OS | データ・仕組み | ⑤データと対話 → [[projects/utomachi_PF/overview\|Utomachi PF]] |
-| 宇土高校 | 教育・若者 | ②子どもへ投資 → [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school\|高校連携]] |
+| 宇土高校 | 教育・若者 | ②子どもへ投資 → [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school\|高校連携]] |
 | 地域経済活性化 | 産業 | ③稼ぐ地域 |
 
 ---
@@ -94,8 +94,8 @@ status: 蓄積中
 ## 🔗 マッピングの示唆
 
 - **5方向 × 7実践** の対応により「理念→具体活動」の説明が一本で通る。
-- 宣言文 [[civic/election-2026/candidates/hijikuro-koji/declaration|declaration]] の各フレーズはこの構造のどこから来ているかを追跡可能。
-- メッセージ分析 [[civic/election-2026/candidates/hijikuro-koji/message-analysis|message-analysis]] の訴求軸はこの思想構造に由来。
+- 宣言文 [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/declaration|declaration]] の各フレーズはこの構造のどこから来ているかを追跡可能。
+- メッセージ分析 [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/message-analysis|message-analysis]] の訴求軸はこの思想構造に由来。
 
 ---
 

@@ -292,7 +292,7 @@ status: 準備中
 
 ## 🎯 6月定例会一般質問との対応関係
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|6月定例会質問①（構造改革）]] との対応関係
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|6月定例会質問①（構造改革）]] との対応関係
 
 **これらのジレンマに直接迫る質問構成**
 
@@ -476,10 +476,10 @@ status: 準備中
 
 ## 🔗 関連ドキュメント
 
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会 一般質問① 構成案]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会 一般質問② 構成案]]
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/concepts|宇土市政 - 主要概念ハブ]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会 一般質問① 構成案]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会 一般質問② 構成案]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/concepts|宇土市政 - 主要概念ハブ]]
 
 ---
 
@@ -521,21 +521,21 @@ status: 準備中
 ## 🔗 参考ドキュメント
 
 ### 議会活動
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会 一般質問①（構造改革）]] - この分析を踏まえた質問設計
-- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会 一般質問②（高校連携）]]
-- [[civic/uto-city-council|宇土市議会・議員活動]] - 議員活動の総合情報
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会 一般質問①（構造改革）]] - この分析を踏まえた質問設計
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会 一般質問②（高校連携）]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]] - 議員活動の総合情報
 
 ### 概念ノート
-- [[civic/concepts|主要概念ハブ]]
-- [[civic/concepts/population-decline|人口減少]]
-- [[civic/concepts/fiscal-constraint|財政制約]]
-- [[civic/concepts/local-economy|地域経済]]
-- [[civic/concepts/civic-participation|市民参加]]
+- [[06_市政・議会/concepts|主要概念ハブ]]
+- [[06_市政・議会/01_概念集/population-decline|人口減少]]
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/civic-participation|市民参加]]
 
 ### 財政分析
-- [[civic/finance|宇土市 財政戦略・分析]]
-- [[civic/finance/uto-city-fiscal-analysis|財政状況の分析]]
-- [[civic/finance/uto-city-public-facilities|公共施設問題]]
+- [[06_市政・議会/finance|宇土市 財政戦略・分析]]
+- [[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政状況の分析]]
+- [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]]
 
 ### プロジェクト
 - [[projects/utomachi_PF/overview|Utomachi Platform]] - 地域経営システム（参考：理想的なシステム設計）

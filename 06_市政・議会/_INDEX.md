@@ -39,83 +39,83 @@ status: 運用中
 ## 📚 主要セクション
 
 ### 🗳️ 選挙ナレッジ ⭐ NEW
-**[[civic/election-2026/index|🗳️ 2026 宇土市議選 ダッシュボード]]** - 事実・戦略・メッセージ・運営の司令塔（投票10/4・準備A〜G全🟢）
+**[[06_市政・議会/02_選挙2026/index|🗳️ 2026 宇土市議選 ダッシュボード]]** - 事実・戦略・メッセージ・運営の司令塔（投票10/4・準備A〜G全🟢）
 
 | ドキュメント | 内容 |
 |-------------|------|
-| [[civic/election-2026/index\|2026市議選ダッシュボード]] | カウントダウン・スコアボード・全文書マップ |
-| [[civic/election-2026/candidates/hijikuro-koji/index\|土黒功司 候補者ハブ]] | 思想→公約→実績→広報の9点セット |
-| [[civic/election-2026/official-info\|公式情報・現状値]] | 前回トップ当選・KPIベースライン |
+| [[06_市政・議会/02_選挙2026/index\|2026市議選ダッシュボード]] | カウントダウン・スコアボード・全文書マップ |
+| [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index\|土黒功司 候補者ハブ]] | 思想→公約→実績→広報の9点セット |
+| [[06_市政・議会/02_選挙2026/official-info\|公式情報・現状値]] | 前回トップ当選・KPIベースライン |
 
 ---
 
 ### 📊 宇土OS 深層分析ナレッジ ⭐ NEW
-**[[civic/uto-os-analysis/00_MOC/00_宇土OS_総合ナレッジMOC|🧭 宇土OS 総合ナレッジ MOC]]** - uto-os.jp の財政・公会計・施設・人口・政策・議会論点の体系的分析（38ノート／6分野）
-🌐 **[[civic/uto-os-analysis/00_MOC/uto-os-jp_サイト構造とコンテンツ分析|uto-os.jp サイト構造とコンテンツ分析]]** - 公開サイト全52ページを6メニューで体系化・本ナレッジと対応づけ
+**[[06_市政・議会/07_宇土OS分析/00_MOC/00_宇土OS_総合ナレッジMOC|🧭 宇土OS 総合ナレッジ MOC]]** - uto-os.jp の財政・公会計・施設・人口・政策・議会論点の体系的分析（38ノート／6分野）
+🌐 **[[06_市政・議会/07_宇土OS分析/00_MOC/uto-os-jp_サイト構造とコンテンツ分析|uto-os.jp サイト構造とコンテンツ分析]]** - 公開サイト全52ページを6メニューで体系化・本ナレッジと対応づけ
 
 | 分野 MOC | 内容 |
 |----------|------|
-| [[civic/uto-os-analysis/00_MOC/01_財政・公会計_MOC\|財政・公会計]] | 決算カード9か年・償還カーブ・基金耐久力・繰出金・健全化比率 |
-| [[civic/uto-os-analysis/00_MOC/02_公共施設・インフラ経営_MOC\|公共施設・インフラ経営]] | 431億円問題・更新ギャップ・上下水道公営企業会計 |
-| [[civic/uto-os-analysis/00_MOC/03_人口・地域社会_MOC\|人口・地域社会]] | 人口推計・市内7地区カルテ・RMO・福祉教育 |
-| [[civic/uto-os-analysis/00_MOC/04_政策・未来シナリオ_MOC\|政策・未来シナリオ]] | 2040予測・スマートシュリンク・PFU・地域商社・行政DX |
-| [[civic/uto-os-analysis/00_MOC/05_市議会論点・監査検証_MOC\|市議会論点・監査検証]] | 補正予算審議・一般質問逆引き・政策ROI |
-| [[civic/uto-os-analysis/00_MOC/06_KPI辞書_MOC\|KPI辞書・指標ハンドブック]] | 経常収支・公債費・有収率などの定義と市民翻訳 |
+| [[06_市政・議会/07_宇土OS分析/00_MOC/01_財政・公会計_MOC\|財政・公会計]] | 決算カード9か年・償還カーブ・基金耐久力・繰出金・健全化比率 |
+| [[06_市政・議会/07_宇土OS分析/00_MOC/02_公共施設・インフラ経営_MOC\|公共施設・インフラ経営]] | 431億円問題・更新ギャップ・上下水道公営企業会計 |
+| [[06_市政・議会/07_宇土OS分析/00_MOC/03_人口・地域社会_MOC\|人口・地域社会]] | 人口推計・市内7地区カルテ・RMO・福祉教育 |
+| [[06_市政・議会/07_宇土OS分析/00_MOC/04_政策・未来シナリオ_MOC\|政策・未来シナリオ]] | 2040予測・スマートシュリンク・PFU・地域商社・行政DX |
+| [[06_市政・議会/07_宇土OS分析/00_MOC/05_市議会論点・監査検証_MOC\|市議会論点・監査検証]] | 補正予算審議・一般質問逆引き・政策ROI |
+| [[06_市政・議会/07_宇土OS分析/00_MOC/06_KPI辞書_MOC\|KPI辞書・指標ハンドブック]] | 経常収支・公債費・有収率などの定義と市民翻訳 |
 
 ---
 
 ### 🎯 横断テーマ索引 ⭐ NEW
-**[[civic/themes|横断テーマ索引]]** - 全Vaultリソースをテーマ別に統合
+**[[06_市政・議会/themes|横断テーマ索引]]** - 全Vaultリソースをテーマ別に統合
 
 | テーマ | 主要問い | 重要度 |
 |--------|---------|--------|
-| [[civic/themes/public-facilities\|公共施設の戦略的縮小]] | 年15.5億円ギャップへの対応 | ⚠️⚠️⚠️ |
-| [[civic/themes/industrial-strategy\|産業戦略・地域商社]] | 「稼ぐ構造」への転換 | ⚠️⚠️ |
-| [[civic/themes/childcare-education\|子育て・教育・人材育成]] | 若者の地域定着 | ⚠️⚠️ |
-| [[civic/themes/relocation-station\|移住・定住・駅周辺]] | コンパクトシティ実現 | ⚠️⚠️ |
-| [[civic/themes/civic-engagement-dx\|市民参加・行政DX]] | 「話を聞く市役所」の実装 | ⚠️⚠️ |
+| [[06_市政・議会/themes/public-facilities\|公共施設の戦略的縮小]] | 年15.5億円ギャップへの対応 | ⚠️⚠️⚠️ |
+| [[06_市政・議会/themes/industrial-strategy\|産業戦略・地域商社]] | 「稼ぐ構造」への転換 | ⚠️⚠️ |
+| [[06_市政・議会/themes/childcare-education\|子育て・教育・人材育成]] | 若者の地域定着 | ⚠️⚠️ |
+| [[06_市政・議会/themes/relocation-station\|移住・定住・駅周辺]] | コンパクトシティ実現 | ⚠️⚠️ |
+| [[06_市政・議会/themes/civic-engagement-dx\|市民参加・行政DX]] | 「話を聞く市役所」の実装 | ⚠️⚠️ |
 
 ---
 
 ### 🏛️ 議会活動
-**[[civic/uto-city-council|宇土市議会・議員活動]]**
+**[[06_市政・議会/uto-city-council|宇土市議会・議員活動]]**
 
 | ドキュメント | 内容 |
 |-------------|------|
-| [[civic/uto-city-council|議会活動ハブ]] | 議会活動の総合情報 |
-| [[civic/uto-city-council/2026-4th-assembly-agenda\|令和8年 第4回定例会（R8-4）]] ⭐NEW | 議案→決算→論点→原稿の4点パッケージ |
-| [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] | 構造改革テーマ |
-| [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] | 高校連携テーマ |
-| 💭 [[civic/uto-city-council/2026-06-general-assembly-thoughts|令和8年6月定例会 質問意図と問題意識]] | 事前すり合わせ・政策思想 |
-| [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] | マニフェスト解読 |
+| [[06_市政・議会/uto-city-council|議会活動ハブ]] | 議会活動の総合情報 |
+| [[06_市政・議会/06_議会/2026-4th-assembly-agenda\|令和8年 第4回定例会（R8-4）]] ⭐NEW | 議案→決算→論点→原稿の4点パッケージ |
+| [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] | 構造改革テーマ |
+| [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] | 高校連携テーマ |
+| 💭 [[06_市政・議会/06_議会/2026-06-general-assembly-thoughts|令和8年6月定例会 質問意図と問題意識]] | 事前すり合わせ・政策思想 |
+| [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] | マニフェスト解読 |
 
 ---
 
 ### 💰 財政分析・公共施設
-**[[civic/finance|宇土市 財政戦略・分析]]**
+**[[06_市政・議会/finance|宇土市 財政戦略・分析]]**
 
 | ドキュメント | 内容 |
 |-------------|------|
-| [[civic/finance|財政分析ハブ]] | 統合ハブ |
-| [[civic/finance/overview|財政戦略ビューア]] | アプリ概要 |
-| [[civic/finance/uto-city-fiscal-analysis|財政状況の分析]] | 9年度の決算分析 |
-| [[civic/finance/uto-city-public-facilities|公共施設問題]] ⚠️ | 更新ギャップ年15.5億円 |
-| [[civic/finance/fiscal-viewer-app|技術仕様]] | アプリの技術詳細 |
+| [[06_市政・議会/finance|財政分析ハブ]] | 統合ハブ |
+| [[06_市政・議会/03_財政/overview|財政戦略ビューア]] | アプリ概要 |
+| [[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政状況の分析]] | 9年度の決算分析 |
+| [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]] ⚠️ | 更新ギャップ年15.5億円 |
+| [[06_市政・議会/03_財政/fiscal-viewer-app|技術仕様]] | アプリの技術詳細 |
 
 ---
 
 ### 🌐 主要概念
-**[[civic/concepts|宇土市政 - 主要概念ハブ]]**
+**[[06_市政・議会/concepts|宇土市政 - 主要概念ハブ]]**
 
 | 概念 | 重要度 | 概要 |
 |------|--------|------|
-| [[civic/concepts/population-decline|人口減少]] | ⚠️⚠️⚠️ | 構造的課題の根本 |
-| [[civic/concepts/fiscal-constraint|財政制約]] | ⚠️⚠️⚠️ | 政策実行の限界 |
-| [[civic/concepts/local-economy|地域経済]] | ⚠️⚠️ | 産業構造と域内循環 |
-| [[civic/concepts/civic-participation|市民参加]] | ⚠️⚠️ | 「話を聞く市役所」の実装 |
-| [[civic/concepts/dx-strategy|DX戦略]] | ⚠️⚠️ | データ活用、業務効率化 |
-| [[civic/concepts/public-private-partnership|官民連携]] | ⚠️⚠️ | 民間との共創 |
-| [[civic/concepts/station-redevelopment|駅周辺再生]] | ⚠️⚠️ | コンパクトシティ戦略 |
+| [[06_市政・議会/01_概念集/population-decline|人口減少]] | ⚠️⚠️⚠️ | 構造的課題の根本 |
+| [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]] | ⚠️⚠️⚠️ | 政策実行の限界 |
+| [[06_市政・議会/01_概念集/local-economy|地域経済]] | ⚠️⚠️ | 産業構造と域内循環 |
+| [[06_市政・議会/01_概念集/civic-participation|市民参加]] | ⚠️⚠️ | 「話を聞く市役所」の実装 |
+| [[06_市政・議会/01_概念集/dx-strategy|DX戦略]] | ⚠️⚠️ | データ活用、業務効率化 |
+| [[06_市政・議会/01_概念集/public-private-partnership|官民連携]] | ⚠️⚠️ | 民間との共創 |
+| [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]] | ⚠️⚠️ | コンパクトシティ戦略 |
 
 ---
 
@@ -126,45 +126,45 @@ status: 運用中
 ```
 Step 1: テーマ整理
    ↓
-   [[civic/concepts|概念ハブ]] で関連概念を把握
+   [[06_市政・議会/concepts|概念ハブ]] で関連概念を把握
    ↓
 Step 2: データ収集
    ↓
-   [[civic/finance|財政分析]] で数字根拠を取得
+   [[06_市政・議会/finance|財政分析]] で数字根拠を取得
    ↓
 Step 3: 質問設計
    ↓
-   [[civic/uto-city-council|議会活動]] で過去質問を参照
+   [[06_市政・議会/uto-city-council|議会活動]] で過去質問を参照
    ↓
 Step 4: 市長答弁の予測
    ↓
-   [[civic/uto-city-council/mitsuii-mayor-manifesto|マニフェスト分析]] で方向性を確認
+   [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|マニフェスト分析]] で方向性を確認
 ```
 
 ### 📢 市民へ説明する時
 
 ```
 1. 簡単な数字
-   → [[civic/finance/overview|財政戦略ビューア]] で可視化
+   → [[06_市政・議会/03_財政/overview|財政戦略ビューア]] で可視化
 
 2. 課題の構造
-   → [[civic/concepts|概念ハブ]] で概念を平易に説明
+   → [[06_市政・議会/concepts|概念ハブ]] で概念を平易に説明
 
 3. 具体例
-   → [[civic/finance/uto-city-public-facilities|公共施設問題]] で具体課題を提示
+   → [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]] で具体課題を提示
 ```
 
 ### 🔍 市政の現状を理解する時
 
 ```
 1. 全体像
-   → このページ [[civic/index|civic ハブ]]
+   → このページ [[06_市政・議会/index|civic ハブ]]
 
 2. 構造的課題
-   → [[civic/concepts/population-decline|人口減少]] から始める
+   → [[06_市政・議会/01_概念集/population-decline|人口減少]] から始める
 
 3. 数値根拠
-   → [[civic/finance/uto-city-fiscal-analysis|財政分析]]
+   → [[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政分析]]
 ```
 
 ---
@@ -269,26 +269,26 @@ civic/
 ### 「宇土市政の本質的な問い」
 
 #### 1. 人口減少時代の自治体経営
-→ [[civic/concepts/population-decline|人口減少]]
+→ [[06_市政・議会/01_概念集/population-decline|人口減少]]
 
 > 人口減少を前提とした市政運営への転換が必須。
 > 「人口を増やす」だけでなく「人口減少に適応する」両輪戦略。
 
 #### 2. 財政制約下の選択と集中
-→ [[civic/concepts/fiscal-constraint|財政制約]]
+→ [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]]
 
 > 「全てやる」は不可能。
 > 「何を優先し、何をやめるか」の判断基準が必要。
 
 #### 3. 公共施設の戦略的縮小
-→ [[civic/finance/uto-city-public-facilities|公共施設問題]]
+→ [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]]
 
 > 年15.5億円の更新ギャップは「対応する/しない」の問題ではない。
 > 「どう対応するか」の問題。施設の45%削減が現実的に必要。
 
 #### 4. 若者・市民との共創
-→ [[civic/concepts/civic-participation|市民参加]]
-→ [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|高校連携]]
+→ [[06_市政・議会/01_概念集/civic-participation|市民参加]]
+→ [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|高校連携]]
 
 > 市民を「サービス受益者」ではなく
 > 「政策形成のパートナー」として位置づける。

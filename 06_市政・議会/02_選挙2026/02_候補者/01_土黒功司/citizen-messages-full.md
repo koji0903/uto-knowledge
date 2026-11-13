@@ -7,14 +7,14 @@ status: ドラフト
 catch: "子どもたちが誇れる宇土へ。UTO PRIDE。"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[civic/election-2026/candidates/hijikuro-koji/campaign-materials|📣 広報物（短文版）]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|📣 広報物（短文版）]]
 
 # 📖 市民向け発信 ロングバージョン
 
-[[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物（短文版）]]の「厚み版」。じっくり読ませる/語るための長文。
+[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物（短文版）]]の「厚み版」。じっくり読ませる/語るための長文。
 リーフレット内面・後援会報・WEB・個人演説会・対話の場で使用。
-トーン: 井上ひさしの指針＝**むずかしいことを、やさしく**（[[civic/election-2026/archive-2022/election-message-2022|発信哲学]]）。
-> ✍️ **執筆ルールは [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|文体スタイルガイド]] に従う**（伴走者トーン・一文短く・構造批判・未来で締める）。
+トーン: 井上ひさしの指針＝**むずかしいことを、やさしく**（[[06_市政・議会/02_選挙2026/archive-2022/election-message-2022|発信哲学]]）。
+> ✍️ **執筆ルールは [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|文体スタイルガイド]] に従う**（伴走者トーン・一文短く・構造批判・未来で締める）。
 
 ---
 
@@ -225,7 +225,7 @@ catch: "子どもたちが誇れる宇土へ。UTO PRIDE。"
 
 ## 💬 対話・座談会用Q&A（市民の素朴な疑問に）
 
-> 守りの[[civic/election-2026/candidates/hijikuro-koji/qa-defense|想定問答]]が「批判への切り返し」なら、こちらは「市民の素朴な疑問にやさしく答える」版。
+> 守りの[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/qa-defense|想定問答]]が「批判への切り返し」なら、こちらは「市民の素朴な疑問にやさしく答える」版。
 
 **Q. 議員ひとりで、何が変えられるの？**
 A. 議員に予算を決める権限はありません。でも「問い続けること」「監視すること」「市民の声を市政に届けること」はできます。私は4年で約77回問いました。一つひとつが、市が動くきっかけになります。
@@ -253,13 +253,13 @@ A. 投票率は16年で20ポイント以上下がりました。でも、あな�
 | WEB 政策ページ | 5つの挑戦（詳しく）＋対話Q&A |
 | 個人演説会・動画 | 演説5分版 |
 | 座談会・対話の場 | 対話Q&A |
-| 短文（チラシ表・SNS） | → [[civic/election-2026/candidates/hijikuro-koji/campaign-materials|短文版]] |
+| 短文（チラシ表・SNS） | → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|短文版]] |
 
 ---
 
 ## ⚠️ 留意
 
-- 数字は [[civic/election-2026/current-values|現状値データ集]]に基づく確定値。媒体掲載時は年度を脚注に
+- 数字は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]]に基づく確定値。媒体掲載時は年度を脚注に
 - 法令（政治活動/選挙運動の区分・投票呼びかけの可否）は選管に確認
 - 本人の口調・言い回しに合わせて最終調整（特に演説・対話パート）
 

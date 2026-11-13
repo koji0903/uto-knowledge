@@ -33,13 +33,13 @@ priority: 高
 ## 📊 分析層（civic/）
 
 ### 中核概念
-- **[[civic/concepts/local-economy|地域経済]]** ⭐
-- [[civic/concepts/public-private-partnership|官民連携・PPP]] ⭐
-- [[civic/concepts/station-redevelopment|駅周辺再生]] - 商業集積
+- **[[06_市政・議会/01_概念集/local-economy|地域経済]]** ⭐
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP]] ⭐
+- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]] - 商業集積
 
 ### 関連概念
-- [[civic/concepts/population-decline|人口減少]] - 担い手不足
-- [[civic/concepts/fiscal-constraint|財政制約]] - 自主財源化の要請
+- [[06_市政・議会/01_概念集/population-decline|人口減少]] - 担い手不足
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]] - 自主財源化の要請
 
 ---
 
@@ -68,13 +68,13 @@ priority: 高
 ## 🗣️ 議会質問層（civic/uto-city-council/）
 
 ### 直接関連
-- **[[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]** ⭐
+- **[[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]** ⭐
   - 質問②: 地域経済戦略・産業の軸選択・民間との共創
-- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]
   - 高校探究活動と地域産業
 
 ### マニフェスト
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]] - 「仕事とにぎわい」セクション
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]] - 「仕事とにぎわい」セクション
 
 ---
 
@@ -156,10 +156,10 @@ priority: 高
 
 ## 🔗 横断テーマ
 
-- [[civic/themes|横断テーマ索引]]
-- [[civic/themes/public-facilities|公共施設縮小]] - 新庁舎での産業展示
-- [[civic/themes/relocation-station|移住・駅周辺]] - 駅前商業集積
-- [[civic/themes/civic-engagement-dx|市民参加・DX]] - 産業データ可視化
+- [[06_市政・議会/themes|横断テーマ索引]]
+- [[06_市政・議会/themes/public-facilities|公共施設縮小]] - 新庁舎での産業展示
+- [[06_市政・議会/themes/relocation-station|移住・駅周辺]] - 駅前商業集積
+- [[06_市政・議会/themes/civic-engagement-dx|市民参加・DX]] - 産業データ可視化
 
 ---
 

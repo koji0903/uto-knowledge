@@ -7,15 +7,15 @@ status: ドラフト
 catch: "子どもたちが誇れる宇土へ。UTO PRIDE。"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[civic/election-2026/campaign-readiness|✅ 準備マップ F]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[06_市政・議会/02_選挙2026/campaign-readiness|✅ 準備マップ F]]
 
 # 📣 2026選挙 広報物 実文面集（UTO PRIDE軸）
 
 メインキャッチ: **「子どもたちが誇れる宇土へ。UTO PRIDE。」**
 サブ: 学びを、行動に。／ 共に、ともに。
-> 📖 じっくり読ませる/語る長文は → [[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|市民向け発信 ロングバージョン]]（所信・詳解・5分演説・対話Q&A）
-> ✍️ 文体は [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]] に準拠（短文版も伴走者トーン・未来で締める）。
-※ 素材: [[civic/election-2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]・[[civic/election-2026/candidates/hijikuro-koji/achievements-1st-term|実績]]・[[civic/election-2026/archive-2022/election-message-2022|2022メッセージ]]
+> 📖 じっくり読ませる/語る長文は → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/citizen-messages-full|市民向け発信 ロングバージョン]]（所信・詳解・5分演説・対話Q&A）
+> ✍️ 文体は [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]] に準拠（短文版も伴走者トーン・未来で締める）。
+※ 素材: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges|5つの挑戦]]・[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/achievements-1st-term|実績]]・[[06_市政・議会/02_選挙2026/archive-2022/election-message-2022|2022メッセージ]]
 
 > ⚠️ 法令: 日付・呼びかけ表現は政治活動/選挙運動の区分に注意。配布前に選管確認。
 
@@ -77,7 +77,7 @@ catch: "子どもたちが誇れる宇土へ。UTO PRIDE。"
 　［プロフィール／QR：詳しい政策はこちら］
 ```
 
-> 💡 数字の出典は [[civic/election-2026/current-values|現状値データ集]]。チラシ実印刷時は年度（R6時点 等）を脚注に。
+> 💡 数字の出典は [[06_市政・議会/02_選挙2026/current-values|現状値データ集]]。チラシ実印刷時は年度（R6時点 等）を脚注に。
 
 ---
 
@@ -174,15 +174,15 @@ GIGA活用も、1期目から問い続けてきた。次は「学童」を。子
 　私は、そんな宇土を、皆さんと一緒につくっていきたいと思います。
 ```
 
-> 🎙️ 選挙カーの細かな作法・フレーズ集は [[civic/election-2026/archive-2022/operational-playbook|2022プレイブック]]を参照。
+> 🎙️ 選挙カーの細かな作法・フレーズ集は [[06_市政・議会/02_選挙2026/archive-2022/operational-playbook|2022プレイブック]]を参照。
 
 ---
 
 ## 🖼️ デザイン制作メモ
 
-- ベース: 2022の `共に、ともに.ai` / `tomoni.svg` / 選挙公報ai を流用（[[civic/election-2026/archive-2022/index|資産インベントリ]]）
+- ベース: 2022の `共に、ともに.ai` / `tomoni.svg` / 選挙公報ai を流用（[[06_市政・議会/02_選挙2026/archive-2022/index|資産インベントリ]]）
 - 更新点: キャッチを「UTO PRIDE」へ、肩書「宇土市議会議員（現職）」、実績バッジ「前回トップ当選」
-- トーン: 井上ひさし指針＝やさしく・おもしろく・まじめに（[[civic/election-2026/archive-2022/election-message-2022|発信哲学]]）
+- トーン: 井上ひさし指針＝やさしく・おもしろく・まじめに（[[06_市政・議会/02_選挙2026/archive-2022/election-message-2022|発信哲学]]）
 - 写真: 子ども・地域・笑顔（前回素材＋新規撮影は早期に1回）
 
 ---

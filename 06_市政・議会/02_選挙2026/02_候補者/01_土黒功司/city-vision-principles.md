@@ -5,16 +5,16 @@ tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, まちづくり理念
 type: philosophy
 status: 仮ドラフト
 based_on:
-  - "[[civic/election-2026/candidates/hijikuro-koji/council-principles|議会理念と5つの行動原則]]"
-  - "[[civic/election-2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
+  - "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/council-principles|議会理念と5つの行動原則]]"
+  - "[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/philosophy|思想構造 UTO PRIDE]]"
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]
 
 # 🌱 宇土のまちづくり理念と5つの行動原則（仮）
 
 土黒功司が掲げる、まちづくりそのもののあり方についての理念。
-[[civic/election-2026/candidates/hijikuro-koji/council-principles|議会理念（議会のあり方）]]と対になる「まち全体のあり方」の版。
+[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/council-principles|議会理念（議会のあり方）]]と対になる「まち全体のあり方」の版。
 
 > ⚠️ **仮ドラフト**：本人検討中のたたき台。文言・構成は今後変更の可能性あり。
 
@@ -92,15 +92,15 @@ based_on:
 | 5｜未来から逆算 | 5｜未来に責任を持つ | 持続する |
 
 > 「つながりを、宇土を動かす力へ」という共通スローガンが、両理念を貫く背骨。
-> → [[civic/election-2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに]] / [[civic/election-2026/candidates/hijikuro-koji/five-challenges-content|5つの挑戦 肉付け]]
+> → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/kokoro-hitotsu-message|こころ、ひとつに]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/five-challenges-content|5つの挑戦 肉付け]]
 
-> 🔗 原則5「未来から逆算」の数値根拠 → [[civic/uto-os-analysis/04_政策・未来シナリオ/2040未来予測センター_時間軸と判断期限|2040未来予測センター]] / [[civic/uto-os-analysis/04_政策・未来シナリオ/スマートシュリンク戦略ビジョン_5大政策ピラー|スマートシュリンク戦略]]
+> 🔗 原則5「未来から逆算」の数値根拠 → [[06_市政・議会/07_宇土OS分析/04_政策・未来シナリオ/2040未来予測センター_時間軸と判断期限|2040未来予測センター]] / [[06_市政・議会/07_宇土OS分析/04_政策・未来シナリオ/スマートシュリンク戦略ビジョン_5大政策ピラー|スマートシュリンク戦略]]
 
 ---
 
 ## 🖼️ インフォグラフィック
 
-![[civic/election-2026/candidates/hijikuro-koji/assets/city-vision-principles-infographic.svg]]
+![[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/assets/city-vision-principles-infographic.svg]]
 
 ---
 

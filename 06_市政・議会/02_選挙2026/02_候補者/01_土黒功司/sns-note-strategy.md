@@ -7,12 +7,12 @@ status: ドラフト
 platforms: [Facebook, X, Note]
 ---
 
-> ⬅ [[civic/election-2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|✍️ 文体ガイド]]
+> ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 候補者ハブ]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|✍️ 文体ガイド]]
 
 # 📱 SNS・Note発信戦略（公選法コンプライアンス）
 
 Facebook・X・Note での発信を、**公職選挙法を徹底遵守**しながら、選挙前〜選挙期間中に強化するための戦略と運用ルール。
-文体は [[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]] に準拠。
+文体は [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|スタイルガイド]] に準拠。
 
 > ⚠️⚠️ **重要な免責**: 本稿は一般的な整理であり、法的助言ではありません。
 > **個別の発信の可否は、必ず宇土市選挙管理委員会／弁護士に事前確認**してください。
@@ -45,7 +45,7 @@ Facebook・X・Note での発信を、**公職選挙法を徹底遵守**しな�
 - 議員としての活動報告（議会の様子、視察、勉強会）
 - 地域活動・災害支援・子育て等の日常
 - 政策テーマの考え方の発信（人口・施設・子育て・産業・DX）
-- 市政の課題をやさしく解説（[[civic/election-2026/current-values|現状値]]を素材に）
+- 市政の課題をやさしく解説（[[06_市政・議会/02_選挙2026/current-values|現状値]]を素材に）
 - イベント・後援会活動の告知（※選挙運動にあたる文言は避ける）
 
 ### 🚫 避ける（事前運動と見なされ得る）
@@ -113,7 +113,7 @@ Facebook・X・Note での発信を、**公職選挙法を徹底遵守**しな�
 | **X（旧Twitter）** | 拡散・若年/無党派・スピード | ほぼ毎日 | 短く・1メッセージ・希望で締め |
 | **Note** | 思想・政策の深掘り。検索資産・誠実さの証明 | 週1（選挙前）/ 不定期 | 物語・長文・最後に未来 |
 
-> 🔗 各媒体の文面は短文＝[[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物]]、長文＝[[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版]]を流用。
+> 🔗 各媒体の文面は短文＝[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物]]、長文＝[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/citizen-messages-full|市民向けロング版]]を流用。
 
 ---
 
@@ -144,7 +144,7 @@ Facebook・X・Note での発信を、**公職選挙法を徹底遵守**しな�
 - 記事案③「子どもたちが誇れる宇土とは ── UTO PRIDE という言葉に込めたもの」
 - 記事案④「学びを、行動に ── 1期目の4年で見えたこと」
 - 記事案⑤「5つの挑戦、それぞれの理由」
-> 構成: 現状 → 課題 → 原因 → 改善策 → 未来（[[civic/election-2026/candidates/hijikuro-koji/voice-style-guide|ガイド]]）。最後は必ず未来で締める。
+> 構成: 現状 → 課題 → 原因 → 改善策 → 未来（[[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/voice-style-guide|ガイド]]）。最後は必ず未来で締める。
 
 ---
 
@@ -154,7 +154,7 @@ Facebook・X・Note での発信を、**公職選挙法を徹底遵守**しな�
 - [ ] 寄附・利益供与を疑われる内容ではないか
 - [ ] 他候補の誹謗中傷・虚偽がないか
 - [ ] 18歳未満に選挙運動を促していないか
-- [ ] 数字は[[civic/election-2026/current-values|出典確認済み]]か・年度を添えたか
+- [ ] 数字は[[06_市政・議会/02_選挙2026/current-values|出典確認済み]]か・年度を添えたか
 - [ ] スタイルガイド準拠か（私は／構造を主語／未来で締め）
 
 ### ① 選挙前（政治活動期）専用
@@ -194,8 +194,8 @@ Facebook・X・Note での発信を、**公職選挙法を徹底遵守**しな�
 
 - 前回資料: `2022 選挙活動/02 後援会資料/99 参考資料/インターネットを使った選挙運動.pdf`
 - 総務省「インターネット選挙運動の解禁に関するガイドライン」（最新版を確認）
-- 宇土市選管（8/5説明会の配布資料） → [[civic/election-2026/campaign-schedule|スケジュール]]
-- 文面素材: [[civic/election-2026/candidates/hijikuro-koji/campaign-materials|広報物]] / [[civic/election-2026/candidates/hijikuro-koji/citizen-messages-full|ロング版]]
+- 宇土市選管（8/5説明会の配布資料） → [[06_市政・議会/02_選挙2026/campaign-schedule|スケジュール]]
+- 文面素材: [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/campaign-materials|広報物]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/citizen-messages-full|ロング版]]
 
 ---
 

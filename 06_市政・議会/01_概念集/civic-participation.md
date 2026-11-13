@@ -12,7 +12,7 @@ aliases: ["市民参加", "市民参画", "市民協働", "民意の反映"]
 
 **「市民参加・市民参画」**とは、行政の意思決定プロセスに市民が関与し、政策形成・実行・評価に寄与する仕組みを指す。
 
-[[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]の中核キャッチフレーズ **「話を聞く市役所、動く市役所」** を実装する概念。
+[[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]の中核キャッチフレーズ **「話を聞く市役所、動く市役所」** を実装する概念。
 
 ---
 
@@ -82,13 +82,13 @@ Level 5: 権限委譲 (Empower)
 - オンライン意見投稿プラットフォーム
 - SNSによる対話
 - データ可視化による意思決定支援
-- [[civic/concepts/dx-strategy|DX戦略]] による効率化
+- [[06_市政・議会/01_概念集/dx-strategy|DX戦略]] による効率化
 
 ---
 
 ## 💡 議会質問での視点
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問③
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] 質問③
 
 ```
 質問例：
@@ -97,7 +97,7 @@ Level 5: 権限委譲 (Empower)
 限定的だった層の意見をどのように把握していくか。」
 ```
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] 質問④
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]] 質問④
 
 ```
 質問例（教育部）：
@@ -114,7 +114,7 @@ Level 5: 権限委譲 (Empower)
 ### 公共施設廃止等の難しい意思決定での活用
 
 ```
-[[civic/finance/uto-city-public-facilities|公共施設問題]] のような
+[[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]] のような
 痛みを伴う意思決定では、市民の理解・合意形成が必須。
 
 市民参加なくして実装できない政策が増えていく。
@@ -125,7 +125,7 @@ Level 5: 権限委譲 (Empower)
 ```
 聴取
   ↓
-分析（[[civic/concepts/dx-strategy|データ活用]])
+分析（[[06_市政・議会/01_概念集/dx-strategy|データ活用]])
   ↓
 政策反映
   ↓
@@ -155,15 +155,15 @@ Level 5: 権限委譲 (Empower)
 ## 🔗 関連ノート
 
 ### 概念
-- [[civic/concepts/population-decline|人口減少]]
-- [[civic/concepts/dx-strategy|DX戦略]]
-- [[civic/concepts/local-economy|地域経済]]
+- [[06_市政・議会/01_概念集/population-decline|人口減少]]
+- [[06_市政・議会/01_概念集/dx-strategy|DX戦略]]
+- [[06_市政・議会/01_概念集/local-economy|地域経済]]
 
 ### 議会活動
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
 
 ### プロジェクト
 - [[projects/utomachi_PF/overview|Utomachi Platform]] - 市民参加システム

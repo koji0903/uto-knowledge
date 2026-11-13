@@ -26,11 +26,11 @@ related_questions:
   - 2026-06-general-assembly-qa-2nd-uto-high-school
 ---
 
-> ⬅ [[ホーム|🏠 ホーム]] / [[civic/index|civic ハブ]] / [[civic/uto-city-council/index|議会活動]]
+> ⬅ [[ホーム|🏠 ホーム]] / [[06_市政・議会/index|civic ハブ]] / [[06_市政・議会/06_議会/index|議会活動]]
 
 # 令和8年6月定例会一般質問に込めた想い
 
-> 📌 本ノートは [[civic/uto-city-council/2026-06-general-assembly-qa|質問①（構造改革）]] および [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②（宇土高校連携）]] を発する前の、**事前すり合わせ時点の土黒功司の問題意識・哲学**を整理した政策思考ドキュメント。通告書本体（質問事項）と対をなす「なぜ問うのか」の記録。
+> 📌 本ノートは [[06_市政・議会/06_議会/2026-06-general-assembly-qa|質問①（構造改革）]] および [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|質問②（宇土高校連携）]] を発する前の、**事前すり合わせ時点の土黒功司の問題意識・哲学**を整理した政策思考ドキュメント。通告書本体（質問事項）と対をなす「なぜ問うのか」の記録。
 
 ---
 
@@ -355,18 +355,18 @@ RMOもその手段の一つである。
 
 | ドキュメント | 内容 |
 |------|------|
-| [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①: 人口減少時代における宇土市の構造改革]] | 4問構成（市経営／公共施設／産業循環／市民対話×RMO） |
-| [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school\|質問②: 宇土高校との連携による地域人材育成と地域課題解決]] | 5問構成（連携実績／魅力化／地域課題研究／教育の縦の連携／パートナーシップ） |
+| [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|質問①: 人口減少時代における宇土市の構造改革]] | 4問構成（市経営／公共施設／産業循環／市民対話×RMO） |
+| [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school\|質問②: 宇土高校との連携による地域人材育成と地域課題解決]] | 5問構成（連携実績／魅力化／地域課題研究／教育の縦の連携／パートナーシップ） |
 
 ## 🧭 想いと通告書の対応関係
 
 | 本ノートのテーマ | 対応する通告書セクション | 主要な vault リンク |
 |----------------|------------------|-------------|
-| **１. 地域経済** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第3問「仕事とにぎわいのある宇土」 | [[civic/concepts/local-economy\|地域経済]] / [[civic/concepts/public-private-partnership\|官民連携]] / [[civic/themes/industrial-strategy\|産業戦略テーマ]] / [[00_System/vision/industry_os_specification\|産業OS仕様書]] / [[00_System/vision/utomachi_100_store_specification\|ウトマチ百貨店仕様書]] |
-| **２. 組織改革** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第1問「人口減少時代における宇土市経営」 | [[00_System/vision/L3_organization_pfu\|L3 組織レイヤ（PFU）]] / [[00_System/vision/layer_structure_guide\|宇土OS 8層構造]] / [[civic/uto-city-council/mitsuii-mayor-manifesto\|光井市長マニフェスト分析]] |
-| **３. 公共施設と財政** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第2問「公共施設と行政サービスの再設計」 | ⚠️ [[civic/finance/uto-city-public-facilities\|公共施設更新ギャップ 年15.5億円]] / [[civic/finance/uto-city-fiscal-analysis\|宇土市財政分析]] / [[civic/finance/overview\|財政戦略ビューア]] / [[00_System/vision/L4L5_facility_finance_crisis\|L4L5 施設老朽化と財政危機]] / [[civic/themes/public-facilities\|公共施設の戦略的縮小テーマ]] |
-| **４. 市民対話とRMO** | [[civic/uto-city-council/2026-06-general-assembly-qa\|質問①]] 第4問「市民との対話と地域運営」 | [[civic/concepts/civic-participation\|市民参加]] / [[civic/themes/civic-engagement-dx\|市民参加・行政DXテーマ]] / [[00_System/vision/rmo_os_specification\|RMO OS 仕様書]] ⭐ / [[00_System/vision/rmo_os_use_cases\|RMO ユースケース]] |
-| **５. 宇土高校** | [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school\|質問②]] 全5問 | [[civic/themes/childcare-education\|子育て・教育・人材育成テーマ]] / [[00_System/vision/education_os_specification\|教育OS仕様書]] / [[00_System/vision/childcare_os_specification\|子育てOS仕様書]] |
+| **１. 地域経済** | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|質問①]] 第3問「仕事とにぎわいのある宇土」 | [[06_市政・議会/01_概念集/local-economy\|地域経済]] / [[06_市政・議会/01_概念集/public-private-partnership\|官民連携]] / [[06_市政・議会/themes/industrial-strategy\|産業戦略テーマ]] / [[00_System/vision/industry_os_specification\|産業OS仕様書]] / [[00_System/vision/utomachi_100_store_specification\|ウトマチ百貨店仕様書]] |
+| **２. 組織改革** | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|質問①]] 第1問「人口減少時代における宇土市経営」 | [[00_System/vision/L3_organization_pfu\|L3 組織レイヤ（PFU）]] / [[00_System/vision/layer_structure_guide\|宇土OS 8層構造]] / [[06_市政・議会/06_議会/mitsuii-mayor-manifesto\|光井市長マニフェスト分析]] |
+| **３. 公共施設と財政** | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|質問①]] 第2問「公共施設と行政サービスの再設計」 | ⚠️ [[06_市政・議会/03_財政/uto-city-public-facilities\|公共施設更新ギャップ 年15.5億円]] / [[06_市政・議会/03_財政/uto-city-fiscal-analysis\|宇土市財政分析]] / [[06_市政・議会/03_財政/overview\|財政戦略ビューア]] / [[00_System/vision/L4L5_facility_finance_crisis\|L4L5 施設老朽化と財政危機]] / [[06_市政・議会/themes/public-facilities\|公共施設の戦略的縮小テーマ]] |
+| **４. 市民対話とRMO** | [[06_市政・議会/06_議会/2026-06-general-assembly-qa\|質問①]] 第4問「市民との対話と地域運営」 | [[06_市政・議会/01_概念集/civic-participation\|市民参加]] / [[06_市政・議会/themes/civic-engagement-dx\|市民参加・行政DXテーマ]] / [[00_System/vision/rmo_os_specification\|RMO OS 仕様書]] ⭐ / [[00_System/vision/rmo_os_use_cases\|RMO ユースケース]] |
+| **５. 宇土高校** | [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school\|質問②]] 全5問 | [[06_市政・議会/themes/childcare-education\|子育て・教育・人材育成テーマ]] / [[00_System/vision/education_os_specification\|教育OS仕様書]] / [[00_System/vision/childcare_os_specification\|子育てOS仕様書]] |
 
 ---
 
@@ -375,12 +375,12 @@ RMOもその手段の一つである。
 | 私の信念 | Vault 上の対応理論 |
 |---------|-----------------|
 | **「何をやるか」ではなく「何を変えるか」** | [[00_System/vision/layer_structure_guide\|宇土OS 8層構造]] — L2課題層から L7ビジョン層までの一貫した枠組み |
-| **「人口減少」は人口の問題ではなく構造の問題** | [[civic/concepts/population-decline\|人口減少（概念ノート）]] / [[00_System/vision/L0_premise_layer\|L0 前提レイヤ]] |
-| **「全てやる」は不可能、選択と集中** | [[civic/concepts/fiscal-constraint\|財政制約]] |
-| **「人が来ること」と「地域経済」は別** | [[civic/concepts/local-economy\|地域経済（域内経済循環）]] |
-| **「聞く」と「政策に反映する」は別** | [[civic/concepts/civic-participation\|市民参加（受益者→パートナー）]] |
-| **AIで予算・決算・施設計画を分析** | [[civic/finance/overview\|財政戦略ビューア（9年度分の決算可視化）]] / [[civic/finance/fiscal-viewer-app\|ビューア技術仕様]] / [[04_DataLink/02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline\|pc_admin_dx_001 市役所AI業務ガイドライン]] |
-| **高校生は支援対象ではなくパートナー** | [[civic/themes/childcare-education\|子育て・教育・人材育成テーマ]] |
+| **「人口減少」は人口の問題ではなく構造の問題** | [[06_市政・議会/01_概念集/population-decline\|人口減少（概念ノート）]] / [[00_System/vision/L0_premise_layer\|L0 前提レイヤ]] |
+| **「全てやる」は不可能、選択と集中** | [[06_市政・議会/01_概念集/fiscal-constraint\|財政制約]] |
+| **「人が来ること」と「地域経済」は別** | [[06_市政・議会/01_概念集/local-economy\|地域経済（域内経済循環）]] |
+| **「聞く」と「政策に反映する」は別** | [[06_市政・議会/01_概念集/civic-participation\|市民参加（受益者→パートナー）]] |
+| **AIで予算・決算・施設計画を分析** | [[06_市政・議会/03_財政/overview\|財政戦略ビューア（9年度分の決算可視化）]] / [[06_市政・議会/03_財政/fiscal-viewer-app\|ビューア技術仕様]] / [[04_DataLink/02_POLICY_CARDS/admin_dx/pc_admin_dx_001_municipal_ai_workflow_guideline\|pc_admin_dx_001 市役所AI業務ガイドライン]] |
+| **高校生は支援対象ではなくパートナー** | [[06_市政・議会/themes/childcare-education\|子育て・教育・人材育成テーマ]] |
 
 ---
 
@@ -408,5 +408,5 @@ RMOもその手段の一つである。
 
 **作成**: 2026-06-01（質問通告日）
 **会派**: 会派「風」
-**通告書**: [[civic/uto-city-council/2026-06-general-assembly-qa|質問①]] / [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②]]
-**マニフェスト分析**: [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]
+**通告書**: [[06_市政・議会/06_議会/2026-06-general-assembly-qa|質問①]] / [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|質問②]]
+**マニフェスト分析**: [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]

@@ -13,7 +13,7 @@ tags: [宇土OS, DataLink, system, index]
 
 宇土OSの前提、レイヤ、機能OS、Firestore / Google Drive / Obsidian 連携の仕様を置く場所。
 
-> 🔗 **宇土OS 分析結果ナレッジ（uto-os.jp 由来）**: [[civic/uto-os-analysis/00_MOC/00_宇土OS_総合ナレッジMOC|宇土OS 総合ナレッジ MOC]] — 財政・公会計・公共施設・人口・政策・議会論点の実データ分析（38ノート）
+> 🔗 **宇土OS 分析結果ナレッジ（uto-os.jp 由来）**: [[06_市政・議会/07_宇土OS分析/00_MOC/00_宇土OS_総合ナレッジMOC|宇土OS 総合ナレッジ MOC]] — 財政・公会計・公共施設・人口・政策・議会論点の実データ分析（38ノート）
 
 ## 基本構造
 

@@ -129,7 +129,7 @@ related_policy_cards:
 
 # 📚 質問の構造分析と関連ナレッジ
 
-> ⬅ [[ホーム|🏠 ホーム]] / [[civic/index|civic ハブ]] / [[civic/uto-city-council/index|議会活動]]
+> ⬅ [[ホーム|🏠 ホーム]] / [[06_市政・議会/index|civic ハブ]] / [[06_市政・議会/06_議会/index|議会活動]]
 
 本通告書は単発の質問ではなく、Vault に蓄積した4層分析（civic / 00_System / 04_DataLink / projects）を背景としている。各問の理論・データ・政策実行の対応関係を以下に整理する。
 
@@ -162,15 +162,15 @@ related_policy_cards:
 ### 【第1問】人口減少時代における宇土市経営
 
 **🧠 理論的背景**
-- [[civic/concepts/population-decline|人口減少 (概念ノート)]] — 構造的課題の根本
-- [[civic/concepts/fiscal-constraint|財政制約]] — 「全てやる」は不可能、選択と集中
+- [[06_市政・議会/01_概念集/population-decline|人口減少 (概念ノート)]] — 構造的課題の根本
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]] — 「全てやる」は不可能、選択と集中
 - [[00_System/vision/layer_structure_guide|宇土OS 8層構造]] — L0前提〜L7ビジョンまでの一貫した思考枠組み
 - [[00_System/vision/vision_uto_os|宇土OS ビジョン全体像]] — 2040年に向けたシナリオ
 - [[00_System/vision/L3_organization_pfu|L3 組織レイヤ（PFU）]] — 「縦割り構造の改革」と部局横断（PFU）の理論的基盤
 
 **🏛 政策・マニフェスト**
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] — 「ワンチーム宇土」の出典分析
-- [[civic/themes/civic-engagement-dx|市民参加・行政DX]] — 横断テーマMOC
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト分析]] — 「ワンチーム宇土」の出典分析
+- [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DX]] — 横断テーマMOC
 
 **📊 過去質問との接続**
 - [[04_DataLink/01_ASSEMBLY/activities/hijikuro_general_questions_overview|過去の一般質問総覧]]
@@ -181,10 +181,10 @@ related_policy_cards:
 ### 【第2問】公共施設と行政サービスの再設計
 
 **⚠️ 最重要データ**
-- [[civic/finance/uto-city-public-facilities|公共施設更新ギャップ 年15.5億円]] — 40年で1,355億円必要・年平均不足額の根拠
-- [[civic/themes/public-facilities|公共施設の戦略的縮小 (横断テーマ)]] — 必要圧縮率 45.9%
-- [[civic/finance/overview|財政戦略ビューア]] — 9年度分の決算可視化
-- [[civic/finance/uto-city-fiscal-analysis|宇土市財政状況分析]] — 実質単年度収支 -6.7億円
+- [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設更新ギャップ 年15.5億円]] — 40年で1,355億円必要・年平均不足額の根拠
+- [[06_市政・議会/themes/public-facilities|公共施設の戦略的縮小 (横断テーマ)]] — 必要圧縮率 45.9%
+- [[06_市政・議会/03_財政/overview|財政戦略ビューア]] — 9年度分の決算可視化
+- [[06_市政・議会/03_財政/uto-city-fiscal-analysis|宇土市財政状況分析]] — 実質単年度収支 -6.7億円
 
 **🧠 理論的背景**
 - [[00_System/vision/L4L5_facility_finance_crisis|L4L5 施設老朽化と財政危機]] — 「14億円の財政危機」の説明
@@ -203,9 +203,9 @@ related_policy_cards:
 ### 【第3問】「仕事とにぎわいのある宇土」の実現
 
 **🧠 理論的背景**
-- [[civic/concepts/local-economy|地域経済 (概念ノート)]] — 域内経済循環の意義
-- [[civic/concepts/public-private-partnership|官民連携]] — 「民間との共創」の理論的整理
-- [[civic/themes/industrial-strategy|産業戦略・地域商社 (横断テーマ)]] — 「稼ぐ構造」への転換
+- [[06_市政・議会/01_概念集/local-economy|地域経済 (概念ノート)]] — 域内経済循環の意義
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携]] — 「民間との共創」の理論的整理
+- [[06_市政・議会/themes/industrial-strategy|産業戦略・地域商社 (横断テーマ)]] — 「稼ぐ構造」への転換
 - [[00_System/vision/industry_os_specification|産業OS 仕様書]] — 地域商社・6次産業化
 - [[00_System/vision/utomachi_100_store_specification|ウトマチ百貨店 仕様書]] — 産業OS の具体実装
 - [[00_System/vision/utomachi_100_store_use_cases|ウトマチ百貨店 ユースケース]] — 「農家の収入を3倍に」シナリオ
@@ -232,9 +232,9 @@ related_policy_cards:
 **🔑 改訂のポイント**：本問は「**市民との対話**（前市政継承）」と「**地域運営組織（RMO）**（マニフェスト掲げ）」を一体で問う構造に拡張された。行政が話を聞くだけでなく、地域自らが課題解決の主体となる仕組みづくりを問う。
 
 **🧠 理論的背景**
-- [[civic/concepts/civic-participation|市民参加 (概念ノート)]] — 「サービス受益者」から「政策形成パートナー」へ
-- [[civic/concepts/dx-strategy|DX戦略]] — 行政DXによる市民意見の継続把握
-- [[civic/themes/civic-engagement-dx|市民参加・行政DX (横断テーマ)]]
+- [[06_市政・議会/01_概念集/civic-participation|市民参加 (概念ノート)]] — 「サービス受益者」から「政策形成パートナー」へ
+- [[06_市政・議会/01_概念集/dx-strategy|DX戦略]] — 行政DXによる市民意見の継続把握
+- [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DX (横断テーマ)]]
 - [[00_System/vision/rmo_os_specification|RMO OS 仕様書]] ⭐ — 地域組織運営の制度設計（本問の理論的中核）
 - [[00_System/vision/rmo_os_use_cases|RMO OS ユースケース]] — PTA・自治会・地縁組織の具体運用例
 - [[00_System/vision/rmo_os_implementation|RMO OS 実装ガイド]] — 行政と地域の役割分担のロードマップ
@@ -246,7 +246,7 @@ related_policy_cards:
 - [[04_DataLink/02_POLICY_CARDS/community_infrastructure/pc_comm_002_autonomous_disaster_org_network|pc_comm_002 自主防災組織ネットワーク]] — RMO の防災版の先行事例
 
 **🎓 関連質問**
-- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②: 高校連携]] — 若者の声を市政に反映する仕組みの具体例
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|質問②: 高校連携]] — 若者の声を市政に反映する仕組みの具体例
 
 **🔑 元松前市政の継承点**
 - 「話を聞く市役所」の運用継続を確認 → 単なる継承ではなく**仕組み化（座談会→政策形成→予算配分）**を問う
@@ -259,7 +259,7 @@ related_policy_cards:
 | 戦術 | 内容 |
 |------|------|
 | **問の絞り込み** | 改訂版では「市長への正面からの政策質問」に集中。導入と趣旨を簡潔化し、本旨をストレートに問う形式 |
-| **データの強み** | 第2問の年15.5億円ギャップなど、Vault に蓄積した [[civic/finance/index\|財政分析]] の数字を背景に持つ |
+| **データの強み** | 第2問の年15.5億円ギャップなど、Vault に蓄積した [[06_市政・議会/03_財政/index\|財政分析]] の数字を背景に持つ |
 | **政策実行カードへの接続** | 各問は対応する政策カード（pc_*）に紐づき、答弁を受けて実行段階の議論に進める設計 |
 | **第4問の構造拡張** | 「市民との対話（受身）」と「RMO（地域主体）」を一体で問うことで、市民参加論を立体化 |
 | **過去質問との連続性** | 元松市政期の質問（公共施設・財政）を踏まえ、新市政での再検討を促す |
@@ -269,14 +269,14 @@ related_policy_cards:
 
 ## 🔄 答弁後のフォローアップ予定
 
-1. **答弁内容を [[civic/uto-city-council/index|議会活動ハブ]] に記録**
+1. **答弁内容を [[06_市政・議会/06_議会/index|議会活動ハブ]] に記録**
 2. **数値・方針コミットがあれば [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]] に反映**
-3. **第2問の公共施設総量適正化方針 → [[civic/finance/uto-city-public-facilities|公共施設ノート]] を更新**
-4. **第3問の経済循環論 → [[civic/themes/industrial-strategy|産業戦略テーマMOC]] にフィードバック**
-5. **第4問の RMO 方針 → [[00_System/vision/rmo_os_specification|RMO OS 仕様書]] / [[civic/themes/civic-engagement-dx|市民参加・行政DXテーマMOC]] に反映、必要に応じて新規 `pc_admin_dx_*` 政策カードを起案検討**
+3. **第2問の公共施設総量適正化方針 → [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設ノート]] を更新**
+4. **第3問の経済循環論 → [[06_市政・議会/themes/industrial-strategy|産業戦略テーマMOC]] にフィードバック**
+5. **第4問の RMO 方針 → [[00_System/vision/rmo_os_specification|RMO OS 仕様書]] / [[06_市政・議会/themes/civic-engagement-dx|市民参加・行政DXテーマMOC]] に反映、必要に応じて新規 `pc_admin_dx_*` 政策カードを起案検討**
 
 ---
 
 **作成**: 2026-06-01（改訂版・通告済み）
 **会派**: 会派「風」
-**関連**: [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|質問②（高校連携）]] / [[civic/uto-city-council/2026-06-general-assembly-thoughts|💭 質問意図と問題意識（事前すり合わせ）]] / [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]
+**関連**: [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|質問②（高校連携）]] / [[06_市政・議会/06_議会/2026-06-general-assembly-thoughts|💭 質問意図と問題意識（事前すり合わせ）]] / [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト分析]]

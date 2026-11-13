@@ -9,7 +9,7 @@ critical: true
 
 # 宇土市 公共施設問題の分析
 
-> 🔗 **深層分析**: [[civic/uto-os-analysis/02_公共施設・インフラ経営/公共施設431億円問題と年間15.5億円ギャップ|公共施設431億円問題と年間15.5億円ギャップ]] / [[civic/uto-os-analysis/02_公共施設・インフラ経営/公共施設用途別老朽度と集約・複合化方針|用途別老朽度と集約・複合化方針]]（宇土OS分析ナレッジ）
+> 🔗 **深層分析**: [[06_市政・議会/07_宇土OS分析/02_公共施設・インフラ経営/公共施設431億円問題と年間15.5億円ギャップ|公共施設431億円問題と年間15.5億円ギャップ]] / [[06_市政・議会/07_宇土OS分析/02_公共施設・インフラ経営/公共施設用途別老朽度と集約・複合化方針|用途別老朽度と集約・複合化方針]]（宇土OS分析ナレッジ）
 
 ## ⚠️ 重大課題: 公共施設更新ギャップ
 
@@ -224,7 +224,7 @@ critical: true
 
 ## 📊 施設計画との関連性
 
-### [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]] との関連
+### [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]] との関連
 
 この質問テーマ「人口減少時代における市政運営」と直結：
 
@@ -337,27 +337,27 @@ PFI/PPP検討の進捗状況は。
 - [[04_DataLink/02_POLICY_CARDS/policy_execution_board|政策実行ボード]]
 
 ### 概念ノートとの連携
-- [[civic/concepts/population-decline|人口減少]] - 施設利用者減少の根本原因
-- [[civic/concepts/fiscal-constraint|財政制約]] - 更新ギャップの財政的位置づけ
-- [[civic/concepts/public-private-partnership|官民連携・PPP/PFI]] - 民間活用による打開策
-- [[civic/concepts/station-redevelopment|駅周辺再生]] - 施設集約の具体戦略
+- [[06_市政・議会/01_概念集/population-decline|人口減少]] - 施設利用者減少の根本原因
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]] - 更新ギャップの財政的位置づけ
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP/PFI]] - 民間活用による打開策
+- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]] - 施設集約の具体戦略
 
 ### 財政分析との連携
-- [[civic/finance|宇土市 財政戦略・分析]] - 統合ハブ
-- [[civic/finance/uto-city-fiscal-analysis|宇土市 財政状況の分析]]
+- [[06_市政・議会/finance|宇土市 財政戦略・分析]] - 統合ハブ
+- [[06_市政・議会/03_財政/uto-city-fiscal-analysis|宇土市 財政状況の分析]]
   - 普通建設事業費との関係
   - 公債費の今後の動き
-- [[civic/finance/overview|財政戦略ビューア]] - データ可視化
+- [[06_市政・議会/03_財政/overview|財政戦略ビューア]] - データ可視化
 
 ### 市政運営戦略との連携
-- [[civic/uto-city-council|宇土市議会・議員活動]]
-- [[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]（構造改革）
+- [[06_市政・議会/uto-city-council|宇土市議会・議員活動]]
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]（構造改革）
   - 質問①: 公共施設・行政サービスの方向性
   - 質問②: 民間との共創（官民連携）
-- [[civic/uto-city-council/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]（高校連携）
+- [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月定例会②]]（高校連携）
 
 ### 市長マニフェスト
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]]
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]]
   - 施設更新・維持管理への政策
 
 ---

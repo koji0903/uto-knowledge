@@ -32,17 +32,17 @@ priority: 最高
 ## 📊 分析層（civic/）
 
 ### 中核分析
-- **[[civic/finance/uto-city-public-facilities|宇土市 公共施設問題分析]]** ⭐
-- [[civic/finance/uto-city-fiscal-analysis|財政状況の分析]] - 普通建設事業費との関係
+- **[[06_市政・議会/03_財政/uto-city-public-facilities|宇土市 公共施設問題分析]]** ⭐
+- [[06_市政・議会/03_財政/uto-city-fiscal-analysis|財政状況の分析]] - 普通建設事業費との関係
 
 ### 関連概念
-- [[civic/concepts/fiscal-constraint|財政制約]] ⭐
-- [[civic/concepts/population-decline|人口減少]] - 施設利用者減
-- [[civic/concepts/public-private-partnership|官民連携・PPP/PFI]] - 民間活用
-- [[civic/concepts/station-redevelopment|駅周辺再生]] - 集約戦略
+- [[06_市政・議会/01_概念集/fiscal-constraint|財政制約]] ⭐
+- [[06_市政・議会/01_概念集/population-decline|人口減少]] - 施設利用者減
+- [[06_市政・議会/01_概念集/public-private-partnership|官民連携・PPP/PFI]] - 民間活用
+- [[06_市政・議会/01_概念集/station-redevelopment|駅周辺再生]] - 集約戦略
 
 ### ツール
-- [[civic/finance/overview|財政戦略ビューア]] - データ可視化
+- [[06_市政・議会/03_財政/overview|財政戦略ビューア]] - データ可視化
 
 ---
 
@@ -64,10 +64,10 @@ priority: 最高
 ## 🗣️ 議会質問層（civic/uto-city-council/）
 
 ### 直接関連
-- **[[civic/uto-city-council/2026-06-general-assembly-qa|令和8年6月定例会①]]** ⭐
+- **[[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月定例会①]]** ⭐
   - 質問①: 構造改革・公共施設方針
   - 質問③: 民間連携・施設集約
-- [[civic/uto-city-council/mitsuii-mayor-manifesto|光井市長マニフェスト]] - 施設更新政策
+- [[06_市政・議会/06_議会/mitsuii-mayor-manifesto|光井市長マニフェスト]] - 施設更新政策
 
 ---
 
@@ -125,7 +125,7 @@ priority: 最高
 
 ### 議員として取り組むべきこと
 
-- [ ] [[civic/finance/overview|財政ビューア]] で施設関連の数字を可視化
+- [ ] [[06_市政・議会/03_財政/overview|財政ビューア]] で施設関連の数字を可視化
 - [ ] 個別施設計画の最新版を入手
 - [ ] [[04_DataLink/02_POLICY_CARDS/finance_facilities/pc_finance_001_public_facility_finance_gap|pc_finance_001]] の最小成果物（施設台帳・市民説明資料）の状況確認
 - [ ] 他自治体のPFI事例調査
@@ -135,10 +135,10 @@ priority: 最高
 
 ## 🔗 横断テーマ
 
-- [[civic/themes|横断テーマ索引]]
-- [[civic/themes/industrial-strategy|産業戦略]] - 新庁舎活用での連携
-- [[civic/themes/relocation-station|移住・駅周辺]] - 施設集約の核
-- [[civic/themes/civic-engagement-dx|市民参加・DX]] - 説明・合意形成
+- [[06_市政・議会/themes|横断テーマ索引]]
+- [[06_市政・議会/themes/industrial-strategy|産業戦略]] - 新庁舎活用での連携
+- [[06_市政・議会/themes/relocation-station|移住・駅周辺]] - 施設集約の核
+- [[06_市政・議会/themes/civic-engagement-dx|市民参加・DX]] - 説明・合意形成
 
 ---
 

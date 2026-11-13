@@ -15,7 +15,7 @@ created: 2026-10-12
 
 # 自治体経営KPIハンドブック：定義と市民翻訳
 
-> 🔗 **市民向け発信との接続**: 専門用語を平易に伝える土台 → [[civic/election-2026/candidates/hijikuro-koji/uto-os-explained|宇土OSやさしい説明]] / [[civic/election-2026/candidates/hijikuro-koji/manifesto-kpi|公約 KPI・財源]]
+> 🔗 **市民向け発信との接続**: 専門用語を平易に伝える土台 → [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/uto-os-explained|宇土OSやさしい説明]] / [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/manifesto-kpi|公約 KPI・財源]]
 
 ## 1. 財政健全化・硬直度指標
 
