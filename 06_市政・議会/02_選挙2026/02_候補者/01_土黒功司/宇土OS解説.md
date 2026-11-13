@@ -5,8 +5,8 @@ tags: [civic, 選挙, 宇土市議選, 2026, 土黒功司, 宇土OS, 市民向�
 type: messaging
 status: ドラフト
 based_on:
-  - "[[00_システム/vision/vision_uto_os|宇土OS プラットフォーム思想]]"
-  - "[[00_システム/vision/citizen_explanation_14billion_crisis|市民向け説明：14億円問題]]"
+  - "[[00_システム/03_ビジョン体系/vision_uto_os|宇土OS プラットフォーム思想]]"
+  - "[[00_システム/03_ビジョン体系/citizen_explanation_14billion_crisis|市民向け説明：14億円問題]]"
 ---
 
 > ⬅ [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/index|👤 土黒功司 候補者ハブ]]

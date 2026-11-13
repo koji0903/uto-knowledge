@@ -6,7 +6,7 @@ firestore_doc_id: dec_20260507_ai_handoff_operations
 created: 2026-05-07
 status: active
 tags: [DataLink, Firestore, decision, AI運用, MCP]
-related_files: [00_System/architecture/AGENTS.md, mcp/ai_profiles/handoff_prompt.md, scripts/generate_handoff_prompt.mjs, scripts/validate_ai_operations_docs.mjs]
+related_files: [00_System/architecture/AI運用ガイド.md, mcp/ai_profiles/handoff_prompt.md, scripts/generate_handoff_prompt.mjs, scripts/validate_ai_operations_docs.mjs]
 related_collections: [logs, projects]
 ---
 
@@ -14,7 +14,7 @@ related_collections: [logs, projects]
 
 ## 概要
 
-Claude、Gemini、ChatGPT / Codex が同じVaultを扱う前提で、AI間の作業引き継ぎを `AGENTS.md`、`tmp/ai_context.md`、ハンドオフプロンプトで標準化する。
+Claude、Gemini、ChatGPT / Codex が同じVaultを扱う前提で、AI間の作業引き継ぎを `AI運用ガイド.md`、`tmp/ai_context.md`、ハンドオフプロンプトで標準化する。
 
 ## 背景
 

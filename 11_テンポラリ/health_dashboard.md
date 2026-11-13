@@ -68,7 +68,7 @@
 ```
 ec35a0f fix(ci): Update stale paths in DataLink logs and inbound references
 225fde7 vault backup: 2026-05-31 07:39:07
-8945f7a fix(ci): Sync validate_vault.sh with tmp/index.md → 00_System/tmp_lifecycle.md move
+8945f7a fix(ci): Sync validate_vault.sh with tmp/index.md → 00_System/一時ファイル_ライフサイクル.md move
 ```
 
 ---
@@ -158,7 +158,7 @@ bash scripts/generate_health_dashboard.sh
 
 ダッシュボード生成に関する問題：
 
-- 仕様：`AGENTS.md` と `scripts/maintenance_check.sh`
+- 仕様：`AI運用ガイド.md` と `scripts/maintenance_check.sh`
 - スクリプト：`scripts/generate_health_dashboard.sh`
 - 差分検出：`scripts/firestore_markdown_drift_detection.mjs`
 

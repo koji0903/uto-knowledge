@@ -131,14 +131,14 @@ DXによる効率化が「選択肢」ではなく「必須」
 ## 🏛️ 宇土OS体系との接続
 
 ### 関連OS仕様
-- **[[00_システム/vision/rmo_os_specification|RMO OS]]** - 地域運営のデジタル化
-- **[[00_システム/vision/childcare_os_specification|子育てOS]]** - ワンストップ化
-- **[[00_システム/vision/industry_os_specification|産業OS]]** - データ駆動の産業政策
+- **[[00_システム/03_ビジョン体系/rmo_os_specification|RMO OS]]** - 地域運営のデジタル化
+- **[[00_システム/03_ビジョン体系/childcare_os_specification|子育てOS]]** - ワンストップ化
+- **[[00_システム/03_ビジョン体系/industry_os_specification|産業OS]]** - データ駆動の産業政策
 
 ### アーキテクチャ ⭐
-- **[[00_システム/architecture/Utomachi_Platform_Architecture|ウトマチプラットフォーム アーキテクチャ]]** ⭐
+- **[[00_システム/01_アーキテクチャ/Utomachi_Platform_Architecture|ウトマチプラットフォーム アーキテクチャ]]** ⭐
   - Next.js 16 / React 19 / Firestore / Firebase Auth / Google Gemini AI
-- **[[00_システム/architecture/STRATEGY|ナレッジ高度化戦略]]**
+- **[[00_システム/01_アーキテクチャ/STRATEGY|ナレッジ高度化戦略]]**
 
 ### ナレッジ層
 - [[03_知識/tech/index|tech ナレッジ]] - DSS・AI運用基盤

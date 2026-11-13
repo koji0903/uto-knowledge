@@ -21,7 +21,7 @@ status: 運用中
 
 | 層 | リソース |
 |----|---------|
-| 理論 | [[00_システム/vision/L4L5_facility_finance_crisis|L4-L5 施設財政危機]] / [[00_システム/vision/L5_infrastructure_layer|L5インフラ層]] |
+| 理論 | [[00_システム/03_ビジョン体系/L4L5_facility_finance_crisis|L4-L5 施設財政危機]] / [[00_システム/03_ビジョン体系/L5_infrastructure_layer|L5インフラ層]] |
 | 分析 | [[06_市政・議会/03_財政/uto-city-public-facilities|公共施設問題]] / [[06_市政・議会/01_概念集/財政制約と自治体運営|財政制約]] |
 | 実装 | [[04_データリンク/02_POLICY_CARDS/finance_facilities/pc_finance_001_public_facility_finance_gap|pc_finance_001]] |
 | 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月①]] 質問①③ |
@@ -33,7 +33,7 @@ status: 運用中
 
 | 層 | リソース |
 |----|---------|
-| 理論 | [[00_システム/vision/industry_os_specification|産業OS]] / [[00_システム/vision/utomachi_100_store_specification|ウトマチ百貨店]] |
+| 理論 | [[00_システム/03_ビジョン体系/industry_os_specification|産業OS]] / [[00_システム/03_ビジョン体系/utomachi_100_store_specification|ウトマチ百貨店]] |
 | 分析 | [[06_市政・議会/01_概念集/地域経済|地域経済]] / [[06_市政・議会/01_概念集/公民連携|官民連携]] |
 | 実装 | [[04_データリンク/02_POLICY_CARDS/industry/pc_industry_001_regional_trading_company|地域商社カード]] |
 | 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月①]] 質問② |
@@ -46,7 +46,7 @@ status: 運用中
 
 | 層 | リソース |
 |----|---------|
-| 理論 | [[00_システム/vision/childcare_os_specification|子育てOS]] / [[00_システム/vision/education_os_specification|教育OS]] |
+| 理論 | [[00_システム/03_ビジョン体系/childcare_os_specification|子育てOS]] / [[00_システム/03_ビジョン体系/education_os_specification|教育OS]] |
 | 分析 | [[06_市政・議会/01_概念集/人口減少|人口減少]] |
 | 実装 | 子育て・教育カード（5枚） |
 | 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa-2nd-uto-high-school|令和8年6月② 高校連携]] |
@@ -58,7 +58,7 @@ status: 運用中
 
 | 層 | リソース |
 |----|---------|
-| 理論 | [[00_システム/vision/relocation_os_specification|移住・定住OS]] |
+| 理論 | [[00_システム/03_ビジョン体系/relocation_os_specification|移住・定住OS]] |
 | 分析 | [[06_市政・議会/01_概念集/駅前再開発|駅周辺再生]] / [[06_市政・議会/01_概念集/人口減少|人口減少]] |
 | 実装 | [[04_データリンク/02_POLICY_CARDS/finance_facilities/pc_finance_002_city_hall_utilization_revenue|新庁舎利活用]] |
 | 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月①]] 質問② |
@@ -70,7 +70,7 @@ status: 運用中
 
 | 層 | リソース |
 |----|---------|
-| 理論 | [[00_システム/vision/rmo_os_specification|RMO OS]] / [[00_システム/architecture/Utomachi_Platform_Architecture|ウトマチPF]] |
+| 理論 | [[00_システム/03_ビジョン体系/rmo_os_specification|RMO OS]] / [[00_システム/01_アーキテクチャ/Utomachi_Platform_Architecture|ウトマチPF]] |
 | 分析 | [[06_市政・議会/01_概念集/市民参加と地域ガバナンス|市民参加]] / [[06_市政・議会/01_概念集/DX戦略|DX戦略]] |
 | 実装 | 行政DX・AIカード |
 | 議会 | [[06_市政・議会/06_議会/2026-06-general-assembly-qa|令和8年6月①]] 質問③ |
@@ -170,7 +170,7 @@ status: 運用中
 
 ### 外部ハブ
 - [[ホーム|🇯🇵 宇土OS ナレッジベース ホーム]]
-- [[00_システム/vision/layer_structure_guide|8層構造統合ガイド]]
+- [[00_システム/03_ビジョン体系/layer_structure_guide|8層構造統合ガイド]]
 - [[03_知識/index|03_Knowledge OVERVIEW]]
 - [[04_データリンク/01_議会活動/index|議会情報トップ]]
 

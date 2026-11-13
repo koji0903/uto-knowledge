@@ -65,7 +65,7 @@ Firestore / Google Drive / GitHub
 | リソース | 内容 |
 |---------|------|
 | **ナレッジ（理解）** | [[03_知識/business/index|business (index)]] で仕組みを学ぶ |
-| **スキーマ（設計）** | [[00_システム/vision/regional_trading_company_datalink_schema|地域商社 DataLink スキーマ]] |
+| **スキーマ（設計）** | [[00_システム/03_ビジョン体系/regional_trading_company_datalink_schema|地域商社 DataLink スキーマ]] |
 | **ポリシー（実行）** | [[02_POLICY_CARDS/industry/|政策実行カード / 産業OS]] |
 | **実績（確認）** | [[logs/|月次売上・生産者・商品ログ]] |
 
@@ -80,7 +80,7 @@ Firestore / Google Drive / GitHub
 ## 🔗 関連リンク
 
 **Vault 全体構成**:
-- [[00_システム/vision/|00_System/vision]] - ビジョン・戦略層
+- [[00_システム/03_ビジョン体系/|00_System/vision]] - ビジョン・戦略層
 - [[03_知識/index|03_Knowledge/index]] - ナレッジベース層（学習ガイド）
 - [[ホーム|ホーム.md]] - Vault 全体ホーム
 

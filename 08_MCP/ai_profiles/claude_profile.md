@@ -107,7 +107,7 @@ Anthropic による大規模言語モデル。深い思考、複雑な推論、�
 
 ## 制限事項
 - 読み取りは全体可能
-- 書き込みは AGENTS.md の書き込みルールに従う
+- 書き込みは AI運用ガイド.md の書き込みルールに従う
 - Firestore 直接更新は不可（ログ記録後に User が apply）
 
 ## 推奨作業フロー
@@ -191,7 +191,7 @@ bash scripts/generate_ai_context.sh
 **含まれる情報:**
 - 全 DataLink（背景情報重視）
 - 決定ログ（判断の参考）
-- AGENTS.md の運用ルール
+- AI運用ガイド.md の運用ルール
 - 関連性マップ
 
 ## 使用例
@@ -266,5 +266,5 @@ Claude との協業で気付いた点：
 ## 関連リソース
 
 - [Anthropic 公式ドキュメント](https://docs.anthropic.com)
-- `AGENTS.md` — 共通AI運用ガイド
+- `AI運用ガイド.md` — 共通AI運用ガイド
 - `task_router.md` — タスク振り分けロジック

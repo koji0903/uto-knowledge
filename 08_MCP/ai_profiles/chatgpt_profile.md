@@ -123,7 +123,7 @@ OpenAI による大規模言語モデル。幅広いスキル、実装ガイダ�
 
 ## 制限事項
 - 読み取りは全体可能
-- 書き込みは AGENTS.md の書き込みルールに従う
+- 書き込みは AI運用ガイド.md の書き込みルールに従う
 - Firestore 直接更新は不可
 - 本番スクリプトは User テスト後に実行
 
@@ -356,11 +356,11 @@ Instructions:
 - DataLink 標準に従う
 - Markdown frontmatter 形式を理解
 - Firestore スキーマを参照
-- AGENTS.md の書き込みルールを厳守
+- AI運用ガイド.md の書き込みルールを厳守
 - 実装は scripts/ に生成
 
 Knowledge:
-- 00_System/architecture/AGENTS.md
+- 00_System/architecture/AI運用ガイド.md
 - 00_System/vision/
 - 04_DataLink/02_POLICY_CARDS/
 - スクリプト例
@@ -382,5 +382,5 @@ ChatGPT との協業で気付いた点：
 
 - [OpenAI 公式ドキュメント](https://platform.openai.com/docs)
 - [ChatGPT プラグインストア](https://chat.openai.com/gpts)
-- `AGENTS.md` — 共通AI運用ガイド
+- `AI運用ガイド.md` — 共通AI運用ガイド
 - `task_router.md` — タスク振り分けロジック

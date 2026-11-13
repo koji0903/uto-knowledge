@@ -54,14 +54,14 @@ tags: [ナレッジ, ビジネス, 産業, index]
 ### **ウトマチ百貨店 - 産業OS実装プロジェクト**
 
 **まず読むべき**:
-1. [[00_システム/vision/utomachi_100_store_specification|📋 ウトマチ百貨店 詳細仕様書]] - 事業全体像
-2. [[00_システム/vision/utomachi_100_store_use_cases|🎯 ユースケース]] - 農家・消費者・市政それぞれの価値
-3. [[00_システム/vision/utomachi_100_store_implementation|📋 実装ガイド]] - 段階別実装計画
+1. [[00_システム/03_ビジョン体系/utomachi_100_store_specification|📋 ウトマチ百貨店 詳細仕様書]] - 事業全体像
+2. [[00_システム/03_ビジョン体系/utomachi_100_store_use_cases|🎯 ユースケース]] - 農家・消費者・市政それぞれの価値
+3. [[00_システム/03_ビジョン体系/utomachi_100_store_implementation|📋 実装ガイド]] - 段階別実装計画
 
 **詳細トピック**:
-- 事業モデル：[[00_システム/vision/industry_os_specification|産業OS仕様書]]
-- EC・マーケティング戦略：[[00_システム/vision/industry_os_implementation|産業OS実装ガイド]]
-- 流通・商品管理：[[00_システム/vision/regional_trading_company_datalink_schema|地域商社スキーマ]]
+- 事業モデル：[[00_システム/03_ビジョン体系/industry_os_specification|産業OS仕様書]]
+- EC・マーケティング戦略：[[00_システム/03_ビジョン体系/industry_os_implementation|産業OS実装ガイド]]
+- 流通・商品管理：[[00_システム/03_ビジョン体系/regional_trading_company_datalink_schema|地域商社スキーマ]]
 
 ---
 
@@ -71,13 +71,13 @@ tags: [ナレッジ, ビジネス, 産業, index]
 
 | 要素 | リソース |
 |------|---------|
-| **OS仕様書** | [[00_システム/vision/industry_os_specification|産業OS仕様書]] |
-| **実装ガイド** | [[00_システム/vision/industry_os_implementation|実装ガイド]] |
-| **ユースケース** | [[00_システム/vision/industry_os_use_cases|業界別ユースケース]] |
+| **OS仕様書** | [[00_システム/03_ビジョン体系/industry_os_specification|産業OS仕様書]] |
+| **実装ガイド** | [[00_システム/03_ビジョン体系/industry_os_implementation|実装ガイド]] |
+| **ユースケース** | [[00_システム/03_ビジョン体系/industry_os_use_cases|業界別ユースケース]] |
 
 **RMO（地域運営組織）との連携**:
 - 産業振興の実行主体は地域の生産者組合・商工会
-- [[00_システム/vision/industry_rmo_connectivity|RMO連携・インターフェース]]を確認
+- [[00_システム/03_ビジョン体系/industry_rmo_connectivity|RMO連携・インターフェース]]を確認
 
 ---
 
@@ -87,9 +87,9 @@ tags: [ナレッジ, ビジネス, 産業, index]
 
 | 視点 | 関連資料 |
 |------|---------|
-| **全体設計** | [[00_システム/vision/relocation_os_specification|仕様書]] |
-| **実装手順** | [[00_システム/vision/relocation_os_implementation|実装ガイド]] |
-| **成功事例** | [[00_システム/vision/relocation_os_use_cases|ユースケース]] |
+| **全体設計** | [[00_システム/03_ビジョン体系/relocation_os_specification|仕様書]] |
+| **実装手順** | [[00_システム/03_ビジョン体系/relocation_os_implementation|実装ガイド]] |
+| **成功事例** | [[00_システム/03_ビジョン体系/relocation_os_use_cases|ユースケース]] |
 
 **産業OS との関係**：
 - ウトマチ百貨店での就業機会
@@ -104,8 +104,8 @@ tags: [ナレッジ, ビジネス, 産業, index]
 
 | OS | リソース |
 |------|---------|
-| **子育てOS** | [[00_システム/vision/childcare_os_specification|仕様書]] / [[00_システム/vision/childcare_os_implementation|実装]] / [[00_システム/vision/childcare_os_use_cases|事例]] |
-| **教育OS** | [[00_システム/vision/education_os_specification|仕様書]] / [[00_システム/vision/education_os_implementation|実装]] / [[00_システム/vision/education_os_use_cases|事例]] |
+| **子育てOS** | [[00_システム/03_ビジョン体系/childcare_os_specification|仕様書]] / [[00_システム/03_ビジョン体系/childcare_os_implementation|実装]] / [[00_システム/03_ビジョン体系/childcare_os_use_cases|事例]] |
+| **教育OS** | [[00_システム/03_ビジョン体系/education_os_specification|仕様書]] / [[00_システム/03_ビジョン体系/education_os_implementation|実装]] / [[00_システム/03_ビジョン体系/education_os_use_cases|事例]] |
 
 **産業との相乗効果**：
 - 子育て環境が充実 → 移住者増
@@ -120,8 +120,8 @@ tags: [ナレッジ, ビジネス, 産業, index]
 
 | テーマ | ドキュメント |
 |--------|-----------|
-| **財源戦略** | [[00_システム/vision/L4_finance_layer|L4 財源レイヤ]] |
-| **危機分析** | [[00_システム/vision/L4L5_facility_finance_crisis|14億円赤字の構造]] |
+| **財源戦略** | [[00_システム/03_ビジョン体系/L4_finance_layer|L4 財源レイヤ]] |
+| **危機分析** | [[00_システム/03_ビジョン体系/L4L5_facility_finance_crisis|14億円赤字の構造]] |
 
 **ウトマチの財源への道**：
 - ウトマチ百貨店 年間売上 3.2 → 4.8 → 6.5 億円（初年度～3年目）
@@ -155,15 +155,15 @@ tags: [ナレッジ, ビジネス, 産業, index]
 ## 💡 使用例
 
 ### 「ウトマチでの起業を検討している農家」
-1. [[00_システム/vision/utomachi_100_store_specification|ウトマチ仕様書]]で事業理解
-2. [[00_システム/vision/utomachi_100_store_use_cases|ユースケース]]で山田太郎さんの事例確認
-3. [[00_システム/vision/industry_os_specification|産業OS仕様書]]で6次産業化の戦略理解
+1. [[00_システム/03_ビジョン体系/utomachi_100_store_specification|ウトマチ仕様書]]で事業理解
+2. [[00_システム/03_ビジョン体系/utomachi_100_store_use_cases|ユースケース]]で山田太郎さんの事例確認
+3. [[00_システム/03_ビジョン体系/industry_os_specification|産業OS仕様書]]で6次産業化の戦略理解
 4. [[04_データリンク/02_POLICY_CARDS/|政策カード]]で「今、どの政策が走ってるか」確認
 
 ### 「移住を考えている若い家族」
-1. [[00_システム/vision/relocation_os_specification|移住OS仕様書]]で支援内容を確認
-2. [[00_システム/vision/utomachi_100_store_use_cases|田中花子さんのユースケース]]で実現可能性を確認
-3. [[00_システム/vision/childcare_os_specification|子育てOS]]で教育・保育環境を確認
+1. [[00_システム/03_ビジョン体系/relocation_os_specification|移住OS仕様書]]で支援内容を確認
+2. [[00_システム/03_ビジョン体系/utomachi_100_store_use_cases|田中花子さんのユースケース]]で実現可能性を確認
+3. [[00_システム/03_ビジョン体系/childcare_os_specification|子育てOS]]で教育・保育環境を確認
 4. [[04_データリンク/producers/|生産者情報]]でウトマチの商品・農家を確認
 
 ---

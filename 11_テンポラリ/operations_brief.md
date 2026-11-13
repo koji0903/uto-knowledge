@@ -13,8 +13,8 @@ Generated: 2026-05-30T22:34:38.922Z
 ## develop...origin/develop
  M .claudian/claudian-settings.json
  M .gitignore
- M 00_System/architecture/Utomachi_Platform_Architecture.md
-RM tmp/index.md -> 00_System/tmp_lifecycle.md
+ M 00_System/architecture/宇土プラットフォーム_アーキテクチャ.md
+RM tmp/index.md -> 00_System/一時ファイル_ライフサイクル.md
  M 02_Agriculture/02_農業/熊本県有機農業研究会/02_アーキテクチャ/02_ディレクトリ構造.md
  M 02_Agriculture/02_農業/熊本県有機農業研究会/05_ビジネスロジック/05_ビジネスロジック.md
  M 02_Agriculture/02_農業/熊本県有機農業研究会/03_データモデル/03_データモデル.md

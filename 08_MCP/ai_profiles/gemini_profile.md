@@ -112,7 +112,7 @@ Google Workspace 連携
 
 ## 制限事項
 - 読み取りは全体可能
-- 書き込みは AGENTS.md の書き込みルールに従う
+- 書き込みは AI運用ガイド.md の書き込みルールに従う
 - Firestore 直接更新は不可
 
 ## 推奨作業フロー
@@ -327,5 +327,5 @@ Gemini との協業で気付いた点：
 
 - [Google Gemini 公式](https://gemini.google.com)
 - [Google Cloud MCP](https://cloud.google.com/docs/mcp)
-- `AGENTS.md` — 共通AI運用ガイド
+- `AI運用ガイド.md` — 共通AI運用ガイド
 - `task_router.md` — タスク振り分けロジック

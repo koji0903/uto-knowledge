@@ -16,7 +16,7 @@ Claude、Gemini、ChatGPT / Codex に作業を引き継ぐときの共通テン�
 
 ## 前提
 - このVaultは Obsidian を思考OS、FirestoreをデータOS、Google Driveをファイル実体、MCPをAI連携口として使います。
-- 作業前に `AGENTS.md`、`tmp/ai_context.md`、`tmp/ai_conflict_report.md` を読んでください。
+- 作業前に `AI運用ガイド.md`、`tmp/ai_context.md`、`tmp/ai_conflict_report.md` を読んでください。
 - 既存のフォルダ名、ファイル名、ID、Firestore collection名を安易に変更しないでください。
 - `.env`、秘密鍵、OAuthトークン、サービスアカウントJSONはGitへ追加しないでください。
 

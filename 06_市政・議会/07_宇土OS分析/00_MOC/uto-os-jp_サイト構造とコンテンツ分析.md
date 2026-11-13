@@ -148,7 +148,7 @@ source: https://www.uto-os.jp/
 
 - [[06_市政・議会/07_宇土OS分析/00_MOC/00_宇土OS_総合ナレッジMOC|宇土OS 総合ナレッジ MOC]]
 - [[06_市政・議会/02_選挙2026/candidates/hijikuro-koji/宇土OS解説|宇土OS やさしい説明（市民向け）]]
-- [[00_システム/vision/index|宇土OS システム仕様（理論層）]]
+- [[00_システム/03_ビジョン体系/index|宇土OS システム仕様（理論層）]]
 
 ---
 

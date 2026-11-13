@@ -10,7 +10,7 @@ Generated: 2026-05-30T23:22:58.571Z
 ## 前提
 
 - このVaultは Obsidian を思考OS、FirestoreをデータOS、Google Driveをファイル実体、MCPをAI連携口として使います。
-- 作業前に `AGENTS.md`、`tmp/ai_context.md`、`tmp/ai_conflict_report.md` を読んでください。
+- 作業前に `AI運用ガイド.md`、`tmp/ai_context.md`、`tmp/ai_conflict_report.md` を読んでください。
 - 既存のフォルダ名、ファイル名、ID、Firestore collection名を安易に変更しないでください。
 - `.env`、秘密鍵、OAuthトークン、サービスアカウントJSONはGitへ追加しないでください。
 
@@ -24,7 +24,7 @@ Generated: 2026-05-30T23:22:58.571Z
 ```text
 ## develop...origin/develop
  M .claudian/sessions/conv-1780114052686-nmaxlwol9.meta.json
- M 00_System/architecture/AGENTS.md
+ M 00_System/architecture/AI運用ガイド.md
  M 04_DataLink/datasets/index.md
  M 04_DataLink/reports/index.md
  M README.md
@@ -46,7 +46,7 @@ validate codex handoff
 ## 対象範囲
 
 読むファイル:
-- AGENTS.md
+- AI運用ガイド.md
 - tmp/ai_context.md
 
 書いてよい場所:

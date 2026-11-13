@@ -17,18 +17,18 @@ priority: 高
 ## 🏛️ 理論層（00_System/）
 
 ### 中核OS仕様
-- **[[00_システム/vision/rmo_os_specification|RMO OS仕様書]]** ⭐
+- **[[00_システム/03_ビジョン体系/rmo_os_specification|RMO OS仕様書]]** ⭐
   - 地域運営組織のデジタル化
   - 市民参加の基盤
 
 ### アーキテクチャ
-- **[[00_システム/architecture/Utomachi_Platform_Architecture|ウトマチプラットフォーム アーキテクチャ]]** ⭐
+- **[[00_システム/01_アーキテクチャ/Utomachi_Platform_Architecture|ウトマチプラットフォーム アーキテクチャ]]** ⭐
   - Next.js 16 / React 19 / Firestore / Firebase Auth / Google Gemini AI
-- [[00_システム/architecture/STRATEGY|ナレッジ高度化戦略]]
+- [[00_システム/01_アーキテクチャ/STRATEGY|ナレッジ高度化戦略]]
 
 ### L層
-- [[00_システム/vision/L3_organization_pfu|L3 組織層 (PFU)]] - 課題解決ユニット
-- [[00_システム/vision/L6_policy_layer|L6 政策層]] - 市民参加政策
+- [[00_システム/03_ビジョン体系/L3_organization_pfu|L3 組織層 (PFU)]] - 課題解決ユニット
+- [[00_システム/03_ビジョン体系/L6_policy_layer|L6 政策層]] - 市民参加政策
 
 ---
 

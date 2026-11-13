@@ -104,7 +104,7 @@ Utomachi_Platform_Architecture
    ↓
 regional_trading_company_datalink_schema（Firestore設計）
    ↓
-AGENTS.md（AI運用基盤）
+AI運用ガイド.md（AI運用基盤）
    ↓
 02_Agriculture/02_農業/海苔養殖業/（農業DSS）
    ↓
@@ -119,23 +119,23 @@ AGENTS.md（AI運用基盤）
 
 **「初めて宇土OS を聞いた」**
 1. [[./general/index|general (index)]] - L0～L7 全体像
-2. [[00_システム/vision/vision_uto_os|vision_uto_os]] - 2040年のビジョン
-3. [[00_システム/vision/layer_structure_guide|layer_structure_guide]] - 構造の詳細
+2. [[00_システム/03_ビジョン体系/vision_uto_os|vision_uto_os]] - 2040年のビジョン
+3. [[00_システム/03_ビジョン体系/layer_structure_guide|layer_structure_guide]] - 構造の詳細
 
 **「ウトマチ百貨店に興味がある」**
 1. [[./business/index|business (index)]] - 全体概観
-2. [[00_システム/vision/utomachi_100_store_use_cases|utomachi_100_store_use_cases]] - 3つの成功例
-3. [[00_システム/vision/utomachi_100_store_specification|utomachi_100_store_specification]] - 詳細仕様
+2. [[00_システム/03_ビジョン体系/utomachi_100_store_use_cases|utomachi_100_store_use_cases]] - 3つの成功例
+3. [[00_システム/03_ビジョン体系/utomachi_100_store_specification|utomachi_100_store_specification]] - 詳細仕様
 
 **「移住を検討している」**
 1. [[./business/index|business (index)]] の「移住・定住OS」セクション
-2. [[00_システム/vision/relocation_os_use_cases|relocation_os_use_cases]] - 田中花子さんの事例
-3. [[00_システム/vision/relocation_os_specification|relocation_os_specification]] - 支援内容の詳細
+2. [[00_システム/03_ビジョン体系/relocation_os_use_cases|relocation_os_use_cases]] - 田中花子さんの事例
+3. [[00_システム/03_ビジョン体系/relocation_os_specification|relocation_os_specification]] - 支援内容の詳細
 
 **「システム実装に携わる」**
 1. [[./tech/index|tech (index)]] - 技術全体
-2. [[00_システム/architecture/Utomachi_Platform_Architecture|Utomachi_Platform_Architecture]] - プラットフォーム設計
-3. [[00_システム/vision/regional_trading_company_datalink_schema|regional_trading_company_datalink_schema]] - Firestore スキーマ
+2. [[00_システム/01_アーキテクチャ/Utomachi_Platform_Architecture|Utomachi_Platform_Architecture]] - プラットフォーム設計
+3. [[00_システム/03_ビジョン体系/regional_trading_company_datalink_schema|regional_trading_company_datalink_schema]] - Firestore スキーマ
 
 **「農業の高付加価値化に関心がある」**
 1. [[./business/index|business (index)]] の「産業OS」セクション

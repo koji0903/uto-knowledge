@@ -37,12 +37,12 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 すべての政策設計の根底にある考え方：
 
 **まず読むべき**:
-1. [[00_システム/vision/vision_uto_os|🎯 宇土OS - 自治体デジタルプラットフォーム思想]]
+1. [[00_システム/03_ビジョン体系/vision_uto_os|🎯 宇土OS - 自治体デジタルプラットフォーム思想]]
    - ビジョン「縮むのではなく、選ばれるまち」
    - 3つのコア思想
    - 2040年の宇土市像
 
-2. [[00_システム/vision/layer_structure_guide|🟥 8層構造統合ガイド（必読）]]
+2. [[00_システム/03_ビジョン体系/layer_structure_guide|🟥 8層構造統合ガイド（必読）]]
    - L0～L7 各層の役割・定義
    - 層間の因果関係
    - 意思決定フロー
@@ -53,7 +53,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 意思決定の出発点：人口・財政・地理の客観的データ
 
-[[00_システム/vision/L0_premise_layer|L0 前提レイヤ]]
+[[00_システム/03_ビジョン体系/L0_premise_layer|L0 前提レイヤ]]
 
 | 項目 | 現状 | 課題 |
 |------|------|------|
@@ -65,7 +65,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 ### **L1 事実レイヤ - 「宇土が持つ資産」**
 
-[[00_システム/vision/L1_fact_layer|L1 事実レイヤ]]
+[[00_システム/03_ビジョン体系/L1_fact_layer|L1 事実レイヤ]]
 
 宇土が実は豊かに持っているもの：
 
@@ -80,7 +80,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 ### **L2 課題レイヤ - 「なぜダメなのか」の構造**
 
-[[00_システム/vision/L2_issue_layer|L2 課題レイヤ]]
+[[00_システム/03_ビジョン体系/L2_issue_layer|L2 課題レイヤ]]
 
 農業・産業の衰退の根本原因：
 
@@ -100,7 +100,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 ### **L3 組織レイヤ - 「誰がやるのか」**
 
-[[00_システム/vision/L3_organization_pfu|L3 組織レイヤ - PFU設計]]
+[[00_システム/03_ビジョン体系/L3_organization_pfu|L3 組織レイヤ - PFU設計]]
 
 市庁舎を横断して課題を解く組織設計：
 
@@ -116,7 +116,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 ### **L4 財源レイヤ - 「お金をどこから」**
 
-[[00_システム/vision/L4_finance_layer|L4 財源レイヤ]]
+[[00_システム/03_ビジョン体系/L4_finance_layer|L4 財源レイヤ]]
 
 14億円の赤字を埋めるための多元的財源戦略：
 
@@ -128,7 +128,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 | **外部資金** | 国庫補助、企業版ふるさと納税 | プロジェクト毎 |
 
 **財政危機の正体**:
-[[00_システム/vision/L4L5_facility_finance_crisis|施設老朽化と財政危機分析]]
+[[00_システム/03_ビジョン体系/L4L5_facility_finance_crisis|施設老朽化と財政危機分析]]
 - 学校・庁舎・上下水道 の同時老朽化
 - 補助金の急減
 - 地元産業の衰退に伴う税収減
@@ -137,7 +137,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 ### **L5 インフラレイヤ - 「施設をどう配置」**
 
-[[00_システム/vision/L5_infrastructure_layer|L5 インフラレイヤ]]
+[[00_システム/03_ビジョン体系/L5_infrastructure_layer|L5 インフラレイヤ]]
 
 限られた資源で最大の効果を生む施設配置：
 
@@ -166,11 +166,11 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 | OS | ドキュメント |
 |-----|-----------|
-| **教育OS** | [[00_システム/vision/education_os_specification|仕様]] / [[00_システム/vision/education_os_use_cases|事例]] |
-| **子育てOS** | [[00_システム/vision/childcare_os_specification|仕様]] / [[00_システム/vision/childcare_os_use_cases|事例]] |
-| **産業OS** | [[00_システム/vision/industry_os_specification|仕様]] / [[00_システム/vision/industry_os_use_cases|事例]] |
-| **移住・定住OS** | [[00_システム/vision/relocation_os_specification|仕様]] / [[00_システム/vision/relocation_os_use_cases|事例]] |
-| **RMO OS** | [[00_システム/vision/rmo_os_specification|仕様（下記参照）]] |
+| **教育OS** | [[00_システム/03_ビジョン体系/education_os_specification|仕様]] / [[00_システム/03_ビジョン体系/education_os_use_cases|事例]] |
+| **子育てOS** | [[00_システム/03_ビジョン体系/childcare_os_specification|仕様]] / [[00_システム/03_ビジョン体系/childcare_os_use_cases|事例]] |
+| **産業OS** | [[00_システム/03_ビジョン体系/industry_os_specification|仕様]] / [[00_システム/03_ビジョン体系/industry_os_use_cases|事例]] |
+| **移住・定住OS** | [[00_システム/03_ビジョン体系/relocation_os_specification|仕様]] / [[00_システム/03_ビジョン体系/relocation_os_use_cases|事例]] |
+| **RMO OS** | [[00_システム/03_ビジョン体系/rmo_os_specification|仕様（下記参照）]] |
 
 ---
 
@@ -178,9 +178,9 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 地域運営組織による市民参画・自治実現：
 
-[[00_システム/vision/rmo_os_specification|RMO OS 仕様書]]  
-[[00_システム/vision/rmo_os_implementation|RMO OS 実装ガイド]]  
-[[00_システム/vision/rmo_os_use_cases|RMO OS ユースケース]]
+[[00_システム/03_ビジョン体系/rmo_os_specification|RMO OS 仕様書]]  
+[[00_システム/03_ビジョン体系/rmo_os_implementation|RMO OS 実装ガイド]]  
+[[00_システム/03_ビジョン体系/rmo_os_use_cases|RMO OS ユースケース]]
 
 **RMOとは**：
 
@@ -204,7 +204,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 ### **L7 ビジョンレイヤ - 「2040年、こうなりたい」**
 
-[[00_システム/vision/vision_uto_os|2040年の宇土市像（Vision_uto_os 最終章）]]
+[[00_システム/03_ビジョン体系/vision_uto_os|2040年の宇土市像（Vision_uto_os 最終章）]]
 
 ```
 【人口維持】
@@ -229,7 +229,7 @@ tags: [ナレッジ, 基礎, 制度, 理論, index]
 
 ### 「14億円の財政ギャップ、本当の原因は？」
 
-[[00_システム/vision/citizen_explanation_14billion_crisis|市民向け図解]]
+[[00_システム/03_ビジョン体系/citizen_explanation_14billion_crisis|市民向け図解]]
 
 市民に「なぜ改革が必要か」を伝えるための資料：
 
@@ -289,8 +289,8 @@ L0: 前提（人口減・財政危機・地理的制約）
 8. L7 ビジョンで「2040年への貢献」を確認
 
 ### 「市民に現状説明したい」
-- [[00_システム/vision/citizen_explanation_14billion_crisis|図解版危機説明]]で財政状況を説明
-- [[00_システム/vision/layer_structure_guide|層構造ガイド]]でフレームワークを説明
+- [[00_システム/03_ビジョン体系/citizen_explanation_14billion_crisis|図解版危機説明]]で財政状況を説明
+- [[00_システム/03_ビジョン体系/layer_structure_guide|層構造ガイド]]でフレームワークを説明
 - 各OS仕様書で「どう変わるか」を説明
 
 ---

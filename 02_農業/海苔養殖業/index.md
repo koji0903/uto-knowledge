@@ -198,7 +198,7 @@
 docs/
 ├─ INTEGRATION_LOGIC_DESIGN.md
 │  └─ Tier統合戦略の詳細設計書
-├─ CACHING_ERROR_HANDLING_STRATEGY.md
+├─ CACHING_ERROR_HANDLING_戦略.md
 │  └─ キャッシング・エラー処理のベストプラクティス
 ├─ DATA_ACQUISITION_GUIDE.md ★ NEW
 │  └─ 全8データソース取得・管理ガイド (17 KB)

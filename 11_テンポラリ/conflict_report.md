@@ -8,10 +8,10 @@
 
 ### [MEDIUM] タイプC: 参照矛盾（存在しないドキュメント） (#1)
 **矛盾ペア:**
-- dec_20260507_ai_handoff_operations → 00_System/architecture/AGENTS.md (不在)
+- dec_20260507_ai_handoff_operations → 00_System/architecture/AI運用ガイド.md (不在)
 
 **分析:**
-参照先ドキュメント '00_System/architecture/AGENTS.md' が見つかりません
+参照先ドキュメント '00_System/architecture/AI運用ガイド.md' が見つかりません
 
 **推奨アクション:**
 正しい ID に修正するか、参照を削除してください。
@@ -308,10 +308,10 @@
 
 ### [MEDIUM] タイプC: 参照矛盾（存在しないドキュメント） (#26)
 **矛盾ペア:**
-- log_20260507_002 → AGENTS.md (不在)
+- log_20260507_002 → AI運用ガイド.md (不在)
 
 **分析:**
-参照先ドキュメント 'AGENTS.md' が見つかりません
+参照先ドキュメント 'AI運用ガイド.md' が見つかりません
 
 **推奨アクション:**
 正しい ID に修正するか、参照を削除してください。

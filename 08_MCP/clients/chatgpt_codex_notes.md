@@ -14,7 +14,7 @@ ChatGPT / Codex からこの Vault を扱うときの前提をまとめる。
 ## 方針
 
 - Codex はローカル workspace のファイルを直接扱える
-- まず `README.md` と `AGENTS.md` を読む
+- まず `README.md` と `AI運用ガイド.md` を読む
 - MCP 設定が必要なクライアントでは `mcp/clients/generic_mcp_client.example.json` を使う
 - 外部連携検証は `bash scripts/verify_all.sh` を使う
 

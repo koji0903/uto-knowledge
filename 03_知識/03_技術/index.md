@@ -39,7 +39,7 @@ tags: [ナレッジ, 技術, システム, アーキテクチャ, index]
 宇土市の産業振興プラットフォーム全体の技術設計：
 
 **まず読むべき**:
-[[00_システム/architecture/Utomachi_Platform_Architecture|📐 Utomachi Platform Architecture]] 
+[[00_システム/01_アーキテクチャ/Utomachi_Platform_Architecture|📐 Utomachi Platform Architecture]] 
 - システム全体像
 - マイクロサービス構成
 - データフロー
@@ -57,7 +57,7 @@ tags: [ナレッジ, 技術, システム, アーキテクチャ, index]
 | **Hosting** | Firebase Hosting / Cloud Run |
 
 **関連ドキュメント**:
-- [[00_システム/vision/regional_trading_company_datalink_schema|地域商社スキーマ]] - Firestore データモデル
+- [[00_システム/03_ビジョン体系/regional_trading_company_datalink_schema|地域商社スキーマ]] - Firestore データモデル
 - [[04_データリンク/schema/|DataLink スキーマ]] - 実装されている構造
 
 ---
@@ -67,7 +67,7 @@ tags: [ナレッジ, 技術, システム, アーキテクチャ, index]
 複数の AI エージェントを効率的に連携させるための仕組み：
 
 **まず読むべき**:
-[[00_システム/architecture/AGENTS|🤖 AGENTS.md - AI運用ガイド]]
+[[00_システム/01_アーキテクチャ/AGENTS|🤖 AI運用ガイド.md - AI運用ガイド]]
 - 各AI（Claude / ChatGPT / Gemini）の役割分担
 - タスク毎の最適AI選択
 - 引き継ぎプロトコル
@@ -228,10 +228,10 @@ firebase deploy --only firestore
 ## 💡 よくある質問
 
 ### 「Firestore スキーマを変更したい」
-→ [[00_システム/vision/regional_trading_company_datalink_schema|スキーマドキュメント]]を確認して、破壊的変更を避ける
+→ [[00_システム/03_ビジョン体系/regional_trading_company_datalink_schema|スキーマドキュメント]]を確認して、破壊的変更を避ける
 
 ### 「新しい AI を追加したい」
-→ [[00_システム/architecture/AGENTS|AGENTS.md]]の「新規エージェント追加」セクション参照
+→ [[00_システム/01_アーキテクチャ/AGENTS|AI運用ガイド.md]]の「新規エージェント追加」セクション参照
 
 ### 「海苔データを追加したい」
 → <!-- TODO: DataIntegration.md（未実装）-->[[04_データリンク/10_データセット|データセット・統合パイプライン]]で既存パイプラインを確認（詳細実装待ち）

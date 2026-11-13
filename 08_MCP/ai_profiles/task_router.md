@@ -343,4 +343,4 @@ mcp/ai_profiles/feedback/ に
 - `mcp/ai_profiles/claude_profile.md` — Claude 詳細
 - `mcp/ai_profiles/gemini_profile.md` — Gemini 詳細
 - `mcp/ai_profiles/chatgpt_profile.md` — ChatGPT 詳細
-- `AGENTS.md` — 全体ガイド
+- `AI運用ガイド.md` — 全体ガイド

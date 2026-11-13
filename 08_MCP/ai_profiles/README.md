@@ -19,7 +19,7 @@ created: 2026-05-03
 ## クイックスタート
 
 1. **まず読む**
-   - `AGENTS.md`
+   - `AI運用ガイド.md`
    - `tmp/ai_context.md`（`bash scripts/start_work.sh` で生成）
    - `task_router.md` で自分のタスクに適した AI を確認
    - `handoff_prompt.md` で依頼文の型を確認
@@ -102,7 +102,7 @@ created: 2026-05-03
 | Gemini | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs, Drive連携メモ |
 | ChatGPT | ✅ 全体 | 00_Inbox, 01_Daily, 04_DataLink/logs, DataLink scaffold |
 
-Firestore対象データを作る場合は `AGENTS.md` に従い、`firestore_collection` と `firestore_doc_id` を必ず設定します。
+Firestore対象データを作る場合は `AI運用ガイド.md` に従い、`firestore_collection` と `firestore_doc_id` を必ず設定します。
 
 ## コンテキスト提供方法
 
@@ -116,7 +116,7 @@ bash scripts/generate_ai_context.sh
 bash scripts/start_work.sh
 ```
 
-詳細は `AGENTS.md` と `tmp/ai_context.md` を参照。
+詳細は `AI運用ガイド.md` と `tmp/ai_context.md` を参照。
 
 ## フィードバック・改善
 
@@ -128,7 +128,7 @@ AI Personas に改善が必要な場合：
 
 ## 関連ドキュメント
 
-- `00_System/architecture/AGENTS.md` — AI 運用ガイド（全体）
+- `00_System/architecture/AI運用ガイド.md` — AI 運用ガイド（全体）
 - `handoff_prompt.md` — AI間の引き継ぎテンプレート
 - `README.md` — Vault の入口
 - `04_DataLink/index.md` — DataLink 全体
