@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: medium
 policy_domain: childcare_education
-related_layers: [L2_issue_layer, L5_infrastructure_layer, L6_policy_layer]
-related_os: [childcare_os_specification]
+related_layers: [L2_課題層, L5_インフラ層, L6_政策層]
+related_os: [子ども子育てOS仕様]
 related_questions: [q_r6_09_hijikuro]
 related_evidence: [ev_R6年9月_土黒功司_質問根拠]
 tags: [政策実行カード, 子育てOS, 児童発達支援, 公共施設]

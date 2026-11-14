@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: high
 policy_domain: community_infrastructure
-related_layers: [L1_fact_layer, L3_organization_pfu, L5_infrastructure_layer]
-related_os: [rmo_os_specification]
+related_layers: [L1_事実層, L3_組織・政策PFU層, L5_インフラ層]
+related_os: [RMO_OS仕様]
 related_questions: [q_r4_12_hijikuro, q_r6_03_hijikuro]
 related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年3月_土黒功司_質問根拠]
 tags: [政策実行カード, 防災, DX, データ運用, Web]

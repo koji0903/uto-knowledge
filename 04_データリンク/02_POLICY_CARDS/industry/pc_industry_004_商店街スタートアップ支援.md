@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: medium
 policy_domain: industry
-related_layers: [L2_issue_layer, L6_policy_layer]
-related_os: [industry_os_specification, relocation_os_specification]
+related_layers: [L2_課題層, L6_政策層]
+related_os: [産業OS仕様, 移住OS仕様]
 related_questions: [q_r5_03_hijikuro]
 related_evidence: [ev_R5年3月_土黒功司_質問根拠]
 tags: [政策実行カード, 商店街, 創業支援, 空き店舗]

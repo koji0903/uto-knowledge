@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: medium
 policy_domain: industry
-related_layers: [L1_fact_layer, L6_policy_layer]
-related_os: [industry_os_specification, utomachi_100_store_specification]
+related_layers: [L1_事実層, L6_政策層]
+related_os: [産業OS仕様, 宇土100店仕様]
 related_questions: [q_r4_12_hijikuro, q_r6_06_hijikuro]
 related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 宇土ブランド, 特産品, 商品台帳]

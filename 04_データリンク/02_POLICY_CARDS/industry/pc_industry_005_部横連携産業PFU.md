@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: high
 policy_domain: industry
-related_layers: [L3_organization_pfu, L6_policy_layer]
-related_os: [industry_os_specification, rmo_os_specification, industry_rmo_connectivity]
+related_layers: [L3_組織・政策PFU層, L6_政策層]
+related_os: [産業OS仕様, RMO_OS仕様, 産業とRMO接続]
 related_questions: [q_r4_12_hijikuro, q_r5_09_hijikuro]
 related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R5年9月_土黒功司_質問根拠]
 tags: [政策実行カード, PFU, 横断組織, 産業連携]

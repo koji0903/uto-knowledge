@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: medium
 policy_domain: finance_facilities
-related_layers: [L4_finance_layer, L5_infrastructure_layer, L6_policy_layer]
-related_os: [industry_os_specification, rmo_os_specification]
+related_layers: [L4_財政層, L5_インフラ層, L6_政策層]
+related_os: [産業OS仕様, RMO_OS仕様]
 related_questions: [q_r5_06_hijikuro, q_r6_06_hijikuro]
 related_evidence: [ev_R5年6月_土黒功司_質問根拠, ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 新庁舎, 公共施設, 市民利用]

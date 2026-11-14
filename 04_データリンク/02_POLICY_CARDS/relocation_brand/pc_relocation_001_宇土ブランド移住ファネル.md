@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: medium
 policy_domain: relocation_brand
-related_layers: [L2_issue_layer, L6_policy_layer]
-related_os: [relocation_os_specification, industry_os_specification, childcare_os_specification]
+related_layers: [L2_課題層, L6_政策層]
+related_os: [移住OS仕様, 産業OS仕様, 子ども子育てOS仕様]
 related_questions: [q_r6_06_hijikuro]
 related_evidence: [ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 移住定住, 魅力発信, 関係人口]

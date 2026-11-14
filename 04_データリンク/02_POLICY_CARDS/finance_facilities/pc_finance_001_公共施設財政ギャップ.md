@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: high
 policy_domain: finance_facilities
-related_layers: [L1_fact_layer, L4_finance_layer, L5_infrastructure_layer]
-related_os: [education_os_specification, relocation_os_specification, industry_os_specification]
+related_layers: [L1_事実層, L4_財政層, L5_インフラ層]
+related_os: [教育OS仕様, 移住OS仕様, 産業OS仕様]
 related_questions: [q_r5_06_hijikuro]
 related_evidence: [ev_R5年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 財政, 公共施設, 施設老朽化]

@@ -7,7 +7,7 @@ status: draft
 owner: 土黒功司
 priority: medium
 policy_domain: admin_dx
-related_layers: [L1_fact_layer, L3_organization_pfu, L6_policy_layer]
+related_layers: [L1_事実層, L3_組織・政策PFU層, L6_政策層]
 related_os: []
 related_questions: [q_r5_12_hijikuro]
 related_evidence: [ev_R5年12月_土黒功司_質問根拠]

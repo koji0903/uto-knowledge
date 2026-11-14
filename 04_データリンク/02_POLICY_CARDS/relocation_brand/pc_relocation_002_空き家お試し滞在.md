@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: medium
 policy_domain: relocation_brand
-related_layers: [L1_fact_layer, L2_issue_layer, L3_organization_pfu, L4_finance_layer]
-related_os: [relocation_os_specification, rmo_os_specification]
+related_layers: [L1_事実層, L2_課題層, L3_組織・政策PFU層, L4_財政層]
+related_os: [移住OS仕様, RMO_OS仕様]
 related_questions: [q_r4_12_hijikuro, q_r6_06_hijikuro]
 related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年6月_土黒功司_質問根拠]
 tags: [政策実行カード, 移住定住, 空き家, お試し居住]

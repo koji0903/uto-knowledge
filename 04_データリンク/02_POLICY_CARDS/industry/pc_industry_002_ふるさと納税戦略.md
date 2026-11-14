@@ -8,8 +8,8 @@ status: draft
 owner: 土黒功司
 priority: high
 policy_domain: industry
-related_layers: [L4_finance_layer, L6_policy_layer]
-related_os: [industry_os_specification, utomachi_100_store_specification]
+related_layers: [L4_財政層, L6_政策層]
+related_os: [産業OS仕様, 宇土100店仕様]
 related_questions: [q_r4_12_hijikuro, q_r5_03_hijikuro, q_r6_03_hijikuro]
 related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R5年3月_土黒功司_質問根拠, ev_R6年3月_土黒功司_質問根拠]
 related_knowledge: [kb_furusato_tax_izumisano_training_202607]

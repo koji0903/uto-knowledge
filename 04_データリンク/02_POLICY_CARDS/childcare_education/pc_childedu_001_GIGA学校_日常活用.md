@@ -7,8 +7,8 @@ status: draft
 owner: 土黒功司
 priority: high
 policy_domain: childcare_education
-related_layers: [L5_infrastructure_layer, L6_policy_layer]
-related_os: [education_os_specification, childcare_os_specification]
+related_layers: [L5_インフラ層, L6_政策層]
+related_os: [教育OS仕様, 子ども子育てOS仕様]
 related_questions: [q_r4_12_hijikuro, q_r6_03_hijikuro, q_r6_12_hijikuro]
 related_evidence: [ev_R4年12月_土黒功司_質問根拠, ev_R6年3月_土黒功司_質問根拠, ev_R6年12月_土黒功司_質問根拠]
 tags: [政策実行カード, 教育OS, GIGAスクール, ICT教育]
